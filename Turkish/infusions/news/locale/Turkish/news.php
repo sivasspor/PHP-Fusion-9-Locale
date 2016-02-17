@@ -1,14 +1,14 @@
 <?php
 $locale['news_0001'] = "Continue Reading";
-$locale['news_0002'] = "Print";
-$locale['news_0003'] = "Edit";
-$locale['news_0004'] = "News";
+$locale['news_0002'] = "Yazdır";
+$locale['news_0003'] = "Düzenle";
+$locale['news_0004'] = "Haberler";
 $locale['news_0005'] = "No News has been posted yet";
-$locale['news_0006'] = "Uncategorised";
-$locale['news_0007'] = "News";
+$locale['news_0006'] = "Kategorisiz";
+$locale['news_0007'] = "Haberler";
 $locale['news_0008'] = "Last Updated";
-$locale['news_0009'] = "News Categories";
-$locale['news_0010'] = "All Other Categories";
+$locale['news_0009'] = "Haber Kategorileri";
+$locale['news_0010'] = "Diğer TÜm Kategoriler";
 $locale['news_0011'] = "Most Recent News";
 $locale['news_0012'] = "Most Commented News";
 $locale['news_0013'] = "Top Rated News";
