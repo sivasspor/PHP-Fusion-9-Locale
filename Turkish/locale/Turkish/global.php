@@ -48,8 +48,8 @@ $locale['middle_name'] = 'Göbek Adınız';
 $locale['last_name'] = 'Soyadınız';
 // Documents
 $locale['doc_type'] = "Belge Türü";
-$locale['doc_series'] = "Series";
-$locale['doc_number'] = "Number";
+$locale['doc_series'] = "Seri";
+$locale['doc_number'] = "Numara";
 $locale['doc_authority'] = "Yetki";
 $locale['doc_date_issue'] = "Veriliş tarihi";
 $locale['doc_date_expire'] = "Bitiş tarihi";
