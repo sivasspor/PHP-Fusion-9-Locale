@@ -8,7 +8,7 @@ $locale['410'] = "Add Administrator";
 $locale['411'] = "Search for users to add using the form below.";
 $locale['412'] = "User ID";
 $locale['413'] = "User Name";
-$locale['414'] = "Search";
+$locale['414'] = "Arama";
 $locale['415'] = "Apply all privileges";
 $locale['416'] = "Make Super Administrator";
 $locale['417'] = "Add Admin";
@@ -21,7 +21,7 @@ $locale['422'] = "Admin Level";
 $locale['423'] = "Options";
 $locale['424'] = "Primary Admin";
 $locale['425'] = "No rights assigned";
-$locale['426'] = "Edit";
+$locale['426'] = "Düzenle";
 $locale['427'] = "Remove";
 // Edit Admin Rights
 $locale['440'] = "Edit Admin Rights";
