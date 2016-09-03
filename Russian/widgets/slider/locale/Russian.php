@@ -6,6 +6,7 @@
 +--------------------------------------------------------*
 | Filename: Slider/locale/English.php
 | Author: Frederick MC Chan (Chan)
+| Co-Author: Chubatyj Vitalij (Rizado)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -15,54 +16,54 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['0100'] = "Carousel";
-$locale['0101'] = "Slider Plugin";
-$locale['0200'] = "Slide Deleted";
-$locale['0300'] = "Current Slides";
-$locale['0301'] = "Edit Slide";
-$locale['0302'] = "Add Slide";
-$locale['0303'] = "Carousel Settings";
-$locale['0400'] = "Slide Title";
-$locale['0401'] = "Slide Image";
-$locale['0402'] = "Slide Order";
-$locale['0403'] = "Actions";
-$locale['0404'] = "There are no slides defined";
-$locale['0405'] = "Configure the properties of the slider";
-$locale['0406'] = "Attention: Please configure and save the properties of the slider before use.";
-$locale['0500'] = "Slider HTML ID";
-$locale['0501'] = "Slider Height";
-$locale['0502'] = "Slider Navigation";
-$locale['0503'] = "Do not display Navigation Control";
-$locale['0504'] = "Show and display Navigation Control";
-$locale['0505'] = "Slider Indicator";
-$locale['0506'] = "Slider Indicator Settings";
-$locale['0507'] = "Do not display Slider Indicator";
-$locale['0508'] = "Show and display Slider Indicator";
-$locale['0510'] = "Background Image";
-$locale['0511'] = "Choose or upload new background";
-$locale['0512'] = "Please select a valid background";
-$locale['0513'] = "Slider Heading Title";
-$locale['0514'] = "Slider Description";
-$locale['0515'] = "Link URL";
-$locale['0516'] = "Order";
-$locale['0517'] = "Slide Attributes";
-$locale['0518'] = "Configure appearance for this Slide";
-$locale['0519'] = "Caption Top Offset";
-$locale['0520'] = "Offset position of captions from top border of the slide";
-$locale['0521'] = "Left";
-$locale['0522'] = "Right";
-$locale['0523'] = "Center";
-$locale['0524'] = "Caption Text Alignment";
-$locale['0525'] = "Caption Title Size";
-$locale['0526'] = "Size of title in px. Negative number not allowed.";
-$locale['0527'] = "Caption Description Size";
-$locale['0528'] = "Size of description in px. Negative number not allowed.";
-$locale['0529'] = "Normal Size";
-$locale['0530'] = "Small Size";
-$locale['0531'] = "Medium Size";
-$locale['0532'] = "Large Size";
-$locale['0533'] = "Link Button Size";
-$locale['0534'] = "Base Image Path";
-$locale['0535'] = "Base Image Directory";
-$locale['0600'] = "Save Slider";
-$locale['0601'] = "Save and Close Slider";
+$locale['0100'] = "Карусель";
+$locale['0101'] = "Плагин прокрутки слайдов";
+$locale['0200'] = "Слайд удалён";
+$locale['0300'] = "Добавленные слайды";
+$locale['0301'] = "Изменить слайд";
+$locale['0302'] = "Добавтиь слайд";
+$locale['0303'] = "Параметры карусели";
+$locale['0400'] = "Заголовок слайда";
+$locale['0401'] = "Изображение";
+$locale['0402'] = "ПОрядок слайда";
+$locale['0403'] = "Дейстия";
+$locale['0404'] = "Слайды не заданы";
+$locale['0405'] = "Настройка свойств плагина";
+$locale['0406'] = "Вимание: ПОжалуйста, настройте и сохраните параметры плагина до использования.";
+$locale['0500'] = "HTML ID плагина";
+$locale['0501'] = "Высота блока со слайдами";
+$locale['0502'] = "Навигация слайдов";
+$locale['0503'] = "Не отображать навигацию";
+$locale['0504'] = "Отображать навигацию";
+$locale['0505'] = "Индикатор слайдов";
+$locale['0506'] = "Параметры индикатора слайдов";
+$locale['0507'] = "Не отображать индикатор слайдов";
+$locale['0508'] = "Отображать индикатор слайдов";
+$locale['0510'] = "Фоновое изображение";
+$locale['0511'] = "Выберите или загрузите новый фон";
+$locale['0512'] = "Пожалуйста, выберите коректное изображение";
+$locale['0513'] = "Заголовок блока слайдов";
+$locale['0514'] = "Описание блока слайдов";
+$locale['0515'] = "Адрес ссылки";
+$locale['0516'] = "Порядок";
+$locale['0517'] = "Атрибуты слайдов";
+$locale['0518'] = "Настроить внешний вид слайдов";
+$locale['0519'] = "Смещение надписи сверху";
+$locale['0520'] = "Положение надписи относительно верхнего края слайда";
+$locale['0521'] = "Слева";
+$locale['0522'] = "Справа";
+$locale['0523'] = "По центру";
+$locale['0524'] = "Выравнивание текста надписи";
+$locale['0525'] = "Размер текста заголовка";
+$locale['0526'] = "Размер заголовка в пикселях. Отрицательные числа не допускаются.";
+$locale['0527'] = "Размер текста описания";
+$locale['0528'] = "Размер описания в пикселях. Отрицательные числа не допускаются.";
+$locale['0529'] = "Обычный размер";
+$locale['0530'] = "Маленький размер";
+$locale['0531'] = "Средний размер";
+$locale['0532'] = "БОльшой размер";
+$locale['0533'] = "Размер кнопки ссылки";
+$locale['0534'] = "Базовый путь к изображению";
+$locale['0535'] = "Базовая папка с изображениями";
+$locale['0600'] = "Сохранить блок слайдов";
+$locale['0601'] = "Сохранить блок слайдов и закрыть";

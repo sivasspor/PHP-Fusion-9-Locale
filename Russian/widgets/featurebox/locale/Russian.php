@@ -6,6 +6,7 @@
 +--------------------------------------------------------*
 | Filename: Featurebox/locale/English.php
 | Author: Frederick MC Chan (Chan)
+| Co-Author: Chubatyj Vitalij (Rizado)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -16,38 +17,38 @@
 | written permission from the original author(s).
 +--------------------------------------------------------*/
 
-$locale['0100'] = "Feature Box";
-$locale['0101'] = "Feature Box Plugin";
-$locale['0200'] = "Box Title";
-$locale['0201'] = "Box Description";
-$locale['0202'] = "Box Icon Type";
-$locale['0203'] = "CSS Icon";
-$locale['0204'] = "Image Icon";
-$locale['0205'] = "Please choose or upload your icon image";
-$locale['0206'] = "Please fill icon configurations";
-$locale['0207'] = "Icon class";
-$locale['0208'] = "Please refer to your svg icon code. i.e. Font-Awesome: \"fa fa-thumbs-up-o\"";
-$locale['0209'] = "Icon size";
-$locale['0210'] = "Pixels. Negative number not allowed.";
-$locale['0211'] = "Icon color";
-$locale['0212'] = "Icon stacked class";
-$locale['0213'] = "Icon stacked size";
-$locale['0214'] = "Icon stacked color";
-$locale['0215'] = "Link URL";
-$locale['0216'] = "Link class";
-$locale['0217'] = "Box Margins and Spacing";
-$locale['0218'] = "Icon Margin Top";
-$locale['0219'] = "Specify top margin between icon and the border";
-$locale['0220'] = "Icon Margin Bottom";
-$locale['0221'] = "Specify bottom margin between icon and the title";
-$locale['0222'] = "Box Padding";
-$locale['0223'] = "Specify distance of top, left, right, bottom of the feature box";
-$locale['0224'] = "Box Link Margin Top";
-$locale['0225'] = "Specify the top margin between link and the description";
-$locale['0226'] = "Box Link Margin Bottom";
-$locale['0227'] = "Specify the bottom margin between link and the border";
-$locale['0228'] = "Save Feature Box";
-$locale['0229'] = "Save and Close Feature Box";
-$locale['0230'] = "Box Class";
+$locale['0100'] = "Блок с оформлением";
+$locale['0101'] = "Плагин блока с оформлением";
+$locale['0200'] = "Заголовок блока";
+$locale['0201'] = "Описание блока";
+$locale['0202'] = "Тип знака блока";
+$locale['0203'] = "CSS значок";
+$locale['0204'] = "Изображение";
+$locale['0205'] = "Пожалуйста, выберите изображение или загрузите свой значок";
+$locale['0206'] = "Пожалуйста, заполните параметры значка";
+$locale['0207'] = "Класс значка";
+$locale['0208'] = "Пожалуйста, укажите код SVG значка, то есть Font-Awesome: \"fa fa-thumbs-up-o\"";
+$locale['0209'] = "Размер значка";
+$locale['0210'] = "Пиксели. Отрицательные числа не допускаются.";
+$locale['0211'] = "Цвет значка";
+$locale['0212'] = "Класс значка из набора";
+$locale['0213'] = "Размер значка из набора";
+$locale['0214'] = "Цвет значка из набора";
+$locale['0215'] = "Адрес ссылки";
+$locale['0216'] = "Класс ссылки";
+$locale['0217'] = "Отступы и пространство блока.";
+$locale['0218'] = "Отступ у значка сверху";
+$locale['0219'] = "Укажите отступ сверху между значком и границей блока";
+$locale['0220'] = "Отступ у значка снизу";
+$locale['0221'] = "Укажите отступ снизу между значком и границей блока";
+$locale['0222'] = "Поля блока";
+$locale['0223'] = "Укажите расстояние до всех границ блока";
+$locale['0224'] = "Отступ от ссылки сверху";
+$locale['0225'] = "Укажите отступ сверху между ссылкой и описанием";
+$locale['0226'] = "Отступ от ссылки снизу";
+$locale['0227'] = "Укажите отступ снизу между ссылкой и границей блока";
+$locale['0228'] = "Сохранить блок";
+$locale['0229'] = "Сохранить и закрыть блок";
+$locale['0230'] = "Класс блока";
 
-$locale['0300'] = "Find out more";
+$locale['0300'] = "Найти больше";
