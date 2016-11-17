@@ -1,15 +1,19 @@
 <?php
-/*
-Russian Language Fileset
-Produced by Chubatyj Vitalij (Rizado)
-http://chubatyj.ru/
-*/
-// Locale Settings
+/**
+ * Russian Language Fileset
+ * Produced by Chubatyj Vitalij (Rizado)
+ * http://chubatyj.ru/
+ *
+ *
+ *
+ *
+ */
 setlocale(LC_ALL, "ru_RU.UTF-8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "RU";
 $locale['xml_lang']  = "ru";
 $locale['tinymce']   = "ru";
+$locale['select2'] = "ru";
 $locale['phpmailer'] = "ru";
 $locale['datepicker'] = "ru";
 // Full & Short Months
@@ -31,7 +35,6 @@ $locale['second'] = "секунда";
 $locale['second_a'] = "секунд(-ы)";
 $locale['just_now'] = "только что";
 $locale['ago'] = "назад";
-
 // Geo
 $locale['street1'] = "Улица, адрес 1";
 $locale['street2'] = "Улица, адрес 2";
@@ -42,7 +45,6 @@ $locale['sel_state'] = "Регион";
 $locale['sel_user'] = "Пожалуйста, укажите имя пользователя";
 $locale['add_language'] = "Добавить переводы";
 $locale['add_lang'] = "Добавить язык: %s";
-
 // Name
 $locale['name'] = "Полное имя";
 $locale['username_pretext'] = "Ваше публичное имя пользователя, то же, что указанное в профиле адрес:<div class='alert alert-info m-t-10 p-10'>%s<strong>%s</strong></div>";
