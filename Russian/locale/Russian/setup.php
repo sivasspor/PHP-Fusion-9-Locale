@@ -305,6 +305,7 @@ $locale['setup_3404'] = "Приветствие";
 $locale['setup_3405'] = "Список тем форума";
 $locale['setup_3406'] = "Информация пользователя";
 $locale['setup_3407'] = "Опрос";
+$locale['setup_3408'] = "RSS";
 
 // Stage 6 - News Categories
 $locale['setup_3500'] = "Ошибки";
@@ -358,13 +359,11 @@ $locale['setup_3645'] = "Приватность";
 // Stage 6 - User Fields
 require_once("user_fields/user_aim.php");
 require_once("user_fields/user_birthdate.php");
-require_once("user_fields/user_blacklist.php");
 require_once("user_fields/user_icq.php");
 require_once("user_fields/user_location.php");
 require_once("user_fields/user_sig.php");
 require_once("user_fields/user_skype.php");
 require_once("user_fields/user_theme.php");
-require_once("user_fields/user_timezone.php");
 require_once("user_fields/user_web.php");
 require_once("user_fields/user_yahoo.php");
 
