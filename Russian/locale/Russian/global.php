@@ -90,11 +90,15 @@ $locale['global_013'] = "Участников на сайте нет";
 $locale['global_014'] = "Всего зарегистрировано";
 $locale['global_015'] = "Неактивированные участники";
 $locale['global_016'] = "Последний участник";
+$locale['global_017'] = "Переключить навигацию";
 // Forum Side panel
 $locale['global_020'] = "Темы форума";
 $locale['global_021'] = "Последние темы";
 $locale['global_022'] = "Обсуждаемые темы";
 $locale['global_023'] = "Темы не созданы";
+$locale['global_024'] = "Обсуждения с моим участием";
+$locale['global_027'] = "Темы без ответов";
+$locale['global_028'] = "Нерешённые вопросы";
 // Comments Side panel
 $locale['global_025'] = "Последние комментарии";
 $locale['global_026'] = "Нет комментариев";
