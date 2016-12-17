@@ -82,7 +82,7 @@ $locale['userf1'] = "Модератор";
 // Navigation
 $locale['global_001'] = "Навигация";
 $locale['global_002'] = "Ссылки не заданы\n";
-$locale['global_003'] = "Для предпотсмотра ничего нет";
+$locale['global_003'] = "Для предпросмотра ничего нет";
 // Users Online
 $locale['global_010'] = "Пользователей на сайте";
 $locale['global_011'] = "Гостей на сайте";
