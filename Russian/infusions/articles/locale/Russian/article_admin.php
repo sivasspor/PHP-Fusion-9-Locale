@@ -43,6 +43,7 @@ $locale['article_0103'] = "Комментарии";
 $locale['article_0104'] = "Оценки";
 $locale['article_0105'] = "Автор";
 $locale['article_0106'] = "Доступ";
+$locale['article_0107'] = "Действия";
 
 // Table - Articles - Misc
 $locale['article_0110'] = "Добавить статью";

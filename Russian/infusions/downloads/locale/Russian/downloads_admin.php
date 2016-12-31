@@ -12,7 +12,7 @@ $locale['download_0011'] = "Фильтровать отображаемую ка
 // Download Category titles
 $locale['download_0020'] = "Созданные категории";
 $locale['download_0021'] = "Изменить категорию загрузок";
-$locale['download_0022'] = "Категория загрузок";
+$locale['download_0022'] = "Категории";
 $locale['download_0023'] = "Редактор категорий загрузок";
 // Download submissions
 $locale['download_0039'] = "Вернуться на [SITENAME]";
