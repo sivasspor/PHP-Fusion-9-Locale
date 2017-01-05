@@ -16,6 +16,7 @@ $locale['tinymce']   = "ru";
 $locale['select2'] = "ru";
 $locale['phpmailer'] = "ru";
 $locale['datepicker'] = "ru";
+$locale['password_strength'] = "ru";
 // Full & Short Months
 $locale['months']  = "&nbsp;|Январь|Февраль|Март|Апрель|Май|Июнь|Июль|Август|Сентябрь|Октябрь|Ноябрь|Декабрь";
 $locale['shortmonths'] = "&nbsp;|Янв|Фев|Мар|Апр|Май|Июн|Июл|Авг|Сен|Окт|Ноя|Дек";
