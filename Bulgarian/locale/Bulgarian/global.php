@@ -1,6 +1,6 @@
 <?php
 /**
- * English Locale
+ * Bulgarian Locale
  * charset as ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
  * region as ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
  */
@@ -8,7 +8,7 @@ setlocale(LC_TIME, "bg_BG.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "BG";
 $locale['xml_lang'] = "bg";
-$locale['tinymce'] = "bg";
+$locale['tinymce'] = "bg_BG";
 $locale['select2'] = "bg";
 $locale['phpmailer'] = "bg";
 $locale['datepicker'] = "bg-bg";

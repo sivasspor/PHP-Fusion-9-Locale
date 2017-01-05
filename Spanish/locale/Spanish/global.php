@@ -8,7 +8,7 @@ setlocale(LC_TIME, "es_ES.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "ES";
 $locale['xml_lang'] = "es";
-$locale['tinymce'] = "es"; // tinymce.addI18n (es.js) by talocha in files/includes/jscripts/tinymce/langs/es.js
+$locale['tinymce'] = "es";
 $locale['phpmailer'] = "es";
 $locale['datepicker'] = "es";
 // Full & Short Months
