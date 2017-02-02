@@ -96,4 +96,10 @@ $locale['grecaptcha_0103a'] = "Text";
 $locale['grecaptcha_0103b'] = "Audio";
 $locale['grecaptcha_warn'] = "Du musst deinen Public und Private Key von reCAPTCHA angeben.";
 
+// Upload
+$locale['df_300'] = "Klick um Dateien hinzuzuf&uuml;gen";
+$locale['df_301'] = "Klick um Fotos hinzuzuf&uuml;gen";
+$locale['df_302'] = "Klick um Videos hinzuzuf&uuml;gen";
+$locale['df_303'] = "Klick um Musik hinzuzuf&uuml;gen";
+
 ?>

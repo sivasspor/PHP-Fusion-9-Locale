@@ -1,24 +1,28 @@
 <?php
-$locale['400'] = "Lost Password";
-$locale['401'] = "A confirmation email has been sent to your email address.";
-$locale['402'] = "Your new password has been sent to your email address.";
-$locale['403'] = "Return to Main Site";
-$locale['404'] = "The email address you specified could not be found.";
-$locale['405'] = "The email address you specified is invalid.";
-$locale['406'] = "Please try again.";
-$locale['407'] = "Please enter the email address your account is registered with below.<br />
-A new password will be created and sent to this address.";
-$locale['408'] = "Send Password";
-$locale['409'] = "New password for ";
-$locale['410'] = "Hello [USER_NAME],\n
-You have or someone has requested a new password to access your ".fusion_get_settings('sitename')." account.\n
-To change your password please click the following link:\n
+$locale['400'] = "Zapomniane hasło";
+$locale['401'] = "Na Twój adres e-mail wysłano wiadomość potwierdzającą. Kliknij na znajdujący się w&nbsp;niej odnośnik, aby wybrać nowe hasło.";
+$locale['402'] = "Na Twój adres e-mail wysłano nowe hasło.";
+$locale['403'] = "Powróć do strony głównej";
+$locale['404'] = "Nie znaleziono podanego adresu e-mail.";
+$locale['405'] = "Podano nieprawidłowy adres e-mail.";
+$locale['406'] = "Spróbuj jeszcze raz.";
+$locale['407'] = "Podaj adres e-mail, na który konto zostało zarejestrowane<br />
+Nowe hasło zostanie automatycznie utworzone i&nbsp;na niego wysłane.";
+$locale['408'] = "Wyślij hasło";
+$locale['409'] = "Nowe hasło dla ";
+$locale['410'] = "Witaj [USER_NAME],\n
+Poproszono o zmianę hasła do Twojego konta na stronie ".fusion_get_settings('sitename')." .\n
+Jeśli dalej chcesz zmienić hasło, kliknij na poniższy link:\n
 [NEW_PASS_LINK]\n
-Regards,
-".fusion_get_settings('siteusername');
-$locale['411'] = "Hello [USER_NAME],\n
-Your new password to access your ".fusion_get_settings('sitename')." account is:\n
+Z pozdrowieniami,
+".fusion_get_settings('siteusername')." \n\n
+------
+Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
+$locale['411'] = "Witaj [USER_NAME],\n
+Twoje nowe hasło na stronie ".fusion_get_settings('sitename')." to:\n
 [NEW_PASS]\n
-Regards,
-".fusion_get_settings('siteusername');
-$locale['412'] = "There was an error, please try again.";
+Z pozdrowieniami,
+".fusion_get_settings('siteusername')."\n\n
+------\n
+Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
+$locale['412'] = "Wystąpił błąd, spróbuj ponownie.";

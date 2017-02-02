@@ -8,7 +8,7 @@ setlocale(LC_TIME, "en_GB.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "MY"; // Malaysia
 $locale['xml_lang'] = "en";
-$locale['tinymce'] = "en";
+$locale['tinymce'] = "ml_IN";
 $locale['phpmailer'] = "en";
 $locale['datepicker'] = "ms-my";
 // Full & Short Months

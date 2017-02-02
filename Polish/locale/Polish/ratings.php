@@ -1,18 +1,17 @@
 <?php
-$locale['r100'] = "Ratings";
-$locale['r101'] = "No Ratings have been Posted.";
-$locale['r102'] = "Remove Rating";
-$locale['r103'] = "Post Rating";
-$locale['r104'] = "Rating is available to Members only.<br /><br />Please <a href='".BASEDIR."login.php'>login</a>".(fusion_get_settings('enable_registration') ? " or <a href='".BASEDIR."register.php'>register</a>" : "")." to vote.";
-$locale['r105'] = "You rated this as <strong>%s</strong> on %s";
-$locale['r106'] = "Please select your Rating";
-$locale['r107'] = "Choose Rating:";
-$locale['r108'] = "No Votes";
-$locale['r109'] = "Vote";
-$locale['r110'] = "Votes";
+$locale['r100'] = "Oceny";
+$locale['r101'] = "Brak ocen. Może czas dodać swoją?";
+$locale['r102'] = "Usuń ocenę";
+$locale['r104'] = "Tylko zarejestrowani użytkownicy mogą oceniać zawartość strony<br /><a href='".BASEDIR."login.php'>Zaloguj się</a> ".(fusion_get_settings('enable_registration') ? " lub <a href='".BASEDIR."register.php'>zarejestruj</a>" : "").", żeby móc zagłosować.";
+$locale['r105'] = "Ocenione przez Ciebie na <b>%s</b> dnia %s";
+$locale['r106'] = "Oceń dany materiał";
+$locale['r107'] = "- nie wybrano oceny -";
+$locale['r108'] = "0 głosów";
+$locale['r109'] = "głos";
+$locale['r110'] = "głosów";
 // Rating Options
-$locale['r120'] = "Awesome!";
-$locale['r121'] = "Very Good";
-$locale['r122'] = "Good";
-$locale['r123'] = "Average";
-$locale['r124'] = "Poor";
+$locale['r120'] = "Świetne!";
+$locale['r121'] = "Bardzo dobre";
+$locale['r122'] = "Dobre";
+$locale['r123'] = "Średnie";
+$locale['r124'] = "Słabe";

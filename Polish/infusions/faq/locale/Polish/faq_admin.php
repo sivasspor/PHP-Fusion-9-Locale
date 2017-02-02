@@ -1,40 +1,39 @@
 <?php
-// FAQ Category titles
-$locale['400'] = "Add FAQ Category";
-$locale['401'] = "Edit FAQ Category";
-// FAQ Category messages
-$locale['410'] = "FAQ Category added";
-$locale['411'] = "FAQ Category updated";
-$locale['412'] = "FAQ Category cannot be deleted";
-$locale['413'] = "There are FAQs linked to this category";
-$locale['414'] = "FAQ Category deleted";
-// FAQ Category form
-$locale['420'] = "Category Name";
-$locale['421'] = "Category Description";
-$locale['422'] = "Save Category";
-// FAQ titles
-$locale['500'] = "Add FAQ";
-$locale['501'] = "Edit FAQ";
-$locale['502'] = "Current FAQs";
-// FAQ messages
-$locale['510'] = "FAQ added";
-$locale['511'] = "FAQ updated";
-$locale['512'] = "FAQ deleted";
-// FAQ Form
-$locale['520'] = "Category";
-$locale['521'] = "Question";
-$locale['522'] = "Answer";
-$locale['523'] = "Save FAQ";
-// Current FAQs
-$locale['540'] = "Category / Question";
-$locale['541'] = "Options";
-$locale['542'] = "Edit";
-$locale['543'] = "Delete";
-$locale['544'] = "No FAQs have been added.";
-$locale['545'] = "No FAQ Categories defined.";
-$locale['546'] = "Delete this FAQ Category?";
-$locale['547'] = "Delete this FAQ?";
-// Error Messages
-$locale['460'] = "Please enter a category name.";
-$locale['461'] = "This category already exists.";
-$locale['462'] = "Please enter a faq question and faq answer.";
+$locale['faq_0100'] = "Pytania i&nbsp;odpowiedzi";
+$locale['faq_0101'] = "Obecne pytania i&nbsp;odpowiedzi";
+$locale['faq_0102'] = "Dodaj kategorię";
+$locale['faq_0102b'] = "Dodaj pytanie i&nbsp;odpowiedź";
+$locale['faq_0102c'] = "Edytuj pytanie i&nbsp;odpowiedź";
+$locale['faq_0102d'] = "Edytuj kategorię pytań i&nbsp;odpowiedzi";
+$locale['faq_0103'] = "Nazwa kategorii";
+$locale['faq_0104'] = "Elementów wewnątrz";//"Opis kategorii";
+$locale['faq_0105'] = "Nr kategorii";
+$locale['faq_0106'] = "Opcje";
+$locale['faq_0107'] = "Edytuj";
+$locale['faq_0108'] = "Usuń";
+$locale['faq_0109'] = "Usunąć kategorię?";
+$locale['faq_0110'] = "Pytanie:";
+$locale['faq_0111'] = "Odpowiedź:";
+$locale['faq_0112'] = "Usunąć pytanie?";
+$locale['faq_0113'] = "Nie zdefiniowano pytań i&nbsp;odpowiedzi.";
+$locale['faq_0114'] = "Pokazano %d z&nbsp;%d pytań i&nbsp;odpowiedziach";
+$locale['faq_0115'] = "Pokazano %d z&nbsp;%d kategorii";
+$locale['faq_0116'] = "Nie zdefiniowano kategorii pytań i&nbsp;odpowiedzi.";
+// Faq Category form
+$locale['faq_0200'] = "Nazwa";
+$locale['faq_0201'] = "Wpisz nazwę kategorii";
+$locale['faq_0202'] = "Opis";
+$locale['faq_0203'] = "Zapisz";
+$locale['faq_0204'] = "Zapisano kategorię";
+$locale['faq_0205'] = "Zaktualizowano kategorię";
+$locale['faq_0206'] = "Usunięto kategorię";
+$locale['faq_0207'] = "Nie można było usunąć kategorii, ponieważ zawiera ona następującą liczbę pytań: %d";
+// Faq Form
+$locale['faq_0300'] = "Kategoria";
+$locale['faq_0301'] = "Pytanie";
+$locale['faq_0302'] = "Odpowiedź";
+$locale['faq_0303'] = "Zapisz";
+$locale['faq_0304'] = "Nie można dodać Pytań i&nbsp;odpowiedzi, ponieważ nie zdefiniowano dla nich kategorii.<br />[LINK]Dodaj kategorię Pytań i&nbsp;odpowiedzi[/LINK]";
+$locale['faq_0305'] = "Dodano pytanie i&nbsp;odpowiedź";
+$locale['faq_0306'] = "Zaktualizowano pytanie i&nbsp;odpowiedź";
+$locale['faq_0307'] = "Usunięto pytanie i&nbsp;odpowiedź";

@@ -33,6 +33,7 @@ $locale['MI'] = "Migration Tool";
 $locale['UF'] = "Benutzerfelder";
 $locale['UG'] = "Benutzergruppen";
 $locale['UL'] = "Benutzer Log";
+$locale['UP'] = "Benutzer Profil";
 
 // Administration -> System
 $locale['SB'] = "Banner";

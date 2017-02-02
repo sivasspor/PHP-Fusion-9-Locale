@@ -29,6 +29,7 @@ $locale['charset'] = "utf-8";
 $locale['region'] = "DE";
 $locale['xml_lang'] = "de";
 $locale['tinymce'] = "de";
+$locale['select2'] = "de";
 $locale['phpmailer'] = "de";
 $locale['datepicker'] = "de";
 
@@ -93,7 +94,7 @@ $locale['genitive'] = "%s's %s";
 $locale['status0'] = "Aktiv";
 $locale['status1'] = "Gebannt";
 $locale['status2'] = "Unaktiviert";
-$locale['status3'] = "Suspentiert";
+$locale['status3'] = "Suspendiert";
 $locale['status4'] = "Sicherheitshalber gebannt";
 $locale['status5'] = "Ung&uuml;ltig";
 $locale['status6'] = "Anonymisiert";
@@ -196,7 +197,7 @@ $locale['global_089c'] = "Listenansicht";
 // Seitennavigation
 $locale['global_090'] = "Zur&uuml;ck";
 $locale['global_091'] = "Vor";
-$locale['global_092'] = "Seitee ";
+$locale['global_092'] = "Seite ";
 $locale['global_093'] = " von ";
 $locale['global_094'] = " von ";
 
@@ -542,7 +543,7 @@ $locale['fmt_shouts'] = "Shoutboxbeitrag|Shoutboxbeitr&auml;ge";
 $locale['fmt_thread'] = "Thema|Themen";
 $locale['fmt_user'] = "Benutzer|Benutzer";
 $locale['fmt_views'] = "Gesehen|Gesehen";
-$locale['fmt_weblink'] = "Weblink|Wweblinks";
+$locale['fmt_weblink'] = "Weblink|Weblinks";
 $locale['fmt_week'] = "Woche(n)|Wochen";
 $locale['fmt_year'] = "Jahr(e)|Jahre";
 

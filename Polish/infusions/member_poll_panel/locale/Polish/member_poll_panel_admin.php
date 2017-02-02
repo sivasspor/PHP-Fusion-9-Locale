@@ -1,29 +1,28 @@
 <?php
 // Polls titles
-$locale['400'] = "Add Poll";
-$locale['401'] = "Edit Poll";
-$locale['402'] = "Current Polls";
-$locale['403'] = "Preview Poll";
+$locale['400'] = "Dodaj ankietę";
+$locale['401'] = "Edytuj ankietę";
+$locale['402'] = "Istniejące ankiety";
+$locale['403'] = "Podgląd ankiety";
 // Polls messages
-$locale['410'] = "Poll added";
-$locale['411'] = "Poll updated";
-$locale['412'] = "Poll deleted";
+$locale['410'] = "Dodano ankietę.";
+$locale['411'] = "Zaktualizowano ankietę.";
+$locale['412'] = "Usunięto ankietę.";
 // Edit/Delete Polls
-$locale['420'] = "Current Polls";
-$locale['421'] = "Edit";
-$locale['422'] = "Delete";
+$locale['420'] = "Istniejące ankiety";
+$locale['421'] = "Edytuj";
+$locale['422'] = "Usuń";
 // Preview Polls
-$locale['430'] = "Submit Vote";
+$locale['430'] = "Zagłosuj";
 // Polls Form
-$locale['431'] = "Poll Title:";
-$locale['432'] = "Option ";
-$locale['433'] = " Close this Poll";
-$locale['434'] = "Started: ";
-$locale['435'] = "Ended: ";
-$locale['436'] = "Add Option";
-$locale['437'] = "Preview Poll";
-$locale['438'] = "Save Poll";
-$locale['439'] = "Undefined";
-$locale['439a'] = "Please enter a poll title";
-$locale['439b'] = "You need to enter at least 1 poll option";
-$locale['439c'] = "Polls";
+$locale['431'] = "Tytuł:";
+$locale['432'] = "Opcja ";
+$locale['433'] = " Zakończ ankietę";
+$locale['434'] = "Rozpoczęto: ";
+$locale['435'] = "Zakończono: ";
+$locale['436'] = "Dodaj opcję";
+$locale['437'] = "Podgląd";
+$locale['438'] = "Zapisz";
+$locale['439a'] = "Wpisz tytuł ankiety!";
+$locale['439b'] = "Musisz dać przynajmniej jedną opcję do zagłosowania w ankiecie.";
+$locale['439c'] = "Ankiet";

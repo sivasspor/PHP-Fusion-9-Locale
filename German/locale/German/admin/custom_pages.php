@@ -46,6 +46,7 @@ $locale['454'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktivier
 $locale['455']  = "Kommentare";
 $locale['456']  = "Bewertungen";
 $locale['457']  = "Kommentare und Bewertungen";
+$locale['458']  = "Es wurde noch keine eigene Seite erstellt";
 
 // TinyMCE Editor
 $locale['460'] = "TinyMCE:";

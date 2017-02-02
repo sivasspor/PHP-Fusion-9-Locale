@@ -1,10 +1,10 @@
 <?php
-$locale['rss000'] = " - блог";
-$locale['rss001'] = " - форум";
-$locale['rss002'] = " - статьи";
-$locale['rss003'] = " - загрузки";
-$locale['rss004'] = " - новости";
-$locale['rss005'] = " - ссылки";
-$locale['rss007'] = "в";
-$locale['rss008'] = "Нет доступных данных RSS";
-$locale['rss009'] = "Ленты RSS";
+$locale['rss_title'] = "Ленты RSS";
+$locale['rss_articles'] = "Статьи";
+$locale['rss_blog'] = "Блог";
+$locale['rss_downloads'] = "Файлы";
+$locale['rss_forums'] = "Форум";
+$locale['rss_news'] = "Новости";
+$locale['rss_weblinks'] = "Ссылки";
+$locale['rss_in'] = " в ";
+$locale['rss_nodata'] = "Нет доступных лент RSS";

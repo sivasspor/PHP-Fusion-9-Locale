@@ -4,7 +4,7 @@
 setlocale(LC_TIME, "cs_CS.utf8","CS"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['xml_lang'] = "cs";
-$locale['tinymce'] = "cs";
+$locale['tinymce'] = "cs_CZ";
 $locale['phpmailer'] = "cs";
 $locale['recaptcha'] = "cs";
 

@@ -1,4 +1,4 @@
 <?php
-$locale['pl_articles_cat_title'] = "Articles Category";
-$locale['pl_articles_cat_desc'] = "Enable Permalinks for the Articles Category on the site.";
+$locale['pl_articles_cat_title'] = "Kategoria artykułów";
+$locale['pl_articles_cat_desc'] = "Włącz bezpośrednie odnośniki dla kategorii artykułów na stronie.";
 

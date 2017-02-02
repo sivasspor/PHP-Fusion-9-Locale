@@ -52,12 +52,12 @@ $locale['middle_name'] = 'Middle Name';
 $locale['last_name'] = 'Last Name';
 
 // Documents
-$locale['doc_type'] = "Document type";
-$locale['doc_series'] = "Series";
-$locale['doc_number'] = "Number";
-$locale['doc_authority'] = "Authority";
-$locale['doc_date_issue'] = "Date of issue";
-$locale['doc_date_expire'] = "Date of expiry";
+$locale['doc_type'] = "Typ dokumentu";
+$locale['doc_series'] = "Seria";
+$locale['doc_number'] = "Numer";
+$locale['doc_authority'] = "Ważność";
+$locale['doc_date_issue'] = "Data od";
+$locale['doc_date_expire'] = "Data do";
 
 // Standard User Levels
 $locale['user0'] = "Gość";

@@ -115,8 +115,8 @@ $locale['wl_0601'] = "Weblinkeinsendungen erlauben?";
 $locale['wl_0602'] = "Weblinkbeschreibung verpflichtend?";
 $locale['601'] = "Die Einstellungen wurden erfolgreich aktualisiert.";
 $locale['602'] = "Weblinks";
-$locale['603'] = "Eintr&auml;ge pro Seite";
-$locale['604'] = "Einstellungen sppeichern";
+$locale['wl_603'] = "Eintr&auml;ge pro Seite";
+$locale['wl_604'] = "Einstellungen sppeichern";
 $locale['error_value'] = "Bitte f&uum;lle das Feld aus.";
 
 ?>

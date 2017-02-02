@@ -1,5 +1,5 @@
 <?php
-$locale['uf_address'] = "User Address";
-$locale['uf_address_desc'] = "User Address";
-$locale['uf_address_error'] = "Address fields can not be left empty.";
+$locale['uf_address'] = "Adres użytkownika";
+$locale['uf_address_desc'] = "Adres użytkownika";
+$locale['uf_address_error'] = "Pola na adres nie mogą być pozostawione puste.";
 

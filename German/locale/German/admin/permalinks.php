@@ -3,6 +3,7 @@
 // Section Titles
 $locale['400'] = "Aktivierte Permalinks";
 $locale['401'] = "Deaktivierte Permalinks";
+$locale['401a'] = "Permalinks Einstellungen";
 
 // Common
 $locale['402'] = "&Uuml;berschriebener Name";

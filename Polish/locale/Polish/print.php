@@ -1,17 +1,16 @@
 <?php
 //news, articles, blog
-$locale['400'] = "Posted by ";
-$locale['401'] = " on ";
-$locale['402'] = "Extended News";
-$locale['403'] = "Extended Blog";
+$locale['400'] = "Dodane przez ";
+$locale['401'] = " dnia ";
+$locale['402'] = "Treść rozszerzona";
 //forums
-$locale['500'] = "Thread subject:";
-$locale['501'] = "Posted by ";
-$locale['502'] = " on ";
-$locale['503'] = "Edited by ";
+$locale['500'] = "Tytuł:";
+$locale['501'] = "Dodane przez ";
+$locale['502'] = " dnia ";
+$locale['503'] = "Edytowane przez ";
 //License Agreement
-$locale['600'] = "Terms of Agreement";
-$locale['601'] = "Last updated on:";
+$locale['600'] = " - regulamin";
+$locale['601'] = "Ostatnia aktualizacja:";
 //Privacy Policy
-$locale['700'] = "Privacy Policy";
+$locale['700'] = "Polityka Prywatności";
 
