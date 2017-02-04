@@ -240,6 +240,7 @@ $locale['global_172'] = "Время загрузки: %s сек.";
 $locale['global_173'] = "Запросов";
 $locale['global_174'] = "Использовано памяти";
 $locale['global_175'] = "В среднем: %s сек.";
+$locale['global_176'] = "Политика приватности";
 // Admin Navigation
 $locale['global_180'] = "Панель администратора";
 $locale['global_181'] = "Вернуться на сайт";
