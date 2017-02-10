@@ -499,5 +499,6 @@ $locale['fmt_views'] = "просмотр|просмотра|просмотров
 $locale['fmt_weblink'] = "ссылка|ссылки|ссылок";
 $locale['fmt_week'] = "неделя|недели|недель";
 $locale['fmt_year'] = "год|года|лет";
+$locale['fmt_points'] = "точка|точки|точек";
 
 include __DIR__."/defender.php";
