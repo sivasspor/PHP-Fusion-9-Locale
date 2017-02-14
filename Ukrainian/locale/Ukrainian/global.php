@@ -13,7 +13,8 @@ $locale['xml_lang'] = "ua";
 $locale['tinymce'] = "uk";
 $locale['select2'] = "ua";
 $locale['phpmailer'] = "ua";
-$locale['datepicker'] = "ua";
+$locale['datepicker'] = "uk_UA";
+$locale['password_strength'] = "ua";
 
 // Full & Short Months
 $locale['months'] = "&nbsp;|Січень|Лютий|Березень|Квітень|Травень|Червень|Липень|Серпень|Вересень|Жовтень|Листопад|Грудень";
@@ -89,6 +90,7 @@ $locale['userf1'] = "Модератор";
 // Navigation
 $locale['global_001'] = "Навігація";
 $locale['global_002'] = "Посилання відсутні\n";
+$locale['global_003'] = "Дані для перегляду відсутні";
 
 // Users Online
 $locale['global_010'] = "Зараз на сайті";
@@ -98,6 +100,7 @@ $locale['global_013'] = "Користувачі відсутні";
 $locale['global_014'] = "Всього користувачів";
 $locale['global_015'] = "Неактивних користувачів";
 $locale['global_016'] = "Новий користувач";
+$locale['global_017'] = "Змінити навігацію";
 
 // Forum Side panel
 $locale['global_020'] = "Теми форуму";
@@ -242,6 +245,7 @@ $locale['UM092'] = "Запропонувати статтю";
 $locale['UM093'] = "Запропонувати світлину";
 $locale['UM094'] = "Запропонувати завантаження";
 $locale['UM095'] = "Запропонувати допис в блог";
+$locale['UM102'] = "Запропонувати ЧАП";
 
 // User Panel
 $locale['UM096'] = "Вітаємо: ";
@@ -267,6 +271,7 @@ $locale['global_172'] = "Завантажено за %s сек.";
 $locale['global_173'] = "Запити";
 $locale['global_174'] = "Використано пам&lsquo;яті";
 $locale['global_175'] = "Середнє: %s сек.";
+$locale['global_176'] = "Політика конфіденційності";
 
 // Admin Navigation
 $locale['global_180'] = "Центр керування";
@@ -373,11 +378,16 @@ $locale['global_465'] = " Тб";
 $locale['global_500'] = "Ваш запит перенаправлено на %s, будь ласка, зачекайте. Якщо перенаправлення не відбулось, натисніть тут";
 
 // Captcha Locales
-$locale['global_600'] = "Код підтвердження";
+$locale['global_600'] = "Код захисту";
 $locale['recaptcha'] = "en";
+$locale['global_601'] = "Ви маєте ввести коректний код захисту";
+
+// Site links
+$locale['global_700'] = "Більше...";
 
 // Miscellaneous
 $locale['global_900'] = "Неможливо конвертувати HEX в DEC";
+$locale['global_901'] = "Додати медіадані";
 
 // Language Selection
 $locale['global_ML100'] = "Мова:";
@@ -422,6 +432,8 @@ $locale['back'] = "Назад";
 $locale['forward'] = "Далі";
 $locale['go'] = "Перейти";
 $locale['cancel'] = "Скасувати";
+$locale['clear'] = "Очистити";
+$locale['move'] = "Перемістити";
 $locale['move_up'] = "Вище";
 $locale['move_down'] = "Нижче";
 $locale['load_more'] = "Показати більше";
@@ -431,6 +443,7 @@ $locale['load_end'] = "Показати все";
 $locale['add'] = "Додати";
 $locale['save'] = "Зберегти";
 $locale['save_changes'] = "Зберегти зміни";
+$locale['save_and_close'] = "Зберегти та закрити";
 $locale['confirm'] = "Ухвалити";
 $locale['update'] = "Оновити";
 $locale['updated'] = "Оновлено";
@@ -444,6 +457,18 @@ $locale['reactivate'] = "Відновлення";
 $locale['user'] = "Користувач";
 $locale['promote'] = "Поширення";
 $locale['show'] = "Показати";
+$locale['actions'] = "Дії";
+$locale['language'] = "Мова";
+
+// Persons & Identifiers
+$locale['you'] = "Ви";
+$locale['me'] = "Я";
+$locale['they'] = "Вони";
+$locale['we'] = "Ми";
+$locale['us'] = "Нас";
+$locale['he'] = "Він";
+$locale['she'] = "Вона";
+$locale['it'] = "Воно";
 
 // Tables
 $locale['status'] = "Стан";
@@ -467,6 +492,8 @@ $locale['status'] = "Стан";
 $locale['note'] = "Позначити";
 $locale['publish'] = "Опубліковано";
 $locale['unpublish'] = "Не опубліковано";
+$locale['sticky'] = "Прикріплено";
+$locale['unsticky'] = "Відкріплено";
 $locale['draft'] = "Чернетка";
 $locale['settings'] = "Налаштування";
 $locale['posted'] = "опубліковано";
@@ -485,6 +512,8 @@ $locale['browse'] = "Перегляд ...";
 $locale['close'] = "Закрити";
 $locale['nopreview'] = "Дані для перегляду відсутні";
 $locale['mark_as'] = "Позначити як";
+$locale['preview'] = "Переглянути";
+$locale['custom'] = "Вільно";
 
 // Alignment
 $locale['left'] = "Зліва";
@@ -533,6 +562,7 @@ $locale['fmt_views'] = "перегляд|перегляди|переглядів
 $locale['fmt_weblink'] = "посилання|посилання|посилань";
 $locale['fmt_week'] = "тиждень|тижня|тижнів";
 $locale['fmt_year'] = "рік|роки|років";
+$locale['fmt_points'] = "бал|бали|балів";
 
 // include Defender locales
 include __DIR__."/defender.php";
