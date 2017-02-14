@@ -16,3 +16,4 @@ $locale['E_STRICT'] = "";
 $locale['err_100'] = "немає";
 $locale['err_101'] = "Увага! Під час формування сторінки сталася помилка. Будь ласка, перевірте деталі у [ERROR_LOG_URL]журналі помилок[/ERROR_LOG_URL] PHP-Fusion.";
 $locale['err_102'] = "Показати помилку!";
+$locale['err_103'] = "{%function%} {%folder%} не існує.";
