@@ -72,6 +72,7 @@ $locale['WLS_0150'] = "Название";
 $locale['WLS_0151'] = "Ссылка";
 $locale['WLS_0152'] = "Статус";
 $locale['WLS_0153'] = "Доступ";
+$locale['WLS_0154'] = "Действия";
 
 // Table - Web Link - Misc
 $locale['WLS_0160'] = "Добавтиь категорию";
