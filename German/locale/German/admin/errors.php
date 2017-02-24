@@ -1,30 +1,37 @@
 <?php
 
 // Titel
-$locale['400'] = "Fehlerlog";
-$locale['401'] = "Datei ansehen";
+$locale['ERROR_400'] = "Fehlerlog";
+$locale['ERROR_401'] = "Datei ansehen";
 
 // Fehler Tabelle
-$locale['410'] = "Fehler";
-$locale['411'] = "Seite";
-$locale['412'] = "Benutzer";
-$locale['413'] = "Datum";
-$locale['414'] = "Status";
-$locale['415'] = "Zeile:";
-$locale['416'] = "Benutzerlevel:";
-$locale['417'] = "IP-Adresse:";
-$locale['418'] = "Keine Fehler im Log gespeichert.";
-$locale['419'] = "Datei";
-$locale['420'] = "Details";
-$locale['421'] = "Quellcode";
-$locale['422'] = "Zur&uuml;ck nach Oben";
+$locale['ERROR_410'] = "Fehler";
+$locale['ERROR_411'] = "Seite";
+$locale['ERROR_412'] = "Benutzer";
+$locale['ERROR_413'] = "Datum";
+$locale['ERROR_414'] = "Status";
+$locale['ERROR_415'] = "Zeile:";
+$locale['ERROR_416'] = "Benutzerlevel:";
+$locale['ERROR_417'] = "IP-Adresse:";
+$locale['ERROR_418'] = "Keine Fehler im Log gespeichert.";
+$locale['ERROR_419'] = "Datei";
+$locale['ERROR_420'] = "Details";
+$locale['ERROR_421'] = "Quellcode";
+$locale['ERROR_422'] = "Zurück nach Oben";
 
 // Formular löschen
-$locale['440'] = "L&ouml;sche alle Eintr&auml;ge mit Status";
+$locale['ERROR_440'] = "Lösche alle Einträge mit Status";
 
 // Status Formular
-$locale['450'] = "Neu";
-$locale['451'] = "Behoben";
-$locale['452'] = "Ignoriert";
-$locale['453'] = "Anwenden";
-$locale['454'] = "Schwere";
+$locale['ERROR_450'] = "Neu";
+$locale['ERROR_451'] = "Behoben";
+$locale['ERROR_452'] = "Ignoriert";
+$locale['ERROR_453'] = "Anwenden";
+$locale['ERROR_454'] = "Schwere";
+
+$locale['ERROR_460'] = "Fehler";
+$locale['ERROR_461'] = "Fehler in Datei";
+$locale['ERROR_462'] = "Optionen";
+$locale['ERROR_463'] = "Generiert von";
+$locale['ERROR_464'] = "Fehler Konsole";
+$locale['ERROR_465'] = "Source File";
