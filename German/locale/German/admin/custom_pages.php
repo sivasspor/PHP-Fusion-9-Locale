@@ -1,56 +1,92 @@
 <?php
 
 // Control Panel
-$locale['cp_100'] = "Seite";
-$locale['cp_101'] = "Seitentitel";
-$locale['cp_102'] = "Zugriff";
-$locale['cp_103'] = "Sprache";
-$locale['cp_104'] = "Kommentare erlaubt";
-$locale['cp_105'] = "Bewertungen erlaubt";
-$locale['cp_106'] = "Seitenlinks";
-
+$locale['page_100'] = "Seite";
+$locale['page_101'] = "Seitentitel";
+$locale['page_102'] = "Zugriff";
+$locale['page_103'] = "Sprache";
+$locale['page_104'] = "Kommentare erlaubt";
+$locale['page_105'] = "Bewertungen erlaubt";
+$locale['page_106'] = "Seitenlinks";
+$locale['page_0107'] = "Such Optionen";
+$locale['page_0108'] = "zurücksetzen";
+$locale['page_0109'] = "Wähle den Status";
+$locale['page_0110'] = "Alle Statusse";
+$locale['page_0111'] = "Wähle Sichtbarkeit";
+$locale['page_0112'] = "Wähle Kategorie";
+$locale['page_0113'] = "Alle Sprachen";
+$locale['page_0114'] = "Wähle Sprache";
+$locale['page_0115'] = "Alle Autoren";
+$locale['page_0116'] = "Wähle Autor";
+$locale['page_0117'] = "Bitte spezifiziere einen Seitentitel"; // 451
+$locale['page_0118'] = "Aktionen";
 // Eigene Seiten Titel
-$locale['400'] = "Eigene Seite hinzuf&uuml;gen";
-$locale['401'] = "Eigene Seite bearbeiten";
-$locale['402'] = "Aktuell vorhandene eigene Seiten";
-$locale['403'] = "Eigene Seiten";
+$locale['page_0200'] = "Neue Seite hinzufügen"; //ex 400
+$locale['page_0201'] = "Seite bearbeiten"; // ex 401
+$locale['page_0202'] = "Einstellungen";
+$locale['page_0203'] = "Visual Page Composer";
+$locale['page_0204'] = "Seiteninhalt";
+$locale['page_0205'] = "Aktuelle Seite"; // 402
+$locale['page_0300'] = "Seitentitel:"; // 422
+$locale['page_0301'] = "Meta Keywords (Du musst für jedes Stichwort die Eingabetaste drücken)"; // 432
+$locale['page_0302'] = "Aktivierte Sprachen";
+$locale['page_0303'] = "Die Sprache dieser Seite";
+$locale['page_0304'] = "Seiten Publikation";
+$locale['page_0305'] = "Seiten Status";
+$locale['page_0306'] = "Seiten Sichtbarkeit";
+$locale['page_0307'] = "Veröffentlicht am";
+$locale['page_0308'] = "Seiten Kategorie";
+$locale['page_0309'] = "Seiten Links Attributes";
+$locale['page_0310'] = "Keine Seitenlinks definiert";
+$locale['page_0311'] = "Zu Seitenlinks hinzufügen";
+$locale['page_0312'] = "Lösche Seitenlink";
+$locale['page_0313'] = "Seitenlink erfolgreich bearbeitet";
+$locale['page_0314'] = "Seitenlink erfolgreich hinzugefügt";
+$locale['page_0315'] = "Link Name";
+$locale['page_0316'] = "Link Position";
+$locale['page_0317'] = "Link Reihenfolge";
+$locale['page_0318'] = "Link Icon";
+$locale['page_0319'] = "Link Kategorie";
+$locale['page_0320'] = "Seite speichern"; // 430
+$locale['page_0321'] = "Link speichern";
+$locale['page_0330'] = "Panel Attributes";
+$locale['page_0331'] = "Linke Panels";
+$locale['page_0332'] = "Rechte Panels";
+$locale['page_0333'] = "Header Panels";
+$locale['page_0334'] = "Top Panels";
+$locale['page_0335'] = "Bottom Panels";
+$locale['page_0336'] = "Footer Panels";
+$locale['page_0350'] = "Neue Zeile";
+$locale['page_0351'] = "Neues Feld";
+$locale['page_0352'] = "Zeile bearbeiten";
+$locale['page_0353'] = "Zeile duplizieren";
+$locale['page_0354'] = "Zeile löschen";
+$locale['page_0355'] = "Widget speichern";
+$locale['page_0356'] = "Feld bearbeiten";
+$locale['page_0357'] = "Feld duplizieren";
+$locale['page_0358'] = "Feld löschen";
+$locale['page_0359'] = "Zeilen Container Wrap";
+$locale['page_0380'] = "Anzahl der Felder";
+$locale['page_0381'] = "Feld|Felder";
+$locale['page_0382'] = "Zeilen ID";
+$locale['page_0383'] = "Zeilen Klasse";
+$locale['page_0384'] = "Zeilen Reihenfolge";
+$locale['page_0385'] = "Feld Reihenfolge";
+$locale['page_0390'] = "Widget Liste";
+$locale['page_0391'] = "Wähle ein Widget";
 
-// Eigene Seiten Nachrichten
-$locale['410'] = "Die eigene Seite wurde hinzugef&uuml;gt.";
-$locale['411'] = "Die eigene Seite wurde aktualisiert.";
-$locale['412'] = "Die Adresse zur eigenen Seite lautet: ";
-$locale['413'] = "Die eigene Seite wurde gel&ouml;scht.";
-
-// Eiegene Seiten Formular
-$locale['420'] = "Bearbeiten";
-$locale['421'] = "L&ouml;schen";
-$locale['422'] = "Seitentitel:";
-$locale['423'] = "Zugriff:";
-$locale['424'] = "Inhalt:";
-$locale['425'] = "Adminpasswort:";
-$locale['426'] = "Einen Link zu dieser Seite in die Navigation einf&uuml;gen.";
-$locale['427'] = "In dieser Seite Kommentare aktivieren.";
-$locale['428'] = "In dieser Seite Bewertungen aktivieren.";
-$locale['429'] = "Vorschau";
-$locale['430'] = "Seite speichern";
-$locale['431'] = "Seitenumbruch";
-$locale['432'] = "Stichw&ouml;rter (Du musst f&uuml;r jedes Stichwort die Eingabetaste dr&uuml;cken)";
-
-// Javascript Alerts / Warnungen
-$locale['450']  = "Willst du diese eigene Seite wirklich entfernen?";
-$locale['451']  = "Du musst einen Seitentitel angeben.";
-$locale['452']  = "Du musst dein Adminpasswort angeben.";
-$locale['453']  = "Das Adminpasswort ist nicht korrekt.";
-$locale['454']  = "%s sind f&uuml;r alle Elemente deaktiviert.<br />\n";
-$locale['454'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert wird.";
-$locale['455']  = "Kommentare";
-$locale['456']  = "Bewertungen";
-$locale['457']  = "Kommentare und Bewertungen";
-$locale['458']  = "Es wurde noch keine eigene Seite erstellt";
-
-// TinyMCE Editor
-$locale['460'] = "TinyMCE:";
-$locale['461'] = "Aktivieren";
-$locale['462'] = "Deaktivieren";
-
-?>
+$locale['page_0400'] = "Seite gelöscht";
+$locale['page_0401'] = "Seite erstellt"; // 410
+$locale['page_0402'] = "Seite bearbeitet"; // 411
+$locale['page_0403'] = "Zeile gelöscht";
+$locale['page_0404'] = "Invalide Zeile";
+$locale['page_0405'] = "Kann die Zeile nicht duplizieren";
+$locale['page_0406'] = "Kann das Feld nicht duplizieren";
+$locale['page_0407'] = "Zeile dupliziert";
+$locale['page_0408'] = "Feld dupliziert";
+$locale['page_0409'] = "Feld erstellt";
+$locale['page_0410'] = "Kann Feld nicht duplizieren";
+$locale['page_0411'] = "Feld dupliziert";
+$locale['page_0412'] = "Invalides Feld";
+$locale['page_0413'] = "Seite wirklich löschen?"; // 450
+$locale['page_0440'] = "Es sind noch keine Seiten angelegt worden.";
