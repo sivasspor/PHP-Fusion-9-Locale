@@ -1,118 +1,146 @@
 <?php
-// News titles
-$locale['news_0000'] = "Berita Terkini";
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: news_admin.php
+| Author: Frederick MC Chan
+| Last updated: Mar 04 2017
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+
+$locale['601'] = "Saiz imej jari:";
+$locale['602'] = "Saiz foto:";
+$locale['603'] = "Saiz foto maksimum:";
+$locale['604'] = "Lebar x Tinggi";
+$locale['605'] = "Saiz file maksimum (bait):";
+$locale['950'] = "Muat naik imej";
+$locale['951'] = "Pautan Imej:";
+$locale['953'] = "Berita";
+$locale['954'] = "Nisbah imej jari:";
+$locale['955'] = "Asal";
+$locale['956'] = "Persegi";
+$locale['957'] = "Imej di halaman Depan";
+$locale['958'] = "Imej di Baca lebih";
+$locale['959'] = "Foto telah dimuat naik";
+$locale['news_0000'] = "Berita Semasa";
 $locale['news_0001'] = "Berita";
 $locale['news_0002'] = "Tambah Berita";
 $locale['news_0003'] = "Sunting Berita";
 $locale['news_0004'] = "Pengaturan";
-// News Categories titles
-$locale['news_0020'] = "Tambah Kategori Berita";
-$locale['news_0021'] = "Sunting Kategori Berita";
-$locale['news_0022'] = "Tambah Kategori Berita";
-$locale['news_0023'] = "Penyerahan";
-// News messages
-$locale['news_0100'] = "Berita ditambah";
-$locale['news_0101'] = "Berita dikemaskinikan";
-$locale['news_0102'] = "Berita dipadamkan";
-$locale['news_0103'] = "Jenis imej tidak dapat dihuraikan.";
-$locale['news_0104'] = "Imej mesti lebih kurang daripada %s.";
-$locale['news_0105'] = "Imej mesti antara satu jenis %s.";
-$locale['news_0106'] = "Imej tidak boleh melebihi daripada %s pixels.";
-$locale['news_0107'] = "Kesalahan tidak dapat dihuraikan";
-// News Submissions messages
-$locale['news_0130'] = "Tiada penyerahan Berita";
-$locale['news_0131'] = "Penyerahan Berita";
-$locale['news_0132'] = "Berita ini diserah oleh ";
-$locale['news_0133'] = "Adakah anda ingin terbit atau padam Berita ini?";
-$locale['news_0134'] = "Terbit Berita";
-$locale['news_0135'] = "Padam Berita";
-$locale['news_0136'] = "Tajuk serahan untuk pengesahan";
-$locale['news_0137'] = "Kini, terdapat %s sedia untuk pengesahan dan penerimaan anda.";
-$locale['news_0138'] = "Harap Maaf, situs ini tidak dapat menerima sebarang serahan Berita sementara ini.";
-$locale['news_0141'] = "Papar Berita";
-$locale['news_0142'] = "Pengarang Serahan";
-$locale['news_0143'] = "Masa Serahan";
-$locale['news_0144'] = "ID Serahan";
-$locale['news_0145'] = "Serahan Berita telah dipadamkan";
-$locale['news_0146'] = "Serahan Berita telah diterima dan diterbitkan";
-$locale['news_0147'] = "Serahan Berita telah disimpan sebagai deraf";
-// News Categories messages
-$locale['news_0150'] = "Kategori Imej ditambah";
-$locale['news_0151'] = "Kategori Imej dikemaskinikan";
-$locale['news_0152'] = "Kategori Berita tidak dapat dipadam";
-$locale['news_0153'] = "Terdapat Sub Kategori atau Berita dalam Kategori ini";
-$locale['news_0154'] = "Kategori Berita dipadamkan";
-// News form
-$locale['news_0200'] = "Tajuk:";
-$locale['news_0201'] = "Kategori:";
-$locale['news_0202'] = "Tanpa Kategori";
-$locale['news_0203'] = "Ringkasan:";
+$locale['news_0005'] = "Kandungan Berita";
+$locale['news_0006'] = "Galeri Berita";
+$locale['news_0007'] = "Mengurus Galeri";
+$locale['news_0008'] = "Muat Naik Foto";
+$locale['news_0009'] = "Imej Berita";
+$locale['news_0010'] = "Padam Foto";
+$locale['news_0011'] = "Imej pengenalan";
+$locale['news_0012'] = "Imej berita";
+$locale['news_0020'] = "Kategori Berita";
+$locale['news_0021'] = "Sunting kategori";
+$locale['news_0022'] = "Tambah kategori";
+$locale['news_0023'] = "Serahan Berita";
+$locale['news_0100'] = "Berita telah ditambah";
+$locale['news_0101'] = "Berita telah dikemaskinikan";
+$locale['news_0102'] = "Berita telah dipadam";
+$locale['news_0103'] = "Imej berita telah dimuat naik";
+$locale['news_0104'] = "Imej berita telah dipadam";
+$locale['news_0108'] = "Tidak ada berita dipilih";
+$locale['news_0109'] = "Tidak ada berita ditakrifkan";
+$locale['news_0130'] = "Tiada penyerahan berita pada masa ini";
+$locale['news_0131'] = "Ulasan Penyerahan Berita";
+$locale['news_0132'] = "Berita ini diserahkan oleh";
+$locale['news_0133'] = "Adakah anda ingin menerbitkan atau padam ini berita?";
+$locale['news_0134'] = "Menerbitkan berita";
+$locale['news_0135'] = "Padam berita";
+$locale['news_0136'] = "Subjek penyerahan untuk ulasan";
+$locale['news_0137'] = "Pada masa ini terdapat %s menunggu untuk semakan anda.";
+$locale['news_0138'] = "Maaf, saat ini kami tidak menerima apa-apa penyerahan  berita di laman web ini.";
+$locale['news_0141'] = "Preview Berita";
+$locale['news_0142'] = "Pengarang Penyerahan";
+$locale['news_0143'] = "Masa Penyerahan";
+$locale['news_0144'] = "Id Penyerahan";
+$locale['news_0145'] = "Penyerahan dipadam";
+$locale['news_0146'] = "Serahan berita diterbitkan";
+$locale['news_0147'] = "Berita penyerahan disimpan sebagai Deraf";
+$locale['news_0150'] = "Kategori berita ditambah";
+$locale['news_0151'] = "Kategori berita dikemaskinikan";
+$locale['news_0152'] = "Kategori berita tidak boleh dipadam";
+$locale['news_0153'] = "Ada berita atau sub-kategori dikaitkan dengan kategori ini";
+$locale['news_0154'] = "Kategori berita dipadam";
+$locale['news_0155'] = "Kategori berita tidak dipilih";
+$locale['news_0200'] = "Subjek Berita";
+$locale['news_0201'] = "Kategori";
+$locale['news_0202'] = "Tiada kategori";
+$locale['news_0203'] = "Coretan";
 $locale['news_0203a'] = "Pengenalan Berita";
-$locale['news_0204'] = "Berita:";
-$locale['news_0203b'] = "Kandungan Berita";
-$locale['news_0205'] = "Kata Kunci:";
-$locale['news_0205a'] = "Asingkan kata kunci dengan butang Enter setiap perkataan";
-$locale['news_0206'] = "Tarikh Mula:";
-$locale['news_0207'] = "Tarikh Lupus:";
-$locale['news_0208'] = "(Optional)";
-$locale['news_0209'] = "Keterlihatan";
-$locale['news_0210'] = "Terima sebagai draf";
-$locale['news_0211'] = "Lekit Berita Ini";
-$locale['news_0212'] = "Garis baru Automatik";
-$locale['news_0213'] = "Guna Komen";
-$locale['news_0214'] = "Guna Penilaian";
+$locale['news_0204'] = "Dilanjutkan";
+$locale['news_0205'] = "Kata kunci";
+$locale['news_0205a'] = "Tekan enter selepas setiap kata kunci";
+$locale['news_0206'] = "Tarikh Mulai";
+$locale['news_0207'] = "Tarikh Tamat";
+$locale['news_0208'] = "(Pilihan)";
+$locale['news_0209'] = "Akses";
+$locale['news_0210'] = "Simpan sebagai draf";
+$locale['news_0211'] = "Membuat berita sticky";
+$locale['news_0212'] = "Baris Rehat Automatik";
+$locale['news_0213'] = "Aktifkan Komen";
+$locale['news_0214'] = "Aktifkan Penilaian";
 $locale['news_0215'] = "Draf";
-$locale['news_0216'] = "Imej Berita";
-$locale['news_0217'] = "Saiz fail Maks. filesize %s / Jenis Fail dibenarkan GIF, JPEG atau PNG.";
-$locale['news_0218'] = "Posisi Imej:";
-$locale['news_0219'] = "Garis baru Automatik";
-$locale['news_0240'] = "Papar Berita";
+$locale['news_0217'] = "Max. saiz %s / Dibenarkan jenis fail GIF, JPEG atau PNG
+.";
+$locale['news_0218'] = "Panduan Imej";
+$locale['news_0219'] = "Pagebreak";
 $locale['news_0241'] = "Simpan Berita";
-// Popup Error/Warning Messages
-$locale['news_0250'] = "Sila isikan Tajuk";
-$locale['news_0251'] = "Padam Berita ini?";
-$locale['news_0252'] = "Padam Kategori Berita ini?";
-$locale['news_0253'] = "%s telah ditutup untuk semua item.\n\rPengaturan ini hanya akan dilaksanakan bila diguna kembali lagi.";
-$locale['news_0254'] = "Tiada berita didapati dalam kategori ini";
-$locale['news_0255'] = "Sila isikan kata kunci";
-// News Categories form
+$locale['news_0242'] = "Pilihan Carian";
+$locale['news_0243'] = "Jelas";
+$locale['news_0244'] = "Pilih Status";
+$locale['news_0245'] = "Semua Status";
+$locale['news_0246'] = "Pilih Akses";
+$locale['news_0247'] = "Semua Kategori";
+$locale['news_0248'] = "Pilih Kategori";
+$locale['news_0249'] = "Semua Bahasa";
+$locale['news_0250'] = "Pilih Bahasa";
+$locale['news_0251'] = "Semua Penulis";
+$locale['news_0252'] = "Pilih Pengarang";
+$locale['news_0253'] = "Status";
+$locale['news_0254'] = "%d diterbitkan";
+$locale['news_0255'] = "Penerbitan";
+$locale['news_0266'] = "Tarikh Berita";
+$locale['news_0267'] = "Tiada berita imej untuk berita";
+$locale['news_0268'] = "%d gambar telah ditambah";
+$locale['news_0269'] = "%d gambar tidak dimuat naik kerana kesilapan";
+$locale['news_0270'] = "Sila pilih Imej";
+$locale['news_0280'] = "Sila menentukan subjek baru";
+$locale['news_0281'] = "Padam berita ini?";
+$locale['news_0282'] = "Buang ini berita kategori?";
+$locale['news_0283'] = "%s  tidak digunakan untuk semua berita.
+Tetapan ini hanya akan mengambil kesan jika pengaturan komen diaktifkan.";
+$locale['news_0284'] = "Tidak ada berita dalam kategori ini.";
+$locale['news_0285'] = "Sila menentukan kata kunci";
 $locale['news_0300'] = "Nama Kategori";
 $locale['news_0301'] = "Imej Kategori";
-$locale['news_0302'] = "Terima Kategori";
-$locale['news_0303'] = "Tiada Kategori Berita didapati";
-$locale['news_0304'] = "Sila Muat Naik Imej Kategori Berita";
+$locale['news_0302'] = "Simpan Kategori";
+$locale['news_0303'] = "Tiada berita kategori ditakrifkan";
+$locale['news_0304'] = "Klik sini untuk muat naik kategori imej";
 $locale['news_0305'] = "Dasar";
-// Popup Error/Warning Messages
-$locale['news_0350'] = "Padamkan Kategori Berita?";
-// Error Messages
-$locale['news_0351'] = "Sila isikan Tajuk Kategori.";
-$locale['news_0352'] = "Nama Kategori ini telah diguna. Sila cuba dengan nama lain.";
-$locale['news_0400'] = "Penyerahan Berita";
+$locale['news_0306'] = "Simpan Kategori sebagai Draf";
+$locale['news_0307'] = "Simpan Kategori sebagai Sticky";
+$locale['news_0351'] = "Sila masukkan nama kategori.";
+$locale['news_0352'] = "Kategori ini sudah wujud.";
+$locale['news_0400'] = "Serahkan Berita";
 $locale['news_0401'] = "Imej Penyerahan";
-$locale['news_0402'] = "Perlukan kandungan Berita?";
-// Public Submissions Form
-$locale['news_0700'] = "Penyerahan Berita";
-$locale['news_0701'] = "Terima Kasih atas penyerahan Berita anda";
-$locale['news_0702'] = "Serah Berita sekali lagi";
-$locale['news_0703'] = "Guna borang ini untuk serahan Berita. Pengesahan akan dibuat oleh Administrator situs selepas ini.
-[SITENAME] berhak untuk meminda atau mengubah sebarang penyerahan. Perkara
-hendaklah berpatutan dengan kandungan laman web ini. Hujahan yang tidak sesuai akan dipadamkan.";
+$locale['news_0402'] = "Butir berita diperlukan?";
+$locale['news_0700'] = "Serahkan Berita";
+$locale['news_0701'] = "Terima kasih atas penyerahan berita anda";
+$locale['news_0702'] = "Serah berita lain";
+$locale['news_0703'] = "Sila gunakan borang untuk mengemukakan serahan Berita. Serahan anda akan disemak oleh Admin. [SITENAME] berhak untuk mengubah apa-apa penyerahan. Butiran yang tidak sesuai tidak akan diterima dan dipadamkan.";
 $locale['news_0704'] = "Kembali ke [SITENAME]";
-$locale['601'] = "Saiz Jejari:";
-$locale['602'] = "Saiz Gambar:";
-$locale['603'] = "Saiz Gamabar Maks.:";
-$locale['604'] = "Lebar x Tinggi";
-$locale['605'] = "Saiz fail Maks. (bytes):";
-// News Settings
-$locale['950'] = "Muat Naik Imej";
-$locale['951'] = "Pautan Imej:";
-$locale['952'] = "Kategori";
-$locale['953'] = "Item Berita";
-$locale['953b'] = "Item Berita";
-$locale['954'] = "Nisbah Jejari:";
-$locale['955'] = "Asal";
-$locale['956'] = "Segi Empat";
-$locale['957'] = "Guna Imej di Halaman Utama";
-$locale['958'] = "Guna Imej di Halaman Baca Penuh";
-$locale['959'] = "Imej dimuat naik";
-$locale['960'] = "Imej Kategori";
