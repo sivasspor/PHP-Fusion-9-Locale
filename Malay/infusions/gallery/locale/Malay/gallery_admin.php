@@ -1,188 +1,129 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: gallery_admin.php
+| Author: Frederick MC Chan
+| Last updated: Mar 06 2017
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+
+$locale['album_0001'] = "Tajuk Album Gambar";
+$locale['album_0002'] = "Nama Album";
+$locale['album_0003'] = "Penerangan Album";
+$locale['album_0004'] = "Butir-butir album";
+$locale['album_0005'] = "Kata kunci";
+$locale['album_0006'] = "Tekan butang enter selepas setiap kata kunci";
+$locale['album_0007'] = "Akses";
+$locale['album_0008'] = "Bahasa";
+$locale['album_0009'] = "Gambar jari album";
+$locale['album_0010'] = "Saiz fail maksimum: %s / Dibenarkan jenis fail: %s / Lebar maksimum: %pelarasan, Ketinggian maksimum: %pelarasan";
+$locale['album_0011'] = "Susunan Album";
+$locale['album_0012'] = "Simpan Album";
+$locale['album_0013'] = "Album Gambar telah dikemaskinikan";
+$locale['album_0014'] = "Album Gambar telah ditambah";
+$locale['album_0015'] = "Sila masukkan nama album";
+$locale['album_0016'] = "Padam Imej jari album";
+$locale['album_0020'] = "Pilihan";
+$locale['album_0021'] = "Pindah Atas";
+$locale['album_0022'] = "Pindah Bawah";
+$locale['album_0023'] = "Padam Album";
+$locale['album_0025'] = "Album telah dipindah ke atas";
+$locale['album_0026'] = "Album telah dipindah ke bawah";
+$locale['album_0027'] = "Ada foto dalam album ini";
+$locale['album_0028'] = "Padamkan Album";
+$locale['album_0029'] = "Pindah foto album ke .. %s";
+$locale['album_0030'] = "Album telah dipadamkan";
+$locale['album_0031'] = "Foto album telah dipindah ke %s";
+$locale['album_0032'] = "%d foto dalam album ini telah dipadamkan";
 $locale['gallery_0001'] = "Galeri";
-$locale['gallery_0002'] = "Tambah Gambar";
-$locale['gallery_0003'] = "Sunting Gambar";
+$locale['gallery_0002'] = "Tambah Foto";
+$locale['gallery_0003'] = "Sunting Foto";
 $locale['gallery_0004'] = "Tambah Album";
 $locale['gallery_0005'] = "Sunting Album";
 $locale['gallery_0006'] = "Pengaturan Galeri";
-$locale['gallery_0007'] = "Sumbangan Galeri";
-$locale['gallery_0009'] = "Muat naik Gambar";
-$locale['gallery_0010'] = "Muat naik Gambar bersiri";
-$locale['gallery_0011'] = "Album Gambar tidak didapati.";
-$locale['gallery_0012'] = "Tiada Album Gambar didapati. Anda mesti mempunyai sekurang kurangnya satu album sebelum dapat tambah gambar. <a href='%s'>Klik sini</a> untuk tambahan album gambar";
-$locale['gallery_0013'] = "Aksi Gambar";
-$locale['gallery_0014'] = "Susun Naik";
-$locale['gallery_0015'] = "Susun Turun";
-$locale['gallery_0016'] = "Sunting Gambar";
-$locale['gallery_0017'] = "Padam Gambar";
-$locale['gallery_0018'] = "Kini memaparkan %d daripada jumlah %d album gambar";
-$locale['gallery_0019'] = "Kini memaparkan %d daripada %d jumlah gambar";
-$locale['gallery_0020'] = "Tarikh akhir Album dikemaskini:";
-$locale['gallery_0021'] = "Akses Album:";
-$locale['gallery_0022'] = "Pengaturan Sistem Galeri";
-$locale['gallery_0023'] = "Terdaapt jumlah %d album dan %d gambar di dalam Galeri. Galeri terakhir dikemaskinikan %s";
-
-// Album Form
-$locale['album_0001'] = "Tajuk Album:";
-$locale['album_0002'] = "Nama Galleri Album";
-$locale['album_0003'] = "Deskripsi Album:";
-$locale['album_0004'] = "Ringkasan tentang album";
-$locale['album_0005'] = "Kata Kunci:";
-$locale['album_0006'] = "Tekan butang enter selepas setiap kata kunci";
-$locale['album_0007'] = "Akses:";
-$locale['album_0008'] = "Bahasa:";
-$locale['album_0009'] = "Jejari Album:";
-$locale['album_0010'] = "Saiz fail maks: %s / Jenis fail: %s / Lebar maksimum: %spx, Tinggi maksimum: %spx";
-$locale['album_0011'] = "Susunan Album";
-$locale['album_0012'] = "Simpan Album";
-$locale['album_0013'] = "Album gambar telah dikemaskinikan";
-$locale['album_0014'] = "Album gambar telah ditambah";
-$locale['album_0015'] = "Sila isikan nama Album";
-$locale['album_0016'] = "Padam jejari album";
-// Gallery actions & front page (first tab)
-$locale['album_0020'] = "Aksi Album";
-$locale['album_0021'] = "Susun Naik";
-$locale['album_0022'] = "Susun Turun";
-$locale['album_0023'] = "Padam Album";
-$locale['album_0024'] = "Sunting Album";
-$locale['album_0025'] = "Perintah Album disusun naik";
-$locale['album_0026'] = "Perintah Album disusuan turun";
-$locale['album_0027'] = "Gambar didapati dalam kandungan album";
-$locale['album_0028'] = "Padam seluruh album";
-$locale['album_0029'] = "Pindah gambar album ke.. %s";
-$locale['album_0030'] = "Album dipadamkan";
-$locale['album_0031'] = "Gambar album dipindah ke %s";
-$locale['album_0032'] = "%d gambar di album dipadamkan";
-
-// Photo Form
-$locale['photo_0001'] = "Tajuk Gambar:";
-$locale['photo_0002'] = "Nama Gambar";
-$locale['photo_0003'] = "Album Gambar:";
-$locale['photo_0004'] = "Imej Gambar";
-$locale['photo_0005'] = "Kata Kunci Gambar:";
-$locale['photo_0006'] = $locale['album_0005']; // i put like this, and no dependencies.
-$locale['photo_0007'] = $locale['album_0006'];
-$locale['photo_0008'] = "Deskripsi Gambar";
-$locale['photo_0009'] = "Ringkasan tentang gambar";
-$locale['photo_0010'] = "Benarkan komen gambar?";
-$locale['photo_0011'] = "Benarkan penilaian gambar?";
-$locale['photo_0012'] = "Simpan Gambar";
-$locale['photo_0013'] = "Susunan Gambar";
-$locale['photo_0014'] = "Imej Gambar diperlukan";
-$locale['photo_0015'] = "Gambar telah dikemaskinikan";
-$locale['photo_0016'] = "Gambar telah ditambah";
-$locale['photo_0017'] = $locale['album_0010'];
-$locale['photo_0018'] = "Padam Gambar";
-$locale['photo_0019'] = "Anda boleh muat naik banyak gambar disini. Sila klik +Tambah Gambar dan terus pilih semua imej gambar-gambar. Klik butang muat naik gambar untuk memulakan muat naik gambar-gambar yang telah dipilihkan.";
-$locale['photo_0020'] = "Muat Naik Gambar";
-$locale['photo_0021'] = "%d gambar telah ditambah";
-$locale['photo_0021a'] = "%d gambah tidak dapat dimuatnaikkan kerana kesalahan";
-$locale['photo_0022'] = "Perintah gambar disusun naik";
-$locale['photo_0023'] = "Peintah gambar disusun turun";
-$locale['photo_0024'] = "Gambar dipadamkan";
-$locale['photo_0025'] = "Padam semua gambar";
-$locale['photo_0026'] = "<strong>NOTIS AMARAN:</strong> Pemadaman ini akan <strong>padam semua gambar</strong> di album ini. Adakah anda pasti?";
-$locale['photo_0027'] = "Mengesah Pemadaman";
-$locale['photo_0028'] = "Batal";
-
-
-// Submissions form
-$locale['gallery_0100'] = "Penyerahah Sumbangan Gambar";
-$locale['gallery_0101'] = "Terima kasih atas sumbangan gambar anda";
-$locale['gallery_0102'] = "Serah gambar lain";
-$locale['gallery_0103'] = $locale['photo_0003'];
-$locale['gallery_0104'] = $locale['photo_0001'];
-$locale['gallery_0105'] = $locale['photo_0005'];
-$locale['gallery_0106'] = $locale['album_0006'];
-$locale['gallery_0107'] = "Sila gunakan borang ini untuk menyerah gambar. Penyerahan anda akan dipastikan oleh Penyelia
-pengurusan sistem. ".fusion_get_settings('sitename')." memelihara semua hak untuk sunting penyerahan ini. Gambar
-perlu mamatuhi keperluan kandungan di situs ini. Penyerahan yang tidak berpatutan akan ditolak.";
-$locale['gallery_0106'] = $locale['photo_0008'];
-$locale['gallery_0109'] = $locale['photo_0004'];
-$locale['gallery_0110'] = $locale['photo_0014'];
-$locale['gallery_0111'] = "Serah Gambar";
-$locale['gallery_0112'] = "Maaf, kami tidak menerima penyerahan gambar di situs ini.";
-$locale['gallery_0113'] = "Kembali ke ".fusion_get_settings("sitename");
-
-// Submissions admin
-$locale['gallery_0150'] = "Tidak ada serahan gambar";
-$locale['gallery_0151'] = "Kini didapati %s serahan yang diperlukan penyeliaan anda.";
-$locale['gallery_0152'] = "Tajuk penyerahan untuk pemeriksaan";
-$locale['gallery_0153'] = "Pengarang Serahan";
-$locale['gallery_0154'] = "Masa Serahan";
-$locale['gallery_0155'] = "ID Serahan";
-$locale['gallery_0156'] = "Gambar diserahkan oleh ";
-$locale['gallery_0157'] = "Oleh ";
-$locale['gallery_0158'] = "Terbit Gambar";
-$locale['gallery_0159'] = "Padam Serahan";
-$locale['gallery_0160'] = "Serahan gambar telah diterbitkan";
-$locale['gallery_0161'] = "Serahan gambar dipadamkan";
-
-// Settings
-$locale['gallery_0200'] = "Benarkan serahan gambar?";
-$locale['gallery_0201'] = "Perlukan ringkasan gambar?";
-$locale['gallery_0202'] = "Jejari setiap halaman:";
-$locale['gallery_0203'] = "Saiz Jejari:";
+$locale['gallery_0007'] = "Serahan Galeri";
+$locale['gallery_0009'] = "Muat naik foto tunggal";
+$locale['gallery_0010'] = "Muat naik foto beramai";
+$locale['gallery_0012'] = "Tiada Album Foto ditakrifkan lagi. Anda perlu sekurang-kurangnya menambah satu kategori sebelum boleh tambah apa-apa Gambar. &lt;a href=&#039;%s&#039;&gt;Klik di sini&lt;/a&gt; untuk pergi untuk Album Foto";
+$locale['gallery_0013'] = "Pilihan Foto";
+$locale['gallery_0014'] = "Pindah Foto ke atas";
+$locale['gallery_0015'] = "Pindah Foto ke bawah";
+$locale['gallery_0017'] = "Padamkan foto";
+$locale['gallery_0018'] = "Kini memaparkan %d daripada %d jumlah album";
+$locale['gallery_0019'] = "Kini memaparkan %d daripada %d jumlah foto";
+$locale['gallery_0020'] = "Album dikemaskini";
+$locale['gallery_0021'] = "Akses album";
+$locale['gallery_0022'] = "Pengurusan Galeri";
+$locale['gallery_0023'] = "Ada jumlah %d album dan %d gambar di galeri. Galeri dikemaskini %s";
+$locale['gallery_0024'] = "Tiada album ditakrifkan.";
+$locale['gallery_0100'] = "Serahan Foto";
+$locale['gallery_0101'] = "Terima kasih untuk menyerahkan foto anda";
+$locale['gallery_0102'] = "Serah foto yang lain";
+$locale['gallery_0107'] = "Sila gunakan borang untuk membuat serahan Foto. Serahan anda akan disemak oleh Admin. [SITENAME] berhak untuk mengubah apa-apa penyerahan. Serahan yang tidak sesuai tidak akan diterima dan dipadamkan.";
+$locale['gallery_0111'] = "Serahkan Foto";
+$locale['gallery_0112'] = "Maaf, kami tidak menerima apa-apa penyerahan foto di laman web ini masa ini.";
+$locale['gallery_0113'] = "Kembali ke [SITENAME]";
+$locale['gallery_0150'] = "Tiada penyerahan foto pada masa ini";
+$locale['gallery_0151'] = "Pada masa ini terdapat %s menunggu untuk anda.";
+$locale['gallery_0152'] = "Tajuk penyerahan foto untuk diberi ulasan";
+$locale['gallery_0153'] = "Pengarang Penyerahan";
+$locale['gallery_0154'] = "Masa Penyerahan";
+$locale['gallery_0155'] = "Id Penyerahan";
+$locale['gallery_0156'] = "Foto ini diserahkan oleh";
+$locale['gallery_0157'] = "Diterbit oleh";
+$locale['gallery_0158'] = "Terbit Foto";
+$locale['gallery_0159'] = "Padam Sumbangan";
+$locale['gallery_0160'] = "Serahan Foto telah diterbitkan";
+$locale['gallery_0161'] = "Serahan Foto telah dipadamkan";
+$locale['gallery_0200'] = "Benarkan penyerahan foto?";
+$locale['gallery_0201'] = "Perlukan penerangan foto?";
+$locale['gallery_0202'] = "Gambar setiap halaman:";
+$locale['gallery_0203'] = "Saiz imej jari";
 $locale['gallery_0204'] = "lebar x tinggi";
-$locale['gallery_0205'] = "Saiz gambar:";
-$locale['gallery_0206'] = "Saiz maksimum gambar:";
-$locale['gallery_0207'] = "Fail saiz maks:";
-$locale['gallery_0208'] = "Warna tajuk cap air Album:";
-$locale['gallery_0209'] = "Warna deskripsi cap air Album:";
-$locale['gallery_0210'] = "Warna cap air tajuk gambar:";
-$locale['gallery_0211'] = "Padam gambar dicap air";
-$locale['gallery_0212'] = "Imej .png cap air";
-$locale['gallery_0213'] = "Benarkan ringkasan teks deskripsi gambar?";
-$locale['gallery_0214'] = "Benarkan cap air gambar?";
-$locale['gallery_0215'] = "Simpan gambar dicap air?";
-$locale['gallery_0216'] = "Simpan Penyelerasan";
-
-// Error Album messages
-$locale['635'] = "Album Galeri :";
-$locale['636'] = "Dimuat naik oleh:";
-$locale['637'] = "Tarikh tambahan:";
-$locale['638'] = "Nilai";
-$locale['639'] = "Komen";
-$locale['640'] = "Ringkasan Gambar:";
-$locale['641'] = "Bilangan Pandangan";
-$locale['642'] = "Penilaian";
-$locale['643'] = "Komen";
-$locale['644'] = "Dimensi";
-$locale['645'] = "Jenis Imej";
-$locale['646'] = "Saluran";
-$locale['647'] = "Bits";
-$locale['648'] = "ISO";
-$locale['649'] = "Pendedahan";
-$locale['650'] = "Aperture";
-$locale['651'] = "Kamera";
-$locale['652'] = "Model Kamera";
-$locale['655'] = "Kata Kunci:";
-$locale['660'] = "Tidak ada gambar didapati di album ini";
-$locale['702'] = "Gambar telah dimuat naik";
-$locale['703'] = "Gambar telah dikemaskinikan";
-
-
-// Photo Gallery Settings
-$locale['600'] = "Gallery";
-$locale['601'] = "Thumb size:";
-$locale['602'] = "Photo size:";
-$locale['603'] = "Maximum photo size:";
-$locale['604'] = "Width x Height";
-$locale['605'] = "Maximum file size (bytes):";
-$locale['606'] = "Thumb compression method";
-$locale['607'] = "GD1";
-$locale['608'] = "GD2";
-$locale['609'] = "Thumbs per row:";
-$locale['609b'] = "Thumbs per row (Admin):";
-$locale['610'] = "Thumbs per page:";
-$locale['611'] = "Enable photos watermark?";
-$locale['612'] = "Specify PNG watermark";
-$locale['613'] = "Enable text description on photos?";
-$locale['614'] = "Album title color";
-$locale['615'] = "Album description colour";
-$locale['616'] = "Photo title colour";
-$locale['617'] = "Save generated watermarks?";
-$locale['618'] = "Reduces server load; occupies more disk space";
-$locale['619'] = "Delete existing watermarks";
-$locale['620'] = "Delete existing watermarks?";
-$locale['621'] = "Upload Image";
+$locale['gallery_0205'] = "Saiz Foto";
+$locale['gallery_0206'] = "Saiz maksimum foto";
+$locale['gallery_0207'] = "Saiz maksimum fail foto";
+$locale['gallery_0208'] = "Warna tajuk watermak album";
+$locale['gallery_0209'] = "Warna penerangan watermark album";
+$locale['gallery_0210'] = "Warna tajuk watermark foto";
+$locale['gallery_0211'] = "Padamkan watermark semasa?";
+$locale['gallery_0212'] = "Tentukan imej watermark fail jenis .png";
+$locale['gallery_0213'] = "Aktifkan teks watermark di foto?";
+$locale['gallery_0214'] = "Aktifkan gambar watermark?";
+$locale['gallery_0215'] = "Simpan watermark yang dijana?";
+$locale['gallery_0216'] = "Simpan pengaturan Galeri";
+$locale['photo_0001'] = "Tajuk Foto";
+$locale['photo_0002'] = "Nama foto";
+$locale['photo_0003'] = "Album foto";
+$locale['photo_0004'] = "Imej Foto";
+$locale['photo_0005'] = "Kata kunci foto";
+$locale['photo_0008'] = "Penerangan foto";
+$locale['photo_0009'] = "Butir-butir foto";
+$locale['photo_0010'] = "Benarkan komen foto?";
+$locale['photo_0011'] = "Benarkan penilaian foto?";
+$locale['photo_0012'] = "Simpan Foto";
+$locale['photo_0013'] = "Susunan Foto";
+$locale['photo_0014'] = "Imej Foto diperlukan";
+$locale['photo_0015'] = "Foto telah dikemaskinikan";
+$locale['photo_0016'] = "Foto telah ditambah";
+$locale['photo_0019'] = "Anda boleh muat naik sebanyak 20 foto di sini. Klik +Tambah Foto dan tahan dan tarik di beberapa gambar untuk pilih imej. Klik Simpan Foto untuk memulai muat naik foto anda kemudian.";
+$locale['photo_0020'] = "Muat naik foto yang dipilih";
+$locale['photo_0021'] = "%d foto telah ditambah";
+$locale['photo_0021a'] = "%d foto tidak dapat dimuat naik kerana kesilapan";
+$locale['photo_0022'] = "Foto telah dipindah ke atas";
+$locale['photo_0023'] = "Foto telah dipindah ke bawah";
+$locale['photo_0024'] = "Foto telah dipadamkan";
+$locale['photo_0025'] = "Padamkan semua foto";
+$locale['photo_0026'] = "&lt;strong&gt;AMARAN:&lt;/strong&gt; Tindakan pamadaman ini &lt;strong&gt;memadam semua foto&lt;/kuat&gt; dalam album ini. Adakah anda yakin dengan ini?";
+$locale['photo_0027'] = "Mengesahkan Pemadaman";
+$locale['photo_0028'] = "Batal";

@@ -1,104 +1,101 @@
 <?php
-// Tajuk Kategori Laman Web
-$locale['402'] = "Kategori Pautan Laman Web";
-// Tajuk Pautan Web
-$locale['wl_0001'] = "Tambah Pautan Web";
-$locale['wl_0002'] = "Sunting Pautan Web";
-$locale['wl_0003'] = "Pautan Web Terkini";
-$locale['wl_0004'] = "Kategori Pautan Web";
-$locale['wl_0005'] = "Sunting Kategori Pautan Web";
-$locale['wl_0006'] = "Halaman pengaturan untuk Pautan Web";
-$locale['wl_0007'] = "Kini, terdapat %s sedia untuk pengesahan dan penerimaan anda.";
-$locale['wl_0008'] = "Tiada penyerahan Pautan Web";
-// Borang Pautan Web
-$locale['wl_0100'] = "Nama Pautan:";
-$locale['wl_0101'] = "Nama Situs";
-$locale['wl_0102'] = "Sila isikan nama pautan";
-$locale['wl_0103'] = "Butir-butir:";
-$locale['wl_0104'] = "URL Pautan Web:";
-$locale['wl_0105'] = "Kategori:";
-$locale['wl_0106'] = "Keterlihatan:";
-$locale['wl_0107'] = "Kemaskini tarikh penerbitan";
-$locale['wl_0108'] = "Simpan Pautan Web";
-// Pautan Web Terkini
-$locale['wl_0200'] = "Pautan Web";
-$locale['wl_0201'] = "Kategori";
-$locale['wl_0203'] = "URL";
-$locale['wl_0204'] = "Id Pautan Web";
-$locale['wl_0205'] = "Sunting";
-$locale['wl_0206'] = "Padam";
-$locale['wl_0207'] = "Tiada Pautan Web didapati";
-$locale['wl_0208'] = "Aksi Pautan Web";
-// Mesej Pautan Web
-$locale['wl_0300'] = "Pautan Web ditambah";
-$locale['wl_0301'] = "Pautan Web dikemaskini";
-$locale['wl_0302'] = "Pautan Web dipadam";
-$locale['wl_0303'] = "Padamkan Pautan Web ini?";
-// Mesej Kategori Pautan Web
-$locale['wl_0304'] = "Kategori Pautan Web ditambah";
-$locale['wl_0305'] = "Kategori Pautan Web dikemaskini";
-$locale['wl_0306'] = "Kategori Pautan Web dipadam";
-$locale['wl_0307'] = "Kategori Pautan Web tidak boleh dipadamkan";
-$locale['wl_0308'] = "Terdapat Pautan Web or Sub-Kategori yang disimpan dalam kategori ini";
-$locale['wl_0309'] = "Kategori ini telah didapati";
-$locale['wl_0310'] = "Padamkan kategori Pautan Web ini?";
-// Penapis
-$locale['wl_0400'] = "Carian Penapis";
-$locale['wl_0401'] = "Carian Penapis Kategori";
-$locale['wl_0402'] = "Semua Simpanan Pautan Web";
-// Borang Kategori Pautan Web
-$locale['wl_0700'] = "Nama Kategori:";
-$locale['wl_0701'] = "Sila isikan nama kategori";
-$locale['wl_0702'] = "Butir-butir Kategori:";
-$locale['wl_0703'] = "Dasar Kategori";
-$locale['wl_0704'] = "Susunan Kategori:";
-$locale['wl_0705'] = "ID Pautan Web";
-$locale['wl_0706'] = "Nama Pautan Web";
-$locale['wl_0707'] = "Masa Pautan Web";
-$locale['wl_0708'] = "Menaik";
-$locale['wl_0709'] = "Menurun";
-$locale['wl_0710'] = "Penyunting Kategori";
-$locale['wl_0711'] = "Simpan Kategori";
-$locale['536'] = "Tiada Pautan Web didapati";
-$locale['537'] = "Tiada Kategori Pautan Web didapati";
-$locale['538'] = "Anda mesti menambah sekurang-kurangnya satu kategori Pautan Web sebelum ini.";
-$locale['539'] = "Klik sini";
-$locale['540'] = " untuk menambah Kategori Pautan Web";
-// Penyerahan
-$locale['wl_0500'] = "Penyerahan Pautan Web";
-$locale['wl_0501'] = "Kini memaparkan %d daripada %d jumlah pautan web";
-$locale['wl_0503'] = "Tajuk Penyerahan";
-$locale['wl_0504'] = "Pengarang";
-$locale['wl_0505'] = "Masa";
-$locale['wl_0506'] = "ID";
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: weblinks_admin.php
+| Author: Frederick MC Chan
+| Last updated: Mar 07 2017
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
 
-$locale['wl_0507'] = "Penyerahan Pautan Web telah dipadamkan";
-$locale['wl_0508'] = "Terbit Pautan Web";
-$locale['wl_0509'] = "Penyerahan Pautan Web telah diterbitkan";
-$locale['wl_0510'] = "Penyerahan tersebut diserah oleh ";
-$locale['wl_0511'] = "Dipos oleh ";
-$locale['wl_0512'] = "Padam Penyerahan";
-// Awam
-$locale['wl_0800'] = "Penyerahan Pautan Web";
-// Serahan Pautan Web Berjaya
-$locale['wl_0801'] = "Terima Kasih atas sumbangan Pautan Web anda";
-$locale['wl_0802'] = "Serah Pautan sekali lagi";
-$locale['wl_0803'] = "Kembali ke [SITENAME]";
-// Borang Serahan Pautan Web
-$locale['wl_0804'] = "Guna borang ini untuk serahan Pautan Web. Pengesahan akan dibuat oleh Administrator situs selepas ini.
-[SITENAME] berhak untuk meminda atau mengubah sebarang penyerahan. Perkara
-hendaklah berpatutan dengan kandungan laman web ini. Hujahan yang tidak sesuai akan dipadamkan.";
-$locale['wl_0805'] = "Kategori Pautan Web:";
-$locale['wl_0806'] = "Nama Pautan Web:";
-$locale['wl_0807'] = "URL Pautan Web:";
-$locale['wl_0808'] = "Butir-butir Pautan:";
-$locale['wl_0809'] = "Harap Maaf, situs ini tidak dapat menerima sebarang serahan Pautan Web sementara ini.";
-// Settings
-$locale['wl_0600'] = "Pengaturan";
-$locale['wl_0601'] = "Benarkan Penyerahan Pautan Web?";
-$locale['wl_0602'] = "Perlukan Butir-butir Pautan Web?";
-$locale['601'] = "Pengaturan dikemaskinikan";
-$locale['602'] = "Pautan Web";
-$locale['603'] = "Bilangan Pautan setiap halaman";
-$locale['604'] = "Simpan Pengaturan";
-$locale['error_value'] = "Sila isikan nilai";
+$locale['WLS_0001'] = "Pautan Web";
+$locale['WLS_0002'] = "Tambah Pautan Web";
+$locale['WLS_0003'] = "Sunting Pautan Web";
+$locale['WLS_0004'] = "Kategori";
+$locale['WLS_0005'] = "Tambah Kategori";
+$locale['WLS_0006'] = "Sunting Kategori";
+$locale['WLS_0007'] = "Sumbangan";
+$locale['WLS_0008'] = "Pengaturan";
+$locale['WLS_0030'] = "Pautan Web berjaya ditambah";
+$locale['WLS_0031'] = "Pautan Web berjaya dikemaskinikan";
+$locale['WLS_0032'] = "Pautan Web berjaya dipadamkan";
+$locale['WLS_0034'] = "Anda perlu memilih sekurang kurangnya satu Pautan Web";
+$locale['WLS_0035'] = "Pautan Web telah diterbitkan";
+$locale['WLS_0036'] = "Serahan Pautan Web telah dipadamkan";
+$locale['WLS_0040'] = "Kategori berjaya ditambah";
+$locale['WLS_0041'] = "Kategori berjaya dikemaskini";
+$locale['WLS_0042'] = "Kategori berjaya dipadam";
+$locale['WLS_0043'] = "Kategori tidak boleh dipadam";
+$locale['WLS_0044'] = "Terdapat Pautan Web atau sub kategori dalam kategori ini";
+$locale['WLS_0045'] = "Kategori berjaya dikemaskini";
+$locale['WLS_0046'] = "Kategori tidak boleh dipadam";
+$locale['WLS_0048'] = "Anda harus memilih sekurang-kurangnya satu Kategori";
+$locale['WLS_0049'] = "Kategori berjaya diterbitkan";
+$locale['WLS_0050'] = "Serahan kategori telah dipadamkan";
+$locale['WLS_0060'] = "Serahan berjaya diterbitkan";
+$locale['WLS_0061'] = "Serahan berjaya dipadamkan";
+$locale['WLS_0062'] = "Tiada serahan Pautan Web pada masa ini.";
+$locale['WLS_0100'] = "Nama";
+$locale['WLS_0101'] = "Kategori";
+$locale['WLS_0102'] = "Status";
+$locale['WLS_0103'] = "Akses";
+$locale['WLS_0104'] = "Pengaturan";
+$locale['WLS_0111'] = "Padamkan Pautan Web ini?";
+$locale['WLS_0112'] = "Tiada Pautan Web ditakrifkan";
+$locale['WLS_0113'] = "Tiada Pautan Web yang sepadan dengan carian dan pilihan ini.";
+$locale['WLS_0114'] = "Anda perlu menambar sekurang-kurangnya satu kategori sebelum boleh menambar apa-apa Pautan Web.";
+$locale['WLS_0115'] = "Pautan Web telah diperiksa dan pautan yang rosak yang ditemukan %s.";
+$locale['WLS_0116'] = "Kemaskini status penerbitan";
+$locale['WLS_0120'] = "Subjek";
+$locale['WLS_0121'] = "Carian";
+$locale['WLS_0122'] = "Jelas";
+$locale['WLS_0123'] = "Pilih Status";
+$locale['WLS_0124'] = "Semua Status";
+$locale['WLS_0125'] = "Pilih Akses";
+$locale['WLS_0126'] = "Pilih Kategori";
+$locale['WLS_0127'] = "Semua Kategori";
+$locale['WLS_0128'] = "Pilih Bahasa";
+$locale['WLS_0129'] = "Semua Bahasa";
+$locale['WLS_0132'] = "Bilangan setiap halaman";
+$locale['WLS_0151'] = "Pautan Web";
+$locale['WLS_0161'] = "Padam kategori ini?";
+$locale['WLS_0162'] = "Tiada Kategori ditakrifkan";
+$locale['WLS_0200'] = "ID";
+$locale['WLS_0201'] = "Nama Pautan";
+$locale['WLS_0202'] = "Diserah oleh";
+$locale['WLS_0203'] = "Tarikh";
+$locale['WLS_0204'] = "Pilihan";
+$locale['WLS_0205'] = "Semakan Penyerahan";
+$locale['WLS_0252'] = "Nama Halaman Web";
+$locale['WLS_0253'] = "URL Pautan Web";
+$locale['WLS_0254'] = "Butir-butir";
+$locale['WLS_0255'] = "Sila masukkan penerangan";
+$locale['WLS_0259'] = "Kemaskini tarikh penerbitan";
+$locale['WLS_0260'] = "Maklumat lanjut";
+$locale['WLS_0261'] = "Mengesahkan Pautan Web";
+$locale['WLS_0270'] = "Anda mesti masukkan tajuk";
+$locale['WLS_0303'] = "Dasar";
+$locale['WLS_0320'] = "Anda perlu masukkan nama";
+$locale['WLS_0321'] = "Nama kategori ini telah didapati.";
+$locale['WLS_0322'] = "Anda mesti berikan butir-butir";
+$locale['WLS_0350'] = "Penyerahan telah dihantar oleh {%SUBMISSION_AUTHOR%}";
+$locale['WLS_0351'] = "Tarikh Serahan: {%SUBMISSION_TIME%}-{%SUBMISSION_DATE%}";
+$locale['WLS_0400'] = "Pengurusan untuk sistem Pautan Web.";
+$locale['WLS_0403'] = "Butir-butir Pautan Web diperlukan";
+$locale['WLS_0900'] = "Serahan Pautan Web";
+$locale['WLS_0910'] = "Pautan Web telah berjaya diserahkan.";
+$locale['WLS_0911'] = "Terima kasih atas penyerahan anda.";
+$locale['WLS_0912'] = "Serah Pautan lain";
+$locale['WLS_0913'] = "Kembali ke [SITENAME]";
+$locale['WLS_0920'] = "Sila gunakan borang untuk membuat serahan Pautan Web. Serahan anda akan disemak oleh Admin. [SITENAME] berhak untuk mengubah apa-apa penyerahan. Serahan yang tidak sesuai tidak akan diterima dan dipadamkan.";
+$locale['WLS_0922'] = "Maaf, kami tidak menerima apa-apa penyerahan Pautan Web pada masa ini.";
+$locale['WLS_0923'] = "Anda tidak boleh serah Pautan Web kerana tiada kategori ditakrifkan.";
