@@ -391,12 +391,12 @@ $locale['promote'] = "Promote";
 $locale['show'] = "Show";
 
 // Persons & Identifiers
-$locale['you'] = "You";
-$locale['me'] = "Me";
-$locale['they'] = "They";
-$locale['we'] = "We";
-$locale['us'] = "Us";
-$locale['he'] = "He";
+$locale['you'] = "Sen";
+$locale['me'] = "Ben";
+$locale['they'] = "Onlar";
+$locale['we'] = "Biz";
+$locale['us'] = "Biz";
+$locale['he'] = "O";
 $locale['she'] = "She";
 $locale['it'] = "It";
 
@@ -441,18 +441,18 @@ $locale['mark_as'] = "Mark As";
 $locale['preview'] = "Preview";
 $locale['custom'] = "Custom";
 // Alignment
-$locale['left'] = "Left";
-$locale['center'] = "Center";
-$locale['right'] = "Right";
+$locale['left'] = "Sol";
+$locale['center'] = "Merkez";
+$locale['right'] = "Sağ";
 // Comments and ratings
-$locale['comments'] = "Comments";
-$locale['ratings'] = "Ratings";
-$locale['comments_ratings'] = "Comments and Ratings";
-$locale['user_account'] = "User Account";
+$locale['comments'] = "Yorumlar";
+$locale['ratings'] = "Derecelendirmeler";
+$locale['comments_ratings'] = "Yorumlar ve Derecelendirmeler";
+$locale['user_account'] = "Kullanıcı Hesabı";
 $locale['about'] = "About";
 // User status
-$locale['online'] = "Online";
-$locale['offline'] = "Offline";
+$locale['online'] = "Çevrimiçi";
+$locale['offline'] = "Çevrimdışı";
 // Words for formatting to single and plural forms. Count of forms is language-dependent
 $locale['fmt_submission'] = "submission|submissions";
 $locale['fmt_article'] = "article|articles";
