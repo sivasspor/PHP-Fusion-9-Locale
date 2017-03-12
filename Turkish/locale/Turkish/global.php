@@ -1,7 +1,7 @@
 <?php
 /*
 *Turkish Language Fileset
-*Translated by ALTUN Web Site(www.alapelit.com/fusion)
+*Translated by ALTUN Web Site(http://www.alapelit.com/phpfusionturkey/home.php)
 */
 // Locale Settings
 setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
@@ -9,6 +9,7 @@ $locale['charset'] = "utf-8";
 $locale['region'] = "TR";
 $locale['xml_lang'] = "tr";
 $locale['tinymce'] = "tr";
+$locale['select2'] = "tr";
 $locale['phpmailer'] = "tr";
 $locale['datepicker'] = "tr";
 // Full & Short Months
@@ -28,7 +29,7 @@ $locale['minute'] = "dakika";
 $locale['minute_a'] = "dakika";
 $locale['second'] = "saniye";
 $locale['second_a'] = "saniye";
-$locale['just_now'] = "şimdi";
+$locale['just_now'] = "demin";
 $locale['ago'] = "önce";
 // Geo
 $locale['street1'] = "Adres 1";
@@ -77,6 +78,7 @@ $locale['userf1'] = "Moderatör";
 // Navigation
 $locale['global_001'] = "Ana Menü";
 $locale['global_002'] = "Hiçbir bağlantı tanımlanmamış\n";
+$locale['global_003'] = "Önizlenecek bir şey yok";
 // Users Online
 $locale['global_010'] = "Çevrimiçi Kullanıcılar";
 $locale['global_011'] = "Çevrimiçi Ziyaretçiler";
@@ -84,7 +86,7 @@ $locale['global_012'] = "Çevrimiçi Üyeler";
 $locale['global_013'] = "Çevrimiçi Üye Yok";
 $locale['global_014'] = "Toplam Üyeler";
 $locale['global_015'] = "Aktif Edilmemiş Üyeler";
-$locale['global_016'] = "Yeni Üye";
+$locale['global_016'] = "En Yeni Üye";
 // Forum Side panel
 $locale['global_020'] = "Forum Konuları";
 $locale['global_021'] = "Son Konular";
@@ -96,6 +98,7 @@ $locale['global_028'] = "Çözülmemiş Sorular";
 // Comments Side panel
 $locale['global_025'] = "Son Yorumlar";
 $locale['global_026'] = "Mevcut yorum yok";
+$locale['global_027'] = "Yorumlar güncellendi";
 // Articles Side panel
 $locale['global_030'] = "Son Makaleler";
 $locale['global_031'] = "Mevcut makale yok";
@@ -170,8 +173,8 @@ $locale['global_101c'] = "E-posta veya Kullanıcı Adı Girin";
 $locale['global_102'] = "Şifre";
 $locale['global_103'] = "Oturum açık kalsın";
 $locale['global_104'] = "Giriş Yap";
-$locale['global_105'] = "Henüz üye değilmisiniz? Kaydolmak için [LINK]buraya tıklayın[/LINK].";
-$locale['global_106'] = "[LINK]Şifreni mi unuttun?[/LINK]";
+$locale['global_105'] = "Henüz üye değilmisiniz? Kayıt olmak için [LINK]buraya tıklayın[/LINK].";
+$locale['global_106'] = "[LINK]Şifrenizi mi unuttunuz?[/LINK]";
 $locale['global_107'] = "Kayıt";
 $locale['global_108'] = "Kayıp şifre";
 // Member User Menu
@@ -186,24 +189,24 @@ $locale['global_127'] = "mesajlar";
 $locale['global_128'] = "submission";
 $locale['global_129'] = "submissions";
 // User Menu
-$locale['UM060'] = "Login";
-$locale['UM061'] = "Username";
-$locale['UM061a'] = "Email";
-$locale['UM061b'] = "Username or Email";
-$locale['UM062'] = "Password";
-$locale['UM063'] = "Remember Me";
-$locale['UM064'] = "Login";
-$locale['UM065'] = "Not a member yet? [LINK]Click here[/LINK] to register.";
-$locale['UM066'] = "Forgotten your password?\n[LINK]Request a new one[/LINK].";
-$locale['UM080'] = "Edit Profile";
-$locale['UM081'] = "Private Messages";
-$locale['UM082'] = "Members List";
-$locale['UM083'] = "Admin Panel";
-$locale['UM084'] = "Logout";
-$locale['UM085'] = "You have %u new ";
-$locale['UM086'] = "message";
-$locale['UM087'] = "messages";
-$locale['UM088'] = "Followed threads";
+$locale['UM060'] = "Giriş";
+$locale['UM061'] = "Kullanıcı Adı";
+$locale['UM061a'] = "E-posta";
+$locale['UM061b'] = "Kullanıcı Adı yada E-posta";
+$locale['UM062'] = "Şifre";
+$locale['UM063'] = "Beni Hatırla";
+$locale['UM064'] = "Giriş";
+$locale['UM065'] = "Henüz üye değilmisiniz? Kayıt olmak için [LINK]buraya tıklayın[/LINK].";
+$locale['UM066'] = "Şifrenizimi unuttunuz?\n[LINK]Yeni bir tane iste[/LINK].";
+$locale['UM080'] = "Profili Düzenle";
+$locale['UM081'] = "Özel Mesajlar";
+$locale['UM082'] = "Üyeler Listesi";
+$locale['UM083'] = "Yönetim Paneli";
+$locale['UM084'] = "Çıkış Yap";
+$locale['UM085'] = "Yeni %u var ";
+$locale['UM086'] = "mesaj";
+$locale['UM087'] = "mesajlar";
+$locale['UM088'] = "Takip edilen konular";
 // Submit (news, link, article)
 $locale['UM089'] = "Submit...";
 $locale['UM090'] = "Submit News";
@@ -320,8 +323,10 @@ $locale['global_465'] = "TB";
 //Safe Redirect
 $locale['global_500'] = "You are being redirected to %s, please wait. If you're not redirected, click here.";
 // Captcha Locales
-$locale['global_600'] = "Validation Code";
-$locale['recaptcha'] = "en";
+$locale['global_600'] = "Doğrulama Kodu";
+$locale['recaptcha'] = "tr";
+// Site links
+$locale['global_700'] = "Show More";
 //Miscellaneous
 $locale['global_900'] = "Unable to convert HEX to DEC";
 //Language Selection
@@ -331,97 +336,110 @@ $locale['global_ML102'] = "Site language";
 // Flood Control
 $locale['flood'] = "You are barred to post until the flood period cooldown is over. Please wait for %s.";
 $locale['no_image'] = "No Image";
-$locale['send_message'] = 'Send Message';
-$locale['go_profile'] = 'Go to %s Profile Page';
+$locale['send_message'] = "Send Message";
+$locale['go_profile'] = "Go to %s Profile Page";
 // Global one word locales
-$locale['hello'] = 'Hello!';
-$locale['goodbye'] = 'Goodbye!';
-$locale['welcome'] = 'Welcome back';
-$locale['home'] = 'Home';
+$locale['hello'] = "Hello!";
+$locale['goodbye'] = "Goodbye!";
+$locale['welcome'] = "Welcome back";
+$locale['home'] = "Home";
 // Status
-$locale['error'] = 'Error!';
-$locale['success'] = 'Success!';
-$locale['enable'] = 'Enable';
-$locale['disable'] = 'Disable';
-$locale['can'] = 'can';
-$locale['cannot'] = 'cannot';
-$locale['no'] = 'No';
-$locale['yes'] = 'Yes';
-$locale['off'] = 'Off';
-$locale['on'] = 'On';
-$locale['or'] = 'or';
-$locale['by'] = 'by';
-$locale['in'] = 'in';
-$locale['of'] = 'of';
+$locale['error'] = "Error!";
+$locale['success'] = "Success!";
+$locale['enable'] = "Enable";
+$locale['disable'] = "Disable";
+$locale['can'] = "can";
+$locale['cannot'] = "cannot";
+$locale['no'] = "No";
+$locale['yes'] = "Yes";
+$locale['off'] = "Off";
+$locale['on'] = "On";
+$locale['or'] = "or";
+$locale['by'] = "by";
+$locale['in'] = "in";
+$locale['of'] = "of";
 $locale['and'] = "and";
-$locale['na'] = 'Not available';
+$locale['na'] = "No information available";
 $locale['joined'] = "Joined since: ";
 // Navigation
-$locale['next'] = 'Next';
-$locale['previous'] = 'Previous';
-$locale['back'] = 'Back';
-$locale['forward'] = 'Forward';
-$locale['go'] = 'Go';
-$locale['cancel'] = 'Cancel';
+$locale['next'] = "Next";
+$locale['previous'] = "Previous";
+$locale['back'] = "Back";
+$locale['forward'] = "Forward";
+$locale['go'] = "Go";
+$locale['cancel'] = "Cancel";
 $locale['move_up'] = "Move up";
 $locale['move_down'] = "Move down";
 $locale['load_more'] = "Load more Items";
 $locale['load_end'] = "Load from Beginning";
 // Actions
-$locale['add'] = 'Add';
-$locale['save'] = 'Save';
-$locale['save_changes'] = 'Save Changes';
-$locale['confirm'] = 'Confirm';
-$locale['update'] = 'Update';
-$locale['updated'] = 'Updated';
-$locale['remove'] = 'Remove';
-$locale['delete'] = 'Delete';
-$locale['search'] = 'Search';
-$locale['help'] = 'Help';
-$locale['register'] = 'Register';
-$locale['ban'] = 'Ban';
-$locale['reactivate'] = 'Reactivate';
-$locale['user'] = 'User';
-$locale['promote'] = 'Promote';
-$locale['show'] = 'Show';
+$locale['add'] = "Add";
+$locale['save'] = "Save";
+$locale['save_changes'] = "Save Changes";
+$locale['confirm'] = "Confirm";
+$locale['update'] = "Update";
+$locale['updated'] = "Updated";
+$locale['remove'] = "Remove";
+$locale['delete'] = "Delete";
+$locale['search'] = "Search";
+$locale['help'] = "Help";
+$locale['register'] = "Register";
+$locale['ban'] = "Ban";
+$locale['reactivate'] = "Reactivate";
+$locale['user'] = "User";
+$locale['promote'] = "Promote";
+$locale['show'] = "Show";
+
+// Persons & Identifiers
+$locale['you'] = "You";
+$locale['me'] = "Me";
+$locale['they'] = "They";
+$locale['we'] = "We";
+$locale['us'] = "Us";
+$locale['he'] = "He";
+$locale['she'] = "She";
+$locale['it'] = "It";
+
 //Tables
-$locale['status'] = 'Status';
-$locale['order'] = 'Order';
-$locale['sort'] = 'Sort';
-$locale['id'] = 'ID';
-$locale['title'] = 'Title';
-$locale['rights'] = 'Rights';
-$locale['info'] = 'Info';
-$locale['image'] = 'Image';
+$locale['status'] = "Status";
+$locale['order'] = "Order";
+$locale['sort'] = "Sort";
+$locale['id'] = "ID";
+$locale['title'] = "Title";
+$locale['rights'] = "Rights";
+$locale['info'] = "Info";
+$locale['image'] = "Image";
 // Forms
-$locale['choose'] = 'Please Choose One...';
-$locale['no_opts'] = 'No selection';
-$locale['root'] = 'As Parent';
-$locale['choose-user'] = 'Please Choose a User...';
-$locale['choose-location'] = 'Please Choose a Location';
-$locale['parent'] = 'Create as New Parent..';
-$locale['order'] = 'Item Ordering';
-$locale['status'] = 'Status';
-$locale['note'] = 'Make a note of this item';
-$locale['publish'] = 'Published';
-$locale['unpublish'] = 'Unpublished';
-$locale['draft'] = 'Draft';
-$locale['settings'] = 'Settings';
-$locale['posted'] = 'posted';
-$locale['profile'] = 'Profile';
-$locale['edit'] = 'Edit';
-$locale['qedit'] = 'Quick Edit';
-$locale['view'] = 'View';
-$locale['login'] = 'Login';
-$locale['logout'] = 'Logout';
-$locale['admin-logout'] = 'Admin Logout';
-$locale['message'] = 'Private Messages';
-$locale['logged'] = 'Logged in as ';
-$locale['version'] = 'Version ';
-$locale['browse'] = 'Browse ...';
-$locale['close'] = 'Close';
-$locale['nopreview'] = 'There is nothing to Preview';
+$locale['choose'] = "Please Choose One...";
+$locale['no_opts'] = "No selection";
+$locale['root'] = "As Parent";
+$locale['choose-user'] = "Please Choose a User...";
+$locale['choose-location'] = "Please Choose a Location";
+$locale['parent'] = "Create as New Parent..";
+$locale['order'] = "Item Ordering";
+$locale['status'] = "Status";
+$locale['note'] = "Make a note of this item";
+$locale['publish'] = "Published";
+$locale['unpublish'] = "Unpublished";
+$locale['draft'] = "Draft";
+$locale['settings'] = "Settings";
+$locale['posted'] = "posted";
+$locale['profile'] = "Profile";
+$locale['edit'] = "Edit";
+$locale['qedit'] = "Quick Edit";
+$locale['view'] = "View";
+$locale['login'] = "Login";
+$locale['logout'] = "Logout";
+$locale['admin-logout'] = "Admin Logout";
+$locale['message'] = "Private Messages";
+$locale['logged'] = "Logged in as ";
+$locale['version'] = "Version ";
+$locale['browse'] = "Browse ...";
+$locale['close'] = "Close";
+$locale['nopreview'] = "There is nothing to Preview";
 $locale['mark_as'] = "Mark As";
+$locale['preview'] = "Preview";
+$locale['custom'] = "Custom";
 // Alignment
 $locale['left'] = "Left";
 $locale['center'] = "Center";
