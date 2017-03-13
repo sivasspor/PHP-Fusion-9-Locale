@@ -154,10 +154,10 @@ $locale['global_085'] = "Tüm Diğer Kategoriler";
 $locale['global_086'] = "En Son Haberler";
 $locale['global_087'] = "En Çok Yorumlanan Haberler";
 $locale['global_088'] = "En Yüksek Puanlanan Haberler";
-$locale['global_089'] = "Be the first to comment on %s";
-$locale['global_089a'] = "Be the first to rate on this %s";
+$locale['global_089'] = "Üzerinde ilk yorum yapan siz olun %s";
+$locale['global_089a'] = "Bunu ilk puanlayan siz olun %s";
 $locale['global_089b'] = "Thumb view";
-$locale['global_089c'] = "List view";
+$locale['global_089c'] = "Liste görünümü";
 // Page Navigation
 $locale['global_090'] = "Önceki";
 $locale['global_091'] = "Sonraki";
@@ -208,26 +208,26 @@ $locale['UM086'] = "mesaj";
 $locale['UM087'] = "mesajlar";
 $locale['UM088'] = "Takip edilen konular";
 // Submit (news, link, article)
-$locale['UM089'] = "Submit...";
-$locale['UM090'] = "Submit News";
-$locale['UM091'] = "Submit Link";
-$locale['UM092'] = "Submit Article";
-$locale['UM093'] = "Submit Photo";
-$locale['UM094'] = "Submit Download";
-$locale['UM095'] = "Submit Blog";
+$locale['UM089'] = "Gönder...";
+$locale['UM090'] = "Haber Gönder";
+$locale['UM091'] = "Bağlantı Gönder";
+$locale['UM092'] = "Makale Gönder";
+$locale['UM093'] = "Fotoğraf Gönder";
+$locale['UM094'] = "Dosya Gönder";
+$locale['UM095'] = "Blog Gönder";
 // User Panel
-$locale['UM096'] = "Welcome: ";
-$locale['UM097'] = "Personal menu";
-$locale['UM101'] = "Switch Language";
+$locale['UM096'] = "Hoşgeldiniz: ";
+$locale['UM097'] = "Kişisel menü";
+$locale['UM101'] = "Dili Değiştir";
 // Gauges
-$locale['UM098'] = "PM Inbox :";
-$locale['UM099'] = "PM Outbox :";
-$locale['UM100'] = "PM Archive :";
+$locale['UM098'] = "ÖM Gelen Kutusu :";
+$locale['UM099'] = "ÖM Giden Kutusu :";
+$locale['UM100'] = "ÖM Arşivi :";
 // Keywords and Meta
-$locale['tags'] = "Tags";
+$locale['tags'] = "Etiketler";
 // Captcha
-$locale['global_150'] = "Validation Code:";
-$locale['global_151'] = "Enter Validation Code:";
+$locale['global_150'] = "Doğrulama Kodu:";
+$locale['global_151'] = "Doğrulama Kodunu Giriniz:";
 // Footer Counter
 $locale['global_170'] = "unique visit";
 $locale['global_171'] = "unique visits";
@@ -236,27 +236,27 @@ $locale['global_173'] = "Queries";
 $locale['global_174'] = "Memory used";
 $locale['global_175'] = "Average: %s seconds";
 // Admin Navigation
-$locale['global_180'] = "Admin Home";
-$locale['global_181'] = "Return to Site";
-$locale['global_182'] = "Admin Password not entered or incorrect.";
+$locale['global_180'] = "Yönetim Ana Sayfası";
+$locale['global_181'] = "Siteye Dön";
+$locale['global_182'] = "Yönetici Şifresi girilmemiş veya yanlış.";
 // Miscellaneous
-$locale['global_190'] = "Maintenance Mode Activated";
-$locale['global_191'] = "Your IP address is currently blacklisted.";
-$locale['global_192'] = "Your login session has expired. Please log in again to proceed.";
-$locale['global_193'] = "Could not set document cookie. Please make sure you have cookies enabled to be able to log in properly.";
-$locale['global_194'] = "This account is currently suspended.";
-$locale['global_195'] = "This account has not been activated.";
-$locale['global_196'] = "Invalid username or password.";
+$locale['global_190'] = "Bakım Modu Etkinleştirildi";
+$locale['global_191'] = "IP adresiniz şu anda kara listeye alındı.";
+$locale['global_192'] = "Giriş oturumunuzun süresi doldu. Devam etmek için lütfen tekrar giriş yapın.";
+$locale['global_193'] = "Belge çerezi ayarlanmamış olabilir. Lütfen doğru şekilde oturum açabilmek için çerezlerin etkin olduğundan emin olun.";
+$locale['global_194'] = "Bu hesap şu anda askıya alındı.";
+$locale['global_195'] = "Bu hesap etkinleştirilmedi.";
+$locale['global_196'] = "Geçersiz kullanıcı adı veya şifre.";
 
-$locale['global_197'] = "Please wait while we transfer you...\n\n[ [LINK]Or click here if you do not wish to wait[/LINK] ]";
+$locale['global_197'] = "Sizi aktarmamız sırasında lütfen bekleyin...\n\n[ [LINK]Yada beklemek istemiyorsanız buraya tıklayın[/LINK] ]";
 
-$locale['global_198'] = "WARNING: INSTALLER DETECTED, PLEASE DELETE THE /INSTALL/ FOLDER IMMEDIATELY.";
-$locale['global_199'] = "WARNING: admin password not set, click [LINK]Edit Profile[/LINK] to set it.";
+$locale['global_198'] = "UYARI: YÜKLEYİCİ ALGILANDI, LÜTFEN /INSTALL/ KLASÖRÜNÜ HEMEN SİLİNİZ.";
+$locale['global_199'] = "UYARI: Yönetici şifresi ayarlanmadı, ayarlamak için [LINK]Profili Düzenle[/LINK] bağlantısına tıklayınız.";
 //Titles
 $locale['global_200'] = " - ";
 $locale['global_201'] = ": ";
-$locale['global_202'] = " - Search";
-$locale['global_203'] = " - FAQ";
+$locale['global_202'] = " - Arama";
+$locale['global_203'] = " - SSS";
 $locale['global_204'] = " - Forum";
 //Themes
 $locale['global_210'] = "Skip to content";
@@ -326,40 +326,40 @@ $locale['global_500'] = "You are being redirected to %s, please wait. If you're 
 $locale['global_600'] = "Doğrulama Kodu";
 $locale['recaptcha'] = "tr";
 // Site links
-$locale['global_700'] = "Show More";
+$locale['global_700'] = "Daha Fazla Göster";
 //Miscellaneous
 $locale['global_900'] = "Unable to convert HEX to DEC";
 //Language Selection
-$locale['global_ML100'] = "Language:";
-$locale['global_ML101'] = "- Select Language -";
-$locale['global_ML102'] = "Site language";
+$locale['global_ML100'] = "Dil:";
+$locale['global_ML101'] = "- Dil Seçiniz -";
+$locale['global_ML102'] = "Site dili";
 // Flood Control
 $locale['flood'] = "You are barred to post until the flood period cooldown is over. Please wait for %s.";
-$locale['no_image'] = "No Image";
-$locale['send_message'] = "Send Message";
-$locale['go_profile'] = "Go to %s Profile Page";
+$locale['no_image'] = "Resim Yok";
+$locale['send_message'] = "Mesaj Gönder";
+$locale['go_profile'] = "%s Profil Sayfasına Git";
 // Global one word locales
-$locale['hello'] = "Hello!";
-$locale['goodbye'] = "Goodbye!";
-$locale['welcome'] = "Welcome back";
-$locale['home'] = "Home";
+$locale['hello'] = "Merhaba!";
+$locale['goodbye'] = "Hoşça kal!";
+$locale['welcome'] = "Geri hoşgeldiniz";
+$locale['home'] = "Ana Sayfa";
 // Status
-$locale['error'] = "Error!";
-$locale['success'] = "Success!";
-$locale['enable'] = "Enable";
+$locale['error'] = "Hata!";
+$locale['success'] = "Başarı!";
+$locale['enable'] = "Etkinleştir";
 $locale['disable'] = "Disable";
 $locale['can'] = "can";
 $locale['cannot'] = "cannot";
-$locale['no'] = "No";
-$locale['yes'] = "Yes";
-$locale['off'] = "Off";
-$locale['on'] = "On";
+$locale['no'] = "Hayır";
+$locale['yes'] = "Evet";
+$locale['off'] = "Kapalı";
+$locale['on'] = "Açık";
 $locale['or'] = "or";
 $locale['by'] = "by";
 $locale['in'] = "in";
 $locale['of'] = "of";
 $locale['and'] = "and";
-$locale['na'] = "No information available";
+$locale['na'] = "Bilgi bulunmamaktadır";
 $locale['joined'] = "Joined since: ";
 // Navigation
 $locale['next'] = "Next";
