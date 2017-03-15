@@ -1,7 +1,7 @@
 <?php
 /*
 *Turkish Language Fileset
-*Translated by ALTUN Web Site(http://www.alapelit.com/phpfusionturkey/home.php)
+*Translated by ALTUN Web Site(http://www.phpfusionturkey.alapelit.com/home.php)
 */
 // Locale Settings
 setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
