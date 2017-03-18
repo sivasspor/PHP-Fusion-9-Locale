@@ -91,6 +91,7 @@ $locale['global_013'] = "Çevrimiçi Üye Yok";
 $locale['global_014'] = "Toplam Üyeler";
 $locale['global_015'] = "Aktif Edilmemiş Üyeler";
 $locale['global_016'] = "En Yeni Üye";
+$locale['global_017'] = "Toggle Navigation";
 // Forum Side panel
 $locale['global_020'] = "Forum Konuları";
 $locale['global_021'] = "Son Konular";
@@ -102,7 +103,6 @@ $locale['global_028'] = "Çözülmemiş Sorular";
 // Comments Side panel
 $locale['global_025'] = "Son Yorumlar";
 $locale['global_026'] = "Mevcut yorum yok";
-$locale['global_027'] = "Yorumlar güncellendi";
 // Articles Side panel
 $locale['global_030'] = "Son Makaleler";
 $locale['global_031'] = "Mevcut makale yok";
@@ -144,7 +144,7 @@ $locale['global_073b'] = " Yorum";
 $locale['global_074'] = " Okunma";
 $locale['global_074b'] = " Okunma";
 $locale['global_075'] = "Yazdır";
-$locale['print'] = 'Yazdır';
+$locale['print'] = "Yazdır";
 $locale['global_076'] = "Düzenle";
 $locale['global_077'] = "Haberler";
 $locale['global_078'] = "Henüz hiçbir Haber gönderilmemiş";
@@ -181,6 +181,7 @@ $locale['global_105'] = "Henüz üye değilmisiniz? Kayıt olmak için [LINK]bur
 $locale['global_106'] = "[LINK]Şifrenizi mi unuttunuz?[/LINK]";
 $locale['global_107'] = "Kayıt";
 $locale['global_108'] = "Kayıp şifre";
+$locale['global_109'] = "Kaydol";
 // Member User Menu
 $locale['global_120'] = "Profil Sayfanızı Özelleştirin";
 $locale['global_121'] = "Özel Mesajlar";
@@ -202,6 +203,7 @@ $locale['UM063'] = "Beni Hatırla";
 $locale['UM064'] = "Giriş";
 $locale['UM065'] = "Henüz üye değilmisiniz? Kayıt olmak için [LINK]buraya tıklayın[/LINK].";
 $locale['UM066'] = "Şifrenizimi unuttunuz?\n[LINK]Yeni bir tane iste[/LINK].";
+$locale['UM067'] = "(Herkese açık veya paylaşılan bir bilgisayarda önerilmez)";
 $locale['UM080'] = "Profili Düzenle";
 $locale['UM081'] = "Özel Mesajlar";
 $locale['UM082'] = "Üyeler Listesi";
@@ -219,6 +221,7 @@ $locale['UM092'] = "Makale Gönder";
 $locale['UM093'] = "Fotoğraf Gönder";
 $locale['UM094'] = "Dosya Gönder";
 $locale['UM095'] = "Blog Gönder";
+$locale['UM102'] = "SSS Gönder";
 // User Panel
 $locale['UM096'] = "Hoşgeldiniz: ";
 $locale['UM097'] = "Kişisel menü";
@@ -235,10 +238,11 @@ $locale['global_151'] = "Doğrulama Kodunu Giriniz:";
 // Footer Counter
 $locale['global_170'] = "unique visit";
 $locale['global_171'] = "unique visits";
-$locale['global_172'] = "Render time: %s seconds";
-$locale['global_173'] = "Queries";
-$locale['global_174'] = "Memory used";
-$locale['global_175'] = "Average: %s seconds";
+$locale['global_172'] = "Oluşturma süresi: %s saniye";
+$locale['global_173'] = "Sorgular";
+$locale['global_174'] = "Kullanılan hafıza";
+$locale['global_175'] = "Ortalama: %s saniye";
+$locale['global_176'] = "Gizlilik Politikası";
 // Admin Navigation
 $locale['global_180'] = "Yönetim Ana Sayfası";
 $locale['global_181'] = "Siteye Dön";
@@ -251,10 +255,8 @@ $locale['global_193'] = "Belge çerezi ayarlanmamış olabilir. Lütfen doğru �
 $locale['global_194'] = "Bu hesap şu anda askıya alındı.";
 $locale['global_195'] = "Bu hesap etkinleştirilmedi.";
 $locale['global_196'] = "Geçersiz kullanıcı adı veya şifre.";
-
 $locale['global_197'] = "Sizi aktarmamız sırasında lütfen bekleyin...\n\n[ [LINK]Yada beklemek istemiyorsanız buraya tıklayın[/LINK] ]";
-
-$locale['global_198'] = "UYARI: YÜKLEYİCİ ALGILANDI, LÜTFEN /INSTALL/ KLASÖRÜNÜ HEMEN SİLİNİZ.";
+$locale['global_198'] = "UYARI: YÜKLEYİCİ ALGILANDI, LÜTFEN INSTALL-PHP DOSYASINI HEMEN SİLİNİZ.";
 $locale['global_199'] = "UYARI: Yönetici şifresi ayarlanmadı, ayarlamak için [LINK]Profili Düzenle[/LINK] bağlantısına tıklayınız.";
 //Titles
 $locale['global_200'] = " - ";
@@ -309,14 +311,12 @@ $locale['global_454'] = "Account reactivated at [SITENAME]";
 $locale['global_455'] = "Hello USER_NAME,\n
 Last time you logged in your account was reactivated at [SITEURL] and your account is no longer marked as inactive.\n\n
 Regards,\n[SITEUSERNAME]";
-
 $locale['global_456'] = "New password notification for [SITENAME]";
 $locale['global_457'] = "Hi USER_NAME,
 \n\nA new password has been set for your account at [SITENAME]. Please find the enclosed new login details:\n\n
 Username: USER_NAME\nPassword: [PASSWORD]\n\nRegards,\n[SITEUSERNAME]";
 $locale['global_458'] = "New password has been set for USER_NAME";
 $locale['global_459'] = "New password has been set for USER_NAME, and email was not sent. Please ensure to tell the user of the new details.";
-
 // Function parsebytesize()
 $locale['global_460'] = "Empty";
 $locale['global_461'] = "Bytes";
@@ -328,15 +328,18 @@ $locale['global_465'] = "TB";
 $locale['global_500'] = "You are being redirected to %s, please wait. If you're not redirected, click here.";
 // Captcha Locales
 $locale['global_600'] = "Doğrulama Kodu";
+$locale['global_601'] = "Doğru bir doğrulama kodu girmelisiniz";
 $locale['recaptcha'] = "tr";
 // Site links
 $locale['global_700'] = "Daha Fazla Göster";
 //Miscellaneous
 $locale['global_900'] = "Unable to convert HEX to DEC";
+$locale['global_901'] = "Medya Ekle";
 //Language Selection
 $locale['global_ML100'] = "Dil:";
 $locale['global_ML101'] = "- Dil Seçiniz -";
 $locale['global_ML102'] = "Site dili";
+$locale['global_ML103'] = "Dili Değiştir";
 // Flood Control
 $locale['flood'] = "You are barred to post until the flood period cooldown is over. Please wait for %s.";
 $locale['no_image'] = "Resim Yok";
@@ -372,6 +375,8 @@ $locale['back'] = "Back";
 $locale['forward'] = "Forward";
 $locale['go'] = "Go";
 $locale['cancel'] = "Cancel";
+$locale['clear'] = "Clear";
+$locale['move'] = "Move";
 $locale['move_up'] = "Move up";
 $locale['move_down'] = "Move down";
 $locale['load_more'] = "Load more Items";
@@ -380,6 +385,7 @@ $locale['load_end'] = "Load from Beginning";
 $locale['add'] = "Add";
 $locale['save'] = "Save";
 $locale['save_changes'] = "Save Changes";
+$locale['save_and_close'] = "Save and Close";
 $locale['confirm'] = "Confirm";
 $locale['update'] = "Update";
 $locale['updated'] = "Updated";
@@ -393,7 +399,8 @@ $locale['reactivate'] = "Reactivate";
 $locale['user'] = "User";
 $locale['promote'] = "Promote";
 $locale['show'] = "Show";
-
+$locale['actions'] = "Eylemler";
+$locale['language'] = "Dil";
 // Persons & Identifiers
 $locale['you'] = "Sen";
 $locale['me'] = "Ben";
@@ -403,7 +410,6 @@ $locale['us'] = "Biz";
 $locale['he'] = "O";
 $locale['she'] = "She";
 $locale['it'] = "It";
-
 //Tables
 $locale['status'] = "Status";
 $locale['order'] = "Order";
@@ -425,6 +431,8 @@ $locale['status'] = "Status";
 $locale['note'] = "Make a note of this item";
 $locale['publish'] = "Published";
 $locale['unpublish'] = "Unpublished";
+$locale['sticky'] = "Sticky";
+$locale['unsticky'] = "Unsticky";
 $locale['draft'] = "Draft";
 $locale['settings'] = "Settings";
 $locale['posted'] = "posted";
@@ -488,5 +496,6 @@ $locale['fmt_views'] = "view|views";
 $locale['fmt_weblink'] = "weblink|weblinks";
 $locale['fmt_week'] = "week|weeks";
 $locale['fmt_year'] = "year|years";
+$locale['fmt_points'] = "point|points";
 // include Defender locales
 include __DIR__."/defender.php";
