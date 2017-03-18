@@ -1,9 +1,12 @@
 <?php
-/*
-*Turkish Language Fileset
-*Translated by ALTUN Web Site(http://www.phpfusionturkey.alapelit.com/home.php)
-*/
-// Locale Settings
+/**
+ * Turkish Locale
+ *
+ * @locale select2      refer to path includes/dynamics/assets/select2/select2_locale_tr.js
+ * @locale tinymce      refer to path includes/jscripts/tinymce/langs/tr.js
+ * @package locale/Turkish
+ * @Translated by ALTUN Web Site(http://www.phpfusionturkey.alapelit.com)
+ */
 setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "TR";
@@ -12,6 +15,7 @@ $locale['tinymce'] = "tr";
 $locale['select2'] = "tr";
 $locale['phpmailer'] = "tr";
 $locale['datepicker'] = "tr";
+$locale['password_strength'] = "tr";
 // Full & Short Months
 $locale['months'] = "&nbsp|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık";
 $locale['shortmonths'] = "&nbsp|Ock|Şbt|Mar|Nis|May|Haz|Tem|Ağus|Eyl|Eki|Kas|Arlk";
