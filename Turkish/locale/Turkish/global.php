@@ -2,8 +2,12 @@
 /**
  * Turkish Locale
  *
- * @locale select2      refer to path includes/dynamics/assets/select2/select2_locale_tr.js
- * @locale tinymce      refer to path includes/jscripts/tinymce/langs/tr.js
+ * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
+ * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
+ * @locale tinymce           refer to path includes/jscripts/tinymce/langs/tr.js
+ * @locale select2           refer to path includes/dynamics/assets/select2/select2_locale_tr.js
+ * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
+ * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
  * @package locale/Turkish
  * @Translated by ALTUN Web Site(http://www.phpfusionturkey.alapelit.com)
  */
@@ -11,10 +15,13 @@ setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "TR";
 $locale['xml_lang'] = "tr";
+$locael['short_lang_name'] = "tr";
 $locale['tinymce'] = "tr";
 $locale['select2'] = "tr";
 $locale['phpmailer'] = "tr";
 $locale['datepicker'] = "tr";
+$locale['datepicker_js'] = "M-DD-YYYY, H:mm:ss";
+$locale['datepicker_php'] = "m-d-Y H:i:s";
 $locale['password_strength'] = "tr";
 // Full & Short Months
 $locale['months'] = "&nbsp|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık";
