@@ -9,4 +9,4 @@ $locale['sept_007'] = "Новини";
 $locale['sept_008'] = "Галерея";
 $locale['sept_009'] = "Форум";
 $locale['sept_010'] = "Завантаження";
-$locale['sept_011'] = "";
+$locale['sept_011'] = "Використано HTML5 та CSS3";
