@@ -1,28 +1,28 @@
 <?php
 // Member Management Options
-$locale['400'] = "User Management";
-$locale['401'] = "User";
-$locale['402'] = "Add New Member";
-$locale['403'] = "User Type";
-$locale['404'] = "Options";
-$locale['405'] = "View";
-$locale['406'] = "Edit";
-$locale['407'] = "Activate";
-$locale['408'] = "Unban";
-$locale['409'] = "Ban";
-$locale['410'] = "Delete";
+$locale['400'] = "Kullanıcı Yönetimi";
+$locale['401'] = "Kullanıcı";
+$locale['402'] = "Yeni Üye Ekle";
+$locale['403'] = "Kullanıcı Tipi";
+$locale['404'] = "Seçenekler";
+$locale['405'] = "Görüntüle";
+$locale['406'] = "Düzenle";
+$locale['407'] = "Aktif et";
+$locale['408'] = "Banı kaldır";
+$locale['409'] = "Banla";
+$locale['410'] = "Sil";
 $locale['411'] = "There are no %s members";
-$locale['412'] = " beginning with ";
+$locale['412'] = " ile başlayan ";
 $locale['413'] = " matching ";
 $locale['414'] = "Show All";
 $locale['415'] = "Search for member:";
-$locale['416'] = "Search";
+$locale['416'] = "Arama";
 $locale['417'] = "Select Action";
-$locale['418'] = "Cancel";
+$locale['418'] = "İptal";
 $locale['419'] = "Reinstate";
 // Ban/Unban/Delete Member
 $locale['420'] = "Ban Imposed";
-$locale['421'] = "Ban Removed";
+$locale['421'] = "Ban Keldırıldı";
 $locale['422'] = "Member Deleted";
 $locale['423'] = "Are you sure you wish to delete this member?";
 $locale['424'] = "Member Activated";
