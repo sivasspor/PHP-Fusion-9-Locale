@@ -1,24 +1,16 @@
 <?php
-$locale['400'] = "Lost Password";
-$locale['401'] = "A confirmation email has been sent to your email address.";
-$locale['402'] = "Your new password has been sent to your email address.";
-$locale['403'] = "Return to Main Site";
-$locale['404'] = "The email address you specified could not be found.";
-$locale['405'] = "The email address you specified is invalid.";
-$locale['406'] = "Please try again.";
-$locale['407'] = "Please enter the email address your account is registered with below.<br />
-A new password will be created and sent to this address.";
-$locale['408'] = "Send Password";
-$locale['409'] = "New password for ";
-$locale['410'] = "Hello [USER_NAME],\n
-You have or someone has requested a new password to access your ".fusion_get_settings('sitename')." account.\n
-To change your password please click the following link:\n
-[NEW_PASS_LINK]\n
-Regards,
-".fusion_get_settings('siteusername');
-$locale['411'] = "Hello [USER_NAME],\n
-Your new password to access your ".fusion_get_settings('sitename')." account is:\n
-[NEW_PASS]\n
-Regards,
-".fusion_get_settings('siteusername');
-$locale['412'] = "There was an error, please try again.";
+$locale['400'] = "Kayıp Şifre";
+$locale['401'] = "E-posta adresinize bir onay e-postası gönderildi.";
+$locale['402'] = "Yeni şifreniz e-posta adresinize gönderildi.";
+$locale['403'] = "Ana Sayfaya Geri Dön";
+$locale['404'] = "Belirttiğiniz e-posta adresi bulunamadı.";
+$locale['405'] = "Belirttiğiniz e-posta adresi geçersiz.";
+$locale['406'] = "Lütfen tekrar deneyin.";
+$locale['407'] = "Lütfen hesabınıza kayıtlı olan e-posta adresini aşağıya girin.\nYeni bir şifre oluşturulacak ve bu adrese gönderilecektir.";
+$locale['408'] = "Şifre Gönder";
+$locale['409'] = "Yeni şifre talebi ";
+$locale['410'] = "Merhaba [USER_NAME],\nSiz veya birisi [SITENAME] hesabınıza erişebilmek için yeni bir şifre isteğinde bulundu.\n
+Şifrenizi değiştirmek için lütfen aşağıdaki bağlantıyı tıklayın:\n[NEW_PASS_LINK]\n\nSaygılarımızla,\n[SITEUSERNAME]";
+$locale['411'] = "Merhaba [USER_NAME],\n[SITENAME] hesabınıza erişmek için yeni şifreniz:\n
+[NEW_PASS]\n\nSaygılarımızla,\n[SITEUSERNAME]";
+$locale['412'] = "Bir hata oluştu, lütfen tekrar deneyin.";
