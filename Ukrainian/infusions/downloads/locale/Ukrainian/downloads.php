@@ -21,10 +21,10 @@ $locale['download_1020'] = "Розмір";
 $locale['download_1021'] = "Дата публікації";
 
 // filters
-$locale['download_2001'] = "Найбільш коментоване";
-$locale['download_2002'] = "Останнє додане";
-$locale['download_2003'] = "Найчастіше завантажуване";
-$locale['download_2004'] = "Має найвищу оцінку";
+$locale['download_2001'] = "За коментарями";
+$locale['download_2002'] = "За датою";
+$locale['download_2003'] = "За популярністю";
+$locale['download_2004'] = "За оцінками";
 
 // errors
 $locale['download_3000'] = "Завантаження відсутні";
