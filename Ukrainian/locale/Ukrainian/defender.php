@@ -16,6 +16,7 @@ $locale['df_error_text'] = "Зверніть увагу, в полі %s поми
 $locale['error_invalid_theme'] = "Будь ласка, виберіть коректну тему оформлення";
 $locale['error_input_checkbox'] = "Будь ласка, позначте цей пункт";
 $locale['error_input_file'] = "Будь ласка, виберіть коректний файл";
+$locale['error_secure_file'] = "Завантажений файл заблоковано з міркувань безпеки (підозра на шкідливий вміст).";
 
 // Admin Login
 $locale['cookie_title'] = "Термін дії сесії вичерпано";
@@ -65,6 +66,8 @@ $locale['df_300'] = "Натисніть, щоб додати файли";
 $locale['df_301'] = "Натисніть, щоб додати зображення";
 $locale['df_302'] = "Натисніть, щоб додати відеодані";
 $locale['df_303'] = "Натисніть, щоб додати аудіодані";
+$locale['df_304'] = "Видалити вибране";
+
 $locale['df_400'] = "Некоректні символи в %s.";
 $locale['df_401'] = "Електронна адреса %s некоректна.";
 $locale['df_402'] = "Пароль %s некоректний.";
@@ -88,6 +91,7 @@ $locale['grecaptcha_desc'] = "Поле для Google Recaptcha";
 $locale['grecaptcha_placeholder_1'] = "SITE KEY від Google";
 $locale['grecaptcha_placeholder_2'] = "SECRET-KEY від Google";
 $locale['no_keys'] = "Здається, Ви ще не маєте жодного ключа. Зареєструйтесь та [RECAPTCHA_LINK]отримайте публічного ключа тут[/RECAPTCHA_LINK]";
+// here
 //$locale['review_keys'] = "<a href='https://www.google.com/recaptcha/admin' target='_BLANK'><button class='button'>Переглянути Ваші ключі для Google reCAPTCHA</button></a>";
 $locale['grecaptcha_0100'] = "Публічний ключ";
 $locale['grecaptcha_0101'] = "Приватний ключ";

@@ -9,12 +9,15 @@ E-mail: koot2007@gmail.com
 setlocale(LC_TIME, 'uk_UA.utf8'); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "UA";
-$locale['xml_lang'] = "ua";
+$locale['xml_lang'] = "uk";
+$locale['short_lang_name'] = "uk";
 $locale['tinymce'] = "uk";
-$locale['select2'] = "ua";
-$locale['phpmailer'] = "ua";
+$locale['select2'] = "uk";
+$locale['phpmailer'] = "uk";
 $locale['datepicker'] = "uk_UA";
-$locale['password_strength'] = "ua";
+$locale['datepicker_js'] = "M-DD-YYYY H:mm:ss";
+$locale['datepicker_php'] = "m-d-Y H:i:s";
+$locale['password_strength'] = "uk";
 
 // Full & Short Months
 $locale['months'] = "&nbsp;|Січень|Лютий|Березень|Квітень|Травень|Червень|Липень|Серпень|Вересень|Жовтень|Листопад|Грудень";
@@ -201,6 +204,7 @@ $locale['global_106'] = "Не пам&lsquo;ятаєте пароль?\n
 [LINK]Відновити[/LINK]";
 $locale['global_107'] = "Реєстрація на сайті";
 $locale['global_108'] = "Відновлення паролю";
+$locale['global_109'] = "Реєстрація";
 
 // Member User Menu
 $locale['global_120'] = "Профіль";
@@ -227,6 +231,7 @@ $locale['UM065'] = "Ще не зареєстровані?\n
 [LINK]Зареєструватися[/LINK]";
 $locale['UM066'] = "Не пам&lsquo;ятаєте пароль?\n
 [LINK]Відновити[/LINK]";
+$locale['UM067'] = "(не рекомендовано при використанні чужого або загальнодоступного комп&lsquo;ютера)";
 $locale['UM080'] = "Профіль";
 $locale['UM081'] = "Приватні повідомлення";
 $locale['UM082'] = "Користувачі";
@@ -393,6 +398,7 @@ $locale['global_901'] = "Додати медіадані";
 $locale['global_ML100'] = "Мова:";
 $locale['global_ML101'] = "- виберіть мову -";
 $locale['global_ML102'] = "Мова сайту";
+$locale['global_ML103'] = "Змінити мову";
 
 // Flood Control
 $locale['flood'] = "Нові публікації заблоковані до завершення встановленого часу контролю за флудом. Будь ласка, зачекайте %s";
