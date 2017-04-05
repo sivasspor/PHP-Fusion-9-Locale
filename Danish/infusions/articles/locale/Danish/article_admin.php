@@ -1,66 +1,182 @@
 <?php
-// Article titles
-$locale['articles_0000'] = "Aktuelle artikler";
-$locale['articles_0001'] = "Artikler";
-$locale['articles_0002'] = "Tilføj artikel";
-$locale['articles_0003'] = "Rediger artikel";
-// Category titles
-$locale['articles_0020'] = "Aktuelle artikelkategorier";
-$locale['articles_0021'] = "Tilføj artiklekategori";
-$locale['articles_0022'] = "Rediger artikelkategori";
-// Article messages
-$locale['articles_0100'] = "Artiklen er tilføjet";
-$locale['articles_0101'] = "Artiklen er opdateret";
-$locale['articles_0102'] = "Artiklen er slettet";
-// Category messages
-$locale['articles_0150'] = "Artikelkategorien er tilføjet";
-$locale['articles_0151'] = "Artikelkategorien er opdateret";
-$locale['articles_0152'] = "Artikelkategorien kan ikke slettes";
-$locale['articles_0153'] = "Der er tilknyttet artikler eller underkategorier til denne kategori";
-$locale['articles_0154'] = "Artikelkategorien er slettet";
-// Category form
-$locale['articles_0200'] = "Overskrift:";
-$locale['articles_0201'] = "Kategori:";
-$locale['articles_0202'] = "Introduktion:";
-$locale['articles_0203'] = "Hovedtekst:";
-$locale['articles_0204'] = "Nøgleord (du skal trykke ENTER for hvert nyt nøgleord)";
-$locale['articles_0205'] = "Gem som udkast";
-$locale['articles_0206'] = "Automatiske linjeskift";
-$locale['articles_0207'] = "Slå kommentarer til";
-$locale['articles_0208'] = "Slå vurdering til";
-$locale['articles_0209'] = "Sideskift";
-$locale['articles_0210'] = "[DRAFT]";
-$locale['articles_0211'] = "Skal kunne ses af";
-$locale['articles_0240'] = "Vis artikel";
-$locale['articles_0241'] = "Gem artikel";
-// Popup Error/Warning Messages
-$locale['articles_0250'] = "Du skal angive en over skrift";
-$locale['articles_0251'] = "Skal artiklen slettes?";
-$locale['articles_0252'] = "Der er ikke oprettet nogen artikelkategorier";
-$locale['articles_0253'] = "Du skal oprette mindst en kategori før du kan oprette artikler";
-$locale['articles_0254'] = "Klik her";
-$locale['articles_0255'] = " for at gå til artikelkategorier";
-$locale['articles_0256'] = "%s er slået fra overalt.\n\rDenne indstilling vil først blive aktiv når den er slået til igen.";
-$locale['articles_0257'] = "Du skal angive et eller flere nøgleord";
-// Category form
-$locale['articles_0300'] = "Kategoriens navn:";
-$locale['articles_0301'] = "Kategoriens beskrivelse:";
-$locale['articles_0302'] = "Sorteringsorden:";
-$locale['articles_0303'] = "Artiklens ID";
-$locale['articles_0304'] = "Artikeloverskrift";
-$locale['articles_0305'] = "Artiklens dato";
-$locale['articles_0306'] = "Stigende";
-$locale['articles_0307'] = "Faldende";
-$locale['articles_0308'] = "Kagoriens overkategori:";
-$locale['articles_0309'] = "Gem kategorien";
-// Current category options
-$locale['articles_0340'] = "Kategori";
-$locale['articles_0341'] = "Valgmuligheder";
-$locale['edit'] = "Rediger";
-$locale['delete'] = "Slet";
-$locale['articles_0342'] = "Der er ikke oprettet artikelkategorier";
-// Delete Article category
-$locale['articles_0350'] = "Skal denne kategori slettes?";
-// Error Messages
-$locale['articles_0351'] = "Du skal give kategorien et navn.";
-$locale['articles_0352'] = "Denne kategori er allerede oprettet.";
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/infusions/articles/locale/Danish/articles_admin.php
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+// Tabs and Breadcrumbs
+$locale['article_0000'] = "Artikler";
+$locale['article_0001'] = "Artikler";
+$locale['article_0002'] = "Tilføj artikel";
+$locale['article_0003'] = "Rediger artikel";
+$locale['article_0004'] = "Kategorier";
+$locale['article_0005'] = "Tilføj kategori";
+$locale['article_0006'] = "Rediger kategori";
+$locale['article_0007'] = "Brugerforslag";
+$locale['article_0008'] = "Opsætning";
+
+// Messages - Articles
+$locale['article_0030'] = "Artiklen er oprettet";
+$locale['article_0031'] = "Artiklen er opdateret";
+$locale['article_0032'] = "Artiklen er slettet";
+$locale['article_0033'] = "Artiklerne er opdateret";
+$locale['article_0034'] = "Du skal vælge mindst en artikel";
+
+// Messages - Articles Cats
+$locale['article_0040'] = "Kategorien er oprettet";
+$locale['article_0041'] = "Kategorien er opdateret";
+$locale['article_0042'] = "Kategorien er slettet";
+$locale['article_0043'] = "Kategorien kan ikke slettes";
+$locale['article_0044'] = "Der er knyttet artikler eller underkategorier til denne kategori";
+$locale['article_0045'] = "Kategorierne er opdateret";
+$locale['article_0046'] = "Kategorierne kan ikke slettes";
+$locale['article_0047'] = "Der er knyttet artikler eller underkategorier til disse kategorier";
+$locale['article_0048'] = "Du skal vælge mindst en kategori";
+
+// Messages - Submissions
+$locale['article_0060'] = "Brugerforslaget er offentliggjort";
+$locale['article_0061'] = "Brugerforslaget er gemt som udkast";
+$locale['article_0062'] = "Brugerforslaget er slettet";
+$locale['article_0063'] = "Der er aktuelt ingen nye brugerforslag.";
+
+// Table - Articles
+$locale['article_0100'] = "Overskrift";
+$locale['article_0101'] = "Kategori";
+$locale['article_0102'] = "Udkast";
+$locale['article_0103'] = "Kommentarer";
+$locale['article_0104'] = "Vurdering";
+$locale['article_0105'] = "Forfatter";
+$locale['article_0106'] = "Adgang for";
+$locale['article_0107'] = "Handlinger";
+
+// Table - Articles - Misc
+$locale['article_0110'] = "Tilføj artikel";
+$locale['article_0111'] = "Skal denne artikel slettes?";
+$locale['article_0112'] = "Der er endnu ikke oprettet artikler.";
+$locale['article_0113'] = "Ingen artikler svarer til søgekriterierne.";
+$locale['article_0114'] = "Før du kan oprette en artikel, skal du først have oprettet mindst en kategori.";
+
+// Table - Articles - Sorting
+$locale['article_0120'] = "Overskrift";
+$locale['article_0121'] = "Søg";
+$locale['article_0122'] = "Ryd";
+$locale['article_0123'] = "Vælg status";
+$locale['article_0124'] = "Alle uanset status";
+$locale['article_0125'] = "Vælg adgangsforhold";
+$locale['article_0126'] = "Vælg kategori";
+$locale['article_0127'] = "Alle kategorier";
+$locale['article_0128'] = "Vælg sprog";
+$locale['article_0129'] = "Alle sprog";
+$locale['article_0130'] = "Vælg forfatter";
+$locale['article_0131'] = "Alle forfattere";
+$locale['article_0132'] = "Antal pr. side ";
+
+// Table - Articles Cats
+$locale['article_0150'] = "Navn";
+$locale['article_0151'] = "Artikler";
+$locale['article_0152'] = "Status";
+$locale['article_0153'] = "Adgangsforhold";
+
+// Table - Articles Cats - Misc
+$locale['article_0160'] = "Tilføj kategori";
+$locale['article_0161'] = "Skal denne kategori slettes?";
+$locale['article_0162'] = "Der er ikke oprettet kategorier.";
+
+// Table - Article Cats - Sort
+$locale['article_0170'] = "Navn";
+$locale['article_0171'] = $locale['article_0121'];
+$locale['article_0172'] = $locale['article_0122'];
+$locale['article_0173'] = $locale['article_0123'];
+$locale['article_0174'] = $locale['article_0124'];
+$locale['article_0175'] = $locale['article_0125'];
+$locale['article_0176'] = $locale['article_0128'];
+$locale['article_0177'] = $locale['article_0129'];
+
+// Table - Submissions
+$locale['article_0200'] = "ID";
+$locale['article_0201'] = "Overskrift";
+$locale['article_0202'] = "Forslagsstiller";
+$locale['article_0203'] = "Dato";
+$locale['article_0204'] = "Valgmuligheder";
+$locale['article_0205'] = "Gennemse brugerforslag";
+
+// Form - Articles
+$locale['article_0250'] = "Overskrift ";
+$locale['article_0251'] = "Introduktion ";
+$locale['article_0251a'] = "En introduktion fra artiklen.";
+$locale['article_0252'] = "Artiklen ";
+$locale['article_0252a'] = "Artikelteksten selv.";
+$locale['article_0253'] = "Selve artikelteksten ...";
+$locale['article_0254'] = "Introduktion til artiklen ...";
+$locale['article_0255'] = "Dato ";
+$locale['article_0256'] = "Gem som udkast";
+$locale['article_0257'] = "Slå automatiske linjeskift til";
+$locale['article_0258'] = "Slå kommentarer til";
+$locale['article_0259'] = "Slå vurdering til";
+$locale['article_0260'] = "Nøgleord ";
+$locale['article_0260a'] = "Adskil de enkelte nøgleord ved at trykke ENTER.";
+$locale['article_0261'] = "Flere informationer";
+$locale['article_0262'] = "Flere opsætningsmuligheder";
+
+// Form - Articles - Errors
+$locale['article_0270'] = "Du skal angive en overskrift.";
+$locale['article_0271'] = "Du skal lave en introduktion.";
+$locale['article_0272'] = "Du skal skrive en tekst.";
+$locale['article_0273'] = "Du skal vælge en kategori.";
+$locale['article_0274'] = "%s er slået fra for alle indholdselementer.\n\rDenne funktion vil først være tilgængelig, når den er slået til igen.";
+
+// Form - Articles Cats
+$locale['article_0302'] = "Navn ";
+$locale['article_0303'] = "Overkategori ";
+$locale['article_0304'] = "Beskrivelse ";
+$locale['article_0306'] = "Adgang for ";
+$locale['article_0307'] = "Status ";
+$locale['article_0308'] = "Yderligere information";
+
+// Form - Articles Cats - Error
+$locale['article_0320'] = "Du skal angive et navn.";
+$locale['article_0321'] = "Der eksisterer allerede en anden kategori med dette navn.";
+$locale['article_0322'] = "Du skal lave en beskrivelse.";
+
+// Form - Submissions
+$locale['article_0350'] = "Ovenstående forslag blev oprettet af {%SUBMISSION_AUTHOR%}.";
+$locale['article_0351'] = "Dato for forslaget: {%SUBMISSION_TIME%} - {%SUBMISSION_DATE%}.";
+$locale['article_0352'] = "Accepter forslaget";
+
+// Settings
+$locale['article_0400'] = "Opsætning for funktionen <b>Artikler</b> - både administration og brugersnitflade.";
+$locale['article_0401'] = "Antal artikler pr. side";
+$locale['article_0402'] = "Brugerforslag";
+$locale['article_0403'] = "Skal artikelteksten være udfyldt";
+
+/*
+--- PUBLIC Submission ---
+*/
+
+// Submissions - Titles
+$locale['article_0900'] = "Foreslå artikel";
+
+// Submissions - Success Submission
+$locale['article_0910'] = "Artiklen er gemt.";
+$locale['article_0911'] = "Tak for dit forslag.";
+$locale['article_0912'] = "Vil du foreslå endnu en artikel?";
+$locale['article_0913'] = "Tilbage til forsiden";
+
+// Submissions - Other
+$locale['article_0920'] = "Brug nedenstående formular til at foreslå en artikel. Dit forslag vil blive gennemset af en
+administrator. <b>[SITENAME]</b> reserverer sig retten til at afvise eller redigere alle forslag. Artikler
+skal være i overensstemmelse med resten af indholdet her på siden. Upassende forslag vil blive slettet uden videre.";
+$locale['article_0921'] = "Du skal være logget på for at kunne foreslå en artikel.";
+$locale['article_0922'] = "Vi modtager ikke forslag til artikler i øjeblikket.";
+$locale['article_0923'] = "Du kan ikke lave artikelforslag, da der ikke er oprettet artikelkategorier.";

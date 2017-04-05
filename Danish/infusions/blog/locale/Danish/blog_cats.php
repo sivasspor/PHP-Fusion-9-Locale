@@ -4,7 +4,7 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: locale/Danish/infusions/news/news_cats.php
+| Filename: locale/infusions/blog/locale/Danish/blog_cats.php
 | Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
 +--------------------------------------------------------+
 | This program is released as free software under the
@@ -15,11 +15,11 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['400'] = "Nyhedskategorier";
+$locale['400'] = "Blogkategorier";
 $locale['401'] = "Kategori";
-$locale['402'] = "Antal elementer";
-$locale['403'] = "Nyheder udenfor kategori";
-$locale['404'] = "Der er ikke oprettet nyheder under denne kategori.";
-$locale['405'] = "Flere";
+$locale['402'] = "Antal indlæg";
+$locale['403'] = "Blogindlæg udenfor kategori";
+$locale['404'] = "Der er ingen indlæg under denne kategori.";
+$locale['405'] = "Mere";
 $locale['406'] = "Vis alle kategorier";
-$locale['407'] = "Der er ikke oprettet nyhedskategorier";
+$locale['407'] = "Der er endnu ikke oprettet blogkategorier";
