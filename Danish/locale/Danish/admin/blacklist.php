@@ -1,35 +1,58 @@
 <?php
-// Delete blacklisted user
-$locale['400'] = "Ophæv udelukkelse af bruger";
-$locale['401'] = "Brugerens udelukkelse er ophævet";
-$locale['402'] = "Tilbage til administration af udelukkelse";
-$locale['403'] = "Tilbage til administrationsside";
-$locale['404'] = "Indskriv en IP-adresse eller en mail adresse";
-$locale['405'] = "Mailadressen er ikke gyldig.";
-// Add/Edit Blacklist Titles
-$locale['420'] = "Udeluk bruger";
-$locale['421'] = "Rediger oplysninger for udelukket bruger";
-// Add/Edit blacklist form
-$locale['440'] = "N&aring;r du indtaster en IP adresse her, vil det forhindre brugere der anvender den IP adresse i
-at besøge siden. Du kan enten indtaste en fuld IP adresse, f. eks. <strong>123.123.123.123</strong>, eller en del af en IP adresse, f. eks.
-<strong>123.123.123 eller 123.123</strong>.<br/><br/>
-BEMÆRK: IPv6 adresser konverteres til fuld længde her på siden, dvs. at <strong>ABCD:1234:5:6:7:8:9:FF</strong> vil
-blive vist som <strong>ABCD:1234:0005:0006:0007:0008:0009:00FF</strong>. Blandede IP-adresser (der indeholder
-både en IPv6-del og en IPv4-del) bliver ikke kontrolleret for delvis overensstemmelse.
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/Danish/admin/blacklist.php
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+$locale['BLS_000'] = "Udeluk"; //406
+//Blacklist message
+$locale['BLS_010'] = "Ugyldig mailadresse eller IP-adresse.";
+$locale['BLS_011'] = "Tilføjer brugere til sortlisten.";
+$locale['BLS_012'] = "Bruger tilføjet sortliste.";
+$locale['BLS_013'] = "Bruger fjernet fra sortlisten"; //401
+$locale['BLS_014'] = "Er du sikker på, at du vil slette denne post?";
+$locale['BLS_015'] = "Listen er tom i øjeblikket."; //465
+$locale['BLS_016'] = "Den angivne mailadresse er ikke gyldig."; //405
+
+$locale['BLS_020'] = "Udelukkede brugere"; //420
+$locale['BLS_021'] = "Rediger udelukket bruger"; //421
+$locale['BLS_022'] = "Udeluk ny bruger";
+$locale['BLS_023'] = "Viser aktuelt %d af i alt %d udelukkede brugere.";
+
+$locale['BLS_030'] = "Udelukkelsesinformation"; //461
+$locale['BLS_031'] = "Administration"; //467
+$locale['BLS_032'] = "Dato";  //468
+$locale['BLS_033'] = "Valgmuligheder"; //462
+$locale['BLS_034'] = "IP-adresse <strong>eller</strong>"; //441
+$locale['BLS_035'] = "Mailadresse "; //442
+$locale['BLS_036'] = "Udelukkelsesårsag "; //443
+$locale['BLS_037'] = "Udeluk bruger";  //444
+$locale['BLS_038'] = "Opdater";
+
+$locale['BLS_MS'] = "Ved at indskrive en IP-adresse vil man forhindre en bruger, hvis IP-adresse svarer til den gemte fra at besøge denne side.
+Du kan indskrive en fuld IP-adresse - f. eks. <em>123.45.67.89.</em>, eller en del af en adresse f. eks. <em>123.45.67</em> eller <em>123.45</em>.
+Bemærk: IPv6 adresser omsættes til fuld længde her på siden, f. eks. vil <em>ABCD:1234:5:6:7:8:9:FF</em> blive vist som <em>ABCD:1234:0005:0006:0007:0008:0009:00FF</em>.
+Blandede IP-adresser (dem der indeholder både IPv6 og IPv4 elementer) vil ikke blive kontrolleret for delvist sammenfald.
 <br /><br />
-Når du indtaster en mail adresse her, vil det forhindre besøgende på siden i at oprette sig som brugere med den adresse. Du kan indskrive
-en fuld mail adresse - f. eks. <strong>foo@bar.com</strong>, eller et domænenavn - f. eks. <strong>bar.com</strong>";
-$locale['441'] = "Udeluk IP adresse <strong>eller</strong> ";
-$locale['442'] = "Udeluk mail adresse:";
-$locale['443'] = "Årsag til udelukkelse";
-$locale['444'] = "Udeluk bruger";
-// Current blacklisted users
-$locale['460'] = "Udelukkede brugere";
-$locale['461'] = "Informationer om udelukkelse";
-$locale['462'] = "Valgmuligheder";
-$locale['463'] = "Ret";
-$locale['464'] = "Slet";
-$locale['465'] = "Der er aktuelt ingen udelukkede brugere.";
-$locale['466'] = "N/A";
-$locale['467'] = "Administrator";
-$locale['468'] = "Dato";
+Indskriver du en mailadresse vil det forhindre besøgende i at oprette sig med denne adresse.
+Du kan indskrive en fuld adresse f. eks. <em>foo@bar.com</em>, eller et domænenavn f. eks. <em>bar.com</em>.<br /><br />
+
+% - alle data bruges til sammenligning.<br /><br />
+
+%.%.%.%@domain.tld udelukker alle adresser, som indeholder mindst 3 punktummer.<br />
+%+%@domain.tld udelukker alle adresser, der indeholder mindst et plustegn.<br />
+%@domain.tld udelukker alle adresser på domain.tld<br />
+%.domain.tld udelukker alle underdomæner under domain.tld<br />
+%payday% udelukker alle adresser, der indeholder ordet \"payday\" der ofte anvendes.<br />
+domain.tld er et alias for %@domain.tld, der anvendes for at gøre det gyldigt i forhold til v7.<br />"; //440

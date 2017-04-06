@@ -1,15 +1,32 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/Danish/admin/main.php
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
 // Admin Links
-$locale['200'] = fusion_get_settings('sitename')." Admin Panel";
-$locale['ac00'] = "Betjeningspanel";
+$locale['200'] = "[SITENAME] Administrationsside";
+$locale['ac00'] = "Adminpanel";
 $locale['ac01'] = "Indhold";
 $locale['ac02'] = "Brugere";
 $locale['ac03'] = "System";
 $locale['ac04'] = "Opsætning";
 $locale['ac05'] = "Infusioner";
-$locale['ac10'] = "Hovedpanel";
-$locale['201'] = "Administratorer";
+$locale['ac10'] = "Admin oversigt";
+$locale['202'] = "Konfiguration af brugerprofiler";
 
+// Pre-defined sections
 $locale['AC'] = "Artikelkategorier";
 $locale['A'] = "Artikler";
 $locale['BLOG'] = "Blog";
@@ -17,13 +34,13 @@ $locale['BLC'] = "Blogkategorier";
 $locale['CP'] = "Brugeroprettede sider";
 $locale['DC'] = "Downloadkategorier";
 $locale['D'] = "Downloads";
-$locale['ESHP'] = "eShop";
 $locale['FQ'] = "FAQs";
 $locale['F'] = "Debatter";
 $locale['IM'] = "Billeder";
 $locale['I'] = "Infusioner";
-$locale['IP'] = "Infusionselementer";
+$locale['IP'] = "Infusionspaneler";
 $locale['M'] = "Brugere";
+$locale['MI'] = "Migreringsværktøj";
 $locale['N'] = "Nyheder";
 $locale['P'] = "Elementer";
 $locale['PH'] = "Fotoalbums";
@@ -36,17 +53,17 @@ $locale['SL'] = "Interne links";
 $locale['SU'] = "Brugerforslag";
 $locale['U'] = "Opgradering";
 $locale['UG'] = "Brugergrupper";
+$locale['UP'] = "Brugers profil";
 $locale['WC'] = "Linkkategorier";
 $locale['W'] = "Links";
-$locale['S1'] = "Hovedopsætning";
+$locale['S1'] = "Hovedopsætning ";
 $locale['S2'] = "Dato og klokkeslæt";
-$locale['S3'] = "Tema indstillinger";
+$locale['S3'] = "Temaopsætning";
 $locale['S4'] = "Brugeroprettelse";
-$locale['S5'] = "Fotoalbum";
 $locale['S6'] = "Diverse";
 $locale['S7'] = "Private beskeder";
 $locale['NC'] = "Nyhedskategorier";
-$locale['BB'] = "BB koder";
+$locale['BB'] = "BB-koder";
 $locale['SM'] = "Smileys";
 $locale['UF'] = "Brugerfelter";
 $locale['FR'] = "Debatstatus";
@@ -60,7 +77,7 @@ $locale['APWR'] = "Rediger administrativt kodeord";
 $locale['ERRO'] = "Fejllog";
 $locale['AD'] = "Administrator";
 $locale['UL'] = "Brugerlog";
-$locale['MAIL'] = "Mail skabeloner";
+$locale['MAIL'] = "Mailskabeloner";
 $locale['PL'] = "Permalinks";
 $locale['ROB'] = "robots.txt";
 $locale['TS'] = "Tema";
@@ -109,5 +126,6 @@ $locale['280'] = "Administrationsside";
 $locale['281'] = "Du skal angive dit administratorkodeord";
 $locale['282'] = "Skift sprog";
 $locale['283'] = "Infusioner";
-$locale['284'] = "Der er endnu ikke installeret nogen infusioner";
+$locale['284'] = "Der er endnu ikke installeret nogen infusioner.";
 $locale['285'] = "Administrer infusioner";
+$locale['286'] = "Gennemse brugerforslag";

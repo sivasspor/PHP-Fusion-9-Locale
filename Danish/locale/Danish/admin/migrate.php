@@ -1,64 +1,80 @@
 <?php
-$locale['100'] = "User Migration Tool";
-$locale['101'] = "You must select two differant users for migration";
-$locale['102'] = "Forum Tracked Threads";
-$locale['103'] = "Forum Threads";
-$locale['104'] = "Forum Threads Last user";
-$locale['105'] = "Forum Posts";
-$locale['106'] = "Forum Last Posts";
-$locale['107'] = "Forum Poll Votes";
-$locale['108'] = "Comments";
-$locale['109'] = "Ratings";
-$locale['110'] = "Polls";
-$locale['111'] = "Shouts";
-$locale['112'] = "Messages to";
-$locale['113'] = "Messages from";
-$locale['114'] = "Message Box owner";
-$locale['115'] = "Articles";
-$locale['116'] = "News";
-$locale['117'] = "Blog";
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/Danish/admin/migrate.php
+|  Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+$locale['100'] = "Flytteværktøj til brugere";
+$locale['101'] = "Du skal vælge to forskellige brugere for at kunne flytte dem";
+$locale['102'] = "Fulgte debatter i forum";
+$locale['103'] = "Debatemner";
+$locale['104'] = "Seneste bruger i debatemner";
+$locale['105'] = "Indlæg i debat";
+$locale['106'] = "Seneste indlæg i debat";
+$locale['107'] = "Stemmer i debatafstemninger";
+$locale['108'] = "Kommentarer";
+$locale['109'] = "Vurderinger";
+$locale['110'] = "Afstemninger";
+$locale['111'] = "Replikker";
+$locale['112'] = "Beskeder til";
+$locale['113'] = "Beskeder fra";
+$locale['114'] = "Beskedboks ejer";
+$locale['115'] = "Artikler";
+$locale['116'] = "Nyheder";
+$locale['117'] = "Blogs";
 $locale['118'] = "Downloads";
-$locale['119'] = "Photos";
+$locale['119'] = "Billeder";
 $locale['120'] = "";
-$locale['121'] = "Migrated User";
-$locale['122'] = "Migration user do not exist";
-$locale['123'] = "Primary User do not exist.";
-$locale['124'] = "There are no users to migrate";
-$locale['125'] = "Select the primary account";
-$locale['126'] = "Select the source account";
-$locale['127'] = "migrate to";
-$locale['128'] = "migrate from";
-$locale['129'] = "Merge selected accounts";
-$locale['130'] = "Select sections to migrate";
-$locale['131'] = "Move Forum Data";
-$locale['132'] = "Move Comments";
-$locale['133'] = "Move Ratings";
-$locale['134'] = "Move Poll votes";
-$locale['135'] = "Move Shouts";
-$locale['136'] = "Move Private Messages";
-$locale['137'] = "Move Articles";
-$locale['138'] = "Move News";
-$locale['139'] = "Move Blogs";
-$locale['140'] = "Move Downloads";
-$locale['141'] = "Move Photo Galleries";
-$locale['142'] = "Move User Level and Permissions";
-$locale['143'] = "Delete User when the migration is completed";
-$locale['144'] = "Delete user";
-$locale['145'] = "The migrated user will be de-activated if no action is taken here";
-$locale['146'] = "No records have been updated due to a database error.";
+$locale['121'] = "Ny bruger";
+$locale['122'] = "Den pågældende bruger eksisterer ikke";
+$locale['123'] = "Den primære bruger eksisterer ikke.";
+$locale['124'] = "Der er ingen brugere, der kan flyttes";
+$locale['125'] = "Vælg den primære konto";
+$locale['126'] = "Vælg grundkontoen";
+$locale['127'] = "overflyt til";
+$locale['128'] = "overflyt fra";
+$locale['129'] = "Sammensmelt de valgte konti";
+$locale['130'] = "Vælg de områder, som skal overflyttes ";
+$locale['131'] = "Flyt debatdata";
+$locale['132'] = "Flyt kommentarer";
+$locale['133'] = "Flyt vurderinger";
+$locale['134'] = "Flyt afgivne stemmer";
+$locale['135'] = "Flyt replikker";
+$locale['136'] = "Flyt private beskeder";
+$locale['137'] = "Flyt artikler";
+$locale['138'] = "Flyt nyheder";
+$locale['139'] = "Flyt blogs";
+$locale['140'] = "Flyt downloads";
+$locale['141'] = "Flyt fotoalbums";
+$locale['142'] = "Flyt brugerniveau og tilladelser";
+$locale['143'] = "Slet oprindelig bruger, når overflytningen er gennemført ";
+$locale['144'] = "Slet brugeren";
+$locale['145'] = "Den overflyttede bruger vil blive genaktiveret, hvis du ikke foretager dig yderligere.";
+$locale['146'] = "Ingen data er blevet opdateret på grund af en fejl i databasen.";
 $locale['147'] = "records";
 $locale['148'] = "record";
-$locale['149'] = "have been movied via";
-$locale['150'] = "from";
-$locale['151'] = "to";
-$locale['152'] = "There are no records to move in";
-$locale['153'] = "Access rights could not be moved due to a database error";
-$locale['154'] = "new";
-$locale['155'] = "access rights";
-$locale['156'] = "have been transferred from";
-$locale['157'] = "User Groups could not be updated due to a database error";
-$locale['158'] = "User Groups";
-$locale['159'] = "User Level could not be updated due to a database error";
-$locale['160'] = "New User Level -";
-$locale['161'] = "User Levels was not updated because they are similar or less than the primary account";
-$locale['162'] = "There are no user with ID";
+$locale['149'] = "er blevet flyttet via";
+$locale['150'] = "fra";
+$locale['151'] = "til";
+$locale['152'] = "Der er ingen data, som kan flyttes";
+$locale['153'] = "Adgangsrettigheder kunne ikke flyttes på grund af en fejl i databasen";
+$locale['154'] = "ny";
+$locale['155'] = "adgangsrettigheder";
+$locale['156'] = "er blevet overført fra";
+$locale['157'] = "Brugergrupperne kunne ikke opdateres på grund af en fejl i databasen";
+$locale['158'] = "Brugergrupper";
+$locale['159'] = "Brugerniveau kunne ikke opdateres på grund af en fejl i databasen";
+$locale['160'] = "Nyt brugerniveau -";
+$locale['161'] = "Brugerniveau kunne ikke opdateres, da aktuelt niveau er svarende til eller lavere end det, der gælder den primære konto";
+$locale['162'] = "Der findes ingen bruger med den angivne ID";

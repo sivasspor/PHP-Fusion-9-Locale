@@ -1,12 +1,28 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/Danish/lostpassword.php
+| Author: Jan Mølgaard (janmol)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
 $locale['400'] = "Glemt kodeord";
-$locale['401'] = "En bekræftelsesmail er blevet sendt til din mail adresse.";
-$locale['402'] = "Dit nye kodeord er blevet sendt til din mail adresse.";
+$locale['401'] = "En bekræftelsesmail er blevet sendt til din mailadresse.";
+$locale['402'] = "Dit nye kodeord er blevet sendt til din mailadresse.";
 $locale['403'] = "Tilbage til hjemmesiden";
-$locale['404'] = "Den mail adresse, du opgav, kunne ikke findes.";
-$locale['405'] = "Den mail adresse, du opgav, er ikke gyldig.";
+$locale['404'] = "Den mailadresse, du opgav, kunne ikke findes.";
+$locale['405'] = "Den mailadresse, du opgav, er ikke gyldig.";
 $locale['406'] = "Venligst prøv igen.";
-$locale['407'] = "Indtast venligst den mail adresse din konto er registreret med nedenfor.<br />
+$locale['407'] = "Indtast venligst den mailadresse din konto er registreret med i feltet.<br />
 Et nyt kodeord vil blive oprettet og sendt til den adresse.";
 $locale['408'] = "Send kodeord";
 $locale['409'] = "Nyt kodeord til ";

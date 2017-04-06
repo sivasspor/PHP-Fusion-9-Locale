@@ -1,46 +1,51 @@
 <?php
-// Infusion titles & description
-$locale['apw_title'] = "Ændring af administratorkodeord";
-$locale['apw_desc'] = "Ændrer almindeligt kodeord og administratorkodeord";
-$locale['apw_admin1'] = "Ændring af administrator";
-$locale['400'] = "Vælg administratorer der skal ændres:";
-$locale['401'] = "Alle administratorer";
-$locale['402'] = "Kun superadmins";
-$locale['403'] = "Kun admins";
-$locale['404'] = "Begrundelse for &aelig;ndringen:";
-$locale['405'] = "Nulstil / &aelig;ndre b&aring;de almindeligt kodeord og administratorkodeord";
-$locale['406'] = "Nulstil kodeord";
-$locale['407'] = "Kodeord nulstillet d. ";
-$locale['408'] = "Hej [USER_NAME]
-
-Dit administrative kodeord er blevet nulstillet og ændret på ".$settings['siteurl'].":
-
-Administrativt kodeord: [NEW_ADMIN_PASS]
-
-Årsagen til denne ændring er: [RESET_MESSAGE]
-
-Venlig hilsen
-[ADMIN]";
-$locale['409'] = "Hej [USER_NAME]
-
-Både dit almindelige kodeord og dit administrative kodeord er blevet ændret på ".$settings['siteurl'].":
-
-Almindeligt kodeord: [NEW_PASS]
-Admininistrativt kodeord: [NEW_ADMIN_PASS]
-
-Årsagen til denne &aelig;ndring er: [RESET_MESSAGE]
-
-Venlig hilsen
-[ADMIN]";
-$locale['410'] = "Resultater af ændringen";
-$locale['411'] = "<strong>Bemærk:</strong> Administratorkodeord er enten ikke angivet eller ikke korrekt.";
-$locale['412'] = "Administratorkodeord:";
-$locale['415'] = "Log over kodeordsændringer";
-$locale['416'] = "Log ID";
-$locale['417'] = "Ændringstidspunkt";
-$locale['418'] = "Ansvarlig";
-$locale['419'] = "Ændret";
-$locale['420'] = "Virksomt";
-$locale['421'] = "Årsag";
-$locale['422'] = "af";
-$locale['423'] = "Ingen årsag angivet.";
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/Danish/admin/admin_reset.php
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+$locale['apw_title'] = "Ændring af administrators kodeord";
+$locale['apw_desc'] = "Ændrer log ind oplysninger for en administrator og det administrative kodeord";
+$locale['apw_admin1'] = "Ændre data for administrator";
+$locale['apw_400'] = "Den eller de administratorer, der skal revideres";
+$locale['apw_401'] = "Alle administratorer";
+$locale['apw_402'] = "Kun superadministratorer";
+$locale['apw_403'] = "Kun administratorer";
+$locale['apw_404'] = "Begrundelse for ændringen";
+$locale['apw_405'] = "Omlæg både log ind data og administrativt kodeord ";
+$locale['apw_406'] = "Ændring af kodeord";
+$locale['apw_407'] = "Kodeord ændret for ";
+$locale['apw_408'] = "Hej [USER_NAME],\n\nDit administrative kodeord er blevet ændret på [SITEURL]:\n\n
+Nyt administrativt kodeord: [NEW_ADMIN_PASS]\n\nÅrsagen til denne ændring er: [RESET_MESSAGE]\n\nVenlig hilsen.\n[ADMIN]";
+$locale['apw_409'] = "Hej [USER_NAME],\nDine pålogningsdata og dit administrative kodeord er blevet ændret på [SITEURL]:\n\n
+Primært kodeord: [NEW_PASS]\nAdministrativt kodeord: [NEW_ADMIN_PASS]\n\nÅrsagen til ændringen er: [RESET_MESSAGE]\n
+Venlig hilsen.\n[ADMIN]";
+$locale['apw_410'] = "Resultater af ændringen";
+$locale['apw_411'] = "Opdater administrativt kodeord.";
+$locale['apw_412'] = "Administrativt kodeord";
+$locale['apw_415'] = "Slet loggen";
+$locale['apw_416'] = "Log-ID";
+$locale['apw_417'] = "Tidspunkt";
+$locale['apw_418'] = "Ansvarlig";
+$locale['apw_419'] = "Rediger";
+$locale['apw_420'] = "Succesfuldt";
+$locale['apw_421'] = "Årsag";
+$locale['apw_422'] = "af";
+$locale['apw_423'] = "Ingen begrundelse angivet.";
+$locale['apw_424'] = "Data er ændret";
+$locale['apw_425'] = "Ændringen gik galt";
+$locale['apw_426'] = "Ingen kodeord er ændret.";
+$locale['apw_427'] = "Valgmuligheder";
+$locale['apw_428'] = "Ønsker du virkelig at slette denne log?";
+$locale['apw_429'] = "Loggen er slettet";

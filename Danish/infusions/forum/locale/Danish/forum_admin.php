@@ -1,171 +1,229 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/infusions/forum/locale/Danish/forum_admin.php
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
 /* Common Forum Locales */
-$locale['forum_000'] = 'Create Forum';
-$locale['forum_000a'] = 'Update Forum';
-$locale['forum_000b'] = 'Forum %s';
-$locale['forum_000c'] = 'Forum Index';
-$locale['forum_001'] = 'Create New Forum';
-$locale['forum_002'] = 'Edit Forum';
-$locale['forum_003'] = 'Delete Forum';
-$locale['forum_004'] = 'Move Forum';
-$locale['forum_005'] = 'Moderate Forum';
-$locale['forum_006'] = 'Forum Name';
-$locale['forum_007'] = 'Forum Description';
-$locale['forum_008'] = 'Forum Parent';
-$locale['forum_009'] = 'Forum Type';
-$locale['forum_010'] = 'Forum Language';
-$locale['forum_011'] = 'Forum Alias';
-$locale['forum_012'] = 'Forum Keywords (you need to hit enter for each keyword)';
-$locale['forum_013'] = 'Image Upload';
-$locale['forum_014'] = 'Image URL';
-$locale['forum_015'] = 'Max. filesize: %s and must be image type .png,.bmp,.jpg,.gif';
-$locale['forum_016'] = 'If image file is uploaded, the url will not be used.';
-$locale['forum_017'] = 'Forum Rules or Notices';
-$locale['forum_018'] = 'Enter a new forum name';
+$locale['forum_000'] = 'Opret debatområde';
+$locale['forum_000a'] = 'Opdater debat';
+$locale['forum_000b'] = 'Debat %s';
+$locale['forum_000c'] = 'Debatliste';
+$locale['forum_001'] = 'Opret nyt debatområde';
+$locale['forum_002'] = 'Rediger debat';
+$locale['forum_003'] = 'Slet debat';
+$locale['forum_004'] = 'Flyt debat';
+$locale['forum_005'] = 'Administrer debat';
+$locale['forum_006'] = 'Debattens overskrift ';
+$locale['forum_007'] = 'Debatbeskrivelse ';
+$locale['forum_008'] = 'Overordnet emne ';
+$locale['forum_009'] = 'Debattype ';
+$locale['forum_010'] = 'Debattens sprog ';
+$locale['forum_011'] = 'Alternativt navn ';
+$locale['forum_012'] = 'Debattens nøgleord (tryk på ENTER for at adskille nøgleord)';
+$locale['forum_013'] = 'Upload billede';
+$locale['forum_014'] = 'URL for billede';
+$locale['forum_015'] = 'Maksimal filstørrelse: %s og billedet skal være af typerne .png,.bmp,.jpg,.gif';
+$locale['forum_016'] = 'Hvis billedet uploades vil adressen ikke blive brugt.';
+$locale['forum_017'] = 'Debatregler eller meddelelser';
+$locale['forum_018'] = 'Angiv nyt debatnavn';
 
-$locale['forum_019'] = 'Enable Post Merging';
-$locale['forum_020'] = 'Allow Attachment in Posts';
-$locale['forum_021'] = 'Enable Quick Post';
-$locale['forum_022'] = 'Enable Polls';
-$locale['forum_023'] = 'Enable Post Voting';
-$locale['forum_024'] = 'Show Participated Users';
-$locale['forum_025'] = 'Copy Permissions Settings';
-$locale['forum_026'] = 'Lock This Forum';
-$locale['forum_027'] = 'Width: %s px x Height: %s px';
-$locale['forum_028'] = 'Remove Forum Image';
-$locale['forum_029'] = 'Edit Permissions';
-$locale['forum_030'] = 'Forum Permissions Settings';
-$locale['forum_031'] = 'Forum Access';
-$locale['forum_032'] = 'Create New Topics';
-$locale['forum_033'] = 'Post Replies';
-$locale['forum_034'] = 'Add Attachments';
-$locale['forum_035'] = 'Download Attachments';
-$locale['forum_036'] = 'Create Polls';
-$locale['forum_037'] = 'Vote on Polls';
-$locale['forum_038'] = 'Enable Post Ratings';
-$locale['forum_039'] = 'Rate on Posts';
-$locale['forum_040'] = 'Thread Lock Treshold';
-$locale['forum_041'] = 'Always Unlock';
-$locale['forum_042'] = 'Save Permissions';
-$locale['forum_043'] = 'Forum Order';
-$locale['forum_044'] = 'Select a Forum:';
-$locale['forum_045'] = 'Move Down';
-$locale['forum_046'] = 'Move Up';
-$locale['forum_047'] = 'Edit Permissions';
-$locale['forum_048'] = 'Edit Forum';
-$locale['forum_049'] = 'Remove Forum';
-$locale['forum_050'] = 'Subforum';
+$locale['forum_019'] = 'Skal indlæg kunne sammenlægges';
+$locale['forum_020'] = 'Tillad tilknyttede filer i indlæg ';
+$locale['forum_021'] = 'Muligt at anvende kvik-svar';
+$locale['forum_022'] = 'Tillad afstemninger';
+$locale['forum_023'] = 'Tillad afsteminger på indlæg';
+$locale['forum_024'] = 'Vis deltagende brugeres data';
+$locale['forum_025'] = 'Kopier opsætningen af tilladelser';
+$locale['forum_026'] = 'Lås denne debat';
+$locale['forum_027'] = 'Bredde: %s px x Højde: %s px';
+$locale['forum_028'] = 'Slet debattens billede';
+$locale['forum_028a'] = 'Debatbillede';
+$locale['forum_029'] = 'Ret tilladelser';
+$locale['forum_030'] = 'Rettigheder for debatten';
+$locale['forum_031'] = 'Adgang';
+$locale['forum_032'] = 'Opret nye emner';
+$locale['forum_033'] = 'Skrive svar';
+$locale['forum_034'] = 'Tilføj filer';
+$locale['forum_035'] = 'Download tilknyttede filer';
+$locale['forum_036'] = 'Oprette afstemninger';
+$locale['forum_037'] = 'Stem i afstemninger';
+$locale['forum_038'] = 'Slå vurdering af indlæg til';
+$locale['forum_039'] = 'Vurdering af indlæg';
+$locale['forum_040'] = 'Tærskel for låsning af debatten';
+$locale['forum_041'] = 'Lås altid op';
+$locale['forum_042'] = 'Gem rettigheder';
+$locale['forum_043'] = 'Debatrækkefølge';
+$locale['forum_044'] = 'Vælg en debat';
+$locale['forum_045'] = 'Flyt opad';
+$locale['forum_046'] = 'Flyt nedad';
+$locale['forum_047'] = 'Rediger tilladelser';
+$locale['forum_048'] = 'Rediger debat';
+$locale['forum_049'] = 'Fjern debat';
+$locale['forum_050'] = 'Underdebat';
 $locale['forum_051'] = 'Alias : ';
-$locale['forum_052'] = 'Move Forum Threads and Posts';
-$locale['forum_053'] = 'No, Delete Forum Threads and Posts';
-$locale['forum_054'] = 'Move Subforums';
-$locale['forum_055'] = 'No, Delete Subforums';
-$locale['forum_056'] = 'Base Directory';
-$locale['forum_057'] = 'Topics : ';
-$locale['forum_058'] = 'Subforums : ';
-$locale['forum_059'] = 'Posts : ';
-$locale['forum_060'] = 'Forum Removal Options';
-$locale['forum_061'] = 'User Forum Posts Recounted';
+$locale['forum_052'] = 'Flyt debatter og indlæg';
+$locale['forum_053'] = 'Nej, slet debat og indlæg';
+$locale['forum_054'] = 'Flyt underdebatter';
+$locale['forum_055'] = 'Nej, slet underfora';
+$locale['forum_056'] = 'Basisfolder';
+$locale['forum_057'] = 'Emner : ';
+$locale['forum_058'] = 'Underemner : ';
+$locale['forum_059'] = 'Indlæg : ';
+$locale['forum_060'] = 'Valgmuligheder vedrørende fjernelse af debat';
+$locale['forum_061'] = 'Brugerindlæg opdateret antal';
 
 /* Ranks Styling */
-$locale['forum_062'] = 'Image';
+$locale['forum_062'] = 'Billede';
 $locale['forum_063'] = 'Label';
-$locale['forum_064'] = 'Forum Rank Style';
+$locale['forum_064'] = 'Debatvurdering - stil ';
 
 /* Needed in forum_functions_include.php */
-$locale['forum_070'] = "Posts Deleted: ";
-$locale['forum_071'] = "Attachments Deleted: ";
-$locale['forum_072'] = "Threads Deleted: ";
+$locale['forum_070'] = "Antal indlæg slettet ";
+$locale['forum_071'] = "Antal tilknyttede filer slettet ";
+$locale['forum_072'] = "Antal debatter slettet ";
 
-$locale['forum_080'] = "Threads per Page: ";
-$locale['forum_081'] = "Posts per Page: ";
+$locale['forum_080'] = "Antal emner pr. side ";
+$locale['forum_081'] = "Antal indlæg pr. side ";
 
+$locale['forum_090'] ='Funktionen Mood (stemning) bruges til at regulere debatkommunikation mellem brugere.';
+$locale['forum_091'] ='Tilføj';
+$locale['forum_092'] ='Rediger mood';
+$locale['forum_093'] ='Aktuelle moods';
+$locale['forum_094'] ='Stemningsnavn ';
+$locale['forum_095'] ='Beskrivelse af stemning ';
+$locale['forum_096'] = 'Kunne lide';
+$locale['forum_097'] = 'Kunne godt lide';
+$locale['forum_098'] = 'Enkeltordsudtryk for stemningen (for eksempel <b>Positiv</b>).';
+$locale['forum_099'] = 'Stemningsikon ';
+$locale['forum_100'] = 'Status for stemningsknap ';
+$locale['forum_101'] = 'Gem og brug ikke denne stemning';
+$locale['forum_102'] = 'Denne stemning er aktiv';
+$locale['forum_103'] = 'Beskedniveau for stemningsknap ';
+$locale['forum_104'] = 'Adgangsforhold for stemningsknap ';
+$locale['forum_105'] = 'Gem stemning';
+$locale['forum_106'] = 'Opdater stemning';
+$locale['forum_107'] = 'Stemningsnavn';
+$locale['forum_108'] = 'Stemmingsbekrivelsen';
+$locale['forum_109'] = 'Stemningsikon';
+$locale['forum_110'] = 'Stemningsnotifikation';
+$locale['forum_111'] = 'Visning for';
+$locale['forum_112'] = 'Handlinger';
+$locale['forum_113'] = '%s %s dette indlæg';
+$locale['forum_114'] = 'Der er ingen stemninger tilgængelige.';
+$locale['forum_115'] = 'Stemningsoptælling';
+
+$locale['forum_130'] = 'Pointtillæg for at stemme op';
+$locale['forum_131'] = 'Pointtab for at stemme ned';
+$locale['forum_132'] = 'Pointtillæg for accepteret svar';
+$locale['forum_133'] = 'Minimalt antal points for opstemning';
+$locale['forum_134'] = 'Minimalt antal points for nedstemning';
+$locale['forum_135'] = 'Point(s)';
+$locale['forum_136'] = 'Brugerpoints i debatten';
 
 /* Permissions */
-$locale['forum_desc_000'] = 'Post Permissions';
-$locale['forum_desc_001'] = 'Polls Permissions';
-$locale['forum_desc_002'] = 'Attachments Permissions';
-$locale['forum_desc_003'] = 'Forum Moderators Selection';
-$locale['forum_desc_004'] = 'Forum Answers';
+$locale['forum_desc_000'] = 'Tilladelser til at lave indlæg';
+$locale['forum_desc_001'] = 'Tilladelse til at lave afstemning';
+$locale['forum_desc_002'] = 'Tilladelse til tilknytning af filer';
+$locale['forum_desc_003'] = 'Valg af ordstyrere';
+$locale['forum_desc_004'] = 'Svar på spørgsmål';
 
 /* Navs */
-$locale['forum_root'] = 'Forum Index';
-$locale['forum_points'] = 'Forum Points';
+$locale['forum_root'] = 'Debatoversigt';
+$locale['forum_points'] = 'Points i debatten';
 
 /* Type */
-$locale['forum_opts_001'] = 'Category';
-$locale['forum_opts_002'] = 'Forum';
+$locale['forum_opts_001'] = 'Kategori';
+$locale['forum_opts_002'] = 'Debat';
 $locale['forum_opts_003'] = 'Link';
-$locale['forum_opts_004'] = 'Support & Answers';
+$locale['forum_opts_004'] = 'Support og svar';
 
 /* Error Notices */
-$locale['forum_error_1'] = 'Forum Name is required field.';
-$locale['forum_error_2'] = 'Image must be less than %s.';
-$locale['forum_error_3'] = 'Image must be smaller than %s.';
-$locale['forum_error_4'] = 'Image must be one of the following file types: %s.';
-$locale['forum_error_5'] = 'Unknown Error';
-$locale['forum_error_6'] = 'The Alias URL is already being used. Please use another unique address.';
-$locale['forum_error_7'] = 'Please enter a unique forum name.';
-$locale['forum_error_8'] = 'Please remove the current forum image before assigning a new one.';
-$locale['forum_error_9'] = 'Image URL specified does not exist. Please verify your path again.';
+$locale['forum_error_1'] = 'Debattens navn er et krævet felt.';
+$locale['forum_error_2'] = 'Billedet skal være mindre end %s.';
+$locale['forum_error_3'] = 'Billedet skal være mindre end %s.';
+$locale['forum_error_4'] = 'Billedet skal være af en af følgende filtyper: %s.';
+$locale['forum_error_5'] = 'Ukendt fejl';
+$locale['forum_error_6'] = 'Dette <b>alias</b> bruges allerede. Vælg en anden unik adresse.';
+$locale['forum_error_7'] = 'Indskriv et unikt debatnavn.';
+$locale['forum_error_8'] = 'Du skal fjerne det aktuelle debatbillede, før du kan indsætte et nyt.';
+$locale['forum_error_9'] = 'Den angivne adresse på billedet eksisterer ikke. Kontroller adressen.';
 /* Notices */
-$locale['forum_notice_1'] = 'A new forum category have been successfully created.';
-$locale['forum_notice_2'] = 'A new forum have been successfully created.';
-$locale['forum_notice_3'] = 'A new forum link have been successfully created.';
-$locale['forum_notice_4'] = 'A support forum have been successfully created.';
-$locale['forum_notice_5'] = 'Forum is successfully removed.';
-$locale['forum_notice_6'] = 'Forum moved up.';
-$locale['forum_notice_7'] = 'Forum moved down.';
-$locale['forum_notice_8'] = 'Forum Image is successfully removed.';
-$locale['forum_notice_9'] = 'Forum details are successfully updated.';
-$locale['forum_notice_10'] = 'Forum permissions are successfully updated.';
-$locale['forum_notice_11'] = "Forum pruning complete.";
-$locale['forum_notice_13'] = 'Forum ID %d has been sorted and now bears the order %d';
-$locale['forum_notice_na'] = 'Invalid forum action';
-
-$locale['forum_admin_000'] = 'Forum Management';
-$locale['forum_admin_001'] = 'Forum Ranks';
-$locale['forum_admin_002'] = 'Forum Settings';
+$locale['forum_notice_1'] = 'Den nye debatkategori er oprettet';
+$locale['forum_notice_2'] = 'Den nye debat er oprettet';
+$locale['forum_notice_3'] = 'Et nyt debatlink er oprettet';
+$locale['forum_notice_4'] = 'Et nyt spørgsmåls- og svaremne er oprettet';
+$locale['forum_notice_5'] = 'Debatten er slettet';
+$locale['forum_notice_6'] = 'Debatten er flyttet opad';
+$locale['forum_notice_7'] = 'Debatten er flyttet nedad';
+$locale['forum_notice_8'] = 'Billedet er fjernet';
+$locale['forum_notice_9'] = 'Debatdata er opdateret';
+$locale['forum_notice_10'] = 'Tilladelserne i debatten er opdateret';
+$locale['forum_notice_11'] = "Der er nu ryddet op i debatten";
+$locale['forum_notice_13'] = 'Debat-ID %d er blevet omlagt og har nu ID: %d';
+$locale['forum_notice_14'] = 'Debatstemningen er slettet';
+$locale['forum_notice_15'] = 'Debatstemningen er oprettet';
+$locale['forum_notice_16'] = 'Debatstemningen er opdateret';
+$locale['forum_notice_na'] = 'Fejl ved debathandling';
+$locale['forum_admin_000'] = 'Debatadministration';
+$locale['forum_admin_001'] = 'Debatrangering';
+$locale['forum_admin_002'] = 'Debattags';
+$locale['forum_admin_003'] = 'Debatopsætning';
+$locale['forum_admin_004'] = 'Debatstemninger - <i>moods</i>';
 
 /* Etc */
-$locale['delete_notice'] = 'Delete Forum? Note: This action is irreversible.';
-$locale['531'] = 'Off';
-$locale['560'] = "No Forum Categories defined";
-$locale['561'] = "No Forums defined";
-$locale['562'] = "Refresh Forum Ordering";
+$locale['delete_notice'] = 'Skal debatten slettes? Bemærk: Denne handling kan ikke fortrydes.';
+$locale['531'] = 'Fra';
+$locale['560'] = "Der er ikke oprettet debatkategorier.";
+$locale['561'] = "Der er ikke oprettet debatter";
+$locale['562'] = "Genopfrisk rækkefølgen";
 
 // Forum Settings
 $locale['500'] = "Debat";
-$locale['501'] = "Seneste aktive debatelement:";
-$locale['502'] = "Til";
-$locale['503'] = "Fra";
-$locale['505'] = "Antal debattråde, som skal vises: ";
-$locale['506'] = "(Panel over senest aktive debatter)";
-$locale['507'] = "Vis IP offentligt:";
-$locale['508'] = "Maksimal størrelse for tilknyttede filer: ";
-$locale['509'] = "Maksimal filstørrelse i bytes";
-$locale['510'] = "Tilladte filtyper:";
-$locale['511'] = "Adskil typerne med et komma";
-$locale['512'] = "Tillad mailadvisering i debatten?";
+$locale['501'] = "Element med oversigt over de seneste aktive debatter";
+$locale['502'] = "Slået til";
+$locale['503'] = "Slået fra";
+$locale['505'] = "Nyeste debatter ";
+$locale['506'] = "(Element med oversigt over de seneste aktive debatter.)";
+$locale['507'] = "Vis IP-adresse offentligt";
+$locale['508'] = "Maksimal størrelse for tilknyttede filer ";
+$locale['509'] = "Maksimal filstørrelse.";
+$locale['510'] = "Tilladte filtyper";
+$locale['511'] = "Tryk ENTER for hvert nyt nøgleord.";
+$locale['512'] = "Følg debatten ";
 $locale['518'] = "Ja";
 $locale['519'] = "Nej";
-$locale['520'] = "Slå rangsystem til i debatten?";
-$locale['521'] = "Lås for redigering:";
-$locale['522'] = "(Udeluk brugere fra at redigere i egne indlæg)";
-$locale['523'] = "Tæl brugerindlæg igen";
-$locale['524'] = "[Færdig]";
-$locale['525'] = "Grænse for populære trådes tidsforbrug: ";
-$locale['526'] = "(Tidsgrænser for visningen af populære tråde i elementet)";
+$locale['520'] = "Skal rangeringen slås til ";
+$locale['521'] = "Lås redigering";
+$locale['522'] = "(Forhindre brugere i at redigere deres indlæg)";
+$locale['523'] = "Genoptæl antal indlæg";
+$locale['524'] = "[FÆRDIG]";
+$locale['525'] = "Tidsgrænse for populære debatter ";
+$locale['526'] = "(Tidsgrænse for det element, der viser populære debatter)";
 $locale['527'] = "1 uge";
 $locale['528'] = "1 måned";
 $locale['529'] = "1 år";
-$locale['530'] = "Ingen";
-$locale['531'] = "Vis nyeste indlæg under svarformularen?";
+$locale['530'] = "Altid";
+$locale['531'] = "Vis de seneste indlæg under svarformularen ";
 $locale['532'] = "Seneste indlæg + %s";
-$locale['533'] = "Kun sidste indlæg";
-$locale['534'] = "Maksimalt tilknytningsantal:";
-$locale['535'] = "Maksimalt antal tilknyttede filer";
-$locale['536'] = "Tidsgrænse for rettelse af indlæg:";
-$locale['537'] = "(I minutter - skriv 0 for ingen grænse)";
-$locale['538'] = "Opdateringstidspunkt for redigerede indlæg.";
-$locale['539'] = "Vis avatar ved seneste indlæg i debat?";
+$locale['533'] = "Kun seneste indlæg";
+$locale['534'] = "Tilknyttede filer maksimalt antal ";
+$locale['535'] = "Det maksimale antal tilknyttede filer.";
+$locale['536'] = "Tidsgrænse for redigering ";
+$locale['537'] = "(I minutter, skriv 0 for ingen grænse.)";
+$locale['538'] = "Opdater tidsangivelsen for redigering ";
+$locale['539'] = "Vis avatar for seneste indlæg ";
+$locale['540'] = 'Bytes (bytes)';
+$locale['541'] = 'KB (Kilobytes)';
+$locale['542'] = 'MB (Megabytes)';

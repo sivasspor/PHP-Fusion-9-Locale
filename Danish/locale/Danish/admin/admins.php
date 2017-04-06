@@ -1,4 +1,20 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: locale/Danish/admin/admins.php
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
 // Administrators messages
 $locale['400'] = "Administrator er tilføjet";
 $locale['401'] = "Administrator er opdateret";
@@ -17,7 +33,7 @@ $locale['419'] = "Søg igen";
 // Current Administrators
 $locale['420'] = "Administratorer";
 $locale['421'] = "Brugernavn";
-$locale['422'] = "Administrator niveau";
+$locale['422'] = "Administratorniveau";
 $locale['423'] = "Valgmuligheder";
 $locale['424'] = "Primær administrator";
 $locale['425'] = "Der er ikke tildelt rettigheder";
@@ -32,15 +48,15 @@ $locale['444'] = "Infusioner";
 $locale['445'] = "Vælg alle";
 $locale['446'] = "Fravælg alle";
 $locale['447'] = "Admin kodeord:";
-$locale['448'] = "Gem administrator rettigheder";
+$locale['448'] = "Gem administratorrettigheder";
 $locale['449'] = "Opsætning";
 $locale['450'] = "Vælg kun sikre";
 // Popup Error/Warning Messages
-$locale['460'] = "Fjern denne administrator?";
+$locale['460'] = "Skal denne administrator fjernes?";
 $locale['461'] = "Skal administratoren tilføjes?";
 $locale['462'] = "Giver du administrative rettigheder til en bruger, så udgør det potentielt en sikkerhedsrisiko!";
 // Remove Admin confirmation
 $locale['470'] = "Slet Admin";
-$locale['471'] = "For at kunne fjerne denne Administrator, skal du indtaste dit admin kodeord:";
+$locale['471'] = "For at kunne fjerne denne Administrator, skal du indtaste dit admin kodeord";
 $locale['472'] = "Bekræft";
 $locale['473'] = "Fortryd";
