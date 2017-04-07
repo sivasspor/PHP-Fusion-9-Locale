@@ -5,3 +5,4 @@ $locale['copyright'] = "Copyright &copy; ";
 $locale['render_engine'] = "Двигун";
 $locale['artemis_admin'] = "Artemis PHP-Fusion 9";
 $locale['admin_apps'] = "Додатки";
+$locale['admin_collapse'] = "Згорнути меню";
