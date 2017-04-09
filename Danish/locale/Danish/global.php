@@ -521,9 +521,9 @@ $locale['fmt_weblink'] = "link|links";
 $locale['fmt_week'] = "uge|uger";
 $locale['fmt_year'] = "år|år";
 $locale['fmt_points'] = "point|points";
-+$locale['fmt_admin'] = "admin|admins";
-+$locale['fmt_group'] = "gruppe|grupper";
-+$locale['fmt_category'] = "kategori|kategorier";
+$locale['fmt_admin'] = "admin|admins";
+$locale['fmt_group'] = "gruppe|grupper";
+$locale['fmt_category'] = "kategori|kategorier";
 // Load defender locale from here, is more reliable
 // and now if part of the core, we could merge it in
 include __DIR__."/defender.php";
