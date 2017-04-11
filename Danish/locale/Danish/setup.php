@@ -15,22 +15,21 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['setup_0000'] = "PHP-Fusion Version 9 installation";
+$locale['setup_0000'] = "PHP-Fusion installation";
 $locale['setup_0001'] = "PHP-Fusion Version 9 installation";
-$locale['setup_0002'] = 'Velkommen til installationsprogrammet for PHP-Fusion 9.00';
+$locale['setup_0002'] = 'Velkommen til installationsprogrammet for PHP-Fusion';
 $locale['setup_0003'] = "Guiden her vil føre dig gennem de nødvendige trin til installationen af CMS løsningen PHP-Fusion på din server. Har du brug for yderligere hjælp, så kig i vores online <a target='_blank' class='strong' href='https://php-fusion.co.uk/infusions/wiki/documentation.php?page=208'>installationshjælp</a>.";
 $locale['setup_0005'] = " Jeg har læst og accepteret de relevante PHP-Fusion <a target='_blank' href='https://php-fusion.co.uk/license/'>betingelser</a>.";
 $locale['setup_0006'] = "PHP-Fusion 9 skal bruge PHP i mindst version 5.5.9. Se <a href=\"https://www.php-fusion.co.uk/requirements\">systemkravene</a> for at få mere information.";
 $locale['setup_0007'] = "Systemer hvor OPcache er installeret skal have <a target='_blank' href=\"http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments\">opcache.save_comments</a> slået til.";
-$locale['setup_0020'] = "PHP-Fusion Opgradering";
-$locale['setup_0021'] = "PHP-Fusion version 9 Opgraderingsfunktion";
-$locale['setup_0022'] = "Velkommen til PHP-Fusions opgraderingsfunktion";
-$locale['setup_0023'] = "Denne opgraderingsfunktion vil guide dig gennem de nødvendige trin for at du kan opgradere PHP-Fusion på din server. Følg de enkelte trin nøje og kontroller alle nødvendige informationer.";
 $locale['setup_5000'] = "For at kunne bruge PHP-Fusion, skal du acceptere betingelserne</a>.";
 $locale['setup_0010'] = '9.0';
 $locale['setup_0011'] = "da";
 $locale['setup_0012'] = "iso-8859-1";
-
+$locale['setup_0020'] = "PHP-Fusion Opgradering";
+$locale['setup_0021'] = "PHP-Fusion version 9 Opgraderingsfunktion";
+$locale['setup_0022'] = "Velkommen til PHP-Fusions opgraderingsfunktion";
+$locale['setup_0023'] = "Denne opgraderingsfunktion vil guide dig gennem de nødvendige trin for at du kan opgradere PHP-Fusion på din server. Følg de enkelte trin nøje og kontroller alle nødvendige informationer.";
 $locale['setup_0050'] = "Webserver";
 $locale['setup_0051'] = "PHP-Version";
 $locale['setup_0052'] = "PHP Extension";
@@ -38,7 +37,6 @@ $locale['setup_0053'] = "OPCache support";
 $locale['setup_0054'] = "PDO Database support";
 $locale['setup_0055'] = "PHP Memory grænse";
 $locale['setup_0056'] = "Kontrol af filtilladelser";
-
 // Index
 $locale['setup_0101'] = "Introduktion";
 $locale['setup_0102'] = "Diagnose på foldere og filer";
@@ -50,7 +48,7 @@ $locale['setup_0106'] = "De vigtigste administrator informationer";
 $locale['setup_0107'] = "Afsluttende opsætning";
 $locale['setup_0109'] = "Ældste version af Apache nødvendig for at kunne afvikle PHP-Fusion uden at mod_rewrite er slået til, er 2.2.16.";
 $locale['setup_0110'] = "På grund af opsætningen for Servertokens i httpd.confg, er det umuligt at fastslå versionen for Apache uden mod_rewrite. Version 2.2.16 er minimum.";
-$locale['setup_0111'] = "Laveste versionsnummer for Apache som er nødvendigt for at afvikle PHP-Fusion uden at mod_rewrite er slået til, er 2.2.16.";
+//$locale['setup_0111'] = "Laveste versionsnummer for Apache som er nødvendigt for at afvikle PHP-Fusion uden at mod_rewrite er slået til, er 2.2.16.";
 $locale['setup_0112'] = "Funktionen phpinfo() er slået fra af sikkerhedsårsager. Hvis du vil se serverens phpinfo() information, skal du ændre i opsætningen for PHP eller kontakte din udbyders administrator.";
 $locale['setup_0113'] = "Den version af PHP, som er installeret på din server er for gammel. PHP-Fusion skal bruge mindst version of 5.5.21. PHP versioner over 5.6.5 eller 5.5.21 er udstyret med indbyggede blokeringer mod SQL injection for at beskytte databaserne. Det anbefales at man opgraderer.";
 $locale['setup_0114'] = "PHP-Fusion kræver at du slår PHP extension til i følgende liste";
@@ -61,7 +59,7 @@ $locale['setup_0118'] = "Det ser ikke ud til, at din server understøtter PDO (P
 $locale['setup_0119a'] = "Overvej at øge grænsen for memory allokeret til PHP til %memory_minimum_limit for at forebygge fejl under installation.";
 $locale['setup_0119b'] = "Øg mængden af allokeret memory ved at rette værdien memory_limit i filen ".get_cfg_var('cfg_file_path')." og genstart så din webserver (eller kontakt din systemadministrator eller din udbyder for at få hjælp til det).";
 $locale['setup_0119c'] = "Kontakt din systemadministrator eller din udbyder for at få hjælp til at øge grænsen for memory allokeret til PHP.";
-$locale['setup_stepx'] = "Trin %1\$d: %2\$s";
+$locale['setup_stepx'] = "%2\$s";
 // Buttons
 $locale['setup_0120'] = "Gør konfigurationen færdig";
 $locale['setup_0121'] = "Næste";
@@ -69,7 +67,6 @@ $locale['setup_0122'] = "Forsøg igen";
 $locale['setup_0123'] = "Afslut";
 $locale['setup_0124'] = "Spring til genskabelse";
 $locale['setup_0125'] = "Afinstalltion er i gang. Vær så venlig at vente...";
-
 $locale['setup_0130'] = "Xdebug opsætning";
 $locale['setup_0131'] = "xdebug.max_nesting_level er sat til";
 $locale['setup_0132'] = "Sæt {%code%} i din PHP-konfiguration da nogle sider på din Drupal-side ikke vil virke da denne værdi er sat for lavt.";
@@ -84,9 +81,8 @@ $locale['setup_0141'] = "Tilladelser og adgang til databasen er kontrolleret";
 $locale['setup_0142'] = "config.php filen er oprettet";
 $locale['setup_0143'] = "Det angivne tabel-fornavn er allerede i brug og åbent. Installationsprogrammet vil gå videre og foretage nødvendige ændringer";
 $locale['setup_0144'] = "Diagnosen af databasen er gennemført";
-
 // Step 1
-$locale['setup_1000'] = "Du skal vælge sprogversion (sprog)";
+$locale['setup_1000'] = "Du skal vælge sprogversion (sprog):";
 $locale['setup_1001'] = "Hent flere lokale sprogversioner fra <a target='_blank' href='https://www.php-fusion.co.uk/downloads.php#langpacks'><strong>PHP-Fusions officielle støtteside</strong></a>";
 $locale['setup_1002'] = 'Velkommen til PHP-Fusion version 9.00 Genskabelse.';
 $locale['setup_1003'] = 'Vi kan se, at der allerede er en version af systemet installeret.<br/><br/>Vælg en blandt nedenstående alternativer for at fortsætte.';
@@ -103,12 +99,10 @@ $locale['setup_1013'] = 'Rediger data for superadministrator';
 $locale['setup_1014'] = 'Genopbyg .htaccess';
 $locale['setup_1015'] = 'Slet den aktuelle fil og erstat den med standardudgaven af filen .htaccess';
 $locale['setup_1016'] = 'Opbyg filen';
-
 $locale['setup_1017'] = 'Fortryd og forlad denne installationsproces';
 $locale['setup_1018'] = 'Du kan forlade installationen ved at klikke på knappen herunder. Gør du det, bliver filen config_temp.php navngivet config.php.';
 $locale['setup_1019'] = 'Færdiggør installationen';
 $locale['setup_1020'] = ".htaccess filen er blevet skabt eller opdateret";
-
 // Step 2
 $locale['setup_1090'] = "Filer";
 $locale['setup_1091'] = "Status";
@@ -120,7 +114,6 @@ $locale['setup_1103'] = 'Skriverettighederne står korrekt, klik på Næste for 
 $locale['setup_1104'] = 'Skriverettighederne står ikke korrekt. Du skal bruge kommandoen CHMOD på de filer/foldere, der er markeret med fejl.';
 $locale['setup_1105'] = 'Genopfrisk';
 $locale['setup_1106'] = 'Diagnose på filstrukturen';
-
 // Step 3 - Access criteria
 $locale['setup_1200'] = 'Opsætning af databaseværdier og stier på serveren';
 $locale['setup_1201'] = 'Indskriv adgangsoplysningerne til din MySQL-database.';
@@ -140,15 +133,12 @@ $locale['setup_1213'] = "Sideejerens navn ";
 $locale['setup_1214'] = "Sidens navn ";
 $locale['setup_1215'] = "En side oprettet med PHP-Fusion";
 $locale['setup_1216'] = "PHP-Fusion er et open source content management system (CMS) kodet i PHP.";
-
 $locale['setup_1217'] = "Din brugerkonto er opdateret. Brug venligst de nye informationer fremover.";
-
 $locale['setup_1220'] = "Navnet på den database, du vil anvende som basis for PHP-Fusion";
 $locale['setup_1221'] = "Dit MySQL-brugernavn";
 $locale['setup_1222'] = "...og dit MySQL-kodeord";
 $locale['setup_1223'] = "Sørg for at kodeordet er unikt for at sikre databasen";
 $locale['setup_1224'] = "Cookiens fornavn";
-
 // Step 4 - Database Setup
 $locale['setup_1300'] = "Der er etableret en forbindelse til databasen.";
 $locale['setup_1301'] = "Configfilen er skabt.";
@@ -179,10 +169,6 @@ $locale['setup_1406'] = '%s systemet er installeret korrekt.';
 $locale['setup_1407'] = '%s installationen lykkedes ikke.';
 $locale['setup_1408'] = '%s systemet er blevet fjernet.';
 $locale['setup_1409'] = '%s systemet kan ikke fjernes eller fik fejl.';
-$locale['setup_1510'] = "Mailadresse for siden";
-$locale['setup_1511'] = "Vælg region for webside";
-$locale['setup_1512'] = "Sprogversioner på siden";
-$locale['setup_1513'] = "Sideejerens navn";
 // Step 6 - Super Admin login
 $locale['setup_1500'] = "Primær superadministrator";
 $locale['setup_1501'] = "Opsæt værdier for din primære superadministratorkonto.";
@@ -194,6 +180,15 @@ $locale['setup_1506'] = "Gentag kodeordet ";
 $locale['setup_1507'] = "Administratorkodeord ";
 $locale['setup_1508'] = "Gentag administratorkodeord ";
 $locale['setup_1509'] = "Mailadresse ";
+$locale['setup_1510'] = "Mailadresse for siden";
+$locale['setup_1511'] = "Vælg region for webside";
+$locale['setup_1512'] = "Sprogversioner på siden";
+$locale['setup_1513'] = "Sideejerens navn";
+// Progress Reports
+$locale['setup_1600'] = "Installerer ";
+$locale['setup_1601'] = "Opdaterer tabelstruktur på ";
+$locale['setup_1602'] = "Tilføjer ny kolonne til ";
+$locale['setup_1603'] = "Indsætter data ";
 // Step 6 - User details validation
 $locale['setup_5010'] = "Brugernavnet indeholder forbudte karakterer.";
 $locale['setup_5011'] = "Brugernavnet skal angives.";
@@ -298,6 +293,7 @@ $locale['setup_3312'] = "Foreslå artikel";
 $locale['setup_3313'] = "Foreslå billede";
 $locale['setup_3314'] = "Foreslå download";
 $locale['setup_3315'] = "Brugerforslag";
+$locale['setup_3316'] = "Replikboks";
 $locale['setup_3317'] = "Foreslå blog";
 $locale['setup_3318'] = "Blogarkiv";
 $locale['setup_3319'] = "Seneste diskussioner";
@@ -307,6 +303,8 @@ $locale['setup_3322'] = "Ubesvarede indlæg";
 $locale['setup_3323'] = "Ubesvarede spørgsmål";
 $locale['setup_3324'] = "Start nyt emne";
 $locale['setup_3325'] = "Nyeste artikler";
+$locale['setup_3326'] = "Seneste downloads";
+$locale['setup_3327'] = "Foreslå FAQ";
 // Stage 6 - Panels
 $locale['setup_3400'] = "Navigation";
 $locale['setup_3401'] = "Brugere online";
@@ -317,10 +315,6 @@ $locale['setup_3405'] = "Liste over debatemner";
 $locale['setup_3406'] = "Brugerinformation";
 $locale['setup_3407'] = "Brugerafstemning";
 $locale['setup_3408'] = "RSS";
-$locale['setup_3608'] = "Veteran";
-$locale['setup_3316'] = "Replikboks";
-$locale['setup_3326'] = "Seneste downloads"; 
-$locale['setup_3327'] = "Foreslå FAQ";
 // Stage 6 - News Categories
 $locale['setup_3500'] = "Fejl";
 $locale['setup_3501'] = "Downloads";
@@ -377,7 +371,6 @@ require_once(dirname(__FILE__)."/user_fields/user_skype.php");
 require_once(dirname(__FILE__)."/user_fields/user_theme.php");
 require_once(dirname(__FILE__)."/user_fields/user_web.php");
 require_once(dirname(__FILE__)."/user_fields/user_yahoo.php");
-// Make checks on new files that comes with 9
 require_once(dirname(__FILE__)."/user_fields/user_timezone.php");
 require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
 
@@ -429,27 +422,3 @@ $locale['polls']['description'] = "Et system til oprettelse af brugerafstemninge
 $locale['weblinks']['title'] = "Links";
 $locale['weblinks']['description'] = "Et system til håndtering af links.";
 $locale['install'] = "Installer systemet";
-
-/*
- * Home setup
- */
-//$locale['homeSetup_0100'] = 'Hjem';
-//$locale['homeSetup_0101'] = 'Velkommen til din PHP-Fusion 9 hjemmeside';
-//$locale['homeSetup_0102'] = '[b]Tillykke med din første installation[/b]';
-//$locale['homeSetup_0103'] = 'Den letteste måde at få oprettet en [i]professionel[/i] hjemmeside.[b] Nu begynder vi[/b]';
-//$locale['homeSetup_0104'] = "Karussel";
-//$locale['homeSetup_0105'] = "Funktionsboks";
-//$locale['homeSetup_0106'] = "Element";
-//$locale['homeSetup_0107'] = "Blok";
-//$locale['homeSetup_0110'] = "Seneste";
-//$locale['homeSetup_0111'] = "Se det nyeste, der er sket";
-//$locale['homeSetup_0112'] = "Tema";
-//$locale['homeSetup_0113'] = "Vores tema sikrer flot design og kraftfulde funktioner til din hjemmeside. Perfekt tilrettelagt for at sikre en fleksibel hjemmeside.";
-//$locale['homeSetup_0114'] = "Årsagen til at du vil elske PHP-Fusion 9";
-//$locale['homeSetup_0115'] = "Med over en million linjer kode leverer vi et CMS, der ikke ligner noget andet, og stadigvæk er PHP-Fusion 9 en letvægtsløsning, hurtigere, smartere og smukkere end før.";
-//$locale['homeSetup_0116'] = "Verdensomspændende netværk af udviklere";
-//$locale['homeSetup_0117'] = "[h4]PHP-Fusion Developers Network[/h4]";
-//$locale['homeSetup_0118'] = "[p]Få hjælp til udvikling af kode, find udviklere eller ideer til finansiering. Og det hele deles i Open Source.
-//Start din deltagelse i fællesskabet i dag.[/p]";
-//$locale['homeSetup_0119'] = "Forbavsende let at bruge for alle og enhver";
-//$locale['homeSetup_0120'] = "Gå bare i gang med at eksperimentere. Intet kan gå galt med dette fantastiske CMS.";
