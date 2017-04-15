@@ -117,7 +117,7 @@ $locale['u144a'] = "Aktuelt admin. kodeord ";
 $locale['u144'] = "Nyt admin. kodeord ";
 $locale['u145'] = "Bekræft kodeord ";
 $locale['u146'] = " kan ikke være identisk med det aktuelle ";
-$locale['u147'] = "Kodeordet skal være på mellem 8 og 64 tegn. Tilladt: <i>a-z, 0-9, @!#$%&\/()=-_?+*.,:;</i> - er tilladt";
+$locale['u147'] = "Kodeordet skal være på mellem 8 og 64 tegn. Tilladt: <i>a-z, 0-9, @!#$%&\/()=-_?+*.,:;</i> - er tilladt.";
 $locale['u148'] = "De to nye kodeord er ikke identiske.";
 $locale['u148a'] = "De to administrative kodeord er ikke identiske.";
 $locale['u149'] = "Der blev ikke angivet et nyt kodeord eller også var kodeord forkert.";

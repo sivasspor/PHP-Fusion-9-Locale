@@ -5,7 +5,7 @@
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: locale/Danish/infusions/rss_panel/Danish.php
-| Author: Jan Mølgaard (janmol)
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -23,4 +23,4 @@ $locale['rss_forums'] = "Debat";
 $locale['rss_news'] = "Nyheder";
 $locale['rss_weblinks'] = "Links";
 $locale['rss_in'] = " i ";
-$locale['rss_nodata'] = "Ingen RSS data tilgængelige";
+$locale['rss_nodata'] = "Ingen RSS data tilgængelige.";

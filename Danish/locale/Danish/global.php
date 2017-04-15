@@ -120,7 +120,7 @@ $locale['global_030'] = "Nyeste artikler";
 $locale['global_031'] = "Ingen artikler tilgængelige";
 // Downloads Side panel
 $locale['global_032'] = "Seneste downloads";
-$locale['global_033'] = "Der er ikke oprettet downloads";
+$locale['global_033'] = "Der er ikke oprettet downloads.";
 // Welcome panel
 $locale['global_035'] = "Velkommen";
 // Latest Active Forum Threads panel
