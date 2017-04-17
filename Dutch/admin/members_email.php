@@ -42,4 +42,3 @@ Uw account op ".$settings['sitename']." is geschorst door ".$userdata['user_name
 [REASON].\n
 Als u meer informatie wilt hebben over deze schorsing, neem contact op met de site beheerder op ".$settings['siteemail'].".\n
 ".$settings['siteusername'];
-?>
