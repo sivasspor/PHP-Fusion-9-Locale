@@ -378,8 +378,8 @@ $locale['move'] = "Flyt";
 // Status
 $locale['error'] = 'Fejl!';
 $locale['success'] = 'Det lykkedes!';
-$locale['enable'] = 'Slå til';
-$locale['disable'] = 'Slå fra';
+$locale['enable'] = 'Aktiver';
+$locale['disable'] = 'Deaktiver';
 $locale['can'] = "kan";
 $locale['cannot'] = "kan ikke";
 $locale['no'] = 'Nej';
