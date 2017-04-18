@@ -45,7 +45,7 @@ $locale['news_0109'] = "Der er ikke oprettet nyheder.";
 // News Submissions messages
 $locale['news_0130'] = "Der er aktuelt ingen nyhedsforslag.";
 $locale['news_0131'] = "Kontroller nyhedsforslag";
-$locale['news_0132'] = "Ovenstående nyhed blev foreslået af ";
+$locale['news_0132'] = "Nedenstående nyhed blev foreslået af ";
 $locale['news_0133'] = "Vil du offentliggøre eller slette dette forslag?";
 $locale['news_0134'] = "Offentliggør nyhed";
 $locale['news_0135'] = "Slet nyhed";
