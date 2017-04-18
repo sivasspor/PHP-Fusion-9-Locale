@@ -35,7 +35,7 @@ $locale['gallery_0018'] = "Aktuelt viser vi %d af i alt %d albums.";
 $locale['gallery_0019'] = "Aktuelt viser vi %d af i alt %d billeder i det hele taget.";
 $locale['gallery_0020'] = "Dette album er senest opdateret for";
 $locale['gallery_0021'] = "Adgang til album";
-$locale['gallery_0022'] = "Albumadministration.";
+$locale['gallery_0022'] = "Albumadministration";
 $locale['gallery_0023'] = "Der er i alt %d albums og %d billeder på siden. Seneste opdatering %s.";
 $locale['gallery_0024'] = "Der er ikke oprettet albums.";
 
