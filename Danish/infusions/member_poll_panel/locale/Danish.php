@@ -52,7 +52,7 @@ $locale['POLL_052'] = "Gem afstemning";
 
 $locale['POLL_060'] = "Stemmer ";
 $locale['POLL_063'] = "Arkiv";
-$locale['POLL_064'] = "Status";
+$locale['POLL_064'] = "Status ";
 $locale['POLL_065'] = "Inaktiv";
 $locale['POLL_067'] = "Aktiv";
 $locale['POLL_069'] = "Du skal angive et spørgsmål.";
