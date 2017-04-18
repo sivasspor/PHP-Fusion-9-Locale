@@ -5,7 +5,7 @@
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: locale/Danish/lostpassword.php
-| Author: Jan Mølgaard (janmol)
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -38,3 +38,4 @@ Dit nye kodeord til ".$settings['sitename']." er:\n
 Venligst,
 ".$settings['siteusername'];
 $locale['412'] = "Der opstod en fejl. Prøv igen senere.";
+$locale['413'] = "Indtast venligst din mailadresse:";

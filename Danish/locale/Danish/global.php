@@ -120,7 +120,7 @@ $locale['global_030'] = "Nyeste artikler";
 $locale['global_031'] = "Ingen artikler tilgængelige";
 // Downloads Side panel
 $locale['global_032'] = "Seneste downloads";
-$locale['global_033'] = "Der er ikke oprettet downloads";
+$locale['global_033'] = "Der er ikke oprettet downloads.";
 // Welcome panel
 $locale['global_035'] = "Velkommen";
 // Latest Active Forum Threads panel
@@ -378,8 +378,8 @@ $locale['move'] = "Flyt";
 // Status
 $locale['error'] = 'Fejl!';
 $locale['success'] = 'Det lykkedes!';
-$locale['enable'] = 'Slå til';
-$locale['disable'] = 'Slå fra';
+$locale['enable'] = 'Aktiver';
+$locale['disable'] = 'Deaktiver';
 $locale['can'] = "kan";
 $locale['cannot'] = "kan ikke";
 $locale['no'] = 'Nej';
@@ -452,8 +452,8 @@ $locale['parent'] = 'Opret som ny overordnet sektion...';
 $locale['order'] = 'Rækkefølge';
 $locale['status'] = 'Status';
 $locale['note'] = 'Skriv en note om dette';
-$locale['publish'] = 'Offentliggjort';
-$locale['unpublish'] = 'Ikke offentliggjort';
+$locale['publish'] = 'Tilgængelig';
+$locale['unpublish'] = 'Utilgængelig';
 $locale['sticky'] = "Fastholdt";
 $locale['unsticky'] = "Ikke fastholdt";
 $locale['draft'] = 'Udkast';
