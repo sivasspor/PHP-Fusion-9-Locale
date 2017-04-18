@@ -4,12 +4,6 @@ $locale['home_0000'] = "Останні новини";
 $locale['home_0001'] = "Останні статті";
 $locale['home_0002'] = "Останні дописи в блог";
 $locale['home_0003'] = "Останні завантаження";
-$locale['submit_0000'] = "Новин: %s";
-$locale['submit_0001'] = "Статей: %s";
-$locale['submit_0002'] = "Завантажень: %s";
-$locale['submit_0003'] = "Світлин: %s";
-$locale['submit_0004'] = "Посилань: %s";
-$locale['submit_0005'] = "Дописів у блог: %s";
 
 // no content messages
 $locale['home_0050'] = "Новини відсутні";
