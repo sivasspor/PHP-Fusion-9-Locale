@@ -475,6 +475,7 @@ $locale['nopreview'] = 'Der er intet at vise';
 $locale['mark_as'] = "Marker som";
 $locale['preview'] = "Vis";
 $locale['custom'] = "Tilpas";
+$locale['submit'] = "Foreslå";
 //Alignment
 $locale['left'] = "Venstre";
 $locale['center'] = "Midt i";

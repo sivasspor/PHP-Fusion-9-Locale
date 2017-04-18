@@ -50,7 +50,7 @@ $locale['POLL_050'] = "Tilføj svarmulighed";
 $locale['POLL_051'] = "Se afstemning";
 $locale['POLL_052'] = "Gem afstemning";
 
-$locale['POLL_060'] = "Stemmer";
+$locale['POLL_060'] = "Stemmer ";
 $locale['POLL_063'] = "Arkiv";
 $locale['POLL_064'] = "Status";
 $locale['POLL_065'] = "Inaktiv";
