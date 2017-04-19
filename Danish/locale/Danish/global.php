@@ -57,6 +57,7 @@ $locale['sel_state'] = "Vælg region";
 $locale['sel_user'] = "Indskriv et brugernavn";
 $locale['add_language'] = "Tilføj sprogversioner";
 $locale['add_lang'] = "Tilføj %s";
+$locale['other_states'] = "Andet område";
 // Name
 $locale['name'] = 'Fulde navn';
 $locale['username_pretext'] = 'Dit offentlige brugernavn er det samme som din profiladresse:<div class="alert alert-info m-t-10 p-10">%s<strong>%s</strong></div>';
@@ -120,7 +121,7 @@ $locale['global_030'] = "Nyeste artikler";
 $locale['global_031'] = "Ingen artikler tilgængelige";
 // Downloads Side panel
 $locale['global_032'] = "Seneste downloads";
-$locale['global_033'] = "Der er ikke oprettet downloads";
+$locale['global_033'] = "Der er ikke oprettet downloads.";
 // Welcome panel
 $locale['global_035'] = "Velkommen";
 // Latest Active Forum Threads panel
@@ -378,8 +379,8 @@ $locale['move'] = "Flyt";
 // Status
 $locale['error'] = 'Fejl!';
 $locale['success'] = 'Det lykkedes!';
-$locale['enable'] = 'Slå til';
-$locale['disable'] = 'Slå fra';
+$locale['enable'] = 'Aktiver';
+$locale['disable'] = 'Deaktiveret';
 $locale['can'] = "kan";
 $locale['cannot'] = "kan ikke";
 $locale['no'] = 'Nej';
@@ -452,8 +453,8 @@ $locale['parent'] = 'Opret som ny overordnet sektion...';
 $locale['order'] = 'Rækkefølge';
 $locale['status'] = 'Status';
 $locale['note'] = 'Skriv en note om dette';
-$locale['publish'] = 'Offentliggjort';
-$locale['unpublish'] = 'Ikke offentliggjort';
+$locale['publish'] = 'Offentliggør';
+$locale['unpublish'] = 'Ikke-offentliggør';
 $locale['sticky'] = "Fastholdt";
 $locale['unsticky'] = "Ikke fastholdt";
 $locale['draft'] = 'Udkast';
@@ -475,6 +476,7 @@ $locale['nopreview'] = 'Der er intet at vise';
 $locale['mark_as'] = "Marker som";
 $locale['preview'] = "Vis";
 $locale['custom'] = "Tilpas";
+$locale['submit'] = "Foreslå";
 //Alignment
 $locale['left'] = "Venstre";
 $locale['center'] = "Midt i";
@@ -521,6 +523,9 @@ $locale['fmt_weblink'] = "link|links";
 $locale['fmt_week'] = "uge|uger";
 $locale['fmt_year'] = "år|år";
 $locale['fmt_points'] = "point|points";
+$locale['fmt_admin'] = "admin|admins";
+$locale['fmt_group'] = "gruppe|grupper";
+$locale['fmt_category'] = "kategori|kategorier";
 // Load defender locale from here, is more reliable
 // and now if part of the core, we could merge it in
 include __DIR__."/defender.php";

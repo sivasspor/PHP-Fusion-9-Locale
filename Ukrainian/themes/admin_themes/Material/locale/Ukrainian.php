@@ -27,6 +27,7 @@ $locale['material_009'] = "Повідомлення";
 $locale['material_010'] = "Читати";
 $locale['material_011'] = "Нове";
 $locale['material_012'] = "Повідомлення відсутні";
+$locale['material_013'] = "Автор";
 
 // Result Messages
 $locale['material_100'] = "Помилка перевірки системи";

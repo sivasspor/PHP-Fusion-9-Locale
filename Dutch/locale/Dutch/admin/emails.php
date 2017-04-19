@@ -1,0 +1,52 @@
+<?php
+// Titles
+$locale['400'] = "Email Templates";
+$locale['401'] = "Beschikbare Templates";
+$locale['410'] = "Template successvol aangepast.";
+$locale['411'] = "Test-Email verzonden naar %s.";
+$locale['412'] = "Test-Onderwerp";
+$locale['413'] = "Test-Bericht";
+$locale['414'] = "Een gebruiker";
+$locale['415'] = "Ontvanger van het bericht";
+$locale['416'] = "URL naar een thread";
+$locale['417'] = "Edit";
+$locale['418'] = "HTML Formaat";
+$locale['419'] = "Platte Tekst Formaat";
+$locale['420'] = "Template: ";
+$locale['421'] = "Gebruik Template";
+$locale['422'] = "Mails worden gestuurd in %s formaat met dit template.";
+$locale['423'] = "Mails worden gestuurd in platte tekst formaat met standaard taal bestanden.";
+$locale['424'] = "Ja";
+$locale['425'] = "Nee";
+$locale['426'] = "Template Formaat";
+$locale['427'] = "Operking: Gebruik van plaatjes en tekst-opmaak werk niet in platte tekst mails!";
+$locale['428'] = "Ontvanger naam";
+$locale['429'] = "Afzender naam";
+$locale['430'] = "Wordt gebruikt als Afzender naam om het template te testen";
+$locale['431'] = "Ontvanger email";
+$locale['432'] = "Afzender email";
+$locale['433'] = "Wordt gebruikt als Afzender email om het template te testen";
+$locale['434'] = "Onderwerp";
+$locale['435'] = "bericht";
+$locale['436'] = "Achtergrond"; // Button
+$locale['437'] = "Test deze template";
+$locale['438'] = "Template wordt opgeslagen en er zal een een test mail worden verzonden naar je adres: %s. Doorgaan?";
+$locale['439'] = "Opslaan";
+$locale['440'] = "Reset";
+// Help
+$locale['450'] = "Help";
+$locale['451'] = "Kort overzicht van de Bottons";
+$locale['452'] = "Button";
+$locale['453'] = "Functie / Vervangen";
+$locale['454'] = "Onderwerp van het bericht of thread";
+$locale['455'] = "Snippet van het bericht van text of post";
+$locale['456'] = "Afzender van een bericht, auteur van thread of post";
+$locale['457'] = "Afzender van de mail";
+$locale['458'] = "Ontvanger van de mail";
+$locale['459'] = "URL naar forum thread, wordt alleen gebruikt in notificatie van nieuwe forum posts.";
+// berichts
+$locale['469'] = "Invoegen Afbeelding";
+$locale['470'] = "Onderwerp kan niet leeg worden gelaten!";
+$locale['471'] = "bericht kan niet leeg worden gelaten!";
+$locale['472'] = "Afzender naam kan niet leeg worden gelaten!";
+$locale['473'] = "Afzender email kan niet leeg worden gelaten!";

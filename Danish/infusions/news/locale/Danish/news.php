@@ -33,3 +33,4 @@ $locale['news_0015'] = "Listevisning";
 $locale['news_0016'] = "Der er ikke oprettet kategorier.";
 $locale['news_0017'] = "Sorter efter";
 $locale['news_0018'] = "Vis alle nyheder";
+$locale['news_0019'] = "Nyhedsoversigt";

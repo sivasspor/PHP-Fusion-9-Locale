@@ -45,7 +45,7 @@ $locale['news_0109'] = "Der er ikke oprettet nyheder.";
 // News Submissions messages
 $locale['news_0130'] = "Der er aktuelt ingen nyhedsforslag.";
 $locale['news_0131'] = "Kontroller nyhedsforslag";
-$locale['news_0132'] = "Ovenstående nyhed blev foreslået af ";
+$locale['news_0132'] = "Nedenstående nyhed blev foreslået af ";
 $locale['news_0133'] = "Vil du offentliggøre eller slette dette forslag?";
 $locale['news_0134'] = "Offentliggør nyhed";
 $locale['news_0135'] = "Slet nyhed";
@@ -70,7 +70,7 @@ $locale['news_0155'] = "Der er ikke valgt nogen nyhedskategori";
 $locale['news_0200'] = "Overskrift ";
 $locale['news_0201'] = "Kategori ";
 $locale['news_0202'] = "Udenfor kategorier";
-$locale['news_0203'] = "Introduktion:";
+$locale['news_0203'] = "Introduktion";
 $locale['news_0203a'] = "En kort introduktion til nyheden.";
 $locale['news_0204'] = "Udvidelse";
 $locale['news_0203b'] = "Nyhedsindhold.";
