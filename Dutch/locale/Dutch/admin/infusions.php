@@ -22,4 +22,4 @@ $locale['418'] = "Status";
 $locale['419'] = "Optie";
 $locale['420'] = "Versie";
 $locale['421'] = "Auteur";
-$locale['422'] = "Download meer Toevoegingen"
+$locale['422'] = "Download meer Toevoegingen";
