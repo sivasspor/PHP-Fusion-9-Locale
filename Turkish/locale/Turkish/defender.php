@@ -15,6 +15,7 @@ $locale['df_error_text'] = "%s hata verdi ve dikkatini gerektiriyor.";
 $locale['error_invalid_theme'] = "Lütfen geçerli bir tema seçin"; // to be moved
 $locale['error_input_checkbox'] = "Lütfen bu onay kutusunu işaretleyin"; // to be moved
 $locale['error_input_file'] = "Lütfen geçerli bir dosya seçin";
+$locale['error_secure_file'] = "Yüklenen dosya, kötü amaçlı ücretli yükleme olasılığı nedeniyle reddedildi.";
 // Admin Login
 $locale['cookie_title'] = "Oturum Zaman Aşımı";
 $locale['cookie_description'] = "Geçerli bir kimlik doğrulama yok veya oturumunuz muhtemelen zaman aşımına uğradı. Lütfen tekrar giriş yapın.";
