@@ -57,6 +57,7 @@ $locale['sel_state'] = "Vælg region";
 $locale['sel_user'] = "Indskriv et brugernavn";
 $locale['add_language'] = "Tilføj sprogversioner";
 $locale['add_lang'] = "Tilføj %s";
+$locale['other_states'] = "Andet område";
 // Name
 $locale['name'] = 'Fulde navn';
 $locale['username_pretext'] = 'Dit offentlige brugernavn er det samme som din profiladresse:<div class="alert alert-info m-t-10 p-10">%s<strong>%s</strong></div>';
