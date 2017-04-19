@@ -93,7 +93,7 @@ $locale['492'] = "Er zijn geen leden in deze groep.";
 $locale['493'] = "Markeer alles als Gelezen";
 $locale['494'] = "Markeer als Gelezen";
 $locale['495'] = "Markeer als Ongelezen";
-$locale['496'] = "Markeer alles als Onelezen"
+$locale['496'] = "Markeer alles als Onelezen";
 
 // Tooltips
 $locale['500'] = "Klik hier om een nieuw bericht te schrijven";
