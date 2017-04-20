@@ -22,7 +22,7 @@ $locale['403'] = "Tilbage til hjemmesiden";
 $locale['404'] = "Den mailadresse, du opgav, kunne ikke findes.";
 $locale['405'] = "Den mailadresse, du opgav, er ikke gyldig.";
 $locale['406'] = "Venligst prøv igen.";
-$locale['407'] = "Indtast venligst den mailadresse din konto er registreret med i feltet.<br />
+$locale['407'] = "Indtast venligst den mailadresse din konto er registreret med i feltet ovenfor.<br />
 Et nyt kodeord vil blive oprettet og sendt til den adresse.";
 $locale['408'] = "Send kodeord";
 $locale['409'] = "Nyt kodeord til ";
@@ -38,4 +38,4 @@ Dit nye kodeord til ".$settings['sitename']." er:\n
 Venligst,
 ".$settings['siteusername'];
 $locale['412'] = "Der opstod en fejl. Prøv igen senere.";
-$locale['413'] = "Indtast venligst din mailadresse:";
+$locale['413'] = "Indtast venligst din mailadresse";
