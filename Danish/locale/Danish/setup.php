@@ -148,7 +148,11 @@ $locale['setup_1510'] = "Mailadresse for siden";
 $locale['setup_1511'] = "Vælg region for webside";
 $locale['setup_1512'] = "Sprogversioner på siden";
 $locale['setup_1513'] = "Sideejerens navn";
-
+// Progress Reports
+$locale['setup_1600'] = "Installering ";
+$locale['setup_1601'] = "Opdaterer tabelstruktur i ";
+$locale['setup_1602'] = "Tilføjer nye kolonner i ";
+$locale['setup_1603'] = "Indsætter data ";
 // Step 6 - User details validation
 $locale['setup_5010'] = "Brugernavnet indeholder forbudte karakterer.";
 $locale['setup_5011'] = "Brugernavnet skal angives.";
