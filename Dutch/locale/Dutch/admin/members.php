@@ -1,123 +1,130 @@
 <?php
 // Member Management Options
-$locale['400'] = "User Management";
-$locale['401'] = "User";
-$locale['402'] = "Add New Member";
-$locale['403'] = "User Type";
-$locale['404'] = "Options";
-$locale['405'] = "View";
-$locale['406'] = "Edit";
-$locale['407'] = "Activate";
-$locale['408'] = "Unban";
-$locale['409'] = "Ban";
-$locale['410'] = "Delete";
-$locale['411'] = "There are no %s members";
-$locale['412'] = " beginning with ";
-$locale['413'] = " matching ";
-$locale['414'] = "Show All";
-$locale['415'] = "Search for member:";
-$locale['416'] = "Search";
-$locale['417'] = "Select Action";
-$locale['418'] = "Cancel";
-$locale['419'] = "Reinstate";
+$locale['400'] = "Leden";
+$locale['401'] = "Gebruiker";
+$locale['402'] = "Nieuw lid toevoegen";
+$locale['403'] = "Gebruikertype";
+$locale['404'] = "Opties";
+$locale['405'] = "Bekijken";
+$locale['406'] = "Wijzigen";
+$locale['407'] = "Activeren";
+$locale['408'] = "Verbanning opheffen";
+$locale['409'] = "Verbannen";
+$locale['410'] = "Verwijderen";
+$locale['411'] = "Er zijn geen %s leden";
+$locale['412'] = " beginnend met ";
+$locale['413'] = " overeenkomend met ";
+$locale['414'] = "Toon alle";
+$locale['415'] = "Lid zoeken:";
+$locale['416'] = "Zoeken";
+$locale['417'] = "Selecteer actie";
+$locale['418'] = "Annuleren";
+$locale['419'] = "Terugzetten";
 // Ban/Unban/Delete Member
-$locale['420'] = "Ban Imposed";
-$locale['421'] = "Ban Removed";
-$locale['422'] = "Member Deleted";
-$locale['423'] = "Are you sure you wish to delete this member?";
-$locale['424'] = "Member Activated";
-$locale['425'] = "Warning!";
-$locale['425a'] = "You are about to delete user %s!\nThe following content posted by this user on this site will be deleted if you proceed:\n
-- Articles\n
-- News\n
-- Forum Threads.Note that posts made by other users in these threads will also be deleted, along with the poll votes and attachemets existent in this threads.\n
-- Forum Posts.\n
-- Forum Attachements.\n
-- Private messages sent or received by this user.\n
-- Poll votes\n
-- Ratings given\n\n
-Unless this is a spammer for eg. we recommend you to Ban, Suspend, Cancel or Anomymize this user.\n
-Are you sure you want to delete this user?\n";
-$locale['426'] = "Yes";
-$locale['427'] = "No";
+$locale['420'] = "Opgelegde verbanning";
+$locale['421'] = "Verbanning verwijderd";
+$locale['422'] = "Lid verwijderd";
+$locale['423'] = "Weet u zeker dat u dit lid wilt verwijderen?";
+$locale['424'] = "Lid geactiveerd";
+$locale['425'] = "<h2>Let op!</h2><br />
+U staat op het punt om <strong>%s</strong> te verwijderen!<br />
+De volgende bijdrage(n) <u>gepost door dit lid</u> zal worden verwijderd als u doorgaat:<br />
+- Artikelen<br />
+- Nieuws<br />
+- Forum onderwerpen. Ook de bijdragen van andere leden in de te verwijderen onderwerpen worden verwijderd tesamen met enguetes en bijlagen.<br />
+- Forum bijdragen<br />
+- Forum bijlagen<br />
+- Kommentaren<br />
+- Prive berichten verzonden of ontvangen door dit lid<br />
+- Enquete stemmen<br />
+- Gegeven waarderingen<br />
+Tenzij dit een spammer is, is het aan te raden om dit lid te Verbannen, Schorsen, Annuleren of te Anonimiseren. Dan blijven de bijdragen bewaard<br />
+<br />
+Weet u zeker dat u dit lid wilt verwijderen??<br />";
+$locale['426'] = "Ja";
+$locale['427'] = "Nee";
 // Edit Member Details
-$locale['430'] = "Edit Member";
+$locale['430'] = "Wijzig lid";
 // Add Member Errors
-$locale['480'] = "Add Member";
-$locale['481'] = "The member account has been created.";
-$locale['482'] = "The member account could not be created.";
-// Suspension Log 
-$locale['510s'] = "Suspension Log for ";
-$locale['511s'] = "There are no recorded suspensions for this member in the suspension log.";
-$locale['512s'] = "Previous suspensions of ";
-$locale['513'] = "No."; // as in number
-$locale['514'] = "Date";
-$locale['515'] = "Reason";
-$locale['516'] = "Suspending Administrator";
-$locale['517'] = "System Action";
-$locale['518'] = "Back to User Profile";
-$locale['519'] = "Suspension Log for this User ";
-$locale['520'] = "Lifted: ";
+$locale['480'] = "Lid toevoegen";
+$locale['481'] = "Het lidaccount is aangemaakt.";
+$locale['482'] = "Het lidaccount kon niet worden aangemaakt.";
+// Suspension Log
+$locale['510s'] = "Schorsing logboek voor ";
+$locale['511s'] = "Er zijn geen opgeslagen schorsingen voor dit lid, in dit logboek.";
+$locale['512s'] = "Vorige schorsingen van ";
+$locale['513'] = "Nr."; // as in number
+$locale['514'] = "Datum";
+$locale['515'] = "Reden";
+$locale['516'] = "Schorsing door Beheerder";
+$locale['517'] = "Systeem actie";
+$locale['518'] = "Terug naar Gebruikersprofiel";
+$locale['519'] = "Schorsingen logboek voor deze gebruiker ";
+$locale['520'] = "Opgeheven: ";
 $locale['521'] = "IP: ";
-$locale['522'] = "Not yet reinstated";
-$locale['540'] = "Error";
-$locale['541'] = "Error: You must state a reason for the Suspension!";
-$locale['542'] = "Error: You must state a reason for the Security Ban!";
+$locale['522'] = "Nog niet teruggezet.";
+$locale['540'] = "Fout";
+$locale['541'] = "Waarschuwing: Er moet een reden opgegeven worden waarvoor er geschorst werd!";
+$locale['542'] = "Waarschuwing: Er moet een reden opgegeven worden voor de veiligheidsverbanning!";
 // User Management Admin
-$locale['550'] = "Suspend User: ";
-$locale['551'] = "Duration in days:";
-$locale['552'] = "Reason:";
-$locale['553'] = "Suspend";
-$locale['554'] = "There are no recorded suspensions for this member in the suspension log.";
-$locale['555'] = "If you decide that this user should be banned click on 'Ban'";
-$locale['556'] = "Lift Suspension of User: ";
-$locale['557'] = "Lift Suspension";
-$locale['558'] = "Lift Ban of User: ";
-$locale['559'] = "Lift Ban ";
-$locale['560'] = "Lift Security Ban of User: ";
-$locale['561'] = "Lift Security Ban";
-$locale['562'] = "Ban User: ";
-$locale['563'] = "Security Ban User: ";
-$locale['585a'] = "Please specify a reason for why you are banning or unbanning ";
-$locale['566'] = "Ban lifted";
-$locale['568'] = "Security Ban imposed";
-$locale['569'] = "Security Ban lifted";
-$locale['572'] = "Member suspended";
-$locale['573'] = "Suspension lifted";
-$locale['574'] = "Member deactivated";
-$locale['575'] = "Member reactivated";
-$locale['576'] = "Account cancelled";
-$locale['577'] = "Account cancellation undone";
-$locale['578'] = "Account cancelled and anonymized";
-$locale['579'] = "Account anonymization undone";
-$locale['580'] = "Deactivate Inactive Members";
-$locale['581'] = "You have more then 50 inactive users and will have to run the deactivation process (%d) times.";
-$locale['582'] = "Reactivate";
-$locale['583'] = "Re-instate";
-$locale['584'] = "Select new status";
-$locale['585'] = "This Member was originally banned for security reasons! Are you certain you want to unban this member now?";
-$locale['590'] = "Suspend";
-$locale['591'] = "Unsuspend";
-$locale['592'] = "suspending";
-$locale['593'] = "unsuspending";
-$locale['594'] = "Please specify a reason for why you are ";
-$locale['595'] = " the user ";
-$locale['596'] = "Duration:";
-$locale['600'] = "Security ban";
-$locale['601'] = "security banning";
-$locale['602'] = "Unban";
-$locale['603'] = "unbanning";
-$locale['604'] = "Reason:";
+$locale['550'] = "Schors gebruiker: ";
+$locale['551'] = "Lengte in dagen:";
+$locale['552'] = "Reden:";
+$locale['553'] = "Schors";
+$locale['554'] = "Er zijn geen opgeslagen schorsingen in dit logboek.";
+$locale['555'] = "Als je zeker weet dat deze gebruiker verbannen moet worden, klik op 'Verban'";
+$locale['556'] = "Hef schorsing op voor gebruiker: ";
+$locale['557'] = "Hef schorsing op";
+$locale['558'] = "Hef verbanning op van gebruiker: ";
+$locale['559'] = "Hef verbanning op ";
+$locale['560'] = "Hef veiligheidsverbanning op van gebruiker: ";
+$locale['561'] = "Hef veiligheidsverbanning op";
+$locale['562'] = "Verban gebruiker: ";
+$locale['563'] = "Veiligheidsverban gebruiker: ";
+$locale['585a'] = "Er moet een reden worden opgegeven waarom u iemand verbant of unbant ";
+
+$locale['566'] = "Verbanning opgeheven";
+$locale['568'] = "Veiligheidsverbanning opgelegd";
+$locale['569'] = "Veiligheidsverbanning opgeheven";
+$locale['572'] = "Lid geschorst";
+$locale['573'] = "Schorsing opgeheven";
+$locale['574'] = "Lid gedeactiveerd";
+$locale['575'] = "Lid gereactiveerd";
+$locale['576'] = "Account opgezegd";
+$locale['577'] = "Accountopzegging ongedaan gemaakt";
+$locale['578'] = "Account opgezegd en geanonimiseerd";
+$locale['579'] = "Account anonimisatie ongedaan gemaakt";
+$locale['580'] = "Deactivicatie inactieve leden";
+$locale['581'] = "U heeft meer dan 50 inactieve gebruikers en u zult daarom het deactivicatie proces <strong>%d keer</strong> moeten doorlopen.";
+$locale['582'] = "Reactivicatie";
+$locale['583'] = "Re-installeren";
+$locale['584'] = "Selecteer nieuwe status";
+$locale['585'] = "Dit lid was oorspronkelijk verbannen wegens veiligheidsredenen! Weet je zeker dat je dit lid nu wilt unbannen?";
+
+$locale['590'] = "Schors";
+$locale['591'] = "Haal schorsing weg";
+$locale['592'] = "<b>schorsen</b>";
+$locale['593'] = "haal schorsingen weg";
+$locale['594'] = "Geef reden voor ";
+$locale['595'] = " gebruiker ";
+$locale['596'] = "Tijdsduur:";
+
+$locale['600'] = "Veiligheidsverbanning";
+$locale['601'] = "veiligheidsverbanning";
+$locale['602'] = "Hef verbanning op";
+$locale['603'] = "hef verbanning op";
+$locale['604'] = "Reden:";
 // Deactivation System
-$locale['610'] = "%d user(s) have not logged in for %d day(s) and have been marked as inactive. By deactivating these users they will have (%d) day(s) before they are %s.";
-$locale['611'] = "Please note that some users may have submitted content to your site such as forum posts, comments, photos etc. These will be deleted when deactivated users are beeing deleted.";
-$locale['612'] = "user";
-$locale['613'] = "users";
-$locale['614'] = "Deactivate";
-$locale['615'] = "permanently deleted";
-$locale['616'] = "anonymize";
-$locale['617'] = "Warning:";
-$locale['618'] = "It is strongly recommended to change deactivation action to anonymize instead of delete to prevent data loss!";
-$locale['619'] = "You can do so here.";
-$locale['620'] = "anonymize";
-$locale['621'] = "Automatic deactivation of inactive users.";
+$locale['610'] = "<strong>%d gebruiker(s)</strong> zijn niet ingelogd voor <strong>%d day(s)</strong> en zijn gemarkeerd als inactief.
+Als je deze gebruikers deactiveert hebben ze <strong>%d dag(en)</strong> voordat ze worden %s.";
+$locale['611'] = "Onthoudt dat sommige gebruikers inhoud op uw site hebben geplaats, zoals forumberichten, reacties, foto&rsquo;s etc.. Dit wordt verwijderd als gedeactiveerde gebruikers worden verwijderd.";
+$locale['612'] = "gebruiker";
+$locale['613'] = "gebruikers";
+$locale['614'] = "Deactiveer";
+$locale['615'] = "permanent verwijderd";
+$locale['616'] = "anonimiseren";
+$locale['617'] = "Waarschuwing:";
+$locale['618'] = "Het is sterk aangeraden om in plaats van deactiveren, anonimiseren te gebruiken om dataverlies te voorkomen!";
+$locale['619'] = "Je kan dit hier doen.";
+$locale['620'] = "anonimiseren";
+$locale['621'] = "Automatische deactivicatie van inactieve gebruikers.";
