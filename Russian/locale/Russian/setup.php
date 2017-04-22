@@ -307,6 +307,10 @@ $locale['setup_3643'] = "Параметры";
 $locale['setup_3644'] = "Статистика";
 $locale['setup_3645'] = "Приватность";
 
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Информация о сайте";
+$locale['setup_3661'] = "Обсуждения, касающиеся управления этим сайтом";
+
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."user_fields/user_aim.php");
 require_once(dirname(__FILE__)."user_fields/user_birthdate.php");
