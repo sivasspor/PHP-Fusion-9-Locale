@@ -435,7 +435,6 @@ $locale['he'] = "Han";
 $locale['she'] = "Hun";
 $locale['it'] = "Det/Den";
 //Tables
-$locale['status'] = 'Status';
 $locale['order'] = 'Rækkefølge';
 $locale['sort'] = 'Sorter';
 $locale['id'] = 'ID';
@@ -450,7 +449,7 @@ $locale['root'] = 'Som forældre';
 $locale['choose-user'] = 'Du skal vælge en bruger...';
 $locale['choose-location'] = 'Du skal vælge et sted';
 $locale['parent'] = 'Opret som ny overordnet sektion...';
-$locale['order'] = 'Rækkefølge';
+$locale['item_order'] = 'Rækkefølge';
 $locale['status'] = 'Status';
 $locale['note'] = 'Skriv en note om dette';
 $locale['publish'] = 'Offentliggør';
