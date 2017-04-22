@@ -21,6 +21,7 @@ setlocale( LC_ALL, "da", "dan", "da_DK", "da_DK.DK.UTF-8", "danish" );
 $locale['charset'] = "utf-8";
 $locale['region'] = "DK";
 $locale['xml_lang'] = "da";
+$locale['short_lang_name'] = "da";
 $locale['tinymce'] = "da";
 $locale['select2'] = "da";
 $locale['phpmailer'] = "da";
@@ -298,7 +299,6 @@ title='Mozilla Firefox'>Firefox</a>, <a target='_blank' href='http://apple.com/s
 rel='nofollow' title='Google Chrome'>Chrome</a> eller en version af <a target='_blank' href='http://www.microsoft.com/windows/internet-explorer/'
 rel='nofollow' title='Internet Explorer'>Internet Explorer</a> nyere end version 6.";
 // User Management
-// Member status
 $locale['global_400'] = "suspenderet";
 $locale['global_401'] = "udelukket";
 $locale['global_402'] = "deaktiveret";
@@ -363,7 +363,6 @@ $locale['global_ML100'] = "Sprog";
 $locale['global_ML101'] = "- vælg sprog -";
 $locale['global_ML102'] = "Sidens sprog";
 $locale['global_ML103'] = "Skift sprog";
-
 // Flood Control
 $locale['flood'] = "Du er udelukket fra at deltage i debatter, indtil karantæneperioden udløber. Vent venligst i %s.";
 $locale['no_image'] = "Intet billede";
@@ -374,8 +373,6 @@ $locale['hello'] = 'Hej!';
 $locale['goodbye'] = 'Farvel!';
 $locale['welcome'] = 'Velkommen tilbage';
 $locale['home'] = 'Forsiden';
-$locale['clear'] = "Fjern";
-$locale['move'] = "Flyt";
 // Status
 $locale['error'] = 'Fejl!';
 $locale['success'] = 'Det lykkedes!';
@@ -393,7 +390,7 @@ $locale['in'] = 'i';
 $locale['of'] = 'af';
 $locale['and'] = "og"; // please translate
 $locale['na'] = 'Ingen information tilgængelig.';
-$locale['joined'] = "Bruger siden "; // please translate
+$locale['joined'] = "Tilmeldt siden "; // please translate
 // Navigation
 $locale['next'] = 'Næste';
 $locale['previous'] = 'Foregående';
@@ -401,6 +398,8 @@ $locale['back'] = 'Tilbage';
 $locale['forward'] = 'Fremad';
 $locale['go'] = 'Gør det';
 $locale['cancel'] = 'Fortryd';
+$locale['clear'] = "Fjern";
+$locale['move'] = "Flyt";
 $locale['move_up'] = "Flyt opad";
 $locale['move_down'] = "Flyt nedad";
 $locale['load_more'] = "Indlæs mere";
@@ -480,16 +479,15 @@ $locale['submit'] = "Foreslå";
 $locale['left'] = "Venstre";
 $locale['center'] = "Midt i";
 $locale['right'] = "Højre";
-// User status
-$locale['online'] = "Logget på"; // please translate these 2 lines
-$locale['offline'] = "Logget af";
 // Comments and ratings
 $locale['comments'] = "Kommentarer";
 $locale['ratings'] = "Vurderinger";
 $locale['comments_ratings'] = "Kommentarer og vurderinger";
-$locale['fmt_submission'] = "brugerforslag|brugerforslag";
 $locale['user_account'] = "Brugerkonto";
 $locale['about'] = "Om";
+// User status
+$locale['online'] = "Logget på"; // please translate these 2 lines
+$locale['offline'] = "Logget af";
 // Words for formatting to single and plural forms. Count of forms is language-dependent
 $locale['fmt_submission'] = "brugerforslag|brugerforslag";
 $locale['fmt_article'] = "artikel|artikler";
