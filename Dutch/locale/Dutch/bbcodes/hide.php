@@ -1,5 +1,4 @@
 <?php
-$locale['bb_hide'] = "Message for admins";
-$locale['bb_hide_description'] = "Message visible only for admins";
-$locale['bb_hide_usage'] = "Text visible only for admins";
-
+$locale['bb_hide'] = "Bericht voor beheerders";
+$locale['bb_hide_description'] = "Bericht dat alleen zichtbaar is voor beheerders";
+$locale['bb_hide_usage'] = "Tekst alleen zichtbaar voor beheerders";

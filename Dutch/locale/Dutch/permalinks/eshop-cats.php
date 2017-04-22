@@ -1,6 +1,6 @@
 <?php
-$locale['pl_eshop_cats_title'] = "eShop Category";
-$locale['pl_eshop_cats_desc'] = "Enable Permalinks for the eShop Category on the site.";
-$locale['pl_tags_001'] = "ID of the eShop Category Item.";
-$locale['pl_tags_002'] = "Title or Subject of the eShop Category Item.";
+$locale['pl_eshop_cats_title'] = "eShop Categorie";
+$locale['pl_eshop_cats_desc'] = "Inschakelen Permalinks  voor de eShop Categorie op de site.";
+$locale['pl_tags_001'] = "ID van het eShop Categorie Item.";
+$locale['pl_tags_002'] = "Titel of Onderwerp van het eShop Categorie Item.";
 
