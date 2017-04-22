@@ -1,23 +1,26 @@
 <?php
 /**
- * English Locale
+ * Hungarian Locale
  *
- * @locale charset      ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
- * @locale region       ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
- * @locale select2      refer to path includes/dynamics/select2/select2_locale_{value}.js
- * @locale tinymce      refer to path includes/jscripts/tinymce/langs/{value}.js
- * @package locale/English
+ * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
+ * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
+ * @locale tinymce           refer to path includes/jscripts/tinymce/langs/{value}.js
+ * @locale select2           refer to path includes/dynamics/select2/select2_locale_{value}.js
+ * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
+ * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
+ * @package locale/Hungarian
  */
 setlocale(LC_TIME, "hu_HU", "hu_HU.UTF8", "hu.UTF8", "hun_hun", "Hungarian", "hu");
 $locale['charset'] = "UTF-8";
 $locale['region'] = "HU";
 $locale['xml_lang'] = "hu";
+$locael['short_lang_name'] = "hu";
 $locale['tinymce'] = "hu";
 $locale['select2'] = "hu";
 $locale['phpmailer'] = "hu";
 $locale['datepicker'] = "hu";
-$locale['datepicker_js'] = "YYYY-M-DD, H:mm:ss";
-$locale['datepicker_php'] = "Y-m-d, H:i:s";
+$locale['datepicker_js'] = "YYYY-M-DD H:mm:ss";
+$locale['datepicker_php'] = "Y-m-d H:i:s";
 $locale['password_strength'] = "hu";
 // Full & Short Months
 $locale['months'] = "&nbsp|január|február|március|április|május|június|július|augusztus|szeptember|október|november|december";
@@ -48,9 +51,10 @@ $locale['sel_state'] = "Válassz megyét";
 $locale['sel_user'] = "Adjon meg egy felhasználónevet";
 $locale['add_language'] = "Fordítások hozzáadása";
 $locale['add_lang'] = "%s hozzáadása";
+$locale['other_states'] = "Másik Megye";
 // Name
 $locale['name'] = "Teljes Név";
-$locale['username_pretext'] = "A nyilvános felhasználó neved ugyanaz, mint a felhasználóneved itt:<div class='alert alert-info m-t-10 p-10'>%s<strong>%s</strong></div>";
+$locale['username_pretext'] = "A nyilvános felhasználó neved ugyanaz, mint a felhasználóneved itt: %s %s";
 $locale['first_name'] = "Keresztnév";
 $locale['middle_name'] = "Második keresztnév";
 $locale['last_name'] = "Vezetéknév";
@@ -94,7 +98,7 @@ $locale['global_013'] = "Nincs Online tag";
 $locale['global_014'] = "Regisztráltak";
 $locale['global_015'] = "Aktiválatlanok";
 $locale['global_016'] = "Legújabb tag";
-$locale['global_017'] = "Toggle Navigation";
+$locale['global_017'] = "Navigáció Váltás";
 // Forum Side panel
 $locale['global_020'] = "Fórumtémák";
 $locale['global_021'] = "Legújabb témák";
@@ -245,6 +249,7 @@ $locale['global_172'] = "Generálási idő: %s másodperc";
 $locale['global_173'] = "Lekérdezés";
 $locale['global_174'] = "Használt memória";
 $locale['global_175'] = "Átlag: %s másodperc";
+$locale['global_176'] = "Adatvédelmi irányelvek";
 // Admin Navigation
 $locale['global_180'] = "Adminisztrátori főmenü";
 $locale['global_181'] = "Főoldal";
@@ -257,9 +262,7 @@ $locale['global_193'] = "A bejelentkezés nem sikerült. Kérjük ellenőrizd, h
 $locale['global_194'] = "Hozzáférésedet felfüggesztettük";
 $locale['global_195'] = "Az adminisztrátorok még nem aktiválták hozzáférésedet";
 $locale['global_196'] = "Hibás felhasználónév vagy jelszó";
-
 $locale['global_197'] = "Átirányítás folyamatban...<br />\n<br />\n[ [LINK]Kattints ide, ha nem akarsz várni[/LINK] ]";
-
 $locale['global_198'] = "FIGYELEM: Telepítő fájlt észleltünk, kérjük, törölje az install-PHP fájlt azonnal.";
 $locale['global_199'] = "FIGYELEM: az admin jelszavad még nem állítottad be - [LINK]".$locale['global_120']."[/LINK]";
 //Titles
@@ -292,34 +295,34 @@ $locale['global_412'] = "Ez a felhasználó anonimizálva lett, valószínűleg 
 // Flood control
 $locale['global_440'] = "Flood miatti automatikus kitiltás";
 $locale['global_441'] = "Felhasználóneved kitiltva - [SITENAME]";
-$locale['global_442'] = "Szia [USER_NAME],<br />\n
-Valaki a felhasználóneveddel túl sok hozzászólást küldött el rövid idő alatt az alábbi IP címről: [USER_IP]. A rendszerünk ezért kitiltotta az oldalról, hogy megelőzze az esetleges rosszindulatú robotok tevékenységét.<br />\n
-Kérjük lépj kapcsolatba oldalunk adminisztrátorával az alábbi címen, ha nem te okoztad a problémát: [SITE_EMAIL]<br />\n
-Üdvözlettel,<br />\n
+$locale['global_442'] = "Szia [USER_NAME],\r\n
+Valaki a felhasználóneveddel túl sok hozzászólást küldött el rövid idő alatt az alábbi IP címről: [USER_IP].\r\nA rendszerünk ezért kitiltotta az oldalról, hogy megelőzze az esetleges rosszindulatú robotok tevékenységét.\r\n
+Kérjük lépj kapcsolatba oldalunk adminisztrátorával az alábbi címen, ha nem te okoztad a problémát: [SITE_EMAIL]\r\n
+Üdvözlettel,\r\n
 [SITEUSERNAME]\n[SITENAME]";
 // Authenticate Class
 $locale['global_450'] = "Felfüggesztésed feloldva";
 $locale['global_451'] = "Felfüggesztésed feloldva - [SITENAME]";
-$locale['global_452'] = "Szia USER_NAME,<br />\n
-Feloldottuk kitiltásodat oldalunkon ([SITEURL]). Bejelentkezési adataid:<br />\n
-Felhasználónév: USER_NAME<br />\n
-Jelszó: a korábban használt<br />\n
-Ha elfelejtetted jelszavad, az alábbi linken kérhetsz újat: LOST_PASSWORD<br />\n<br />\n
-Üdvözlettel,<br />\n
-[SITEUSERNAME]<br />\n[SITENAME]";
-$locale['global_453'] = "Szia USER_NAME,<br />\n
-Feloldottuk kitiltásodat oldalunkon ([SITEURL]).<br />\n<br />\n
-Üdvözlettel,<br />\n
-[SITEUSERNAME]<br />\n[SITENAME]";
+$locale['global_452'] = "Szia USER_NAME,\r\n
+Feloldottuk kitiltásodat oldalunkon ([SITEURL]). Bejelentkezési adataid:\r\n
+Felhasználónév: USER_NAME\r\n
+Jelszó: a korábban használt\r\n
+Ha elfelejtetted jelszavad, az alábbi linken kérhetsz újat: LOST_PASSWORD\r\n\r\n
+Üdvözlettel,\r\n
+[SITEUSERNAME]\r\n[SITENAME]";
+$locale['global_453'] = "Szia USER_NAME,\r\n
+Feloldottuk kitiltásodat oldalunkon ([SITEURL]).\r\n\r\n
+Üdvözlettel,\r\n
+[SITEUSERNAME]\r\n[SITENAME]";
 $locale['global_454'] = "Fiók újra aktiválása [SITENAME]";
-$locale['global_455'] = "Szia USER_NAME,<br />\n
-Legutóbbi bejelentkezésed alkalmával hozzáférésed aktiválva lett, így már nincs megjelölve inaktívként.<br />\n<br />\n
-Üdvözlettel,<br />\n
-[SITEUSERNAME]<br />\n[SITENAME]";
+$locale['global_455'] = "Szia USER_NAME,\r\n
+Legutóbbi bejelentkezésed alkalmával hozzáférésed aktiválva lett, így már nincs megjelölve inaktívként.\r\n\r\n
+Üdvözlettel,\r\n
+[SITEUSERNAME]\r\n[SITENAME]";
 $locale['global_456'] = "Új jelszó értesítő [SITENAME]";
 $locale['global_457'] = "Helló USER_NAME,
-\n\nÚj jelszót állított be a [SITENAME] fiókjához. Itt megtalálja a mellékelt új bejelentkezési adatait:<br />\n<br />\n
-Felhasználó név: USER_NAME<br />\nJelszó: [PASSWORD]<br />\n<br />\nÜdvözlettel,<br />\n[SITEUSERNAME]";
+\n\nÚj jelszót állított be a [SITENAME] fiókjához. Itt megtalálja a mellékelt új bejelentkezési adatait:\r\n\r\n
+Felhasználó név: USER_NAME\r\nJelszó: [PASSWORD]\r\n\r\nÜdvözlettel,\r\n[SITEUSERNAME]";
 $locale['global_458'] = "Új jelszó elküldve USER_NAME";
 $locale['global_459'] = "Uj jelszó beállítva neki: USER_NAME, de email nem lett küldve számára. Kérjük jelezd a felhasználónak a változtatást.";
 // Function parsebytesize()
@@ -334,7 +337,6 @@ $locale['global_500'] = "Átirányítás folyamatban: %s, kérjük várj. Ha ez 
 // Captcha Locales
 $locale['global_600'] = "Ellenőrzőkód";
 $locale['global_601'] = "A megadott ellenőrzőkód hibás";
-
 $locale['recaptcha'] = "hu";
 // Site links
 $locale['global_700'] = "További Linkek";
@@ -407,7 +409,6 @@ $locale['promote'] = "Támogat";
 $locale['show'] = "Mutat";
 $locale['actions'] = "Művelet";
 $locale['language'] = "Nyelv";
-
 // Persons & Identifiers
 $locale['you'] = "Te";
 $locale['me'] = "Én";
@@ -417,7 +418,6 @@ $locale['us'] = "Nekünk";
 $locale['he'] = "Ő";
 $locale['she'] = "Az";
 $locale['it'] = "Azt";
-
 //Tables
 $locale['order'] = "Rendez";
 $locale['sort'] = "Sorba rendez";
@@ -433,7 +433,7 @@ $locale['root'] = "Főkönyvtár";
 $locale['choose-user'] = "Kérlek válassz felhasználót...";
 $locale['choose-location'] = "Kérlek, válassz egy Helyszínt";
 $locale['parent'] = "Új kapcsolat készítése..";
-$locale['order'] = "Rendezés";
+$locale['item_order'] = "Rendezés";
 $locale['status'] = "Státusz";
 $locale['note'] = "Jegyezd fel";
 $locale['publish'] = "Publikált";
@@ -459,6 +459,7 @@ $locale['nopreview'] = "Nincs előnézet!";
 $locale['mark_as'] = "Megjelölés";
 $locale['preview'] = "Előnézet";
 $locale['custom'] = "Mód";
+$locale['submit'] = "Beküldés";
 // Alignment
 $locale['left'] = "Ball";
 $locale['center'] = "Közép";

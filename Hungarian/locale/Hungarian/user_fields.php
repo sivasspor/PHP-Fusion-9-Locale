@@ -104,13 +104,13 @@ $locale['u149b'] = "A megadott belépési jelszó hibás vagy nincs megadva.<br 
 // Email actiation
 $locale['u150'] = "A regisztráció már majdnem kész.<br />Hamarosan kapsz egy aktiváló e-mailt a felhasználóneveddel, jelszavaddal és egy linkkel, amin aktiválhatod hozzáférésed.";
 $locale['u151'] = "Üdvözlünk - [SITENAME]";
-$locale['u152'] = "Szia USER_NAME,<br />\n
-Üdvözlünk oldalunkon - SITENAME.<br />\n
-Az alábbi adatokkal regisztráltál:<br />\n
-Felhasználónév: USER_NAME<br />\n
-Jelszó: USER_PASSWORD<br />\n
-Az alábbi linken aktiválhatod hozzáférésed:<br />\n<br />\n
-ACTIVATION_LINK<br />\n
+$locale['u152'] = "Szia USER_NAME,\r\n
+Üdvözlünk oldalunkon - SITENAME.\r\n
+Az alábbi adatokkal regisztráltál:\r\n
+Felhasználónév: USER_NAME\r\n
+Jelszó: USER_PASSWORD\r\n
+Az alábbi linken aktiválhatod hozzáférésed:\r\n\r\n
+ACTIVATION_LINK\r\n
 Üdvözlettel,
 SITENAME";
 $locale['u153'] = "Nem sikerült elküldeni az ellenőrző levelet.";
@@ -152,11 +152,11 @@ $locale['u195'] = "Kérjük add meg az ellenőrzőkódot.";
 $locale['u200'] = "Egy ellenőrző levelet küldtünk az új e-mail címedre (%s).";
 $locale['u201'] = "E-mail címed lecseréléséhez kattints az e-mailben található linkre.";
 $locale['u202'] = "E-mail cím ellenőrzése - [SITENAME]";
-$locale['u203'] = "Szia [USER_NAME],<br />\n
+$locale['u203'] = "Szia [USER_NAME],\r\n
 Valaki ezt az e-mail címet adta meg oldalunkon a profiljában.
-Ha valóban te szeretnéd lecserélni az e-mail címedet erre, kérjük kattints az alábbi linkre:<br />\n
-[EMAIL_VERIFY_LINK]<br />\n
-Megjegyzés: a link használata előtt jelentkezz be!<br />\n
-Üdvözlettel,
-[SITEUSERNAME]<br />\n
+Ha valóban te szeretnéd lecserélni az e-mail címedet erre, kérjük kattints az alábbi linkre:\r\n
+[EMAIL_VERIFY_LINK]\r\n
+Megjegyzés: a link használata előtt jelentkezz be!\r\n
+Üdvözlettel,\r\n
+[SITEUSERNAME]\r\n
 [SITENAME]";
