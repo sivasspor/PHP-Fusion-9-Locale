@@ -303,6 +303,9 @@ $locale['setup_3642'] = "Diverse informationer";
 $locale['setup_3643'] = "Valgmuligheder";
 $locale['setup_3644'] = "Statistik";
 $locale['setup_3645'] = "Privatliv";
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Hjemmeside information";
+$locale['setup_3661'] = "Diskussioner vedrørende styringen af denne hjemmeside";
 
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."/user_fields/user_aim.php");
