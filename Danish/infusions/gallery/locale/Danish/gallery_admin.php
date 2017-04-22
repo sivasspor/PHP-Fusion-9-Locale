@@ -99,7 +99,7 @@ $locale['photo_0022'] = "Billedet er flyttet opad";
 $locale['photo_0023'] = "Billedet er flyttet nedad";
 $locale['photo_0024'] = "Billedet er slettet";
 $locale['photo_0025'] = "Slet alle billeder";
-$locale['photo_0026'] = "<strong>ADVARSEL:</strong> Denne funktion vil <strong>for altid fjerne alle billeder</strong> i dette album. Er du sikker?";
+$locale['photo_0026'] = "[STRONG]ADVARSEL:[/STRONG] Denne funktion vil [STRONG]for altid fjerne alle billeder[/STRONG] i dette album. Er du sikker?";
 $locale['photo_0027'] = "Bekræft sletning";
 $locale['photo_0028'] = "Fortryd";
 
