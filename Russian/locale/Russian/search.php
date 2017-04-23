@@ -1,5 +1,5 @@
 <?php
-$locale['400'] = "Поиск по ".fusion_get_settings('sitename');
+$locale['400'] = "Поиск по [SITENAME]";
 $locale['401'] = "Искать слова:";
 $locale['402'] = "Искать";
 $locale['403'] = "искать любое из слов";
