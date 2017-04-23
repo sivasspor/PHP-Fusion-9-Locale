@@ -5,7 +5,7 @@
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: Panel/locale/Danish.php
-| Author: Jan Mølgaard (janmol)
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -21,3 +21,4 @@ $locale['PW_0200'] = "Vælg et installeret element";
 $locale['PW_0201'] = "Kontroller det installerede elements adgangsrettigheder i [LINK]Elementadministrationen[/LINK]";
 $locale['PW_0220'] = "Gem element";
 $locale['PW_0221'] = "Gem og luk elementet";
+$locale['PW_0222'] = "Element filnavn";
