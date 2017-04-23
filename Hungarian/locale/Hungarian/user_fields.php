@@ -160,3 +160,4 @@ Megjegyzés: a link használata előtt jelentkezz be!\r\n
 Üdvözlettel,\r\n
 [SITEUSERNAME]\r\n
 [SITENAME]";
+$locale['u210'] = "Felhasználói Hírnév";
