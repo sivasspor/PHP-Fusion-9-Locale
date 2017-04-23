@@ -252,9 +252,9 @@ $locale['forum_0630'] = "A Szavazás akkor lesz aktív, ha a téma bekerül a f�
 $locale['forum_0640'] = "Egyesítve";
 $locale['forum_0650'] = 'Hozzászólás újraküldése.';
 $locale['forum_0660'] = "Új hozzászólás - {THREAD_SUBJECT}";
-$locale['forum_0661'] = "Szia {USERNAME},\n\n
-Új hozzászólás érkezett '{THREAD_SUBJECT}' témában amit megjelöltél oldalunkon.\n\n
-A következő linken érhető el a hozzászólás:\n{THREAD_URL}\n\nHa legközelebb nem szeretnél ilyen levelet kapni, a fórumtéma felett található 'Téma nyomon követésének kikapcsolása' linkre kattintva kapcsolhatod ki.\n\nÜdvözlettel,\n".fusion_get_settings('siteusername')." \n".fusion_get_settings('sitename');
+$locale['forum_0661'] = "Szia {USERNAME},\r\n
+Új hozzászólás érkezett \"{THREAD_SUBJECT}\" témában amit megjelöltél oldalunkon.\r\n
+A következő linken érhető el a hozzászólás: {THREAD_URL}\r\nHa legközelebb nem szeretnél ilyen levelet kapni, a fórumtéma felett található \"Téma nyomon követésének kikapcsolása\" linkre kattintva kapcsolhatod ki.\n\nÜdvözlettel,\n{SITEUSERNAME}";
 $locale['forum_0701'] = "A téma törölve lett.";
 $locale['forum_0704'] = "Biztos törlöd a Fórum témát?";
 $locale['forum_0705'] = "Nem lehet törölni ezt a témát, mert nem létezik";
