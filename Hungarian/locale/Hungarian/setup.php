@@ -299,6 +299,9 @@ require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
 
 // Welcome message
 $locale['setup_3650'] = "Üdvözöllek oldalunkon.";
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Honlap Információ";
+$locale['setup_3661'] = "A honlap kezelésével kapcsolatos Témák";
 // Final message
 $locale['setup_1700'] = "A telepítés befejeződött.";
 $locale['setup_1701'] = "PHP-Fusion 9 készen áll a használatra. Kattints a Befejezés gombra, hogy átírjam a config_temp.php fájlt config.php-ra.";

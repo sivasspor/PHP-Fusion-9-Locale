@@ -1,5 +1,5 @@
 <?php
-$locale['400'] = "Kereső ".fusion_get_settings('sitename');
+$locale['400'] = "Kereső [SITENAME]";
 $locale['401'] = "Keresendő:";
 $locale['402'] = "Keresés";
 $locale['403'] = "keresés bármelyik kifejezésre";
