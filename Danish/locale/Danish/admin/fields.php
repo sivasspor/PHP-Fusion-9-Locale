@@ -31,7 +31,6 @@ $locale['fields_0110'] = "Tabellen eksisterer allerede. Vælg et andet tabelnavn
 $locale['fields_0111'] = "Siden med brugerfelterne kan udvides, så den også viser en anden database.";
 $locale['fields_0112'] = "Hvilken tabel bliver primært anvendt af denne side?";
 $locale['fields_0113'] = "Hvilken kolonne rummer den primære bruger-ID?";
-
 $locale['field_0200'] = "Feltkategorien er slettet";
 $locale['field_0201'] = "Feltet er blevet slettet";
 $locale['field_0202'] = "Feltaktivitet er blevet stoppet";

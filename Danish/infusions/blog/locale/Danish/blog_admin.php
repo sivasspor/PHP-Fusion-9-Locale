@@ -71,7 +71,6 @@ $locale['blog_0432'] = "Få dette indlæg til at blive i toppen";
 $locale['blog_0433'] = "Automatiske linjeskift";
 $locale['blog_0434'] = "Slå kommentarer til";
 $locale['blog_0435'] = "Slå vurdering til";
-$locale['blog_0436'] = "Vis blog";
 $locale['blog_0437'] = "Gem blog";
 $locale['blog_0438'] = "Udkast";
 $locale['blog_0439'] = "Blogbillede";
@@ -83,7 +82,6 @@ $locale['blog_0444'] = "Tryk på ENTER efter hvert nøgleord";
 // Blog Category
 // Blog Categories titles
 $locale['blog_0500'] = "Rediger blogkategori";
-$locale['blog_0501'] = "Tilføj blogkategori";
 $locale['blog_0502'] = "Aktuelle blogkategorier";
 // Blog Categories messages
 $locale['blog_0520'] = "Blogkategorien er tilføjet";
@@ -110,7 +108,6 @@ $locale['blog_0561'] = "Denne kategori eksisterer i forvejen.";
 // Popup Error/Warning Messages
 $locale['blog_0450'] = "Du skal angive en overskrift";
 $locale['blog_0451'] = "Skal denne blog slettes?";
-$locale['blog_0451b'] = "Skal denne blogkategori slettes?";
 $locale['blog_0452'] = "%s er slået fra for alle indholdstyper.\n\rDet er først muligt at bruge denne funktion, når indstillingen er slået til igen.";
 $locale['blog_0456'] = 'Der er ikke oprettet blogs under denne kategori.';
 $locale['blog_0457'] = "Du skal angive nøgleord";
@@ -144,9 +141,9 @@ $locale['950'] = "Upload af billede";
 $locale['951'] = "Link til billede";
 $locale['952'] = "Kategori";
 $locale['953'] = "Nyhed";
-$locale['953b'] = "Blogindlæg";
 $locale['954'] = "Størrelsesforhold for miniature";
 $locale['955'] = "Original";
 $locale['956'] = "Kvadratisk";
 $locale['959'] = "Uploadet billede";
 $locale['960'] = "Kategoribillede";
+$locale['961'] = "Tilladte filtyper";
