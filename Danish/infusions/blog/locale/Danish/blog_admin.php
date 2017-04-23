@@ -109,9 +109,9 @@ $locale['blog_0561'] = "Denne kategori eksisterer i forvejen.";
 $locale['blog_0450'] = "Du skal angive en overskrift";
 $locale['blog_0451'] = "Skal denne blog slettes?";
 $locale['blog_0452'] = "%s er slået fra for alle indholdstyper.\n\rDet er først muligt at bruge denne funktion, når indstillingen er slået til igen.";
-$locale['blog_0456'] = 'Der er ikke oprettet blogs under denne kategori.';
+$locale['blog_0456'] = "Der er ikke oprettet blogs under denne kategori.";
 $locale['blog_0457'] = "Du skal angive nøgleord";
-$locale['blog_0461'] = 'Der er ikke oprettet blogkategorier.';
+$locale['blog_0461'] = "Der er ikke oprettet blogkategorier.";
 // Filters
 $locale['blog_0458'] = "Sorter efter";
 $locale['blog_0459'] = "Sorter kategorier efter";
