@@ -15,7 +15,7 @@ setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "TR";
 $locale['xml_lang'] = "tr";
-$locael['short_lang_name'] = "tr";
+$locale['short_lang_name'] = "tr";
 $locale['tinymce'] = "tr";
 $locale['select2'] = "tr";
 $locale['phpmailer'] = "tr";
@@ -419,7 +419,6 @@ $locale['he'] = "O";
 $locale['she'] = "She";
 $locale['it'] = "It";
 //Tables
-$locale['status'] = "Durum";
 $locale['order'] = "Order";
 $locale['sort'] = "Sort";
 $locale['id'] = "ID";
@@ -434,7 +433,7 @@ $locale['root'] = "As Parent";
 $locale['choose-user'] = "Lütfen Bir Kullanıcı Seçiniz...";
 $locale['choose-location'] = "Lütfen Bir Yer Seçiniz";
 $locale['parent'] = "Create as New Parent..";
-$locale['order'] = "Item Ordering";
+$locale['item_order'] = "Item Ordering";
 $locale['status'] = "Durum";
 $locale['note'] = "Bu öğeyi not edin";
 $locale['publish'] = "Yayınla";
