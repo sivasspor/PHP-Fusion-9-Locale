@@ -55,7 +55,7 @@ $locale['theme_1035'] = "Der er ingen beskrivelse tilgængelig for dette tema.";
 $locale['theme_1036'] = "Læs mig";
 $locale['theme_1037'] = "Vælg temapakke";
 
-$locale['theme_2001'] = '"rundlæggende fonte";
+$locale['theme_2001'] = "Grundlæggende fonte";
 $locale['theme_2002'] = "Temakomponenter";
 $locale['theme_2003'] = "Navigation";
 $locale['theme_2004'] = "Grundfonte";
