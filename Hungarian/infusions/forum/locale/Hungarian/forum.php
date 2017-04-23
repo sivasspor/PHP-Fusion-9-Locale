@@ -112,7 +112,7 @@ $locale['forum_0267'] = "írta";
 $locale['forum_0268'] = "IP Cím";
 $locale['forum_0269'] = "Nincs létrehozva fórumtéma.";
 $locale['forum_0270'] = "Hozzászólás nem található.";
-$locale['forum_0271'] = "Nincs több hozzászólás a témában. Visszatérés a <a href='".FORUM."index.php'>Fórum Főoldalra</a>";
+$locale['forum_0271'] = "Nincs több hozzászólás a témában. Visszatérés a &lt;a href=&#039;../../infusions/forum/index.php&#039;&gt;Fórum Főoldalra&lt;/a&gt";
 $locale['forum_0301'] = "Új fórum kijelölése";
 $locale['forum_0302'] = "Következő";
 $locale['forum_0303'] = "Új téma kiválasztása";

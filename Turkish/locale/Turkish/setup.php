@@ -283,6 +283,9 @@ $locale['setup_3642'] = "Çeşitli Bilgiler";
 $locale['setup_3643'] = "Seçenekler";
 $locale['setup_3644'] = "İstatistikler";
 $locale['setup_3645'] = "Gizlilik";
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Site Bilgisi";
+$locale['setup_3661'] = "Bu web sitesinin yönetimine ilişkin münazaralar";
 
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."/user_fields/user_aim.php");
