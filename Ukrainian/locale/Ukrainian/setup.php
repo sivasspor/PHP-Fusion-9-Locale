@@ -135,6 +135,12 @@ $locale['setup_1511'] = "Регіон:";
 $locale['setup_1512'] = "Мови:";
 $locale['setup_1513'] = "Власник сайту:";
 
+// Progress Reports
+$locale['setup_1600'] = "Встановлення ";
+$locale['setup_1601'] = "Оновлення структури таблиць ";
+$locale['setup_1602'] = "Створення нових стовпців ";
+$locale['setup_1603'] = "Запис даних ";
+
 // Step 6 - User details validation
 $locale['setup_5010'] = "Ім&lsquo;я користувача містить недопустимі символи.";
 $locale['setup_5011'] = "Поле з іменем користувача не можна залишати порожнім.";
@@ -293,6 +299,10 @@ $locale['setup_3642'] = "Різне";
 $locale['setup_3643'] = "Параметри";
 $locale['setup_3644'] = "Статистика";
 $locale['setup_3645'] = "Конфіденційність";
+
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Відомості про сайт";
+$locale['setup_3661'] = "Обговорення налаштувань цього сайту";
 
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."/user_fields/user_aim.php");
