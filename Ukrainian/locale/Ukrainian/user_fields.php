@@ -167,3 +167,4 @@ $locale['u203'] = "Вітаємо, [USER_NAME]!\n\r
 З повагою,\n\r
 [SITEUSERNAME]\n\r
 [SITENAME]";
+$locale['u210'] = "Репутація користувача";

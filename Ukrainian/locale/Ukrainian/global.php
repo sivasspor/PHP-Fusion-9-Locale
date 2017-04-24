@@ -50,6 +50,7 @@ $locale['sel_state'] = "Регіон";
 $locale['sel_user'] = "Будь ласка, введіть ім&lsquo;я";
 $locale['add_language'] = "Додати мови";
 $locale['add_lang'] = "Додати %s";
++$locale['other_states'] = "Інше";
 
 // Name
 $locale['name'] = "Повне ім&lsquo;я";
@@ -477,7 +478,6 @@ $locale['she'] = "Вона";
 $locale['it'] = "Воно";
 
 // Tables
-$locale['status'] = "Стан";
 $locale['order'] = "Порядок";
 $locale['sort'] = "Сортування";
 $locale['id'] = "Код ID";
@@ -493,7 +493,7 @@ $locale['root'] = "як кореневий";
 $locale['choose-user'] = "Будь ласка, виберіть користувача...";
 $locale['choose-location'] = "Будь ласка, вкажіть розташування";
 $locale['parent'] = "Створити як кореневий..";
-$locale['order'] = "Порядок розташування";
+$locale['item_order'] = "Порядок розташування";
 $locale['status'] = "Стан";
 $locale['note'] = "Позначити";
 $locale['publish'] = "Опубліковано";
