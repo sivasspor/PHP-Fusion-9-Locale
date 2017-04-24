@@ -246,7 +246,7 @@ $locale['forum_0603'] = "Rediger afstemning";
 $locale['forum_0604'] = "Afstemningens overskrift";
 $locale['forum_0604a'] = "Du skal give afstemningen en overskrift";
 $locale['forum_0605'] = "Svarmulighed";
-$locale['forum_0606'] = $locale['forum_0605'].' %s";
+$locale['forum_0606'] = $locale['forum_0605']." %s";
 $locale['forum_0607'] = "Afstemningen er tilføjet debatten.";
 $locale['forum_0608'] = "Tilføj svarmulighed";
 $locale['forum_0609'] = "Opdater";
@@ -269,11 +269,11 @@ $locale['forum_0630'] = "Afstemninger kan kun oprettes, når debatemnet oprettes
 $locale['forum_0640'] = "Sammensmeltet den";
 $locale['forum_0650'] = "Floodkontrol - venlig besked.";
 $locale['forum_0660'] = "Information om om nyt indlæg i - {THREAD_SUBJECT}";
-$locale['forum_0661'] = "Hej {USERNAME}. Der er kommet et svar i debatten "{THREAD_SUBJECT}" som du følger på {SITENAME}. Du kan bruge følgende link til at se svaret:
+$locale['forum_0661'] = 'Hej {USERNAME}. Der er kommet et svar i debatten "{THREAD_SUBJECT}" som du følger på {SITENAME}. Du kan bruge følgende link til at se svaret:
 {THREAD_URL}
-Hvis du ikke længere ønsker at følge denne debat, kan du klikke på linket "Hold op med at følge" i toppen af debatten.
+Hvis du ikke længere ønsker at følge denne debat, kan du klikke på linket \"Hold op med at følge\" i toppen af debatten.
 Venlig hilsen.
-{SITEUSERNAME}";
+{SITEUSERNAME}';
 $locale['forum_0701'] = "Debatten er slettet.";
 $locale['forum_0704'] = "Er du sikker på, at du vil slette denne debat?";
 $locale['forum_0705'] = "Ude af stand til at fjerne debatten, da den ikke kan findes";

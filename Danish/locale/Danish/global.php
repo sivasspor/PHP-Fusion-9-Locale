@@ -376,7 +376,7 @@ $locale['home'] = "Forsiden";
 // Status
 $locale['error'] = "Fejl!";
 $locale['success'] = "Det lykkedes!";
-$locale['enable'] = "Aktiveret'"
+$locale['enable'] = "Aktiveret";
 $locale['disable'] = "Deaktiveret";
 $locale['can'] = "kan";
 $locale['cannot'] = "kan ikke";
