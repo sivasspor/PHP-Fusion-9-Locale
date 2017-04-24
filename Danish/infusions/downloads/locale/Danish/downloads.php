@@ -35,13 +35,10 @@ $locale['download_1018'] = "Besøg hjemmesiden";
 $locale['download_1019'] = "Anmeldelse";
 $locale['download_1020'] = "Filstørrelse";
 $locale['download_1021'] = "Dato for offentliggørelse";
-
-// filters
-$locale['download_2001'] = 'Flest kommentarer';
-$locale['download_2002'] = 'Nyeste';
-$locale['download_2003'] = 'Oftest downloadet';
-$locale['download_2004'] = 'Bedst vurderede download';
-// errors
+$locale['download_2001'] = "Flest kommentarer";
+$locale['download_2002'] = "Nyeste";
+$locale['download_2003'] = "Oftest downloadet";
+$locale['download_2004'] = "Bedst vurderede download";
 $locale['download_3000'] = "Der er endnu ikke tilføjet downloads.";
 $locale['download_3001'] = "Ingen kategori";
 $locale['download_3002'] = "Ingen producent";

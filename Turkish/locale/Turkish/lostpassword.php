@@ -14,3 +14,4 @@ $locale['410'] = "Merhaba [USER_NAME],\nSiz veya birisi [SITENAME] hesabınıza 
 $locale['411'] = "Merhaba [USER_NAME],\n[SITENAME] hesabınıza erişmek için yeni şifreniz:\n
 [NEW_PASS]\n\nSaygılarımızla,\n[SITEUSERNAME]";
 $locale['412'] = "Bir hata oluştu, lütfen tekrar deneyin.";
+$locale['413'] = "Lütfen e-posta adresinizi giriniz:";

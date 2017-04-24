@@ -22,13 +22,11 @@ $locale['931'] = "Maksimal filstørrelse i bytes";
 $locale['932'] = "Tilladte filtyper";
 $locale['933'] = "Adskil de forskellige filtyper med komma";
 $locale['934'] = "Maksimal størrelse for skærmdump";
-$locale['935'] = "Bredde x Højde";
 $locale['936'] = "Maksimal filstørrelse for skærmdump (i bytes)";
 $locale['937'] = "Maksimal miniaturestørrelse for skærmdump";
 $locale['938'] = "Skal funktionen for skærmdumps slås til ";
 $locale['939'] = "Antal downloads pr. side ";
 $locale['940'] = "Skal status slås til ";
-// Downloads titles
 $locale['download_0000'] = "Aktuelle downloads";
 $locale['download_0001'] = "Downloads";
 $locale['download_0002'] = "Tilføj downloads";
@@ -36,15 +34,12 @@ $locale['download_0003'] = "Rediger downloads";
 $locale['download_0004'] = "Alle downloads";
 $locale['download_0005'] = "Aktuelt viser vi %d af i alt %d downloads.";
 $locale['download_0006'] = "Opsætning";
-// Filters
 $locale['download_0010'] = "Sorter efter";
 $locale['download_0011'] = "Sorter efter kategori";
-// Downloads Category titles
 $locale['download_0020'] = "Aktuelle downloadkategorier";
 $locale['download_0021'] = "Rediger downloadkategori";
 $locale['download_0022'] = "Downloadkategori";
 $locale['download_0023'] = "Redigere downloadkategorier";
-// Downloads submissions
 $locale['download_0039'] = "Vend tilbage til [SITENAME]";
 $locale['download_0040'] = "Beklager - aktuelt modtager vi ikke forslag til nye downloads her på siden.";
 $locale['download_0041'] = "Foreslå download"; // 650
@@ -53,11 +48,9 @@ $locale['download_0043'] = "Vil du foreslå endnu en download?";
 $locale['download_0044'] = "Brug nedenstående formular til at foreslå en download. Dit forslag vil blive gennemset af en
 administrator. [SITENAME] reserverer sig retten til at afvise eller redigere alle forslag. Downloads
 skal ligge i forlængelse af indholdet her på siden. Upassende forslag vil blive fjernet uden videre.";
-$locale['download_0045'] = "Foreslå download";
 $locale['download_0046'] = "Forslag til downloads ";
 $locale['download_0047'] = "Skal der laves et skærmdump ";
 $locale['download_0048'] = "Skal der laves en fuld beskrivelse ";
-// Downloads submissions - admin
 $locale['download_0049'] = "Brugerforslag til downloads";
 $locale['download_0050'] = "Der er aktuelt ikke lavet forslag til downloads.";
 $locale['download_0051'] = "Aktuelt venter %s brugerforslag på gennemsyn.";
@@ -71,7 +64,6 @@ $locale['download_0060'] = "Slet brugerforslag";
 $locale['download_0061'] = "Offentliggør forslag";
 $locale['download_0062'] = "Forslaget er slettet";
 $locale['download_0063'] = "Forslaget til download er blevet offentliggjort";
-// Downloads messages
 $locale['download_0100'] = "Download er tilføjet";
 $locale['download_0101'] = "Download er opdateret";
 $locale['download_0102'] = "Download er slettet";
@@ -89,13 +81,11 @@ $locale['download_0113'] = "Ukendt fejl";
 $locale['download_0114'] = "Der skal tilføjes et skærmdump";
 $locale['download_0115'] = "Der skal angives et filnavn";
 $locale['download_0116'] = "Der skal angives en adresse for filen";
-// Downloads Category messages
 $locale['download_0150'] = "Downloadkategori er tilføjet";
 $locale['download_0151'] = "Downloadkategori er opdateret";
 $locale['download_0152'] = "Downloadkategori kunne ikke slettes";
 $locale['download_0153'] = "Der er tilknyttet downloads eller underkategorier til denne kategori";
 $locale['download_0154'] = "Downloadkategorien er slettet";
-// Downloads form
 $locale['download_0200'] = "Downloadoverskrift";
 $locale['download_0201'] = "Den fulde anmeldelse";
 $locale['download_0202'] = "Kort beskrivelse";
@@ -124,37 +114,25 @@ $locale['download_0222'] = "Copyright";
 $locale['download_0223'] = "Slå kommentarer til";
 $locale['download_0224'] = "Slå vurdering til";
 $locale['download_0225'] = "Fortryd";
-// Current Downloads
 $locale['download_0226'] = "Test downloadpakken";
 $locale['download_0227'] = "Valgmuligheder";
-// No Downloads/Downloads Categories Defined
 $locale['download_0249'] = "Der er aktuelt ikke oprettet nogen downloadkategorier.";
 $locale['download_0250'] = "Der er ikke tilføjet downloads til denne kategori.";
 $locale['download_0251'] = "Der er ikke oprettet downloadkategorier. ";
 $locale['download_0252'] = "Du er nødt til at oprette mindst en kategori, før du kan tilføje downloads.";
 $locale['download_0253'] = "Klik her";
 $locale['download_0254'] = " for at springe til downloadkategorier.";
-// Popup Error/Warning Messages
 $locale['download_0255'] = "Skal denne download slettes?";
 $locale['download_0256'] = "%s er slået fra for alle typer indhold.\n\rDenne opsætning vil først blive aktiv igen, når værdien ændres under administrationen.";
-// Downloads Category form
 $locale['download_0300'] = "Kategoriens navn";
 $locale['download_0301'] = "Beskrivelse af kategorien";
 $locale['download_0302'] = "Sorteringsorden";
 $locale['download_0303'] = "Download-ID";
-$locale['download_0304'] = "Downloadoverskrift";
 $locale['download_0305'] = "Dato for download";
 $locale['download_0306'] = "Stigende";
 $locale['download_0307'] = "Faldende";
 $locale['download_0308'] = "Overkategori";
 $locale['download_0309'] = "Gem kategorien";
-// Current Downloads Categories
-$locale['download_0310'] = "Kategori";
-$locale['download_0311'] = "Adgangsforhold";
-$locale['download_0312'] = "Valgmuligheder";
-$locale['download_0313'] = "Der er ikke oprettet downloadkategorier";
-// Delete Downloads category
 $locale['download_0350'] = "Skal denne downloadkategori slettes?";
-// Error Messages
 $locale['download_0351'] = "Angiv venligst et kategorinavn.";
 $locale['download_0352'] = "Denne kategori eksisterer i forvejen.";

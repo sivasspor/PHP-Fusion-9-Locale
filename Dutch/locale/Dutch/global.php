@@ -7,8 +7,11 @@
  * @locale select2      refer to path includes/dynamics/select2/select2_locale_{value}.js
  * @locale tinymce      refer to path includes/jscripts/tinymce/langs/{value}.js
  * @package locale/Dutch
+ 
+ * Vertaald door Douwe Yntema
+ * Nederlandstalige support site: http://www.phpfusion-nederlands.info 
  */
- */
+ 
 // setlocale(LC_TIME, "nl","NL"); // Voor Windows Server
 setlocale(LC_TIME, "nl_NL"); // Voor Linux Server
 $locale['charset'] = "ISO-8859-1";

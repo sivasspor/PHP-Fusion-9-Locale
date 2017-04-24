@@ -1,5 +1,4 @@
 <?php
-$locale['bb_mail'] = "Email address";
-$locale['bb_mail_description'] = "Makes email adress clickable";
-$locale['bb_mail_usage'] = "Email address or text to display as";
-
+$locale['bb_mail'] = "E-mailadres";
+$locale['bb_mail_description'] = "Maakt een e-mailadres klikbaar";
+$locale['bb_mail_usage'] = "E-mailadres of tekst om zo weer te geven";

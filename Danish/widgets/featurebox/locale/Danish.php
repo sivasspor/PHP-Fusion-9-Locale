@@ -15,6 +15,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
+
 $locale['FBW_0100'] = "Funktionsboks";
 $locale['FBW_0101'] = "Funktionsboks plugin";
 $locale['FBW_0200'] = "Boksens overskrift";
@@ -22,7 +23,7 @@ $locale['FBW_0201'] = "Boksens beskrivelse";
 $locale['FBW_0202'] = "Boksens ikontype";
 $locale['FBW_0203'] = "CSS ikon";
 $locale['FBW_0204'] = "Billedikon";
-$locale['FBW_0204'] = "Vælg eller upload venligst et ikonbillede";
+$locale['FBW_0205'] = "Vælg eller upload venligst et ikonbillede";
 $locale['FBW_0206'] = "Tilret ikonkonfigurationen";
 $locale['FBW_0207'] = "Ikonklasse";
 $locale['FBW_0208'] = "Referer til din svg ikon kode. For eksempel Font-Awesome: \"fa fa-thumbs-up-o\"";
@@ -48,4 +49,5 @@ $locale['FBW_0227'] = "Angiv margin i bunden mellem linket og kanten";
 $locale['FBW_0228'] = "Gem boksen";
 $locale['FBW_0229'] = "Gem og luk boksen";
 $locale['FBW_0230'] = "Boksklassen";
-$locale['FBW_0230'] = "Få mere at vide";
+
+$locale['FBW_0300'] = "Få mere at vide";

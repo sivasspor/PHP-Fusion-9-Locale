@@ -1,3 +1,3 @@
 <?php
-$locale['pl_message_title'] = "Message";
-$locale['pl_message_desc'] = "Enable Permalinks for the Message links in the site.";
+$locale['pl_message_title'] = "Mesajlar";
+$locale['pl_message_desc'] = "Özel Mesaj sistemi için Kalıcı Bağlantıları etkinleştir.";

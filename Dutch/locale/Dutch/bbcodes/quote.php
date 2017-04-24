@@ -1,8 +1,7 @@
 <?php
-$locale['bb_quote_description'] = "Quoting selected text";
-$locale['bb_quote_usage'] = "Text to quote";
-$locale['bb_quote_expand'] = "View Full Text";
-$locale['bb_quote_collapse'] = "Hide Full Text";
-$locale['bb_quote'] = "Quote";
-$locale['bb_wrote'] = "wrote";
-
+$locale['bb_quote_description'] = "Geselecteerde tekst citeren";
+$locale['bb_quote_usage'] = "Tekst om te citeren";
+$locale['bb_quote_expand'] = "Toon volledige tekst";
+$locale['bb_quote_collapse'] = "Verberg volledige tekst";
+$locale['bb_quote'] = "Citaat";
+$locale['bb_wrote'] = "schreef";
