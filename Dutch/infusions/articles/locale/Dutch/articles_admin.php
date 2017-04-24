@@ -89,7 +89,7 @@ $locale['articles_0304'] = "Artikel Onderwerp";
 $locale['articles_0305'] = "Artikel Datum";
 $locale['articles_0306'] = "Oplopend";
 $locale['articles_0307'] = "Aflopend";
-$locale['articles_0308'] = "Categorie Ouder:";
+$locale['articles_0308'] = "Bovenliggende Categorie:";
 $locale['articles_0309'] = "Opslaan Categorie";
 // Current category options
 $locale['articles_0340'] = "Categorie";
