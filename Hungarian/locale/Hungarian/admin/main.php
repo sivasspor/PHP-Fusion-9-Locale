@@ -2,8 +2,8 @@
 // Admin Links
 $locale['200'] = "[SITENAME] - Adminisztráció";
 $locale['ac00'] = "Admin főoldal";
-$locale['ac01'] = "Tartalom kezelés";
-$locale['ac02'] = "Tagok kezelése";
+$locale['ac01'] = "Tartalom";
+$locale['ac02'] = "Felhasználók";
 $locale['ac03'] = "RendszerAdmin";
 $locale['ac04'] = "Beállítások";
 $locale['ac05'] = "Infusion";
