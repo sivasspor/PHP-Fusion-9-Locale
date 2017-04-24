@@ -299,6 +299,9 @@ require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
 
 // Welcome message
 $locale['setup_3650'] = "Üdvözöllek oldalunkon.";
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Honlap Információ";
+$locale['setup_3661'] = "A honlap kezelésével kapcsolatos Témák";
 // Final message
 $locale['setup_1700'] = "A telepítés befejeződött.";
 $locale['setup_1701'] = "PHP-Fusion 9 készen áll a használatra. Kattints a Befejezés gombra, hogy átírjam a config_temp.php fájlt config.php-ra.";
@@ -316,10 +319,10 @@ $locale['setup_3704'] = "%Y %B %d %H:%M:%S";
 $locale['setup_3800'] = "Email Minták";
 $locale['setup_3801'] = "Értesítés új privát üzenetről";
 $locale['setup_3802'] = "Új privát üzeneted van tőle: [USER] itt: [SITENAME]";
-$locale['setup_3803'] = "Helló [RECEIVER],<br />\nÚj privát üzenetet kaptál.<br />Címe: [SUBJECT]<br />tőle: [USER]<br />itt: [SITENAME].<br />Üzeneteidet itt elolvashatod: [SITEURL]messages.php<br />\n<br />\nÜzenet: [MESSAGE]<br />\n<br />\nKikapcsolhatod az email értesítéseket a beállítások panelen, ha nem szeretnél értesítést az új üzenetekről.<br />\n<br />\nÜdvözlettel,<br />\n[SENDER].";
+$locale['setup_3803'] = "Helló [RECEIVER],\r\nÚj privát üzenetet kaptál.\r\nCíme: [SUBJECT]\r\nKüldő: [USER]\r\nitt: [SITENAME].\r\nÜzeneteidet itt elolvashatod: [SITEURL]messages.php\r\n\r\nÜzenet: [MESSAGE]\r\nKikapcsolhatod az email értesítéseket a beállítások panelen, ha nem szeretnél értesítést az új üzenetekről.\r\nÜdvözlettel,\r\n[SENDER].";
 $locale['setup_3804'] = "Új fórum hozzászólások értesítései";
 $locale['setup_3805'] = "Válaszok értesítései - [SUBJECT]";
-$locale['setup_3806'] = "Helló [RECEIVER],<br />\n<br />\nEgy választ írtak a fórumtémára: \'[SUBJECT]\' amit itt követsz nyomon: [SITENAME].<br />A következő linkre kattintva megtekintheted:<br />\n<br />\n[THREAD_URL]<br />\n<br />\nHa nem akarod tovább nyomon követni a témát kattints a \'Téma nyomkövetésének kikapcsolása\' linkre a téma alján.<br />\n<br />\nÜdvözlettel,<br />\n[SENDER].";
+$locale['setup_3806'] = "Helló [RECEIVER],\r\n\r\nEgy választ írtak a fórumtémára: \'[SUBJECT]\' amit itt követsz nyomon: [SITENAME].\r\nA következő linkre kattintva megtekintheted:\r\n[THREAD_URL]\r\nHa nem akarod tovább nyomon követni a témát kattints a \'Téma nyomkövetésének kikapcsolása\' linkre a téma alján.\r\n\r\nÜdvözlettel,\r\n[SENDER].";
 $locale['setup_3807'] = "Kapcsolatok űrlap";
 $locale['setup_3808'] = "[SUBJECT]";
 $locale['setup_3809'] = "[MESSAGE]";

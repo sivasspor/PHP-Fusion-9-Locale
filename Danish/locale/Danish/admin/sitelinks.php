@@ -16,7 +16,7 @@
 | written permission from the original author(s).
 +--------------------------------------------------------*/
 // News titles
-$locale['SL_0001'] = 'Interne links';
+$locale['SL_0001'] = "Interne links";
 $locale['SL_0010'] = "Tilføj internt link";
 $locale['SL_0011'] = "Rediger internt link";
 $locale['SL_0012'] = "Aktuelle interne links";

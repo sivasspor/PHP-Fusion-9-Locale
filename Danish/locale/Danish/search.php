@@ -15,7 +15,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['400'] = "Søg på ".fusion_get_settings('sitename');
+$locale['400'] = "Søg på [SITENAME]";
 $locale['401'] = "Søg efter";
 $locale['402'] = "Søg";
 $locale['403'] = "søg efter et af ordene";

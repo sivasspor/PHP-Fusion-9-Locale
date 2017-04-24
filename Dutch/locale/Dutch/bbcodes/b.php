@@ -1,4 +1,3 @@
 <?php
-$locale['bb_b_description'] = "Displays selected text as bold";
-$locale['bb_b_usage'] = "Text to bold";
-
+$locale['bb_b_description'] = "Geeft geselecteerde tekst vet weer";
+$locale['bb_b_usage'] = "Maak tekst vet";

@@ -112,12 +112,12 @@ $locale['forum_0267'] = "írta";
 $locale['forum_0268'] = "IP Cím";
 $locale['forum_0269'] = "Nincs létrehozva fórumtéma.";
 $locale['forum_0270'] = "Hozzászólás nem található.";
-$locale['forum_0271'] = "Nincs több hozzászólás a témában. Visszatérés a <a href='".FORUM."index.php'>Fórum Főoldalra</a>";
+$locale['forum_0271'] = "Nincs több hozzászólás a témában. Visszatérés a &lt;a href=&#039;../../infusions/forum/index.php&#039;&gt;Fórum Főoldalra&lt;/a&gt";
 $locale['forum_0301'] = "Új fórum kijelölése";
 $locale['forum_0302'] = "Következő";
 $locale['forum_0303'] = "Új téma kiválasztása";
-$locale['forum_0305'] = "Az első hozzászólást akarod mozdítani a témában!<br />Az első üzenet <strong>nem lesz áthelyezve</strong> mert van üzenet a témában.";
-$locale['forum_0306'] = "Az első hozzászólást akarod mozdítani a témában!<br />Az első üzenet <strong>át lesz helyezve </strong> és a téma törlésre kerül.";
+$locale['forum_0305'] = "Az első hozzászólást akarod mozdítani a témában!<br />Az első üzenet [STRONG]nem lesz áthelyezve[STRONG] mert van üzenet a témában.";
+$locale['forum_0306'] = "Az első hozzászólást akarod mozdítani a témában!<br />Az első üzenet [STRONG]át lesz helyezve[STRONG] és a téma törlésre kerül.";
 $locale['forum_0307'] = "Nincs áthelyezendő hozzászólás.";
 $locale['forum_0308'] = "Nincsenek témák a fórumon.";
 $locale['forum_0309'] = "Vissza a témákhoz.";
@@ -252,9 +252,9 @@ $locale['forum_0630'] = "A Szavazás akkor lesz aktív, ha a téma bekerül a f�
 $locale['forum_0640'] = "Egyesítve";
 $locale['forum_0650'] = 'Hozzászólás újraküldése.';
 $locale['forum_0660'] = "Új hozzászólás - {THREAD_SUBJECT}";
-$locale['forum_0661'] = "Szia {USERNAME},\n\n
-Új hozzászólás érkezett '{THREAD_SUBJECT}' témában amit megjelöltél oldalunkon.\n\n
-A következő linken érhető el a hozzászólás:\n{THREAD_URL}\n\nHa legközelebb nem szeretnél ilyen levelet kapni, a fórumtéma felett található 'Téma nyomon követésének kikapcsolása' linkre kattintva kapcsolhatod ki.\n\nÜdvözlettel,\n".fusion_get_settings('siteusername')." \n".fusion_get_settings('sitename');
+$locale['forum_0661'] = "Szia {USERNAME},\r\n
+Új hozzászólás érkezett \"{THREAD_SUBJECT}\" témában amit megjelöltél oldalunkon.\r\n
+A következő linken érhető el a hozzászólás: {THREAD_URL}\r\nHa legközelebb nem szeretnél ilyen levelet kapni, a fórumtéma felett található \"Téma nyomon követésének kikapcsolása\" linkre kattintva kapcsolhatod ki.\n\nÜdvözlettel,\n{SITEUSERNAME}";
 $locale['forum_0701'] = "A téma törölve lett.";
 $locale['forum_0704'] = "Biztos törlöd a Fórum témát?";
 $locale['forum_0705'] = "Nem lehet törölni ezt a témát, mert nem létezik";

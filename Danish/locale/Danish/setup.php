@@ -303,6 +303,9 @@ $locale['setup_3642'] = "Diverse informationer";
 $locale['setup_3643'] = "Valgmuligheder";
 $locale['setup_3644'] = "Statistik";
 $locale['setup_3645'] = "Privatliv";
+// Stage 6 - Forum Tags
+$locale['setup_3660'] = "Hjemmeside information";
+$locale['setup_3661'] = "Diskussioner vedrørende styringen af denne hjemmeside";
 
 // Stage 6 - User Fields
 require_once(dirname(__FILE__)."/user_fields/user_aim.php");
@@ -322,7 +325,7 @@ $locale['setup_3650'] = "Velkommen til din side";
 // Final message
 $locale['setup_1700'] = "Installationen er færdig";
 $locale['setup_1701'] = "PHP-Fusion version 9.00 er nu klar til at blive taget i brug. Klik på afslut for at få gemt din config_temp.php fil som config.php<br/>";
-$locale['setup_1702'] = "<strong>Bemærk: Når du første gang går ind på din nye side, så skal du slette hele folderen includes/classes/PHPFusion/install og ændre rettigheder på din config.php til 0644 af sikkerhedsmæssige årsager.</strong>";
+$locale['setup_1702'] = "[STRONG]Bemærk: Når du første gang går ind på din nye side, så skal du slette hele folderen includes/classes/PHPFusion/install og ændre rettigheder på din config.php til 0644 af sikkerhedsmæssige årsager.[/STRONG]";
 $locale['setup_1703'] = "Tak fordi du valgte PHP-Fusion.";
 // Default time settings
 // http://php.net/manual/en/function.strftime.php
