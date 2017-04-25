@@ -286,11 +286,12 @@
         <hr/>
 
         <p>Kontroller at din server opfylder kravene til denne version: <br/>
-            - PHP 5.3 eller højere<br/>
-            - MySQL 4.1 eller højere</p>
+            - PHP 5.5.08 eller højere<br/>
+            - MySQL 5.1 eller højere</p>
         <hr/>
         <p>Denne opgradering kan være meget krævende - lidt afhængigt af, hvor meget indhold, du har på siden. <br/><br/>
-            Brugerfelter bliver ikke opgraderet. Et standardiseret, nyt sæt af felter bliver installeret i stedet (Dette kan dog forandre sig).</p>
+            Brugerfelter bliver ikke opgraderet. Et standardiseret, nyt sæt af felter bliver installeret i stedet.<br/>
+			Detvsamme gælder for Interne links. Et nyt sæt af standard Interne links vil blive oprettet.</p>
         <hr/>
         <p>PHP-Fusion 9.0 er i det store og hele kompatibelt med version 7.02.07, <br/> men du skal være forberedt på problemer og tilføje systemtilføjelser langsomt - ligesom du skal være forsigtig med at tilføje ældre data fra systemtilføjelser langsomt.<br/><br/>
             Der er lavet massive ændringer i kernen - og det betyder også, at nogle tilføjelser, nogle infusioner, nogle elementer eller temaer ikke længere virker.</p>
@@ -301,67 +302,32 @@
 
         <ul style='list-style-type:none'>
 
-            <li><strong>1</strong> &middot; Først skal du uploade opgraderings-scriptet fra den folder, som hedder <strong>upgrade 7.02.07 to
-                9.0</strong><br/>
-                Indholdet i denne administrationsfolder skal lægges i din sides administrationsfolder.<br/>
-                Indholdet i folderen locale skal uploades til roden af localefolderen på din side.
+            <li><strong>1</strong> &middot; Allerførst skal du uploade alle PHP-Fusion 9 filer. Erstat alle filer når der spørges.</strong>
             </li>
             <br/>
 
-            <li><strong>2</strong> &middot; Log ind på din side som Super Administrator. I systemafdelingen af din sideadministration klikker du herefter på Opgradering. Du SKAL gennemføre denne opgradering som det første.<br/>
-                Opgraderingsprocessen vil derefter fortsætte automatisk.<br/>
-                Når du ser vedligeholdelsessiden fra din hjemmeside, er vi klar til trin 2.
-            </li>
+            <li><strong>2</strong> &middot; Naviger til din side www.site.com og tilføj /install.php, f.eks. www.site.com/install.php. Installeren vil nu starte og auto-detektere din PHP-Fusion 7 version. Udfør din grund-opgradering på engelsk.    </li>
             <br/></ul>
 
         <p><strong>Trin 2</strong></p>
         <ul style='list-style-type:none'>
-            <li><strong>1</strong> &middot; Slet alle filer i folderen infusions (husk lige først at gemme alt der, skal gemmes).</li>
+            <li><strong>1</strong> &middot; Accepter licensbestemmelserne.</li>
             <br/>
-            <li><strong>2</strong> &middot; Upload infusionsfolderens indhold fra PHP-Fusion 9 installationspakke til den infusionsfolder, som nu er tom.</li>
+            <li><strong>2</strong> &middot; Folder diagnose, vær sikker på at alle oplistede foldere har de korrekte rettigheder</li>
             <br/>
-            <li><strong>3</strong> &middot; Billeder i din billedfolder (images) kan blive liggende, hvis du ønsker det. Men du skal flytte dem til den nye billedfolder infusions/articles/images, og du er ligeledes nødt til at redigere dine artikler for at kunne bruge dem.
+            <li><strong>3</strong> &middot; Databaseopsætning, alle skulle være for-udfyldt. Vi anbefaler PDO som driver hvis den er tilgængelig.
             </li>
             <br/>
-            <li><strong>4</strong> &middot; Billeder i din billedfolder (images) kan blive liggende, hvis du ønsker det. Men du skal flytte dem til den nye billedfolder infusions/news/images, og du er ligeledes nødt til at redigere dine nyheder for at kunne bruge dem.
+            <li><strong>4</strong> &middot; De vigtigste administrator og hjemmeside informationer, færdiggør alle felterne og opret en ny Superadmin konto.      </li>
+            <br/>
+            <li><strong>5</strong> &middot; Opsætning af selve systemet, klik på opgraderingsknappen til hver af de infusioner du har.
             </li>
             <br/>
-            <li><strong>5</strong> &middot; Det er en anelse mere langhåret med billederne til nyhedskategorierne. Hvis du selv har oprettet kategorier, foreslår vi, at du flytter billederne fra images/news_cats til infusions/news/news_cats og manuelt redigere alle de nyhedskategorier for at få rettet stierne til de nye værdier.
+            <li><strong>6</strong> &middot; Hvis vi går ud fra, at du har fulgt den beskrevne procedure. kan du nu fjerne alle de gamle PHP-Fusion filer med undtagelse af images, infusions foldere, config.php og den nye .htaccess fil.
             </li>
-            <br/>
-            <li><strong>6</strong> &middot; Images/ranks er blevet flyttet til infusions/forum/ranks og alle brugeroprettede værdier her skal flyttes manuelt og redigeres, for at de kan få fat i de korrekte nye stier.
-            </li>
-            <br/>
-            <li><strong>7</strong> &middot; Hvis vi går ud fra, at du har fulgt den beskrevne procedure. kan du nu fjerne alle de gamle PHP-Fusion filer med undtagelse af downloads, forum/attachments, images, infusions foldere, config.php og den nye .htaccess file.
-            </li>
-            <br/>
-            <li><strong>8</strong> &middot; Upload herefter den komplette PHP-Fusion 9 pakke til din server og erstat alle nødvendige filer som du bliver bedt om.</li>
-            <br/>
-            <li><strong>9</strong> &middot; Når denne upload er færdig, <br/> skal du vende tilbage til din  > System Administration > Opgradering <br/>
-                Her kan du klikke på funktionen Flyt albums til 9 folderen, Migrer downloads til 9 folder og migrer tilknyttede filer under debatten til deres version 9 folder. <br/>Klik på dem men vent hver gang på, at scriptene bliver færdige med at arbejde. <br/> Afhængigt af mængden af elementer, der skal flyttes, kan det godt tage sin tid.
-            </li>
-        </ul>
-        <p>Sæt adgangsrettigheder (CHMOD) på nedenstående filer og foldere til 777:</p>
-        <ul style='list-style-type:disc'>
-            <li>/infusions/blog/images/</li>
-            <li>/infusions/blog/images/thumbs/</li>
-            <li>/infusions/blog/blog_cats/</li>
-            <li>/infusions/downloads/files/</li>
-            <li>/infusions/downloads/images/</li>
-            <li>/infusions/downloads/submissions/</li>
-            <li>/infusions/downloads/submissions/images/</li>
-            <li>/infusions/forum/attachments/</li>
-            <li>/infusions/news/images/</li>
-            <li>/infusions/news/images/thumbs/</li>
-            <li>/infusions/news/news_cats/</li>
-            <li>/infusions/gallery/photos/</li>
-            <li>/infusions/gallery/photos/thumbs/</li>
-            <li>/infusions/gallery/submissions/</li>
-            <li>/infusions/gallery/submissions/images/</li>
         </ul>
         <hr/>
-        <p>Din side skulle nu være opgraderet og klar til at køre videre med PHP-Fusion 9, husk at slå vedligeholdelsestilstand fra (under administrationen >
-            opsætning > sikkerhed).</p>
+        <p>Din side skulle nu være helt og fuldt opgraderet og parat til at afvikle PHP-Fusion 9.</p>
         <hr/>
         <p>For at optimere din side, kan du herefter gå ind under systemadministration > infusioner og fjerne de infusioner, som du ikke skal bruge.</p>
         <hr/>
@@ -440,7 +406,7 @@
             Routh - hjælp ved aftestning af scripts til opgradering og mange fejlrettelser.<br/>
             MiChAeLoKGB - rettelser af BBCode.<br/>
             Keddy - mange fejlrettelser.<br/>
-	    helmuth - Betatest og fejlrapportering.<br/>
+	        helmuth - Betatest og fejlrapportering.<br/>
             janmol {Jan.M} - Betatest og fejlrapportering.<br/>
             Kvido - Betatest og fejlrapportering.<br/>
             Alex L - Betatest og fejlrapportering.<br/>
