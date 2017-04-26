@@ -3,6 +3,7 @@ $locale['validate'] = "Lütfen alanı kontrol edin ve yeniden doğrulayın.";
 $locale['error_request'] = "İsteğiniz işlenirken bir hata oluştu."; // to be moved
 $locale['regex_error'] = "Lütfen %s alanını kontrol edin ve tekrar doğrulayın"; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Lütfen geçerli bir kullanıcı adı girin";
 $locale['error_input_default'] = "Lütfen bu alanı doldurun";
 $locale['error_input_password'] = "Lütfen geçerli bir şifre giriniz";
 $locale['error_input_email'] = "Lütfen geçerli bir e-posta adresi girin";
