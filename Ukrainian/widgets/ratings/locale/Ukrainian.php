@@ -4,8 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: Artemis/locale/Danish.php
-| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
+| Filename: Ratings/locale/English.php
+| Author: Frederick MC Chan (Chan)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -15,10 +15,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['spotlight'] = "Indholdsliste";
-$locale['spotlight_search'] = "Søg efter apps";
-$locale['copyright'] = "Copyright &copy; ";
-$locale['render_engine'] = "Systemfunktion";
-$locale['artemis_admin'] = "Artemis PHP-Fusion 9";
-$locale['admin_apps'] = "Apps";
-$locale['admin_collapse'] = "Rul menuen ind";
+$locale['RTW_0100'] = "Додаток оцінювання";
+$locale['RTW_0101'] = "Базовий додаток оцінювання";
+$locale['RTW_0102'] = "Оцінювання успішно додано";
+$locale['RTW_0104'] = "Неможливо додати оцінювання";

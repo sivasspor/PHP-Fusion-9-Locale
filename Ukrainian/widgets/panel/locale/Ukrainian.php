@@ -4,8 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: Artemis/locale/Danish.php
-| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
+| Filename: Panel/locale/English.php
+| Author: Frederick MC Chan (Chan)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -15,10 +15,10 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['spotlight'] = "Indholdsliste";
-$locale['spotlight_search'] = "Søg efter apps";
-$locale['copyright'] = "Copyright &copy; ";
-$locale['render_engine'] = "Systemfunktion";
-$locale['artemis_admin'] = "Artemis PHP-Fusion 9";
-$locale['admin_apps'] = "Apps";
-$locale['admin_collapse'] = "Rul menuen ind";
+$locale['PW_0100'] = "Панель";
+$locale['PW_0101'] = "Панелі PHP-Fusion";
+$locale['PW_0200'] = "Виберіть встановлені панелі";
+$locale['PW_0201'] = "Будь ласка, визначте налаштування доступу для встановлених панелей у [LINK]розділі керування панелями[/LINK]";
+$locale['PW_0220'] = "Зберегти";
+$locale['PW_0221'] = "Зберегти та закрити";
+$locale['PW_0222'] = "Файл для панелі";

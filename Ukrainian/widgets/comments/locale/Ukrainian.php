@@ -4,8 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: Artemis/locale/Danish.php
-| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
+| Filename: Comments/locale/English.php
+| Author: Frederick MC Chan (Chan)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -15,10 +15,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['spotlight'] = "Indholdsliste";
-$locale['spotlight_search'] = "Søg efter apps";
-$locale['copyright'] = "Copyright &copy; ";
-$locale['render_engine'] = "Systemfunktion";
-$locale['artemis_admin'] = "Artemis PHP-Fusion 9";
-$locale['admin_apps'] = "Apps";
-$locale['admin_collapse'] = "Rul menuen ind";
+$locale['CMW_0100'] = "Коментарі";
+$locale['CMW_0101'] = "Базовий додаток коментарів";
+$locale['CMW_0102'] = "Коментарі успішно додано";
+$locale['CMW_0104'] = "Неможливо додати коментарі";

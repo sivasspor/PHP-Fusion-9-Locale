@@ -19,6 +19,7 @@ $locale['validate'] = "Kontroller og gentag valideringen af feltet.";
 $locale['error_request'] = "Der opstod en fejl i forbindelse med din anmodning."; // to be moved
 $locale['regex_error'] = "Kontroller og feltet %s"; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Venligst indtast et gyldigt brugernavn";
 $locale['error_input_default']	= "Du skal udfylde dette felt.";
 $locale['error_input_password']	= "Du skal angive et gyldigt kodeord";
 $locale['error_input_email']	= "Du skal angive en gyldig mailadresse";

@@ -153,7 +153,7 @@ $locale['u174'] = "Tilføj endnu en bruger?";
 $locale['u180'] = "Der opstod en fejl i forbindelse med upload af din avatar";
 
 
-$locale['u184'] = "Maksimal filstørrelse: %s / Maksimal størrelse: %ux%u pixels";
+$locale['u184'] = "Maks. filstørrelse: %s / Maks. størrelse: %ux%u pixels";
 $locale['u185'] = "Avatar";
 $locale['u186'] = "Klik på gennemse for at uploade et billede";
 $locale['u187'] = "Slet";
