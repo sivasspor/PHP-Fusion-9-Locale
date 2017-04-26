@@ -2,7 +2,7 @@
 $locale['setup_0000'] = "PHP-Fusion Kurulumu";
 $locale['setup_0002'] = "PHP-Fusion Kurulumuna Hoşgeldiniz";
 $locale['setup_0003'] = "Kurulum kılavuzu, PHP-Fusion CMS'yi sunucunuza kurmak için gerekli adımlar konusunda size rehberlik eder. Daha fazla yardıma ihtiyaç duyarsanız, lütfen <a class='strong' href='https://php-fusion.co.uk/infusions/wiki/documentation.php?page=216' target='_blank'>Çevrimiçi Kurulum Belgelerimizi</a> kontrol ediniz.";
-$locale['setup_0005'] = " PHP-Fusion <a href='https://php-fusion.co.uk/license/' target='_blank'>hükümleri ve koşulları kullanımını</a> okudum ve kabul ediyorum.";
+$locale['setup_0005'] = " PHP-Fusion <a href='https://php-fusion.co.uk/license/' target='_blank'>Şartlarını ve Kullanım Koşullarını</a> okudum ve kabul ediyorum.";
 $locale['setup_0006'] = "PHP-Fusion 9, en azından PHP 5.5.9 gerektirir. Daha fazla bilgi için <a href=\"https://www.php-fusion.co.uk/requirements\"> sistem gereksinimleri</a> sayfasına bakın.";
 $locale['setup_0007'] = "OPcache kurulu olan sistemlerde <a href=\"http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments\">opcache.save_comments</a> etkin olmalıdır.";
 $locale['setup_5000'] = "PHP-Fusion'u kullanmak için, PHP-Fusion'ın şartlarını kontrol etmeniz ve kabul etmeniz gerekiyor.</a>.";
