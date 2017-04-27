@@ -3,6 +3,7 @@ $locale['validate'] = "Пожалуйста, проверьте повторно
 $locale['error_request'] = "Во время обработки Вашего запроса возникла ошибка";
 $locale['regex_error'] = 'Пожалуйста, проверьте повторно значение в поле %s'; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Пожалуйста, введите корректное имя пользователя";
 $locale['error_input_default']	= "Пожалуйста, заполните это поле";
 $locale['error_input_password']	= "Пожалуйста, введите корректный пароль";
 $locale['error_input_email']	= "Пожалуйста, введите корректный адрес электропочты";
