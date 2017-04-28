@@ -77,6 +77,7 @@ $locale['u114'] = "Brugertype";
 $locale['u115'] = "Sprog";
 $locale['u116'] = "Ingen gruppemedlemmer.";
 // User name and email
+$locale['u119'] = "Brugernavn indeholder.";
 $locale['u120'] = "Brugernavnet indeholder forbudte karakterer.";
 $locale['u121'] = "Det valgte brugernavn anvendes allerede af en anden bruger.";
 $locale['u122'] = "Der skal angives et brugernavn.";
