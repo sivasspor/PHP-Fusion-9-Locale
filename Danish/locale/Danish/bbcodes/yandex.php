@@ -4,8 +4,8 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: locale/Danish/bbcodes/ebay.php
-| Author: Jan Mølgaard (janmol)
+| Filename: locale/Danish/admin/settings.php
+| Author: Helmuth Mikkelsen (helmuth)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -15,6 +15,6 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['bb_ebay'] = "eBay";
-$locale['bb_ebay_description'] = "eBay søgemaskine";
-$locale['bb_ebay_usage'] = "Den tekst, der skal søges efter på eBay";
+$locale['bb_yandex_description'] = "Yandex søgemaskine";
+$locale['bb_yandex_usage'] = "Tekst, der skal søges efter via Yandex";
+

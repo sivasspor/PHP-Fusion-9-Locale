@@ -13,7 +13,7 @@ setlocale(LC_MESSAGES, "ru_RU.UTF-8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "RU";
 $locale['xml_lang']  = "ru";
-$locale['short_lang_name'] = "en";
+$locale['short_lang_name'] = "ru";
 $locale['tinymce']   = "ru";
 $locale['select2'] = "ru";
 $locale['phpmailer'] = "ru";
