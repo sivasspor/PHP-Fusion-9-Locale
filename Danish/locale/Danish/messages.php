@@ -135,12 +135,12 @@ $locale['524'] = "Ja, gem mine sendte beskeder";
 
 // Options
 $locale['620'] = "Opsætning";
-$locale['621'] = "Underret mig pr. mail, når jeg modtager en ny privat besked";
+$locale['621'] = "Underret mig pr. mail, når jeg modtager en ny privat besked ";
 $locale['622'] = "Gem modtagne beskeder automatisk";
 $locale['623'] = "Gem opsætning";
 $locale['624'] = "Gemte valg";
 $locale['625'] = "Du har modtaget en ny privat besked på ".fusion_get_settings('sitename');
-$locale['626'] = ",\r\nDu har modtaget en ny privat besked på; ".fusion_get_settings('sitename').". Du kan læse dine private beskeder på 
+$locale['626'] = ",\r\nDu har modtaget en ny privat besked [SUBJECT] fra [USER] på ".fusion_get_settings('sitename').". Du kan læse dine private beskeder på 
 ".fusion_get_settings('siteurl')."messages.php\r\n\r\nDu kan slå mailunderretning fra under valgmuligheder, hvis du ikke længere ønsker at blive underrettet om nye beskeder.";
 $locale['627'] = "Fejl";
 $locale['628'] = "Var ikke i stand til at aflevere den private besked. Brugerens indbakke er fuld.";
