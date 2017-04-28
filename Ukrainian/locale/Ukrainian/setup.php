@@ -2,7 +2,7 @@
 $locale['setup_0000'] = "Встановлення PHP-Fusion 9";
 $locale['setup_0002'] = "Вітаємо у системі встановлення PHP-Fusion 9.0";
 $locale['setup_0003'] = "Майстер встановлення проведе Вас через ряд кроків необхідних для встановлення на Ваш сервер CMS PHP-Fusion. Якщо буде потреба додаткової підтримки, будь ласка, ознайомтесь з нашою <a class='strong' href='https://php-fusion.co.uk/infusions/wiki/documentation.php?page=216' target='_blank'>відкритою довідкою з встановлення</a>.";
-$locale['setup_0005'] = " Мною прочитано <a href='https://php-fusion.co.uk/license/' target='_blank'>умови використання</a> PHP-Fusion і я погоджуюсь з ними.";
+$locale['setup_0005'] = " Мною прочитано <a href='https://php-fusion.co.uk/license/' target='_blank'>Умови використання</a> PHP-Fusion і я погоджуюсь з ними.";
 $locale['setup_0006'] = "PHP-Fusion 9 потребує принаймні PHP 5.5.9. Ознайомтесь з повним переліком <a href=\"https://www.php-fusion.co.uk/requirements\">системних вимог</a>.";
 $locale['setup_0007'] = "У системах з встановленим OPcache має бути ввімкнено параметр <a href=\"http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments\">opcache.save_comments</a>.";
 $locale['setup_5000'] = "Для використання PHP-Fusion, Ви маєте ознайомитись і погодитись з <a href='https://php-fusion.co.uk/license/'>умовами використання</a>.";
