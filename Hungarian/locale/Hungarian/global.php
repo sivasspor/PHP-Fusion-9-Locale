@@ -264,7 +264,7 @@ $locale['global_195'] = "Az adminisztrátorok még nem aktiválták hozzáféré
 $locale['global_196'] = "Hibás felhasználónév vagy jelszó";
 $locale['global_197'] = "Átirányítás folyamatban...<br />\n<br />\n[ [LINK]Kattints ide, ha nem akarsz várni[/LINK] ]";
 $locale['global_198'] = "FIGYELEM: Telepítő fájlt észleltünk, kérjük, törölje az install-PHP fájlt azonnal.";
-$locale['global_199'] = "FIGYELEM: az admin jelszavad még nem állítottad be - [LINK]".$locale['global_120']."[/LINK]";
+$locale['global_199'] = "FIGYELEM: Az admin jelszavad még nem állítottad be - [LINK]".$locale['global_120']."[/LINK]";
 //Titles
 $locale['global_200'] = " - ";
 $locale['global_201'] = ": ";
@@ -295,36 +295,36 @@ $locale['global_412'] = "Ez a felhasználó anonimizálva lett, valószínűleg 
 // Flood control
 $locale['global_440'] = "Flood miatti automatikus kitiltás";
 $locale['global_441'] = "Felhasználóneved kitiltva - [SITENAME]";
-$locale['global_442'] = "Szia [USER_NAME],\r\n
-Valaki a felhasználóneveddel túl sok hozzászólást küldött el rövid idő alatt az alábbi IP címről: [USER_IP].\r\nA rendszerünk ezért kitiltotta az oldalról, hogy megelőzze az esetleges rosszindulatú robotok tevékenységét.\r\n
-Kérjük lépj kapcsolatba oldalunk adminisztrátorával az alábbi címen, ha nem te okoztad a problémát: [SITE_EMAIL]\r\n
-Üdvözlettel,\r\n
-[SITEUSERNAME]\n[SITENAME]";
+$locale['global_442'] = "Szia [USER_NAME],<br />
+Valaki a felhasználóneveddel túl sok hozzászólást küldött el rövid idő alatt az alábbi IP címről: [USER_IP].<br />A rendszerünk ezért kitiltotta az oldalról, hogy megelőzze az esetleges rosszindulatú robotok tevékenységét.<br />
+Kérjük lépj kapcsolatba oldalunk adminisztrátorával az alábbi címen, ha nem te okoztad a problémát: [SITE_EMAIL]<br />
+Üdvözlettel,<br />
+[SITEUSERNAME]<br />[SITENAME]";
 // Authenticate Class
 $locale['global_450'] = "Felfüggesztésed feloldva";
 $locale['global_451'] = "Felfüggesztésed feloldva - [SITENAME]";
-$locale['global_452'] = "Szia USER_NAME,\r\n
-Feloldottuk kitiltásodat oldalunkon ([SITEURL]). Bejelentkezési adataid:\r\n
-Felhasználónév: USER_NAME\r\n
-Jelszó: a korábban használt\r\n
-Ha elfelejtetted jelszavad, az alábbi linken kérhetsz újat: LOST_PASSWORD\r\n\r\n
-Üdvözlettel,\r\n
-[SITEUSERNAME]\r\n[SITENAME]";
-$locale['global_453'] = "Szia USER_NAME,\r\n
-Feloldottuk kitiltásodat oldalunkon ([SITEURL]).\r\n\r\n
-Üdvözlettel,\r\n
-[SITEUSERNAME]\r\n[SITENAME]";
+$locale['global_452'] = "Szia USER_NAME,<br />
+Feloldottuk kitiltásodat oldalunkon ([SITEURL]). Bejelentkezési adataid:<br />
+Felhasználónév: USER_NAME<br />
+Jelszó: a korábban használt<br />
+Ha elfelejtetted jelszavad, az alábbi linken kérhetsz újat: LOST_PASSWORD<br />
+Üdvözlettel,<br />
+[SITEUSERNAME]<br />[SITENAME]";
+$locale['global_453'] = "Szia USER_NAME,<br />
+Feloldottuk kitiltásodat oldalunkon ([SITEURL]).<br />
+Üdvözlettel,<br />
+[SITEUSERNAME]<br />[SITENAME]";
 $locale['global_454'] = "Fiók újra aktiválása [SITENAME]";
-$locale['global_455'] = "Szia USER_NAME,\r\n
-Legutóbbi bejelentkezésed alkalmával hozzáférésed aktiválva lett, így már nincs megjelölve inaktívként.\r\n\r\n
-Üdvözlettel,\r\n
-[SITEUSERNAME]\r\n[SITENAME]";
+$locale['global_455'] = "Szia USER_NAME,<br />
+Legutóbbi bejelentkezésed alkalmával hozzáférésed aktiválva lett, így már nincs megjelölve inaktívként.<br />
+Üdvözlettel,<br />
+[SITEUSERNAME]<br />[SITENAME]";
 $locale['global_456'] = "Új jelszó értesítő [SITENAME]";
 $locale['global_457'] = "Helló USER_NAME,
-\n\nÚj jelszót állított be a [SITENAME] fiókjához. Itt megtalálja a mellékelt új bejelentkezési adatait:\r\n\r\n
-Felhasználó név: USER_NAME\r\nJelszó: [PASSWORD]\r\n\r\nÜdvözlettel,\r\n[SITEUSERNAME]";
+<br />Új jelszót állított be a [SITENAME] fiókjához. Itt megtalálja a mellékelt új bejelentkezési adatait:<br />
+Felhasználó név: USER_NAME<br />Jelszó: [PASSWORD]<br />Üdvözlettel,<br />[SITEUSERNAME]";
 $locale['global_458'] = "Új jelszó elküldve USER_NAME";
-$locale['global_459'] = "Uj jelszó beállítva neki: USER_NAME, de email nem lett küldve számára. Kérjük jelezd a felhasználónak a változtatást.";
+$locale['global_459'] = "Új jelszó beállítva neki: USER_NAME, de email nem lett küldve számára. Kérjük jelezd a felhasználónak a változtatást.";
 // Function parsebytesize()
 $locale['global_460'] = "Üres";
 $locale['global_461'] = "Bájt";

@@ -10,11 +10,11 @@ $locale['apw_404'] = "Indoklás:";
 $locale['apw_405'] = "Bejelentkezési jelszó lecserélése";
 $locale['apw_406'] = "Jelszavak lecserélése";
 $locale['apw_407'] = "Új jelszó - ";
-$locale['apw_408'] = "Üdv [USER_NAME],\n\nAz admin jelszavadat lecseréltük a következőre [SITEURL]:\n\n
-Admin jelszó: [NEW_ADMIN_PASS]\n\nIndoklás: [RESET_MESSAGE]\n\nÜdvözlettel,\n[ADMIN]";
-$locale['apw_409'] = "Üdv [USER_NAME],\nA bejelentkezési és az admin jelszavadat lecseréltük a következőre [SITEURL]:\n\n
-Jelszó: [NEW_PASS]\nAdmin jelszó: [NEW_ADMIN_PASS]\n\nIndoklás: [RESET_MESSAGE]\n\n
-Üdvözlettel,\n[ADMIN]";
+$locale['apw_408'] = "Üdv [USER_NAME],<br />Az admin jelszavadat lecseréltük a következőre [SITEURL]:<br />
+Admin jelszó: [NEW_ADMIN_PASS]<br />Indoklás: [RESET_MESSAGE]<br />Üdvözlettel,<br />[ADMIN]";
+$locale['apw_409'] = "Üdv [USER_NAME],<br />A bejelentkezési és az admin jelszavadat lecseréltük a következőre [SITEURL]:<br />
+Jelszó: [NEW_PASS]<br />Admin jelszó: [NEW_ADMIN_PASS]<br />Indoklás: [RESET_MESSAGE]<br />
+Üdvözlettel,<br />[ADMIN]";
 $locale['apw_410'] = "Művelet Eredménye";
 $locale['apw_411'] = "Admin jelszavak Módosítva.";
 $locale['apw_412'] = "Admin jelszó:";

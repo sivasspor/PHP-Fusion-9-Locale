@@ -142,13 +142,13 @@ $locale['theme_5004'] = "Fed og understreget";
 $locale['theme_5005'] = "Kursiv og fed";
 $locale['theme_5006'] = "Kursiv og understreget";
 $locale['theme_5007'] = "Kursiv, fed og understreget";
+
 $locale['theme_5008'] = "Flad farve";
 $locale['theme_5009'] = "Horisontal gradering";
 $locale['theme_5010'] = "Vertikal gradering";
 $locale['theme_5011'] = "Radial gradering";
 $locale['theme_5012'] = "Diagonal gradering";
 $locale['theme_5013'] = "Gem værdier";
-
 $locale['theme_success_001'] = "Temaet blev uploadet til din temamappe";
 $locale['theme_success_002'] = "Temaopsætningen er slettet";
 $locale['theme_success_003'] = "Temaopsætningen er opdateret";

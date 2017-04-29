@@ -113,6 +113,7 @@ $locale['606'] = "Kompressionsmetode";
 $locale['607'] = "GD1";
 $locale['608'] = "GD2";
 
+$locale['649'] = "Forbudte brugernavne";
 $locale['650'] = "Diverse";
 $locale['651'] = "Liste over forbudte ord";
 $locale['652'] = "Kun et ord pr. linje.";
@@ -129,7 +130,7 @@ $locale['659'] = "Ord-censur slået til";
 $locale['660'] = "Flood interval (sekunder)";
 $locale['661'] = "Undlad at udfylde, hvis sikkerhedskopier skal downloades eller uploades direkte.";
 $locale['662'] = "Skal TinyMCE HTML editoren bruges";
-$locale['663'] = "Kun til artikler og nyheder.";
+$locale['663'] = "Kun til brugeroprettede sider, blogs, artikler og nyheder.";
 $locale['664'] = "SMTP Vært";
 $locale['665'] = "Efterlades blankt hvis sendmail er aktiveret.";
 $locale['666'] = "SMTP Brugernavn";

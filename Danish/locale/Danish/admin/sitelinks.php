@@ -47,8 +47,8 @@ $locale['SL_0036'] = "Flyt internt link til...";
 $locale['SL_0037'] = "Vælg linkets overlink";
 $locale['SL_0038'] = "Der er ikke oprettet links, der kan bruges som overlink";
 $locale['SL_0039'] = "Bekræft flytning";
-$locale['SL_0040'] = "Gem link";
 
+$locale['SL_0040'] = "Gem link";
 $locale['SL_0041'] = "Linkopsætning";
 $locale['SL_0042'] = "Ret opsætningen for dine interne links navigationsfunktioner.";
 $locale['SL_0043'] = "Links pr. side";
@@ -58,6 +58,7 @@ $locale['SL_0046'] = "Linkgruppering";
 $locale['SL_0047'] = "Grupper links når antallet af links overstiger antallet af links pr. side";
 $locale['SL_0048'] = "Nej, undlad at gruppere links";
 $locale['SL_0049'] = "Ja, grupper links under \"Vis mere\"";
+
 // Site Links list
 $locale['SL_0050'] = "Linkets overskrift";
 $locale['SL_0051'] = "Kan ses af";

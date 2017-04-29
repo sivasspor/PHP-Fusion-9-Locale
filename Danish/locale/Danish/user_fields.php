@@ -77,6 +77,7 @@ $locale['u114'] = "Brugertype";
 $locale['u115'] = "Sprog";
 $locale['u116'] = "Ingen gruppemedlemmer.";
 // User name and email
+$locale['u119'] = "Brugernavn indeholder.";
 $locale['u120'] = "Brugernavnet indeholder forbudte karakterer.";
 $locale['u121'] = "Det valgte brugernavn anvendes allerede af en anden bruger.";
 $locale['u122'] = "Der skal angives et brugernavn.";
@@ -107,8 +108,8 @@ $locale['u141'] = " kan ikke være det samme som ";
 $locale['u142'] = " er for kort eller indeholder forbudte karakterer!";
 $locale['u143'] = " er ikke den samme!";
 $locale['u143a'] = " må ikke være tom.";
-$locale['u144a'] = "Aktuelt admin. kodeord ";
 $locale['u144'] = "Nyt admin. kodeord ";
+$locale['u144a'] = "Aktuelt admin. kodeord ";
 $locale['u145'] = "Bekræft kodeord ";
 $locale['u146'] = " kan ikke være identisk med det aktuelle ";
 $locale['u147'] = "Kodeordet skal være på mellem 8 og 64 tegn. Tilladt: <i>a-z, 0-9, @!#$%&\/()=-_?+*.,:;</i> - er tilladt.";
