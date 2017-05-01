@@ -127,6 +127,7 @@ $locale['622'] = "Gönderilen mesajları otomatik olarak kaydedin:";
 $locale['623'] = "Yapılandırmayı Kaydet";
 $locale['624'] = "Yapılandırma Kaydedildi";
 $locale['625'] = "Bekleyen yeni bir özel mesajınız var ".fusion_get_settings('sitename');
+$locale['626'] = ",\r\n[SITENAME] sitesinde [USER] tarafından [SUBJECT] konu başlıklı yeni bir Özel Mesaj aldınız. Özel Mesajınızı [LINK]okuyabilirsiniz[/LINK]. Artık yeni mesajlar almak istemiyorsanız, Özel Mesaj sayfasının seçenekler panelinden e-posta bildirimini kapatabilirsiniz.";
 $locale['627'] = "Hata";
 $locale['628'] = "Özel Mesaj gönderilemiyor. Alıcının gelen kutusu dolu.";
 $locale['629'] = "Seçilen mesajları en fazla mesaj sınırını aşacağı için belirtilen klasöre taşıyamazsınız.";
@@ -136,5 +137,5 @@ $locale['632'] = "Hayır";
 
 $locale['700'] = "Kullanıcı gelen kutusu doldu. Silmeyi deneyin veya 102 veya 103 durumuna yükseltin.";
 $locale['701'] = "Gönderen kullanıcı kimliği DB'de mevcut değil. Dizi İptal Oldu.";
-$locale['702'] = "Mesaj Alıcısı ID geçersiz";
+$locale['702'] = "Mesaj Alıcısı Kullanıcı ID geçersiz";
 $locale['703'] = "Akın Saldırısı, send_pm durdu";
