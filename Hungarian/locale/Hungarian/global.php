@@ -461,9 +461,9 @@ $locale['preview'] = "Előnézet";
 $locale['custom'] = "Mód";
 $locale['submit'] = "Beküldés";
 // Alignment
-$locale['left'] = "Ball";
-$locale['center'] = "Közép";
-$locale['right'] = "Jobb";
+$locale['left'] = "Balra";
+$locale['center'] = "Középre";
+$locale['right'] = "Jobbra";
 // Comments and ratings
 $locale['comments'] = "Hozzászólás";
 $locale['ratings'] = "Értékelés";
