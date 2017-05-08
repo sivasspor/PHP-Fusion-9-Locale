@@ -16,3 +16,4 @@ $locale['E_STRICT'] = "";
 $locale['err_100'] = "Nd.";
 $locale['err_101'] = "<strong>Ostrzeżenie:</strong> W trakcie generowania strony wystąpił błąd. Sprawdź <a href='[ERROR_LOG_URL]'>dziennik błędów</a>, aby uzyskać więcej informacji.";
 $locale['err_102'] = "Pokaż mi błąd!";
+$locale['err_103'] = "{%function%} {%folder%} does not exists.";       // NIEPRZETŁUMACZONE ///
