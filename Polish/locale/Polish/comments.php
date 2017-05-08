@@ -10,3 +10,7 @@ $locale['c107'] = " Wyłącz uśmieszki w&nbsp;komentarzu";
 $locale['c108'] = "Edytuj";
 $locale['c109'] = "Usuń";
 $locale['c110'] = "Usunąć komentarz?";
+$locale['c111'] = "Leave a Comment";
+$locale['c112'] = "Reply";
+$locale['c113'] = "Title";
+$locale['c114'] = "Comments have been updated";

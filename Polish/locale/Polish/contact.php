@@ -1,12 +1,9 @@
 <?php
 // Contact Form
 $locale['400'] = "Kontakt";
-$locale['401'] = "Z administracją ".$settings['sitename']." można skontaktować się poprzez:
-<ul>
-	<li>Bezpośrednie wysłanie e-maila na adres ".hide_email($settings['siteemail']).".</li>
-	<li>Wysłanie <a href='messages.php?msg_send=1'>prywatnej wiadomości</a>.</li>
-	<li>Wysłanie znajdującego się poniżej formularza. Jego treść zostanie dostarczona za pośrednictwem e-maila.</li>
-</ul>";
+$locale['401'] = "Istnieje kilka sposobów, przez które można się skontaktować. Możesz napisać bezpośrednio na
+[SITE_EMAIL]. Jeśli jesteś członkiem, możesz wysłać [PM_LINK].
+Alternatywnie można wypełnić formularz na tej stronie, która wysyła wiadomości za pośrednictwem poczty elektronicznej.";
 $locale['402'] = "Nick:";
 $locale['403'] = "Adres e-mail:";
 $locale['404'] = "Temat:";
@@ -26,4 +23,3 @@ $locale['440'] = "Wiadomość została wysłana.";
 $locale['441'] = "Dziękuję";
 $locale['442'] = "Wiadomość nie została wysłana, ponieważ:";
 $locale['443'] = "Spróbuj wysłać jeszcze raz.";
-
