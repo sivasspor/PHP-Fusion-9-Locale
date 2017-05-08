@@ -17,6 +17,7 @@ $locale['blog_0145'] = "Usunięto nadesłany wpis!";
 $locale['blog_0146'] = "Opublikowano nadesłany wpis!";
 $locale['blog_0147'] = "Nadesłany wpis zapisano jako szkic!";
 $locale['blog_0148'] = "Dodano ";
+$locale['blog_0149'] = "%s has been disabled and will not take effect.";            /// DO PRZETŁUMACZENIA ///
 // Blog titles
 $locale['blog_0400'] = "Wpisy";
 $locale['blog_0401'] = "Dodaj wpis";
@@ -54,7 +55,6 @@ $locale['blog_0432'] = "Ustaw jako przyklejone";
 $locale['blog_0433'] = "Włącz automatyczne łamanie linii";
 $locale['blog_0434'] = "Włącz komentarze";
 $locale['blog_0435'] = "Włącz ocenianie";
-$locale['blog_0436'] = "Podgląd";
 $locale['blog_0437'] = "Zapisz";
 $locale['blog_0438'] = "Szkic";
 $locale['blog_0439'] = "Zdjęcie do wpisu:";
@@ -63,10 +63,9 @@ $locale['blog_0441'] = "Podział strony";
 $locale['blog_0442'] = "Wyrównaj zdjęcie dla wpisu do:";
 $locale['blog_0443'] = "Słowa kluczowe:";
 $locale['blog_0444'] = "każde słowo musisz zatwierdzić Enterem";
-// Blog Category
+// Blog Category;
 // Blog Categories titles
 $locale['blog_0500'] = "Edytuj kategorię";
-$locale['blog_0501'] = "Dodaj kategorię";
 $locale['blog_0502'] = "Kategorie";
 // Blog Categories messages
 $locale['blog_0520'] = "Dodano kategorię!";
@@ -82,6 +81,9 @@ $locale['blog_0533'] = "Nadrzędna kategoria:";
 $locale['blog_0535'] = "Nie zdefinowano kategorii";
 $locale['blog_0536'] = "Wgraj obraz kategorii";
 $locale['blog_0537'] = "Jako nadrzędna";
+$locale['blog_0538'] = "Bytes (bajtów)";
+$locale['blog_0539'] = "KB (Kilobajtów)";
+$locale['blog_0540'] = "MB (Megabajtów)";
 // Popup Error/Warning Messages
 $locale['blog_0550'] = "Usunąć kategorię?";
 // Error Messages
@@ -90,7 +92,6 @@ $locale['blog_0561'] = "Kategoria o tej nazwie już istnieje.";
 // Popup Error/Warning Messages
 $locale['blog_0450'] = "Proszę wpisać tytuł!";
 $locale['blog_0451'] = "Usunąć wpis?";
-$locale['blog_0451b'] = "Usunąć kategorię?"; //czemu dubluje się z blog_0550?
 $locale['blog_0452'] = "%s są wyłączone globalnie i&nbsp;będą niedostępne dopóki ustawienia nie ulegną zmianie.";
 $locale['blog_0456'] = "Brak wpisów w kategorii.";
 $locale['blog_0457'] = "Wpisz słowa kluczowe";
@@ -123,9 +124,9 @@ $locale['950'] = "Wgraj obraz";
 $locale['951'] = "Link do obrazu:";
 $locale['952'] = "Kategoria";
 $locale['953'] = "Aktualności";
-$locale['953b'] = "Blog";
 $locale['954'] = "Skalowanie miniatury:";
 $locale['955'] = "Zachowaj proporcje";
 $locale['956'] = "Przekształć do kwadratu";
 $locale['959'] = "Wgrane obrazy";
 $locale['960'] = "Obraz kategorii";
+$locale['961'] = "Allowed file types:";
