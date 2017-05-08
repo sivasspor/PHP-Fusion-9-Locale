@@ -1,4 +1,4 @@
 <?php
-$locale['uf_shouts-stat'] = "Wpisy na shoutboxie";
-$locale['uf_shouts-stat_desc'] = "Wyświetla liczbę wpisów z shoutboxa.";
+$locale['uf_shouts-stat'] = "Shoutbox Posts";
+$locale['uf_shouts-stat_desc'] = "Displays number of shoutbox posts.";
 
