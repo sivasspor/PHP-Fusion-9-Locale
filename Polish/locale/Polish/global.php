@@ -16,10 +16,10 @@ $locale['region'] = "PL";
 $locale['xml_lang'] = "pl";
 $locale['short_lang_name'] = "pl";
 $locale['tinymce'] = "pl";
-$locale['select2'] = "en";
+$locale['select2'] = "pl";
 $locale['phpmailer'] = "pl";
 $locale['datepicker'] = "pl";
-$locale['datepicker_js'] = "DD-M-YYYY H:mm:ss";
+$locale['datepicker_js'] = "DD-MM-YYYY H:mm:ss";
 $locale['datepicker_php'] = "d-m-Y H:i:s";
 $locale['password_strength'] = "en";
 // Full & Short Months
