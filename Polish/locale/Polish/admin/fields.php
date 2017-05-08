@@ -1,8 +1,7 @@
 <?php
 // New locale for Quantum Fields
-$locale['fields_0100'] = 'This page adds field directly into Table: %s';
-$locale['fields_0101'] = "This page adds fields directly into Table: <strong>%s</strong>,
-	combining itself with DB_USERS via column <strong>%s</strong>";
+$locale['fields_0100'] = "This page adds field directly into Table: %s";
+$locale['fields_0101'] = "This page adds fields directly into Table: %s, combining itself with DB_USERS via column %s";
 $locale['fields_0102'] = "There are no fields added in ";
 $locale['fields_0103'] = "There are no page created. Please add a page by creating a page as category.";
 $locale['fields_0104'] = "Field Name existed in %s and renaming column failed. Please choose another name.";
@@ -15,16 +14,15 @@ $locale['fields_0110'] = "Table already exist. Please choose another table name"
 $locale['fields_0111'] = "User field page can be extended to read other database on view.";
 $locale['fields_0112'] = "Which table primarily is used by this page?";
 $locale['fields_0113'] = "Which column in your primary is your User ID column?";
-
-$locale['field_0200'] = 'Field category has been deleted';
-$locale['field_0201'] = 'Field has been deleted';
-$locale['field_0202'] = 'Field action cancelled';
-$locale['field_0203'] = 'Field have been updated';
-$locale['field_0204'] = 'Field have been added successfully';
-$locale['field_0205'] = 'Module not Found';
-$locale['field_0206'] = 'Category not Found';
-$locale['field_0207'] = 'Category have been updated';
-$locale['field_0208'] = 'Category have been added successfully';
+$locale['field_0200'] = "Field category has been deleted";
+$locale['field_0201'] = "Field has been deleted";
+$locale['field_0202'] = "Field action cancelled";
+$locale['field_0203'] = "Field have been updated";
+$locale['field_0204'] = "Field have been added successfully";
+$locale['field_0205'] = "Module not Found";
+$locale['field_0206'] = "Category not Found";
+$locale['field_0207'] = "Category have been updated";
+$locale['field_0208'] = "Category have been added successfully";
 
 $locale['fields_0300'] = "Fields";
 $locale['fields_0301'] = "Modules";
@@ -66,6 +64,7 @@ $locale['fields_0433'] = "Category Order";
 $locale['fields_0434'] = "Primary Table (%s)";
 $locale['fields_0435'] = "Primary Table User Column";
 $locale['fields_0436'] = "Icon Class";
+$locale['fields_0437'] = "icon for tabs";
 
 $locale['fields_0450'] = "Select Category";
 $locale['fields_0451'] = "Field Title";
@@ -103,6 +102,7 @@ $locale['fields_0483'] = "Field Log";
 $locale['fields_0484'] = "Field Order";
 $locale['fields_0485'] = "Field Registration";
 $locale['fields_0488'] = "Save Field";
+$locale['fields_0489'] = "Images Only";
 
 $locale['fields_0490'] = "Bytes (bytes)";
 $locale['fields_0491'] = "KB (Kilobytes)";
@@ -128,3 +128,25 @@ $locale['fields_0515'] = "Web Url";
 $locale['fields_0600'] = "There are %s sub-category(s) in this category";
 $locale['fields_0601'] = "There are %s field(s) in this category";
 $locale['fields_0602'] = "This module cannot be installed. Missing table column information.";
+
+$locale['fields_0650'] = "Move Field ID ";
+$locale['fields_0651'] = " Up a slot and Field ID [FIELD_ID] down a slot.";
+$locale['fields_0652'] = " Down a slot and Field ID [FIELD_ID] up a slot.";
+$locale['fields_0653'] = "No result";
+$locale['fields_0654'] = "Delete Fields";
+$locale['fields_0655'] = "Cat ID was not found. Please check again.";
+$locale['fields_0656'] = "Category ID was not found. Please check again.";
+$locale['fields_0657'] = " set for load.";
+$locale['fields_0658'] = " loaded.";
+$locale['fields_0659'] = " locale missing!";
+$locale['fields_0660'] = "No modules found";
+$locale['fields_0661'] = "Update Mode";
+$locale['fields_0662'] = "Save Mode";
+$locale['fields_0663'] = "Table Name";
+$locale['fields_0664'] = "Old table information -";
+$locale['fields_0665'] = "New table information -";
+$locale['fields_0666'] = "Fork No.1 - Update Field on a different table";
+$locale['fields_0667'] = "Column conflict. There are columns on [OLD_TABLE] existed in ";
+$locale['fields_0668'] = "Fork No.2 - Update Field on the same table";
+$locale['fields_0669'] = "Renaming column [FIELD_NAME] on [OLD_TABLE] to [FIELD_NAME_] with attributes of ";
+$locale['fields_0670'] = "Old Data";

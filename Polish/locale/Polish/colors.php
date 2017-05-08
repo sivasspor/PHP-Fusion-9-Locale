@@ -1,6 +1,6 @@
 <?php
 //color selection for multiple droplists
-$locale['color_0'] = "Null";
+$locale['color_0'] = "Brak";
 $locale['color_1'] = "Alice Blue";
 $locale['color_2'] = "Antique White";
 $locale['color_3'] = "Aqua";

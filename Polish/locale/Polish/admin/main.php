@@ -1,6 +1,6 @@
 <?php
 // Admin Links
-$locale['200'] = fusion_get_settings('sitename')." Admin Panel";
+$locale['200'] = "[SITENAME] Admin Panel";
 $locale['ac00'] = "Admin Home";
 $locale['ac01'] = "Content Admin";
 $locale['ac02'] = "User Admin";
@@ -8,8 +8,9 @@ $locale['ac03'] = "System Admin";
 $locale['ac04'] = "Settings";
 $locale['ac05'] = "Infusions";
 $locale['ac10'] = "Admin Dashboard";
-$locale['201'] = "Administrators";
 $locale['202'] = "User Profile Configuration";
+
+// Pre-defined sections
 $locale['AC'] = "Article Categories";
 $locale['A'] = "Articles";
 $locale['BLOG'] = "Blog";
@@ -17,7 +18,6 @@ $locale['BLC'] = "Blog Categories";
 $locale['CP'] = "Custom Pages";
 $locale['DC'] = "Download Categories";
 $locale['D'] = "Downloads";
-$locale['ESHP'] = "eShop";
 $locale['FQ'] = "FAQs";
 $locale['F'] = "Forums";
 $locale['IM'] = "Images";
@@ -37,14 +37,15 @@ $locale['SL'] = "Site Links";
 $locale['SU'] = "Submissions";
 $locale['U'] = "Upgrade";
 $locale['UG'] = "User Groups";
+$locale['UP'] = "Users Profile";
 $locale['WC'] = "Web Link Categories";
 $locale['W'] = "Web Links";
 $locale['S1'] = "Main";
 $locale['S2'] = "Time and Date";
-$locale['S3'] = "Forum";
+$locale['S3'] = "Theme Settings";
 $locale['S4'] = "Registration";
 $locale['S6'] = "Miscellaneous";
-$locale['S7'] = "Private Message Options";
+$locale['S7'] = "Private Messages";
 $locale['NC'] = "News Categories";
 $locale['BB'] = "BB Codes";
 $locale['SM'] = "Smileys";
@@ -58,17 +59,17 @@ $locale['SB'] = "Banners";
 $locale['S12'] = "Security";
 $locale['APWR'] = "Admin Password Reset";
 $locale['ERRO'] = "Error Log";
-$locale['AD'] = "Administrator";
+$locale['AD'] = "Administrators";
 $locale['UL'] = "User log";
 $locale['MAIL'] = "Email templates";
 $locale['PL'] = "Permalinks";
 $locale['ROB'] = "robots.txt";
-$locale['TS'] = "Theme";
+$locale['TS'] = "Theme Manager";
 $locale['S13'] = "Settings Blog";
 $locale['LANG'] = "Language Settings";
 
 // Site Information
-$locale['250'] = "Dashboard <small>Site Overview</small>";
+$locale['250'] = "Dashboard - Site Overview";
 $locale['251'] = "Registered Members";
 $locale['252'] = "Unactivated Members";
 $locale['253'] = "Security Banned Members";
@@ -111,3 +112,4 @@ $locale['282'] = "Switch Language";
 $locale['283'] = "Infusions";
 $locale['284'] = "There are no infusions installed";
 $locale['285'] = "Manage Infusions";
+$locale['286'] = "Review Submission";
