@@ -1,20 +1,12 @@
 <?php
-/*-------------------------------------------------------+
-| Polski pakiet językowy dla PHP-Fusion w wersji 9.0
-+--------------------------------------------------------+
-| Dziękujemy wszystkim którzy przyłożyli się do pracy
-| nad polskim pakietem językowym dla PHP-Fusion 9!
-+--------------------------------------------------------+
-| Autorzy spolszczenia
-+--------------------------------------------------------+
-| Xyroqs (https://github.com/Xyroqs)
-| spkkris (https://github.com/spkkris)
-+--------------------------------------------------------+
-| Oficjalny polski support
-+--------------------------------------------------------+
-| https://www.php-fusion.pl/
-+--------------------------------------------------------*/
-
+/**
+ * Polski pakiet językowy dla PHP-Fusion 9.0
+ * Dziękujemy wszystkim którzy przyłożyli się do prac nad polskim pakietem językowym dla PHP-Fusion 9!
+ * @author Xyroqs (https://github.com/Xyroqs)
+ * @author spkkris (https://github.com/spkkris)
+ * @support Polski oficjalny support PHP-Fusion (http://www.php-fusion.pl/)
+ * @package locale/Polish
+ */
 setlocale(LC_TIME, "pl_PL.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "PL";
