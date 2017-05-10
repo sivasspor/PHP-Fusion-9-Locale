@@ -2,29 +2,29 @@
 $locale['ME_400'] = 'User Management';
 $locale['ME_401'] = 'Search User...';
 $locale['ME_402'] = 'Display Filters';
-$locale['ME_403'] = 'Add a new User';
+$locale['ME_403'] = 'Add a new Użytkownik';
 $locale['ME_404'] = 'Apply Filter';
 $locale['ME_405'] = 'There are no user found under the search criteria';
 //
-$locale['ME_407'] = 'Displaying %s - %d of %d records found';
-$locale['ME_408'] = 'Basic Information';
-$locale['ME_409'] = 'Detailed Information';
-$locale['ME_410'] = 'User';
-$locale['ME_411'] = 'User Level';
+$locale['ME_407'] = 'Wyświetlanie %s - %d z %d znalezionych rekordów';
+$locale['ME_408'] = 'Podstawowe informacje';
+$locale['ME_409'] = 'Szczegółowe informacje';
+$locale['ME_410'] = 'Użytkownik';
+$locale['ME_411'] = 'Poziom użytkownika';
 $locale['ME_412'] = 'Email Address';
 $locale['ME_413'] = ' User Account';
-$locale['ME_414'] = 'Select All';
+$locale['ME_414'] = 'Zaznacz wszystko';
 $locale['ME_415'] = 'Hidden';
 $locale['ME_416'] = 'Shown';
 
 // Core Fields Filter
-$locale['ME_420'] = 'Email Hidden?';
-$locale['ME_421'] = 'Joined Date';
-$locale['ME_422'] = 'Last Login';
-$locale['ME_423'] = 'IP Address';
-$locale['ME_424'] = 'IP Type';
-$locale['ME_425'] = 'User Groups';
-$locale['ME_426'] = 'Timezone';
+$locale['ME_420'] = 'Ukryty adres e-mail?';
+$locale['ME_421'] = 'Data rejestracji';
+$locale['ME_422'] = 'Ostatnie logowanie';
+$locale['ME_423'] = 'Adres IP';
+$locale['ME_424'] = 'Typ IP';
+$locale['ME_425'] = 'Grupy użytkownika';
+$locale['ME_426'] = 'Strefa czasowa';
 
 // Action Form
 $locale['ME_430'] = 'Error: Actions against selected users could not be completed';
@@ -34,17 +34,17 @@ $locale['ME_433'] = 'Please specify a reason for the action';
 $locale['ME_434'] = 'Reason';
 $locale['ME_435'] = 'Duration';
 $locale['ME_436'] = 'Days';
-$locale['ME_437'] = 'Update User';
+$locale['ME_437'] = 'Update Użytkownik';
 
-$locale['ME_450'] = 'Add New User';
-$locale['ME_451'] = '%s\'s Profile';
+$locale['ME_450'] = 'Add New Użytkownik';
+$locale['ME_451'] = 'Profil użytkownika %s';
 $locale['ME_452'] = 'Edit %s\'s Profile';
 $locale['ME_453'] = 'Delete User %s';
 $locale['ME_454'] = "Warning!";
 $locale['ME_455'] = "You are about to delete user %s!\n\r\n\rThe contents posted by this user on this site will be deleted if you proceed.\n\r
 Unless this is a spammer for eg. we recommend you to Ban, Suspend, Cancel or Anomymize this user.\n\r
 Are you sure you want to delete this user?\n\r";
-$locale['ME_456'] = 'Delete User';
+$locale['ME_456'] = 'Delete Użytkownik';
 
 $locale['ME_460'] = 'There are no users to be deactivated';
 $locale['ME_461'] = '%s has been deactivated';
@@ -75,8 +75,8 @@ $locale['ME_555'] = 'cancelled';
 $locale['ME_556'] = 'anonymized';
 $locale['ME_557'] = 'permanently deleted';
 
-$locale['ME_560'] = "Display Results";
-$locale['ME_561'] = "Display User With Status";
+$locale['ME_560'] = "Wyświetl wyniki";
+$locale['ME_561'] = "Wyświetl użytkownika z statusem";
 
 /*--------------------------------------------------------------------------
 These are old locale. They are MOST LIKELY not being used by the new member center.
@@ -85,7 +85,7 @@ Please remove them or reindex the keys if you find any.
 
 
 // Edit Member Details
-$locale['430'] = "Edit Member";
+$locale['430'] = "Edytuj użytkownika";
 // Add Member Errors
 $locale['480'] = "Add Member";
 $locale['481'] = "The member account has been created.";
@@ -93,24 +93,24 @@ $locale['482'] = "The member account could not be created.";
 
 // Member Management Options
 $locale['400'] = "User Management";
-$locale['401'] = "User";
+$locale['401'] = "Użytkownik";
 $locale['402'] = "Add New Member";
 $locale['403'] = "User Type";
-$locale['404'] = "Options";
+$locale['404'] = "Opcje";
 $locale['405'] = "View";
-$locale['406'] = "Edit";
+$locale['406'] = "Edytuj";
 $locale['407'] = "Activate";
 $locale['408'] = "Unban";
 $locale['409'] = "Ban";
-$locale['410'] = "Delete";
+$locale['410'] = "Usuń";
 $locale['411'] = "There are no %s members";
 $locale['412'] = " beginning with ";
 $locale['413'] = " matching ";
 $locale['414'] = "Show All";
 $locale['415'] = "Search for member:";
-$locale['416'] = "Search";
+$locale['416'] = "Szukaj";
 $locale['417'] = "Select Action";
-$locale['418'] = "Cancel";
+$locale['418'] = "Anuluj";
 $locale['419'] = "Reinstate";
 // Ban/Unban/Delete Member
 $locale['420'] = "Ban Imposed";
@@ -118,26 +118,26 @@ $locale['421'] = "Ban Removed";
 $locale['422'] = "Member Deleted";
 $locale['423'] = "Are you sure you wish to delete this member?";
 $locale['424'] = "Member Activated";
-$locale['426'] = "Yes";
-$locale['427'] = "No";
+$locale['426'] = "Tak";
+$locale['427'] = "Nie";
 
 // Suspension Log 
 $locale['510s'] = "Suspension Log for ";
 $locale['511s'] = "There are no recorded suspensions for this member in the suspension log.";
 $locale['512s'] = "Previous suspensions of ";
 $locale['513'] = "No."; // as in number
-$locale['514'] = "Date";
+$locale['514'] = "Data";
 
-$locale['515'] = "Reason";
+$locale['515'] = "Powód";
 
 $locale['516'] = "Suspending Administrator";
 $locale['517'] = "System Action";
-$locale['518'] = "Back to User Profile";
+$locale['518'] = "Powrót do User Profile";
 $locale['519'] = "Suspension Log for this User ";
 $locale['520'] = "Lifted: ";
 $locale['521'] = "IP: ";
 $locale['522'] = "Not yet reinstated";
-$locale['540'] = "Error";
+$locale['540'] = "Błąd";
 $locale['541'] = "Error: You must state a reason for the Suspension!";
 $locale['542'] = "Error: You must state a reason for the Security Ban!";
 // User Management Admin
@@ -182,11 +182,11 @@ $locale['595'] = " the user ";
 
 $locale['600'] = "Security ban";
 $locale['601'] = "security banning";
-$locale['602'] = "Unban";
-$locale['603'] = "unbanning";
-$locale['604'] = "Reason:";
+$locale['602'] = "Odbanuj";
+$locale['603'] = "odblokowywanie";
+$locale['604'] = "Powód:";
 
 // Deactivation System
-$locale['612'] = "user";
-$locale['613'] = "users";
-$locale['614'] = "Deactivate";
+$locale['612'] = "uużytkownik";
+$locale['613'] = "użytkownicy";
+$locale['614'] = "Dezaktywuj";

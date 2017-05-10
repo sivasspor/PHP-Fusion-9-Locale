@@ -24,7 +24,7 @@ $locale['blog_0401'] = "Dodaj wpis";
 $locale['blog_0402'] = "Edytuj wpis";
 $locale['blog_0405'] = "Blog";
 $locale['blog_0406'] = "Ustawienia";
-$locale['blog_0407'] = "Kategorie";
+$locale['blog_0407'] = "Kategoria";
 $locale['blog_0408'] = "Pokazano wpisów: %d z&nbsp;%d.";
 $locale['blog_0409'] = "Dodaj kategorię";
 // Blog messages
@@ -81,7 +81,7 @@ $locale['blog_0533'] = "Nadrzędna kategoria:";
 $locale['blog_0535'] = "Nie zdefinowano kategorii";
 $locale['blog_0536'] = "Wgraj obraz kategorii";
 $locale['blog_0537'] = "Jako nadrzędna";
-$locale['blog_0538'] = "Bytes (bajtów)";
+$locale['blog_0538'] = "Bajty (bajtów)";
 $locale['blog_0539'] = "KB (Kilobajtów)";
 $locale['blog_0540'] = "MB (Megabajtów)";
 // Popup Error/Warning Messages
@@ -108,7 +108,7 @@ $locale['blog_0600'] = "Pozwolić na nadsyłanie wpisów";
 $locale['blog_0601'] = "Pozwolić na dodawanie zdjęć";
 $locale['blog_0602'] = "Wymagać wstępu i głównej treści?";
 // Public Submissions Form
-$locale['blog_0700'] = "Dodaj wpis";
+$locale['blog_0700'] = "Dodaj własny wpis na bloga";
 $locale['blog_0701'] = "Dziękujemy za dodanie wpisu!";
 $locale['blog_0702'] = "Dodaj kolejny wpis";
 $locale['blog_0703'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać wpis na bloga. Zostanie on sprawdzony przez administratora. [SITENAME] zastrzega sobie prawo do edycji lub usunięcia nadesłanych danych. Wpisy
