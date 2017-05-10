@@ -15,6 +15,7 @@
 +--------------------------------------------------------+
 | https://www.php-fusion.pl/
 +--------------------------------------------------------*/
+
 setlocale(LC_TIME, "pl_PL.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "PL";
