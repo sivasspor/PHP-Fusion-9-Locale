@@ -1,5 +1,5 @@
 <?php
-$locale['spotlight'] = "Spotlight";
+$locale['spotlight'] = "Strumień";
 $locale['spotlight_search'] = "Wyszukaj aplikacje";
 $locale['copyright'] = "Copyright &copy; ";
 $locale['render_engine'] = "Silnik Renderowania";
