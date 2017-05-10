@@ -113,7 +113,7 @@ Pozdrawiamy,\n\r
 SITEUSERNAME";
 
 $locale['u153'] = "Nie można wysłać e-maila aktywacyjnego.";
-$locale['u154'] = "Proszę o [LINK]kontakt[/LINK] z administrator witryny.";
+$locale['u154'] = "Prosimy o [LINK]kontakt[/LINK] z administratorem witryny.";
 $locale['u155'] = "Aktywacja konta";
 $locale['u156'] = "Proszę wprowadzić aktualne hasło, aby zmienić adres e-mail.";
 // Success / Fail
