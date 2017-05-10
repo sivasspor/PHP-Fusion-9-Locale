@@ -4,7 +4,7 @@
  * Dziękujemy wszystkim którzy przyłożyli się do prac nad polskim pakietem językowym dla PHP-Fusion 9!
  * @author Xyroqs (https://github.com/Xyroqs)
  * @author spkkris (https://github.com/spkkris)
- * @web Polski oficjalny support PHP-Fusion (http://www.php-fusion.pl/)
+ * @link Polski oficjalny support PHP-Fusion (http://www.php-fusion.pl/)
  * @package locale/Polish
  */
 setlocale(LC_TIME, "pl_PL.utf8"); // Linux Server (Windows may differ)
