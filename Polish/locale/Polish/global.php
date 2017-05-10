@@ -4,7 +4,6 @@
  * Dziękujemy wszystkim którzy przyłożyli się do prac nad polskim pakietem językowym dla PHP-Fusion 9!
  *
  * @author Xyroqs (https://github.com/Xyroqs)
- * @author spkkris (https://github.com/spkkris)
  * @link https://www.php-fusion.pl Oficjalny Polski Support PHP-Fusion
  * @package locale/Polish
  */
