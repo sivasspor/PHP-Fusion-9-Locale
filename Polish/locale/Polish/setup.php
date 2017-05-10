@@ -301,7 +301,7 @@ require_once(dirname(__FILE__)."/user_fields/user_timezone.php");
 require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
 
 // Welcome message
-$locale['setup_3650'] = "Zapraszamy do witryny";
+$locale['setup_3650'] = "Witamy na witrynie";
 // Final message
 $locale['setup_1700'] = "Instalacja została zakończona";
 $locale['setup_1701'] = "PHP-Fusion 9.0 jest gotowy do użycia. Kliknij przycisk Zakończ, aby przepisać plik config_temp.php do config.php<br/>";
