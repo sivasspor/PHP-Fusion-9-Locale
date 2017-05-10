@@ -1,15 +1,20 @@
 <?php
-/**
- * Polish Locale
- *
- * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
- * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
- * @locale tinymce           refer to path includes/jscripts/tinymce/langs/{value}.js
- * @locale select2           refer to path includes/dynamics/select2/select2_locale_{value}.js
- * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
- * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
- * @package locale/Polish
- */
+/*-------------------------------------------------------+
+| Polski pakiet językowy dla PHP-Fusion w wersji 9.0
++--------------------------------------------------------+
+| Dziękujemy wszystkim którzy przyłożyli się do pracy
+| nad polskim pakietem językowym dla PHP-Fusion 9!
++--------------------------------------------------------+
+| Autorzy spolszczenia
++--------------------------------------------------------+
+| Xyroqs (https://github.com/Xyroqs)
+| spkkris (https://github.com/spkkris)
+| oraz ...
++--------------------------------------------------------+
+| Oficjalny polski support
++--------------------------------------------------------+
+| https://www.php-fusion.pl/
++--------------------------------------------------------*/
 setlocale(LC_TIME, "pl_PL.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "PL";
