@@ -166,6 +166,7 @@ $locale['currency'] = array(
 	"ZWD" => "dolar Zimbabwe",
 	"NA" => "Nie dostępne",
 );
+
 $locale['currency_symbol'] = array(
     'AED' => '&#1583;.&#1573;', // ?
     'AFN' => '&#65;&#102;',
