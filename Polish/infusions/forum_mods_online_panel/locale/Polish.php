@@ -1,5 +1,5 @@
 <?php
-$locale['fmp_0100'] = "Staff Online Now";
-$locale['fmp_0101'] = "Management Staff";
-$locale['fmp_0102'] = "Moderators Online Now";
-$locale['fmp_0103'] = "Please install forum infusion";
+$locale['fmp_0100'] = "Administratorzy teraz Online";
+$locale['fmp_0101'] = "Administrator";
+$locale['fmp_0102'] = "Moderatorzy teraz Online";
+$locale['fmp_0103'] = "Proszę zainstalować wtyczkę forum";
