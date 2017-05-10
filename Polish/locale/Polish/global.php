@@ -1,13 +1,10 @@
 <?php
 /**
- * Polish Locale
+ * Polski pakiet językowy dla PHP-Fusion 9.0
+ * Dziękujemy wszystkim którzy przyłożyli się do prac nad polskim pakietem językowym dla PHP-Fusion 9!
  *
- * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
- * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
- * @locale tinymce           refer to path includes/jscripts/tinymce/langs/{value}.js
- * @locale select2           refer to path includes/dynamics/select2/select2_locale_{value}.js
- * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
- * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
+ * @author Xyroqs (https://github.com/Xyroqs)
+ * @link https://www.php-fusion.pl Oficjalny Polski Support PHP-Fusion
  * @package locale/Polish
  */
 setlocale(LC_TIME, "pl_PL.utf8"); // Linux Server (Windows may differ)
@@ -45,19 +42,19 @@ $locale['ago'] = "temu";
 $locale['street1'] = "Ulica 1";
 $locale['street2'] = "Ulica 2";
 $locale['city'] = "Miasto";
-$locale['postcode'] = "Kod Pocztowy";
-$locale['sel_country'] = "Wybierz Kraj";
-$locale['sel_state'] = "Wybierz Państwo";
-$locale['sel_Użytkownik'] = "Proszę wpisać nazwę użytkownika";
+$locale['postcode'] = "Kod pocztowy";
+$locale['sel_country'] = "Wybierz kraj";
+$locale['sel_state'] = "Wybierz państwo";
+$locale['sel_user'] = "Proszę wpisać nazwę użytkownika";
 $locale['add_language'] = "Dodaj tłumaczenia";
 $locale['add_lang'] = "Dodaj %";
-$locale['other_states'] = "Other States";               // NIEPRZETŁUMACZONE //
+$locale['other_states'] = "Inne państwa";
 // Name
 $locale['name'] = 'Pełna nazwa';
 $locale['username_pretext'] = 'Your public username is also the same as your user profile address located at:<div class="alert alert-info m-t-10 p-10">%s<strong>%s</strong></div>';
-$locale['first_name'] = 'First Name';
-$locale['middle_name'] = 'Middle Name';
-$locale['last_name'] = 'Last Name';
+$locale['first_name'] = 'Imię';
+$locale['middle_name'] = 'Drugie imię';
+$locale['last_name'] = 'Nazwisko';
 // Documents
 $locale['doc_type'] = "Typ dokumentu";
 $locale['doc_series'] = "Seria";
@@ -89,7 +86,7 @@ $locale['userf1'] = "Moderator";
 // Navigation
 $locale['global_001'] = "Nawigacja";
 $locale['global_002'] = "Brak linków\n";
-$locale['global_003'] = "Nothing to preview";                                 // NIEPRZETŁUMACZONE //
+$locale['global_003'] = "Nic do podglądu";
 // Users Online
 $locale['global_010'] = "Aktualnie online";
 $locale['global_011'] = "Gości online";
@@ -98,15 +95,15 @@ $locale['global_013'] = "Brak użytkowników online";
 $locale['global_014'] = "Łącznie użytkowników";
 $locale['global_015'] = "Nieaktywnych użytkowników";
 $locale['global_016'] = "Najnowszy użytkownik";
-$locale['global_017'] = "Toggle Navigation";                           // NIEPRZETŁUMACZONE //
+$locale['global_017'] = "Przełącz nawigację";
 // Forum Side panel
 $locale['global_020'] = "Ostatnio na forum";
 $locale['global_021'] = "Najnowsze tematy";
 $locale['global_022'] = "Najciekawsze tematy";
 $locale['global_023'] = "Brak tematów na forum";
 $locale['global_024'] = "Participated Discussions";                     // NIEPRZETŁUMACZONE //
-$locale['global_027'] = "Unanswered Threads";                     // NIEPRZETŁUMACZONE //
-$locale['global_028'] = "Unsolved Questions";                     // NIEPRZETŁUMACZONE //
+$locale['global_027'] = "Wątki bez odpowiedzi";
+$locale['global_028'] = "Nierozwiązane pytania";
 // Comments Side panel
 $locale['global_025'] = "Ostatnie komentarze";
 $locale['global_026'] = "Brak komentarzy";
@@ -300,28 +297,28 @@ $locale['global_412'] = "This account has been anonymized, probably because of i
 // Flood control
 $locale['global_440'] = "Automatic Ban by Flood Control";
 $locale['global_441'] = "Your account on [SITENAME] has been banned";
-$locale['global_442'] = "Hello [USER_NAME],\n
+$locale['global_442'] = "Witaj [USER_NAME],\n
 Your account on [SITENAME] was caught posting too many items to the system in very short time from the IP [USER_IP], and have therefor been banned. This is done to prevent bots from submitting spam messages in rapid succession.\n
 Please contact the site administrator at [SITE_EMAIL] to have your account restored or report if this was not you causing this security ban.\n\n
-Regards,\n[SITEUSERNAME]";
+Pozdrawiamy,\n[SITEUSERNAME]";
 // Authenticate Class
 $locale['global_450'] = "Suspension automatically lifted by system";
 $locale['global_451'] = "Suspension lifted at [SITENAME]";
-$locale['global_452'] = "Hello USER_NAME,\n
+$locale['global_452'] = "Witaj USER_NAME,\n
 The suspension of your account at [SITEURL] has been lifted. Here are your login details:\n
 Username: USER_NAME\nPassword: Hidden for security reasons\n
 If you have forgot your password you can reset it via the following link: LOST_PASSWORD\n\n
-Regards,\n[SITEUSERNAME]";
-$locale['global_453'] = "Hello USER_NAME,\nThe suspension of your account at [SITEURL] has been lifted.\n\n
+Pozdrawiamy,\n[SITEUSERNAME]";
+$locale['global_453'] = "Witaj USER_NAME,\nThe suspension of your account at [SITEURL] has been lifted.\n\n
 Regards,\n[SITEUSERNAME]";
 $locale['global_454'] = "Account reactivated at [SITENAME]";
-$locale['global_455'] = "Hello USER_NAME,\n
+$locale['global_455'] = "Witaj USER_NAME,\n
 Last time you logged in your account was reactivated at [SITEURL] and your account is no longer marked as inactive.\n\n
-Regards,\n[SITEUSERNAME]";
+Pozdrawiamy,\n[SITEUSERNAME]";
 $locale['global_456'] = "New password notification for [SITENAME]";
-$locale['global_457'] = "Hi USER_NAME,
-\n\nA new password has been set for your account at [SITENAME]. Please find the enclosed new login details:\n\n
-Username: USER_NAME\nPassword: [PASSWORD]\n\nRegards,\n[SITEUSERNAME]";
+$locale['global_457'] = "Cześć USER_NAME,
+\n\nDla Twojego konta zostało ustawione nowe hasło w [SITENAME]. Sprawdź swoje nowe dane logowania:\n\n
+Nazwa użytkownika: USER_NAME\nHasło: [PASSWORD]\n\nPozdrawiamy,\n[SITEUSERNAME]";
 $locale['global_458'] = "New password has been set for USER_NAME";
 $locale['global_459'] = "New password has been set for USER_NAME, and email was not sent. Please ensure to tell the user of the new details.";
 // Function parseBajtyize()
