@@ -197,10 +197,10 @@ $locale['711'] = "Not: Ayarlıysa, bireysel kullanıcı seçenekleri öncelik ta
 $locale['750'] = "Ayarları Kaydet";
 
 // Other Settings
-$locale['800'] = "Prune forums";
-$locale['801'] = "Posts deleted: ";
-$locale['802'] = "Threads deleted: ";
-$locale['803'] = "Attachments deleted: ";
+$locale['800'] = "Forumları Budama";
+$locale['801'] = "Silinen Mesajlar: ";
+$locale['802'] = "Silinen Konular: ";
+$locale['803'] = "Silinen Eklentiler: ";
 
 // Privacy policy
 $locale['820'] = "Gizlilik Politikası";
