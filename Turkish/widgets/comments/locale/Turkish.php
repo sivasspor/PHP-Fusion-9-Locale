@@ -6,7 +6,7 @@
 +--------------------------------------------------------+
 | Filename: comments/locale/Turkish.php
 | Author: Frederick MC Chan (Chan)
-| Translator: Turkish translation by ALTUN69 http://www.phpfusionturkey.alapelit.com
+| Translator: Turkish translation by ALTUN69 https://alapelit.com
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -16,7 +16,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['CMW_0100'] = "Widget Yorumlar";
+$locale['CMW_0100'] = "Yorumlar Widgeti";
 $locale['CMW_0101'] = "Çekirdek Yorumlar Eklentisi";
 $locale['CMW_0102'] = "Yorumlar Oluşturuldu";
 $locale['CMW_0104'] = "Yorumlar Oluşturulamadı";
