@@ -1,3 +1,6 @@
+/*
+| Lithuanian Translation: Edmundas Jankauskas - PHP-Fusion Lithuania (http://www.phpfusion-lt.com)
+*/
 var locale = new Array();
 locale['wordLength'] = 'Jūsų slaptažodis yra per trumpas';
 locale['wordNotEmail'] = 'Nenaudokite savo el. pašto adreso kaip slaptažodžio';

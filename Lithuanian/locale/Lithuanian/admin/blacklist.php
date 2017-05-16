@@ -1,11 +1,11 @@
 <?php			
 $locale['BLS_000'] = "Juodasis sąrašas"; //406
 //Blacklist message
-$locale['BLS_010'] = "Invalid E-mail or IP address.";
-$locale['BLS_011'] = "Adding users to blacklist.";
-$locale['BLS_012'] = "User Modified blacklist.";
+$locale['BLS_010'] = "Blogas el. paštas arba IP adresas.";
+$locale['BLS_011'] = "Vartotojų įtraukimas į juodąjį sąrašą.";
+$locale['BLS_012'] = "Vartotojo modifikuotas juodasis sąrašas.";
 $locale['BLS_013'] = "Vartotojas ištrintas iš juodojo sąrašo"; //401
-$locale['BLS_014'] = "Are you sure you want to delete this entry?";
+$locale['BLS_014'] = "Ar tikrai norite ištrinti šį įrašą?";
 $locale['BLS_015'] = "Šiuo metu juodasis sąrašas tuščias."; //465
 $locale['BLS_016'] = "El. paštas blogai įvestas"; //405
 $locale['BLS_020'] = "Įtraukti vartotoją į juodąjį sąrašą"; //420
