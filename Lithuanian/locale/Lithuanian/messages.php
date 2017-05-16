@@ -135,3 +135,8 @@ $locale['630'] = " Žinučių limitas";
 $locale['631'] = "Taip";
 $locale['632'] = "Ne";
 
+
+$locale['700'] = "Asmeninių žinučių dėžutė pilna. Bandykite pratrinti arba pakelti iki 102 arba 103 lygio";
+$locale['701'] = "Siuntėjo ID neegzistuoja duom. bazėje. Veiksmas nutrauktas.";
+$locale['702'] = "Žinutės gavėjo ID neteisingas";
+$locale['703'] = "Siunčiate per daug žinučių. Funkcija laikinai ribojama";		
