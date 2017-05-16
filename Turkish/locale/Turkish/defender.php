@@ -3,6 +3,7 @@ $locale['validate'] = "Lütfen alanı kontrol edin ve yeniden doğrulayın.";
 $locale['error_request'] = "İsteğiniz işlenirken bir hata oluştu."; // to be moved
 $locale['regex_error'] = "Lütfen %s alanını kontrol edin ve tekrar doğrulayın"; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Lütfen geçerli bir kullanıcı adı girin";
 $locale['error_input_default'] = "Lütfen bu alanı doldurun";
 $locale['error_input_password'] = "Lütfen geçerli bir şifre giriniz";
 $locale['error_input_email'] = "Lütfen geçerli bir e-posta adresi girin";
@@ -15,6 +16,7 @@ $locale['df_error_text'] = "%s hata verdi ve dikkatini gerektiriyor.";
 $locale['error_invalid_theme'] = "Lütfen geçerli bir tema seçin"; // to be moved
 $locale['error_input_checkbox'] = "Lütfen bu onay kutusunu işaretleyin"; // to be moved
 $locale['error_input_file'] = "Lütfen geçerli bir dosya seçin";
+$locale['error_secure_file'] = "Yüklenen dosya, kötü amaçlı ücretli yükleme olasılığı nedeniyle reddedildi.";
 // Admin Login
 $locale['cookie_title'] = "Oturum Zaman Aşımı";
 $locale['cookie_description'] = "Geçerli bir kimlik doğrulama yok veya oturumunuz muhtemelen zaman aşımına uğradı. Lütfen tekrar giriş yapın.";

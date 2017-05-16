@@ -1,5 +1,7 @@
 Vigtige systemændringer
 =======================
+
+
 <h2>PHP-Fusion 9</h2>
 I kernen - Autoloader, SEO venlig generering af siderne, Meta nøgleord for bedre indeksering af siden.
 

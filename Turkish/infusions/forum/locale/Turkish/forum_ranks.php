@@ -1,40 +1,36 @@
 <?php
-// Forum Ranks Titles
-$locale['400'] = "Add Rank";
-$locale['401'] = "Edit Rank";
-$locale['402'] = "Current Ranks";
-$locale['403'] = "Rank System Disabled";
-$locale['404'] = "Forum Ranks";
-// News messages
-$locale['410'] = "Rank added";
-$locale['411'] = "Rank updated";
-$locale['412'] = "Rank deleted";
-$locale['413'] = "Only one rank can be assigned to admins and mods";
-$locale['414'] = "Please enter a Rank Title";
-// Forum Ranks form
-$locale['420'] = "Rank Title:";
-$locale['421'] = "Rank Image:";
-$locale['422'] = "Rank Posts:";
-$locale['423'] = "Apply to:";
-$locale['424'] = "Members";
-$locale['425'] = "Moderators";
-$locale['426'] = "Administrators";
-$locale['427'] = "Super Administrators";
-$locale['428'] = "Save Rank";
-$locale['429'] = "Rank type:";
-$locale['429a'] = "Special";
-$locale['429b'] = "Admin";
-$locale['429c'] = "Post count";
-// Current Forum Ranks
-$locale['430'] = "Title";
-$locale['431'] = "Applies To";
-$locale['432'] = "Image";
-$locale['433'] = "Posts";
-$locale['434'] = "Options";
-$locale['435'] = "Edit";
-$locale['436'] = "Delete";
-$locale['437'] = "No Forum Ranks defined.";
-$locale['438'] = "Type / Count";
-// Forum Ranks Disabled
-$locale['450'] = "Forum ranks are currently disabled.<br />Please go to the %s Admin Panel to enable.";
-$locale['451'] = "Forum Settings";
+$locale['400'] = "Rütbe Ekle";
+$locale['401'] = "Rütbe Düzenle";
+$locale['402'] = "Geçerli Rütbeler";
+$locale['403'] = "Rütbe Sistemi Etkin Değil";
+$locale['404'] = "Forum Rütbeleri";
+$locale['410'] = "Rütbe eklendi";
+$locale['411'] = "Rütbe güncellendi";
+$locale['412'] = "Rütbe silindi";
+$locale['413'] = "Yöneticilere ve Moderatörlere yalnızca bir rütbe atanabilir";
+$locale['414'] = "Lütfen bir rütbe başlığı girin";
+$locale['420'] = "Rütbe Başlığı:";
+$locale['421'] = "Rütbe Resmi:";
+$locale['422'] = "Rütbe Mesajı";
+$locale['423'] = "Uygula:";
+$locale['424'] = "Üyeler";
+$locale['425'] = "Moderatörler";
+$locale['426'] = "Yöneticiler";
+$locale['427'] = "Süper Yöneticiler";
+$locale['428'] = "Rütbe Kaydet";
+$locale['429'] = "Rütbe türü:";
+$locale['429a'] = "Özel";
+$locale['429b'] = "Yönetici";
+$locale['429c'] = "Mesaj sayısı";
+$locale['430'] = "Başlık";
+$locale['431'] = "Uygulanır";
+$locale['432'] = "Resim";
+$locale['433'] = "Mesajlar";
+$locale['434'] = "Seçenekler";
+$locale['435'] = "Düzenle";
+$locale['436'] = "Sil";
+$locale['437'] = "Hiçbir Forum Rütbeleri tanımlanmamış.";
+$locale['438'] = "Tür / Sayım";
+$locale['450'] = "Forum rütbeleri şu anda etkin değil.<br/>Etkinleştirmek için lütfen %s Yönetim Paneli'ne gidin.";
+$locale['451'] = "Forum Ayarları";
+$locale['forum_rank_0100'] = "Forum rütbeleri, forum kullanıcılarını mikro yönetmek için kullanılır ve performans etkinliklerini gösterir";

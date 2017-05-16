@@ -1,35 +1,35 @@
 <?php
-$locale['apw_title'] = "Yönetici Şifresi Sıfırlama";
-$locale['apw_desc'] = "Yönetim girişi ve Yönetici şifrelerini değiştirir";
-$locale['apw_admin1'] = "Yönetici Sıfırlama";
-$locale['apw_400'] = "Yönetici(leri) sıfırla:";
-$locale['apw_401'] = "Tüm Yöneticiler";
-$locale['apw_402'] = "Yalnızca Süper Yöneticiler";
-$locale['apw_403'] = "Yalnızca Yöneticiler";
-$locale['apw_404'] = "Sıfırlama gerekçesi:";
-$locale['apw_405'] = "Hem giriş hem de yönetici şifrelerini sıfırla";
-$locale['apw_406'] = "Şifreleri Sıfırla";
+$locale['apw_title'] = "Administrator Password Reset";
+$locale['apw_desc'] = "Changes Administrator login/admin passwords";
+$locale['apw_admin1'] = "Administrator Reset";
+$locale['apw_400'] = "Administrator(s) to reset:";
+$locale['apw_401'] = "All Administrators";
+$locale['apw_402'] = "Only Super Administrators";
+$locale['apw_403'] = "Only Administrators";
+$locale['apw_404'] = "Justification for reset:";
+$locale['apw_405'] = "Reset both login and admin passwords";
+$locale['apw_406'] = "Reset Passwords";
 $locale['apw_407'] = "Password reset at ";
-$locale['apw_408'] = "Merhaba [USER_NAME],\n\n[SITEURL] adresindeki Yönetim şifreniz sıfırlandı:\n\n
-Yönetim Şifresi: [NEW_ADMIN_PASS]\n\nBu sıfırlamanın nedeni: [RESET_MESSAGE]\n\nSaygılarımızla,\n[ADMIN]";
-$locale['apw_409'] = "Merhaba [USER_NAME],\n[SITEURL] adresindeki Giriş ve Yönetim şifreleriniz sıfırlandı:\n\n
-Giriş Şifresi: [NEW_PASS]\nYönetim Şifresi: [NEW_ADMIN_PASS]\n\nBu sıfırlamanın nedeni: [RESET_MESSAGE]\n
-Saygılarımızla,\n[ADMIN]";
-$locale['apw_410'] = "Sonuçları Sıfırla";
-$locale['apw_411'] = "Uyarı: Yönetici Şifresi girilmemiş veya yanlış.";
-$locale['apw_412'] = "Yönetici Şifresi:";
-$locale['apw_415'] = "Sıfırlama Günlüğü";
-$locale['apw_416'] = "Günlük ID";
-$locale['apw_417'] = "Sıfırlama zamanı";
-$locale['apw_418'] = "Sorumlu";
-$locale['apw_419'] = "Sıfırlama";
-$locale['apw_420'] = "Başarılı";
-$locale['apw_421'] = "Sebep";
+$locale['apw_408'] = "Hello [USER_NAME],\n\nYour admin password has been reset at [SITEURL]:\n\n
+Admin Password: [NEW_ADMIN_PASS]\n\nThe reason for this reset is: [RESET_MESSAGE]\n\nRegards,\n[ADMIN]";
+$locale['apw_409'] = "Hello [USER_NAME],\nYour login and admin passwords have been reset at [SITEURL]:\n\n
+Login Password: [NEW_PASS]\nAdmin Password: [NEW_ADMIN_PASS]\n\nThe reason for this reset is: [RESET_MESSAGE]\n
+Regards,\n[ADMIN]";
+$locale['apw_410'] = "Reset Results";
+$locale['apw_411'] = "Update Admin Password.";
+$locale['apw_412'] = "Admin Password:";
+$locale['apw_415'] = "Reset Log";
+$locale['apw_416'] = "Log ID";
+$locale['apw_417'] = "Reset time";
+$locale['apw_418'] = "Responsible";
+$locale['apw_419'] = "Reset";
+$locale['apw_420'] = "Successfull";
+$locale['apw_421'] = "Reason";
 $locale['apw_422'] = "of";
-$locale['apw_423'] = "Sebep yok.";
-$locale['apw_424'] = "Sıfırlanan Yöneticiler:";
-$locale['apw_425'] = "Başarısız olan Yöneticiler:";
-$locale['apw_426'] = "Şifre değiştirilemedi";
-$locale['apw_427'] = "Seçenekler";
-$locale['apw_428'] = "Bu günlüğü gerçekten silmek istiyor musunuz?";
-$locale['apw_429'] = "Günlük silindi";
+$locale['apw_423'] = "No reason given.";
+$locale['apw_424'] = "Admins reset:";
+$locale['apw_425'] = "Admins failed:";
+$locale['apw_426'] = "No password is modified.";
+$locale['apw_427'] = "Options";
+$locale['apw_428'] = "Do you realy want to delete this log?";
+$locale['apw_429'] = "Log deleted";

@@ -50,6 +50,7 @@ $locale['sel_state'] = "Регіон";
 $locale['sel_user'] = "Будь ласка, введіть ім&lsquo;я";
 $locale['add_language'] = "Додати мови";
 $locale['add_lang'] = "Додати %s";
++$locale['other_states'] = "Інше";
 
 // Name
 $locale['name'] = "Повне ім&lsquo;я";
@@ -477,10 +478,9 @@ $locale['she'] = "Вона";
 $locale['it'] = "Воно";
 
 // Tables
-$locale['status'] = "Стан";
 $locale['order'] = "Порядок";
 $locale['sort'] = "Сортування";
-$locale['id'] = "ID";
+$locale['id'] = "Код ID";
 $locale['title'] = "Назва";
 $locale['rights'] = "Права";
 $locale['image'] = "Зображення";
@@ -493,7 +493,7 @@ $locale['root'] = "як кореневий";
 $locale['choose-user'] = "Будь ласка, виберіть користувача...";
 $locale['choose-location'] = "Будь ласка, вкажіть розташування";
 $locale['parent'] = "Створити як кореневий..";
-$locale['order'] = "Порядок розташування";
+$locale['item_order'] = "Порядок розташування";
 $locale['status'] = "Стан";
 $locale['note'] = "Позначити";
 $locale['publish'] = "Опубліковано";
@@ -510,7 +510,7 @@ $locale['qedit'] = "Швидке редагування";
 $locale['view'] = "Перегляд";
 $locale['login'] = "Вхід";
 $locale['logout'] = "Вихід";
-$locale['admin-logout'] = "Вихід адміністратора";
+$locale['admin-logout'] = "Вихід з адміністрування";
 $locale['message'] = "Приватні повідомлення";
 $locale['logged'] = "Авторизовано як ";
 $locale['version'] = "Версія ";
@@ -518,8 +518,9 @@ $locale['browse'] = "Перегляд ...";
 $locale['close'] = "Закрити";
 $locale['nopreview'] = "Дані для перегляду відсутні";
 $locale['mark_as'] = "Позначити як";
-$locale['preview'] = "Переглянути";
+$locale['preview'] = "Попередній перегляд";
 $locale['custom'] = "Вільно";
+$locale['submit'] = "Надіслати";
 
 // Alignment
 $locale['left'] = "Зліва";

@@ -26,6 +26,6 @@ $locale['NB_103'] = "Data om brugerforslag";
 // Nebula News Template
 $locale['NB_200'] = "af";
 // News Module
-$locale['NEWS_001'] = "Seneste nyhed";
+$locale['NEWS_001'] = "Seneste nyt";
 // Widget
 $locale['WIDGET_001'] = "Tema indstillinger opdateret";

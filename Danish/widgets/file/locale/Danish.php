@@ -5,7 +5,7 @@
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: widgets/file/locale/Danish.php
-| Author: Jan Mølgaard (janmol)
+| Authors: Jan Mølgaard (janmol) & Helmuth Mikkelsen (helmuth)
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -16,7 +16,6 @@
 | written permission from the original author(s).
 +--------------------------------------------------------*/
 $locale['f0100'] = "Overskrift";
-$locale['f0101'] = "Den fil, der skal inkluderes";
 $locale['f0102'] = "Filens sti fra rodfolderen";
 $locale['f0103'] = "Gem filen";
 $locale['f0104'] = "Gem og luk filen";

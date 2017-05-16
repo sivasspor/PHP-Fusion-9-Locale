@@ -16,8 +16,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['0100'] = "Виджет оценок";
-$locale['0101'] = "Плагин оценок ядра";
-$locale['0102'] = "Оценки созданы";
-
-$locale['0104'] = "Невозможно создать оценки";
+$locale['RTW_0100'] = "Виджет оценок";
+$locale['RTW_0101'] = "Плагин оценок ядра";
+$locale['RTW_0102'] = "Оценки созданы";
+$locale['RTW_0104'] = "Невозможно создать оценки";

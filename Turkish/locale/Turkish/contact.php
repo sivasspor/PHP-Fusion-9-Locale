@@ -21,5 +21,5 @@ $locale['425'] = "Dahili hata: mesajınız gönderilemedi..";
 // Message Sent
 $locale['440'] = "Mesajınız gönderildi";
 $locale['441'] = "Teşekkürler";
-$locale['442'] = "Mesajınız aşağıdaki sebeplerden dolayı gönderilemedi:";
+$locale['442'] = "Mesajınız aşağıdaki sebeplerden dolayı gönderilmedi:";
 $locale['443'] = "Lütfen tekrar deneyin.";

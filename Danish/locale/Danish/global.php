@@ -21,6 +21,7 @@ setlocale( LC_ALL, "da", "dan", "da_DK", "da_DK.DK.UTF-8", "danish" );
 $locale['charset'] = "utf-8";
 $locale['region'] = "DK";
 $locale['xml_lang'] = "da";
+$locale['short_lang_name'] = "da";
 $locale['tinymce'] = "da";
 $locale['select2'] = "da";
 $locale['phpmailer'] = "da";
@@ -57,12 +58,13 @@ $locale['sel_state'] = "Vælg region";
 $locale['sel_user'] = "Indskriv et brugernavn";
 $locale['add_language'] = "Tilføj sprogversioner";
 $locale['add_lang'] = "Tilføj %s";
+$locale['other_states'] = "Andet område";
 // Name
-$locale['name'] = 'Fulde navn';
-$locale['username_pretext'] = 'Dit offentlige brugernavn er det samme som din profiladresse:<div class="alert alert-info m-t-10 p-10">%s<strong>%s</strong></div>';
-$locale['first_name'] = 'Fornavn';
-$locale['middle_name'] = 'Mellemnavn';
-$locale['last_name'] = 'Efternavn';
+$locale['name'] = "Fulde navn";
+$locale['username_pretext'] = "Dit offentlige brugernavn er det samme som din profiladresse:<div class='alert alert-info m-t-10 p-10'>%s<strong>%s</strong></div>";
+$locale['first_name'] = "Fornavn";
+$locale['middle_name'] = "Mellemnavn";
+$locale['last_name'] = "Efternavn";
 // Documents
 $locale['doc_type'] = "Dokumenttype";
 $locale['doc_series'] = "Serie";
@@ -289,15 +291,10 @@ på det tema, du vælger under <strong>Hovedopsætning</strong>.<br /><br /> Hvi
 du kontakte sidens administrator via ".hide_email(fusion_get_settings('siteemail'))." mail og rapportere om problemet.";
 $locale['global_302'] = "Det tema, som du har valgt under hovedopsætning eksisterer ikke eller er inkompatibelt!";
 // JavaScript Not Enabled
-$locale['global_303'] = "Jamen dog! Hvor finder vi det stærke <strong>JavaScript</strong>?<br />Din browser understøtter ikke
+$locale['global_303'] = "Jamen dog! Hvor er <strong>JavaScript</strong> henne?<br />Din browser understøtter ikke
 JavaScript eller har ikke understøttelsen slået til. Slå <strong>JavaScript til</strong> i din browser for at se denne side
-ordentligt,<br /> eller <strong>opgrader</strong> til en browser, der understøtter JavaScript; <a target='_blank' href='http://firefox.com' rel='nofollow'
-title='Mozilla Firefox'>Firefox</a>, <a target='_blank' href='http://apple.com/safari/' rel='nofollow' title='Safari'>Safari</a>,
-<a href='http://opera.com' rel='nofollow' title='Opera Web Browser'>Opera</a>, <a target='_blank' href='http://www.google.com/chrome'
-rel='nofollow' title='Google Chrome'>Chrome</a> eller en version af <a target='_blank' href='http://www.microsoft.com/windows/internet-explorer/'
-rel='nofollow' title='Internet Explorer'>Internet Explorer</a> nyere end version 6.";
+ordentligt,<br /> eller <strong>opgrader</strong> til en browser, der understøtter JavaScript.";
 // User Management
-// Member status
 $locale['global_400'] = "suspenderet";
 $locale['global_401'] = "udelukket";
 $locale['global_402'] = "deaktiveret";
@@ -362,44 +359,43 @@ $locale['global_ML100'] = "Sprog";
 $locale['global_ML101'] = "- vælg sprog -";
 $locale['global_ML102'] = "Sidens sprog";
 $locale['global_ML103'] = "Skift sprog";
-
 // Flood Control
 $locale['flood'] = "Du er udelukket fra at deltage i debatter, indtil karantæneperioden udløber. Vent venligst i %s.";
 $locale['no_image'] = "Intet billede";
-$locale['send_message'] = 'Send besked';
-$locale['go_profile'] = 'Gå til %s brugerprofil';
+$locale['send_message'] = "Send besked";
+$locale['go_profile'] = "Gå til %s brugerprofil";
 // Greetings
-$locale['hello'] = 'Hej!';
-$locale['goodbye'] = 'Farvel!';
-$locale['welcome'] = 'Velkommen tilbage';
-$locale['home'] = 'Forsiden';
-$locale['clear'] = "Fjern";
-$locale['move'] = "Flyt";
+$locale['hello'] = "Hej!";
+$locale['goodbye'] = "Farvel!";
+$locale['welcome'] = "Velkommen tilbage";
+$locale['home'] = "Forsiden";
 // Status
-$locale['error'] = 'Fejl!';
-$locale['success'] = 'Det lykkedes!';
-$locale['enable'] = 'Slå til';
-$locale['disable'] = 'Slå fra';
+$locale['error'] = "Fejl!";
+$locale['success'] = "Det lykkedes!";
+$locale['enable'] = "Aktiveret";
+$locale['disable'] = "Deaktiveret";
 $locale['can'] = "kan";
 $locale['cannot'] = "kan ikke";
-$locale['no'] = 'Nej';
-$locale['yes'] = 'Ja';
-$locale['off'] = 'Slået fra';
-$locale['on'] = 'Slået til';
-$locale['or'] = 'eller';
-$locale['by'] = 'af';
-$locale['in'] = 'i';
-$locale['of'] = 'af';
-$locale['and'] = "og"; // please translate
-$locale['na'] = 'Ingen information tilgængelig.';
-$locale['joined'] = "Bruger siden "; // please translate
+$locale['no'] = "Nej";
+$locale['yes'] = "Ja";
+$locale['off'] = "Slået fra";
+$locale['on'] = "Slået til";
+$locale['or'] = "eller";
+$locale['by'] = "af";
+$locale['in'] = "i";
+$locale['of'] = "af";
+$locale['and'] = "og"; 
+$locale['na'] = "Ingen information tilgængelig.";
+$locale['joined'] = "Tilmeldt siden ";
 // Navigation
-$locale['next'] = 'Næste';
-$locale['previous'] = 'Foregående';
-$locale['back'] = 'Tilbage';
-$locale['forward'] = 'Fremad';
-$locale['go'] = 'Gør det';
-$locale['cancel'] = 'Fortryd';
+$locale['next'] = "Næste";
+$locale['previous'] = "Foregående";
+$locale['back'] = "Tilbage";
+$locale['forward'] = "Fremad";
+$locale['go'] = "Gør det";
+$locale['cancel'] = "Fortryd";
+$locale['clear'] = "Fjern";
+$locale['move'] = "Flyt";
 $locale['move_up'] = "Flyt opad";
 $locale['move_down'] = "Flyt nedad";
 $locale['load_more'] = "Indlæs mere";
@@ -434,61 +430,60 @@ $locale['he'] = "Han";
 $locale['she'] = "Hun";
 $locale['it'] = "Det/Den";
 //Tables
-$locale['status'] = 'Status';
-$locale['order'] = 'Rækkefølge';
-$locale['sort'] = 'Sorter';
-$locale['id'] = 'ID';
-$locale['title'] = 'Overskrift';
-$locale['rights'] = 'Rettigheder';
-$locale['info'] = 'Information';
-$locale['image'] = 'Billede';
+$locale['order'] = "Rækkefølge";
+$locale['sort'] = "Sorter";
+$locale['id'] = "ID";
+$locale['title'] = "Overskrift";
+$locale['rights'] = "Rettigheder";
+$locale['info'] = "Information";
+$locale['image'] = "Billede";
 // Forms
-$locale['choose'] = 'Vælg venligst en...';
-$locale['no_opts'] = 'Intet valg';
-$locale['root'] = 'Som forældre';
-$locale['choose-user'] = 'Du skal vælge en bruger...';
-$locale['choose-location'] = 'Du skal vælge et sted';
-$locale['parent'] = 'Opret som ny overordnet sektion...';
-$locale['order'] = 'Rækkefølge';
-$locale['status'] = 'Status';
-$locale['note'] = 'Skriv en note om dette';
-$locale['publish'] = 'Offentliggør';
-$locale['unpublish'] = 'Ikke offentliggør';
+$locale['choose'] = "Vælg venligst en...";
+$locale['no_opts'] = "Intet valg";
+$locale['root'] = "Som forældre";
+$locale['choose-user'] = "Du skal vælge en bruger...";
+$locale['choose-location'] = "Du skal vælge et sted";
+$locale['parent'] = "Opret som ny overordnet sektion...";
+$locale['item_order'] = "Rækkefølge";
+$locale['status'] = "Status";
+$locale['note'] = "Skriv en note om dette";
+$locale['publish'] = "Offentliggør";
+$locale['unpublish'] = "Ikke-offentliggør";
 $locale['sticky'] = "Fastholdt";
 $locale['unsticky'] = "Ikke fastholdt";
-$locale['draft'] = 'Udkast';
-$locale['settings'] = 'Opsætning';
-$locale['posted'] = 'offentliggjort ';
-$locale['profile'] = 'Profil';
-$locale['edit'] = 'Rediger';
-$locale['qedit'] = 'Hurtig redigering';
-$locale['view'] = 'Se';
-$locale['login'] = 'Log ind';
-$locale['logout'] = 'Log ud';
-$locale['admin-logout'] = 'Log ud af administration';
-$locale['message'] = 'Private beskeder';
-$locale['logged'] = 'Logget ind som ';
-$locale['version'] = 'Version ';
-$locale['browse'] = 'Gennemse...';
-$locale['close'] = 'Luk';
-$locale['nopreview'] = 'Der er intet at vise';
+$locale['draft'] = "Udkast";
+$locale['settings'] = "Opsætning";
+$locale['posted'] = "offentliggjort ";
+$locale['profile'] = "Profil";
+$locale['edit'] = "Rediger";
+$locale['qedit'] = "Hurtig redigering";
+$locale['view'] = "Se";
+$locale['login'] = "Log ind";
+$locale['logout'] = "Log ud";
+$locale['admin-logout'] = "Log ud af administration";
+$locale['message'] = "Private beskeder";
+$locale['logged'] = "Logget ind som ";
+$locale['version'] = "Version ";
+$locale['browse'] = "Gennemse...";
+$locale['close'] = "Luk";
+$locale['nopreview'] = "Der er intet at vise";
 $locale['mark_as'] = "Marker som";
 $locale['preview'] = "Vis";
 $locale['custom'] = "Tilpas";
+$locale['submit'] = "Foreslå";
 //Alignment
 $locale['left'] = "Venstre";
 $locale['center'] = "Midt i";
 $locale['right'] = "Højre";
-// User status
-$locale['online'] = "Logget på"; // please translate these 2 lines
-$locale['offline'] = "Logget af";
 // Comments and ratings
 $locale['comments'] = "Kommentarer";
 $locale['ratings'] = "Vurderinger";
 $locale['comments_ratings'] = "Kommentarer og vurderinger";
-$locale['fmt_submission'] = "brugerforslag|brugerforslag";
 $locale['user_account'] = "Brugerkonto";
 $locale['about'] = "Om";
+// User status
+$locale['online'] = "Logget på"; // please translate these 2 lines
+$locale['offline'] = "Logget af";
 // Words for formatting to single and plural forms. Count of forms is language-dependent
 $locale['fmt_submission'] = "brugerforslag|brugerforslag";
 $locale['fmt_article'] = "artikel|artikler";
@@ -524,6 +519,5 @@ $locale['fmt_points'] = "point|points";
 $locale['fmt_admin'] = "admin|admins";
 $locale['fmt_group'] = "gruppe|grupper";
 $locale['fmt_category'] = "kategori|kategorier";
-// Load defender locale from here, is more reliable
-// and now if part of the core, we could merge it in
+// include Defender locales
 include __DIR__."/defender.php";

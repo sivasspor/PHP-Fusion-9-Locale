@@ -21,4 +21,4 @@ $locale['copyright'] = "Copyright &copy; ";
 $locale['render_engine'] = "Systemfunktion";
 $locale['artemis_admin'] = "Artemis PHP-Fusion 9";
 $locale['admin_apps'] = "Apps";
-$locale['admin_collapse'] = "Luk menuen ned";
+$locale['admin_collapse'] = "Rul menuen ind";

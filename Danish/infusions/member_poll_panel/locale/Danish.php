@@ -15,10 +15,8 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-// Polls titles
 $locale['POLL_001'] = "Afstemninger";
 $locale['POLL_002'] = "Afstemningsarkiv";
-// Polls messages
 $locale['POLL_005'] = "Afstemningen er tilføjet.";
 $locale['POLL_006'] = "Afstemningen er opdateret.";
 $locale['POLL_007'] = "Afstemningen er slettet.";
@@ -29,27 +27,22 @@ $locale['POLL_011'] = "Viser aktuelt %d af i alt %d afstemninger.";
 $locale['POLL_012'] = "Der er aktuelt ikke oprettet nogen afstemninger.";
 $locale['POLL_013'] = "Din stemme er gemt.";
 $locale['POLL_014'] = "Der opstod en fejl i forbindelse med at din stemme skulle gemmes.";
-
-// Button
 $locale['POLL_020'] = "Stem";
-$locale['POLL_021'] = "Valgmuligheder ";
+$locale['POLL_021'] = "Valgmuligheder";
 $locale['POLL_022'] = "Start";
 $locale['POLL_023'] = "Genstart";
 $locale['POLL_024'] = "Luk";
-
-// Form
 $locale['POLL_040'] = "Stemme|Stemmer";
 $locale['POLL_042'] = "Rediger afstemning";
 $locale['POLL_043'] = "Tilføj afstemning";
-$locale['POLL_044'] = "Kan ses af ";
+$locale['POLL_044'] = "Kan ses af";
 $locale['POLL_045'] = "Afstemningens overskrift";
-$locale['POLL_046'] = "Valgmulighed ";
-$locale['POLL_048'] = "Startes ";
-$locale['POLL_049'] = "Afsluttes ";
+$locale['POLL_046'] = "Valgmulighed";
+$locale['POLL_048'] = "Stemmer";
+$locale['POLL_049'] = "Afsluttes";
 $locale['POLL_050'] = "Tilføj svarmulighed";
 $locale['POLL_051'] = "Se afstemning";
 $locale['POLL_052'] = "Gem afstemning";
-
 $locale['POLL_060'] = "Stemmer";
 $locale['POLL_063'] = "Arkiv";
 $locale['POLL_064'] = "Status";

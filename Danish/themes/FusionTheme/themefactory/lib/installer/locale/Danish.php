@@ -15,23 +15,21 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['homeSetup_0200'] = 'Vil du installere standard Nebula temasiden?';
-$locale['homeSetup_0201'] = 'Ja, installer siden';
-$locale['homeSetup_0202'] = 'Nej, tak';
+$locale['homeSetup_0200'] = "Vil du installere standard Nebula temasiden?";
+$locale['homeSetup_0201'] = "Ja, installer siden";
+$locale['homeSetup_0202'] = "Nej, tak";
 
 /*
 * Home setup
 */
-$locale['homeSetup_0100'] = 'Hjem';
-$locale['homeSetup_0101'] = 'Velkommen til din PHP-Fusion 9 hjemmeside';
-$locale['homeSetup_0102'] = '[b]Til lykke med din første installation[/b]';
-$locale['homeSetup_0103'] = 'Den letteste måde at udvikle en [i]pro grade[/i] hjemmeside. [b]Starter nu[/b]';
+$locale['homeSetup_0100'] = "Hjem";
+$locale['homeSetup_0101'] = "Velkommen til din PHP-Fusion 9 hjemmeside";
+$locale['homeSetup_0102'] = "[b]Til lykke med din første installation[/b]";
+$locale['homeSetup_0103'] = "Den letteste måde at udvikle en [i]pro grade[/i] hjemmeside. [b]Starter nu[/b]";
 $locale['homeSetup_0104'] = "Karrusel";
 $locale['homeSetup_0105'] = "Featureboks";
 $locale['homeSetup_0106'] = "Element";
 $locale['homeSetup_0107'] = "Blok";
-$locale['homeSetup_0110'] = "Seneste";
-$locale['homeSetup_0111'] = "Hvad er det sidste nye";
 $locale['homeSetup_0112'] = "Tema";
 $locale['homeSetup_0113'] = "Vores tema leverer formidabelt design og kraftfulde features til din hjemmeside. Pixel perfektioneret for at vise din hjemmesides alsidighed.";
 $locale['homeSetup_0114'] = "Derfor vil du elske PHP-Fusion 9";

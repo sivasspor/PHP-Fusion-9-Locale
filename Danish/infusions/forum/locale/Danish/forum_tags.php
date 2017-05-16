@@ -23,10 +23,8 @@ $locale['forum_tag_0104'] = "Rediger tag";
 $locale['forum_tag_0105'] = "Dit tag er oprettet";
 $locale['forum_tag_0106'] = "Dit tag er opdateret";
 $locale['forum_tag_0107'] = "Dit tag er slettet";
-
 $locale['forum_tag_0110'] = "Sideinformation";
 $locale['forum_tag_0111'] = "Diskussioner vedrørende administrationen af denne side";
-
 $locale['forum_tag_0200'] = "Tagoverskrift ";
 $locale['forum_tag_0201'] = "Tagbeskrivelse ";
 $locale['forum_tag_0202'] = "Tagfarve ";

@@ -15,10 +15,6 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-//Tester
-$category['name']= "Fejl 1";
-$category['link']= "Fejl 2";
-
 // Items shown in profile
 $locale['u040'] = "Dato for oprettelse";
 $locale['u041'] = "Seneste besøg ";
@@ -80,8 +76,8 @@ $locale['u113'] = "Brugernavn";
 $locale['u114'] = "Brugertype";
 $locale['u115'] = "Sprog";
 $locale['u116'] = "Ingen gruppemedlemmer.";
-
 // User name and email
+$locale['u119'] = "Brugernavn indeholder.";
 $locale['u120'] = "Brugernavnet indeholder forbudte karakterer.";
 $locale['u121'] = "Det valgte brugernavn anvendes allerede af en anden bruger.";
 $locale['u122'] = "Der skal angives et brugernavn.";
@@ -92,7 +88,6 @@ $locale['u126'] = "Der skal angives en mailadresse.";
 $locale['u127'] = "Brugernavn";
 $locale['u128'] = "Mailadresse";
 $locale['u129'] = "Kontoinformation";
-
 // Passwords
 $locale['u130'] = "Aktuelt administratorkodeord";
 $locale['u131'] = "Administratorkodeord";
@@ -113,8 +108,8 @@ $locale['u141'] = " kan ikke være det samme som ";
 $locale['u142'] = " er for kort eller indeholder forbudte karakterer!";
 $locale['u143'] = " er ikke den samme!";
 $locale['u143a'] = " må ikke være tom.";
-$locale['u144a'] = "Aktuelt admin. kodeord ";
 $locale['u144'] = "Nyt admin. kodeord ";
+$locale['u144a'] = "Aktuelt admin. kodeord ";
 $locale['u145'] = "Bekræft kodeord ";
 $locale['u146'] = " kan ikke være identisk med det aktuelle ";
 $locale['u147'] = "Kodeordet skal være på mellem 8 og 64 tegn. Tilladt: <i>a-z, 0-9, @!#$%&\/()=-_?+*.,:;</i> - er tilladt.";
@@ -124,7 +119,6 @@ $locale['u149'] = "Der blev ikke angivet et nyt kodeord eller også var kodeord 
 $locale['u149a'] = "Dit administrative kodeord blev ikke angivet eller var forkert.";
 $locale['u149b'] = "Dit aktuelle kodeord blev ikke opgivet eller er forkert.
 Du kan ikke ændre dit administrative kodeord uden at angive det gældende kodeord korrekt.";
-
 // Email actiation
 $locale['u150'] = "Din tilmelding er næsten færdig. Du vil modtage en mail med dine pålogningsoplysninger sammen med et link, som du skal bruge til at bekræfte din tilmelding.";
 $locale['u151'] = "Velkommen til [SITENAME]";
@@ -135,6 +129,7 @@ Kodeord: USER_PASSWORD\n\r
 Vær så venlig at aktivere din konto ved at klikke på følgende link: ACTIVATION_LINK\n\n\r\r
 Venlig hilsen.\n\r
 SITEUSERNAME";
+
 $locale['u153'] = "Aktiveringsmail kunne ikke afsendes.";
 $locale['u154'] = "Kontakt venligst sidens administrator.";
 $locale['u155'] = "Aktiver din konto";
@@ -145,6 +140,8 @@ $locale['u161'] = "Du kan nu logge ind på siden.";
 $locale['u162'] = "En administrator vil aktivere din konto meget snart.";
 $locale['u163'] = "Profilen blev opdateret.";
 $locale['u164'] = "Opdateringen lykkedes ikke";
+
+//$locale['u165'] = "Registration failed";
 $locale['u167'] = "af følgende årsag(er)";
 $locale['u168'] = "Forsøg igen.";
 $locale['u169'] = "Profilen er opdateret";
@@ -153,24 +150,24 @@ $locale['u171'] = "Dine kontooplysninger er blevet verificeret.";
 $locale['u172'] = "Brugeren er tilføjet.";
 $locale['u173'] = "Tilbage til brugeradministration.";
 $locale['u174'] = "Tilføj endnu en bruger?";
-
 // Avatar upload
 $locale['u180'] = "Der opstod en fejl i forbindelse med upload af din avatar";
-$locale['u184'] = "Maksimal filstørrelse: %s / Maksimal størrelse: %ux%u pixels";
+
+
+$locale['u184'] = "Maks. filstørrelse: %s / Maks. størrelse: %ux%u pixels";
 $locale['u185'] = "Avatar";
 $locale['u186'] = "Klik på gennemse for at uploade et billede";
 $locale['u187'] = "Slet";
-$locale['u193a'] = "Opdateret";
-$locale['u193b'] = "Jeg er indforstået";
 
 // Captcha and terms
 $locale['u190'] = "Sikkerhedskode";
 $locale['u191'] = "Indskriv sikkerhedskode";
 $locale['u192'] = "Tilmeldingsbetingelser";
 $locale['u193'] = "Jeg har læst <a href='".BASEDIR."print.php?type=T' target='_blank'>tilmeldingsbetingelserne</a> og er indforstået med dem.";
+$locale['u193a'] = "Opdateret";
+$locale['u193b'] = "Jeg er indforstået";
 $locale['u194'] = "Forkert sikkerhedskode.";
 $locale['u195'] = "Der skal indskrives en sikkerhedskode.";
-
 // E-mail Change Confirmation
 $locale['u200'] = "En bekræftelsesmail er sendt til din mailadresse (%s).";
 $locale['u201'] = "Din mailadresse ændres, når du klikker på linket i mailen.";
@@ -183,3 +180,5 @@ Bemærk: Du skal være logget på for at fortsætte.\n
 Venlig hilsen
 [SITEUSERNAME]\n\r
 [SITENAME]";
+
+$locale['u210'] = "Bruger omdømme";
