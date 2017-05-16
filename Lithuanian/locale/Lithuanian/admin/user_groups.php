@@ -1,42 +1,53 @@
 <?php
 // Edit/Save/Delete User Group Messages
-$locale['400'] = "Vartotojų grupė atnaujinta";
-$locale['401'] = "Sukurta vartotojų grupė";
-$locale['402'] = "Pažymėti vartotojai pašalinti iš grupės";
-$locale['403'] = "Visi vartotojai pašalinti iš grupės";
-$locale['404'] = "Pažymėti vartotojai pridėti prie grupės";
-$locale['405'] = "Negalima ištrinti vartotojų grupės";
-$locale['406'] = "Yra vartotojų priklausančių šiai grupei";
-$locale['407'] = "Vartotojų grupė ištrinta";
+$locale['GRP_400'] = "Vartotojų grupė atnaujinta";
+$locale['GRP_401'] = "Sukurta vartotojų grupė";
+$locale['GRP_403'] = "Nepasirinktas vartotojas";
+$locale['GRP_404'] = "Nėra grupės";
+$locale['GRP_405'] = "Negalima ištrinti vartotojų grupės";
+$locale['GRP_406'] = "Yra vartotojų priklausančių šiai grupei";
+$locale['GRP_407'] = "Vartotojų grupė ištrinta";
+$locale['GRP_408'] = "Nepasirinktas vartotojas arba grupė.";
+$locale['GRP_409'] = " Pridėti vartotojų grupę.";
+
+$locale['GRP_410'] = "Vartotojas \"%s\" priskirtas į grupę \"%s\"";
+$locale['GRP_411'] = "Vartotojas \"%s\" pašalintas iš grupės \"%s\"";
+$locale['GRP_412'] = "\"%s\" vartotojai pašalinti iš grupės \"%s\"";
 // Edit/Delete Options
-$locale['420'] = "Vartotojų grupės";
-$locale['421'] = "Redaguoti";
-$locale['422'] = "Trinti";
-$locale['423'] = "Trinti šią vartotojų grupę?";
+$locale['GRP_420'] = "Vartotojų grupės";
+$locale['GRP_421'] = "Redaguoti";
+$locale['GRP_422'] = "Trinti";
+$locale['GRP_423'] = "Trinti šią vartotojų grupę?";
+$locale['GRP_424'] = "Rodoma %d vartotojų grupė.";
+$locale['GRP_425'] = "Ištrinti šią grupę?";
+$locale['GRP_426'] = "Numatytoji grupė";
+$locale['GRP_427'] = "Šiuo metu %d rodoma %d narių.";
+$locale['GRP_428'] = "Pridėti grupę";
+$locale['GRP_430'] = "priskirtas į grupę %s";
 // Edit/Add User Group
-$locale['430'] = "Redaguoti vartotojų grupę";
-$locale['431'] = "Sukurti vartotojų grupę";
-$locale['432'] = "Grupės pavadinimas:";
-$locale['433'] = "Grupės aprašymas:";
-$locale['434'] = "Išsaugoti grupę";
+$locale['GRP_432'] = "Grupės pavadinimas:";
+$locale['GRP_433'] = "Grupės aprašymas:";
+$locale['GRP_434'] = "Išsaugoti grupę";
+$locale['GRP_435'] = "ID";
+$locale['GRP_436'] = "Ikona";
+$locale['GRP_437'] = "Veiksmas";
+$locale['GRP_438'] = "Nariai";
+$locale['GRP_439'] = "Grupės ikona"; 
 // Search/Add Group Users
-$locale['440'] = "Priskirti narius į vartotojų grupę";
-$locale['441'] = "Naudojantis esančia forma galite surasti vartotojus pridėjimui prie grupės.";
-$locale['442'] = "Jūs galite ieškoti kelių vartotojų iškart, atskirdami kiekvieną raktinį žodį kableliu.";
-$locale['443'] = "Pagal vartotojo ID ";
-$locale['444'] = "Pagal vartotojo vardą ";
-$locale['445'] = "Ieškoti";
-$locale['446'] = "Vartotojo vardas";
-$locale['447'] = "Vartotojo tipas";
-$locale['448'] = "Pažymėti visus";
-$locale['449'] = "Nežymėti nieko";
-$locale['450'] = "Pridėti pažymėtus vartotojus";
-$locale['451'] = "Vartotojų nerasta.";
-$locale['452'] = "Ieškoti dar kartą";
+$locale['GRP_440'] = "Priskirti narius į vartotojų grupę";
+$locale['GRP_441'] = "Naudojantis esančia forma galite surasti vartotojus pridėjimui prie grupės.";
+$locale['GRP_442'] = "Jūs galite ieškoti kelių vartotojų iškart, atskirdami kiekvieną raktinį žodį kableliu.";
+$locale['GRP_446'] = "Vartotojo vardas";
+$locale['GRP_447'] = "Vartotojo tipas";
+$locale['GRP_448'] = "Pažymėti visus";
+$locale['GRP_449'] = "Nežymėti nieko";
+$locale['GRP_450'] = "Pridėti pažymėtus vartotojus";
+$locale['GRP_451'] = "Vartotojų nerasta.";
+$locale['GRP_452'] = "Ieškoti dar kartą";
 // Current Group Users
-$locale['460'] = "Grupėje esantys vartotojai";
-$locale['461'] = "Pašalinti pažymėtus vartotojus";
-$locale['462'] = "Pašalinti visus vartotojus";
-$locale['463'] = "Nėra narių šioje grupėje.";
+$locale['GRP_460'] = "Grupėje esantys vartotojai";
+$locale['GRP_461'] = "Pašalinti pažymėtus vartotojus";
+$locale['GRP_462'] = "Pašalinti visus vartotojus";
+$locale['GRP_463'] = "Nėra narių šioje grupėje.";
 // Error Messages
-$locale['464'] = "Prašom įvesti grupės pavadinimą";
+$locale['GRP_464'] = "Prašom įvesti grupės pavadinimą";

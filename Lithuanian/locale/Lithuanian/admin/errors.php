@@ -1,26 +1,32 @@
 <?php
 // Titles
-$locale['400'] = "Klaidų žurnalas";
-$locale['401'] = "Peržiūrėti failą";
+$locale['ERROR_400'] = "Klaidų žurnalas";
+$locale['ERROR_401'] = "Peržiūrėti failą";
 // Errors table
-$locale['410'] = "Klaida";
-$locale['411'] = "Puslapyje";
-$locale['412'] = "Vartotojas";
-$locale['413'] = "Data";
-$locale['414'] = "Statusas";
-$locale['415'] = "Eilutė:";
-$locale['416'] = "Lygis:";
-$locale['417'] = "IP:";
-$locale['418'] = "Jokių klaidų neaptikta.";
-$locale['419'] = "Failas";
-$locale['420'] = "Detalės";
-$locale['421'] = "Išeities kodas";
-$locale['422'] = "Į viršų";
+$locale['ERROR_410'] = "Klaida";
+$locale['ERROR_411'] = "Puslapyje";
+$locale['ERROR_412'] = "Vartotojas";
+$locale['ERROR_413'] = "Data";
+$locale['ERROR_414'] = "Statusas";
+$locale['ERROR_415'] = "Eilutė:";
+$locale['ERROR_416'] = "Lygis:";
+$locale['ERROR_417'] = "IP:";
+$locale['ERROR_418'] = "Jokių klaidų neaptikta.";
+$locale['ERROR_419'] = "Failas";
+$locale['ERROR_420'] = "Detalės";
+$locale['ERROR_421'] = "Išeities kodas";
+$locale['ERROR_422'] = "Į viršų";
 // Delete form
-$locale['440'] = "Ištrinti visus įrašus su statusu";
+$locale['ERROR_440'] = "Ištrinti visus įrašus su statusu";
 // Status form
-$locale['450'] = "Naujas";
-$locale['451'] = "Išspręsta";
-$locale['452'] = "Ignoruota";
-$locale['453'] = "Taikyti";
-$locale['454'] = "Sunkumas";
+$locale['ERROR_450'] = "Naujas";
+$locale['ERROR_451'] = "Išspręsta";
+$locale['ERROR_452'] = "Ignoruota";
+$locale['ERROR_453'] = "Taikyti";
+$locale['ERROR_454'] = "Sunkumas";
+$locale['ERROR_460'] = "Klaidos";
+$locale['ERROR_461'] = "Klaidos failas";
+$locale['ERROR_462'] = "Nustatymai";
+$locale['ERROR_463'] = "Sugeneruota";
+$locale['ERROR_464'] = "Klaidos konsolė";
+$locale['ERROR_465'] = "Pradinis failas"; 
