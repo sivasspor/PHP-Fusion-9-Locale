@@ -5,6 +5,13 @@ $locale['401'] = "Pagrindiniai nustatymai";
 $locale['402'] = "Tinklapio pavadinimas:";
 $locale['403'] = "Tinklapio URL:";
 $locale['404'] = "Tinklapio baneris:";
+$locale['404left'] = "Kairė";
+$locale['404center'] = "Centras";
+$locale['404right'] = "Dešinė";
+$locale['404XS'] = "Logotipo vieta XS";
+$locale['404SM'] = "Logotipo vieta SM";
+$locale['404MD'] = "Logotipo vieta MD";
+$locale['404LG'] = "Logotipo vieta LG";
 $locale['405'] = "Tinklapio e-pašto adresas:";
 $locale['406'] = "Jūsų vartotojo vardas:";
 $locale['407'] = "Tinklapio įžanga:";
@@ -21,17 +28,20 @@ $locale['417'] = "Tinklapio kalba:";
 $locale['418'] = "Tinklapio tema:";
 $locale['418a'] = "Administracijos panelės tema:";
 $locale['419'] = "Numatytoji paieškos vieta:";
+$locale['419a'] = "Visas tinklapis";
 $locale['420'] = "Pašalinti kairės pusės paneles:";
 $locale['421'] = "Pašalinti aukštesnis paneles:";
 $locale['422'] = "Pašalinti žemesnes paneles:";
 $locale['423'] = "Pašalinti dešinės paneles:";
-$locale['424'] = "<em>Pvz.:</em><br />/news.php<br />/forum/index.php";
+$locale['424'] = "Pvz.:\n\r/news.php\n\r/forum/index.php";
 $locale['425'] = "Puslapio adresas";
 $locale['426'] = "Puslapio protokolas:";
 $locale['427'] = "Puslapio hostingas:";
 $locale['428'] = "Pavyzdys:";
 $locale['429'] = "Puslapio kelias:";
 $locale['430'] = "Puslapio portas:";
+$locale['430_error'] = "Netinkamas porto numeris";
+$locale['430_desc'] = "Palikti tuščią, jeigu portas 80";
 $locale['431'] = "Peržiūra:";
 $locale['432'] = "Kiti nustatymai";
 $locale['433'] = "manopuslapis.lt";
@@ -44,6 +54,10 @@ $locale['439'] = "Normalizuoti SEO nuorodas:";
 $locale['440'] = "Įjungti SEO debuginimą:";
 $locale['441'] = "Įjungti Entypo";
 $locale['442'] = "Įjungti Font-Awesome";
+$locale['443a'] = "Pašalinti Vartotojo 1 paneles";
+$locale['443b'] = "Pašalinti Vartotojo 2 paneles";
+$locale['443c'] = "Pašalinti Vartotojo 3 paneles";
+$locale['443d'] = "Pašalinti Vartotojo 4 paneles";
 
 // Time & Date Settings
 $locale['450'] = "Datos ir laiko nustatymo parametrai";
@@ -52,16 +66,17 @@ $locale['452'] = "Ilgasis datos formatas:";
 $locale['453'] = "Forumo datos formatas:";
 $locale['454'] = "Datos formatas tinklapio viršuje:";
 $locale['455'] = "-- pasirink formatą --";
-$locale['456'] = "Laiko balansas<br /><em>(Svečių)</em>";
+$locale['456'] = "Laiko balansas (Svečių)";
 $locale['457'] = "Naujienų ir straipnių datos formatas:";
 $locale['458'] = "Laikas";
 $locale['459'] = "Serverio";
 $locale['460'] = "Tavo";
 $locale['461'] = "Svečių";
-$locale['462'] = "Laiko balansas<br /><em>(Serverio)</em>";
+$locale['462'] = "Laiko balansas (serverio)";
 $locale['463'] = "Nustatyk šį laiką taip, kad serverio laikas būtų GMT 0 zonos";
 $locale['464'] = "Numatyta laiko juosta";
 $locale['465'] = "Pirmoji savaitės diena";
+$locale['466'] = "Numatytasis naujiems vartotojams";
 
 // Registration Settings
 $locale['550'] = "Registracija";
@@ -89,15 +104,18 @@ $locale['653'] = "Jei nereikia, palik tuščią.";
 $locale['654'] = "Keiksmažodžio pakaitalas:";
 $locale['655'] = "Leisti svečiams rašyti pranešimus?";
 $locale['656'] = "Įjungti avatarų rodymą komentaruose?";
+$locale['656a'] = "Įjungti Jquery komentarus?";
+$locale['656b'] = "Prašome nustatyti didžiausią viename puslapyje rodomų komentarų skaičių";
+
 $locale['657'] = "Tinklapio išjungimas:";
 $locale['658'] = "Tinklapio išjungimo priežastis ir žinutė:";
 $locale['659'] = "Įjungti keiksmažodžių filtrą?";
-$locale['660'] = "Spamo intervalas";
+$locale['660'] = "Spamo intervalas (sekundėmis)";
 $locale['661'] = "Palik tuščią dėl neatidėliotinų atsarginių kopijų įkelimų/perkelimų.";
-$locale['662'] = "Naudoti TinyMCE HTML redaktorių?";
-$locale['663'] = "Tik straipsnių ir naujienų administravimui.";
+$locale['662'] = "TinyMCE redaktorius";
+$locale['663'] = "Tik vidinių puslapių, straipsnių, blogų ir naujienų administravimui.";
 $locale['664'] = "SMTP hostingas";
-$locale['665'] = "Palikti tuščia jeigu siuntimo dežutė aktyvuota.";
+$locale['665'] = "Palikti tuščią jeigu siuntimo dėžutė aktyvuota.";
 $locale['666'] = "SMTP Vartotojo vardas";
 $locale['667'] = "SMTP Slaptažodis";
 $locale['668'] = "Leisti vartotojams pasirinkti dizainą";
@@ -118,7 +136,7 @@ $locale['681ML'] = "Panelės";
 $locale['682ML'] = "Kalbos nustatymai";
 $locale['683ML'] = "Įjungti daugiakalbę sistemą";
 $locale['684ML'] = "Įjungtos kalbos";
-$locale['685ML'] = "Pasirinkite leidžiamas kalbas. <br /><b>Dėmesio</b>: Ištrindami kalbą, jūs taip pat pašalinate visą su ja susijusį turinį iš sistemos.";
+$locale['685ML'] = "Pasirinkite leidžiamas kalbas. \n\rDėmesio: Ištrindami kalbą, jūs taip pat pašalinate visą su ja susijusį turinį (nuorodas, kategorijas ir kt.) iš sistemos.";
 $locale['669'] = "Naujienos";
 $locale['669b'] = "Tinklaraščių puslapyje";
 $locale['669c'] = "Naujienų puslapyje";
@@ -172,7 +190,7 @@ $locale['707'] = "Asmeninių žinučių limitai";
 $locale['708'] = "Administratoriaus nustatymai vartotojo atžvilgiu";
 $locale['709'] = "Perspėjimai paštu?";
 $locale['710'] = "Saugoti siųstas žinutes?";
-$locale['711'] = "Atminkite: Individualūs vartojo nustatymai turi pirmenybę, jei jie pasirinkti. Jei individualūs vartotojo nustatymai nepasirinkti, tuomet galioja administratoriaus nustatymai.";
+$locale['711'] = "Atminkite: Individualūs vartojo nustatymai turi pirmenybę, jei jie pasirinkti. Jei individualūs nustatymai nepasirinkti, tuomet galioja administratoriaus nustatymai.";
 
 // Save Settings
 $locale['750'] = "Išsaugoti nustatymus";
@@ -196,7 +214,7 @@ $locale['855'] = "Peržiūrėti banerius";
 
 // Settings Error
 $locale['900'] = "Nustatymai atnaujinti";
-$locale['901'] = "Duom.bazės atnaujino klaida: nustatymai nebuvo atnaujinti!";
+$locale['901'] = "Duomenų bazės atnaujino klaida: nustatymai nebuvo atnaujinti!";
 $locale['902'] = "Puslapio hostingas negali būti tuščias!";
 
 // User Management
@@ -215,6 +233,7 @@ $locale['1012'] = "Anonimizuoti vartotoją";
 $locale['1013'] = "Ištrinti vartotoją";
 $locale['1014'] = "Leisti nariams prisijungti iš skirtingų prietaisų vienu metu?";
 $locale['1014a'] = "Dėl saugumo patariama išjungti";
+$locale['1020'] = array(1 => 'Baitai (bytes)', 1000 => 'KB (Kilobaitai)', 1000000 => 'MB (Megabaitai)');						 
 
 // Social integration
 $locale['1030'] = "Sukurti OpenGraph meta žymes socialiniams tinklams";
@@ -260,7 +279,6 @@ $locale['news_description'] = "Nustatymai Naujienų sistemai";
 $locale['ipp_description'] = "Numatyto elementų kiekio puslapyje nustatymai";
 $locale['forum_description'] = "Nustatymai Forumų sistemai";
 $locale['download_description'] = "Nustatymai Atsisiuntimų sistemai";
-$locale['eshop_description'] = "Nustatymai Eshop sistemai";
 $locale['language_description'] = "Numatyti daugiakalbės sistemos nustatymai";
 $locale['photo_description'] = "Nustatymai Nuotraukų galerijai";
 $locale['main_description'] = "Pagrindinės sistemos nustatymai";
@@ -273,7 +291,7 @@ $locale['user_description'] = "Vartotojų valdymo nustatymai";
 $locale['theme_description'] = "Dizainų nustatymai";
 $locale['blog_settings'] = 'Tinklaraščio nustatymai';
 $locale['download_settings'] = 'Siuntinių nustatymai';
-$locale['eshop_settings'] = 'eShop nustatymai';
+
 $locale['forum_settings'] = 'Forumo nustatymai';
 $locale['ipp_settings'] = 'Elementų per puslapį nustatymai';
 $locale['photo_settings'] = 'Nuotraukų nustatymai';
@@ -287,5 +305,4 @@ $locale['time_settings'] = 'Laiko ir datos nustatymai';
 $locale['user_settings'] = 'Vartotojų valdymo nustatymai';
 $locale['theme_settings'] = 'Dizaino nustatymai';
 
-$locale['securimage'] = "Saugumo paveikslėlis";
-$locale['securimage2'] = "Saugumo paveikslėlis v.2";
+$locale['securimage3'] = "Saugumo paveikslėlis v.3";

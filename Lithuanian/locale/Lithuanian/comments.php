@@ -10,3 +10,7 @@ $locale['c107'] = " Išjungti šypsenėles šiame komentare";
 $locale['c108'] = "Redaguoti";
 $locale['c109'] = "Trinti";
 $locale['c110'] = "Ištrinti šį komentarą?";
+$locale['c111'] = "Parašyti komentarą";
+$locale['c112'] = "Atsakyti";
+$locale['c113'] = "Pavadinimas";
+$locale['c114'] = "Komentarai atnaujinti";

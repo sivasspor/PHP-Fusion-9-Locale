@@ -17,3 +17,4 @@ Norėdami pasikeisti slaptažodį paspasukite ant šios nuorodos:\n
 $locale['411'] = "Sveiki [USER_NAME],\nJūsų naujasis slaptažodis [SITENAME] yra:\n
 [NEW_PASS]\n\nLinkėjimai,\n[SITEUSERNAME]";
 $locale['412'] = "Įvyko klaida, prašome pabandyti dar kartą.";
+$locale['413'] = "Prašome įvesti el. pašto adresą:";
