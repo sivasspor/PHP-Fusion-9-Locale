@@ -14,6 +14,6 @@ $locale['E_USER_NOTICE'] = "Informacja zgłoszona przez funkcję trigger_error()
 $locale['E_ALL'] = "Pokazuje wszystkie wiadomości poza E_STRICT/Defines all messages except E_STRICT";
 $locale['E_STRICT'] = "";
 $locale['err_100'] = "Nd.";
-$locale['err_101'] = "<strong>Ostrzeżenie:</strong> W trakcie generowania strony wystąpił błąd. Sprawdź <a href='[ERROR_LOG_URL]'>dziennik błędów</a>, aby uzyskać więcej informacji.";
+$locale['err_101'] = "<strong>Ostrzeżenie:</strong> W trakcie generowania strony wystąpił błąd. Sprawdź [ERROR_LOG_URL]dziennik błędów[/ERROR_LOG_URL], aby uzyskać więcej informacji.";
 $locale['err_102'] = "Pokaż mi błąd!";
 $locale['err_103'] = "{%function%} {%folder%} does not exists.";       // NIEPRZETŁUMACZONE ///
