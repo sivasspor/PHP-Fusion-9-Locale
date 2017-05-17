@@ -2,7 +2,7 @@
 
 $locale['blog_1000'] = "Blog";
 $locale['blog_1001'] = "Blog - początek";
-$locale['blog_1003'] = "Kategorie";
+$locale['blog_1003'] = "Kategoria";
 $locale['blog_1004'] = "Archiwum bloga";
 $locale['blog_1005'] = "Autorzy";
 $locale['blog_1006'] = "Czytaj więcej";

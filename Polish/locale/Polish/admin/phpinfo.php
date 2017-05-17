@@ -1,32 +1,32 @@
 <?php
 $locale['400'] = "PHP Info";
 //General
-$locale['401'] = "General";
-$locale['402'] = "Server software";
-$locale['403'] = "Webserver software";
-$locale['404'] = "PHP version";
-$locale['405'] = "PHP interface";
-$locale['406'] = "MySQL Server version";
-$locale['407'] = "PHP-Fusion version";
-$locale['408'] = "Database prefix";
-$locale['409'] = "Cookie prefix";
-$locale['410'] = "Webbrowser and OS";
+$locale['401'] = "Ogólne";
+$locale['402'] = "Oprogramowanie serwera";
+$locale['403'] = "Oprogramowanie serwera WWW";
+$locale['404'] = "Wersja PHP";
+$locale['405'] = "Interfejs PHP";
+$locale['406'] = "Wersja serwera MySQL";
+$locale['407'] = "Wersja PHP-Fusion";
+$locale['408'] = "Prefiks bazy danych";
+$locale['409'] = "Prefiks cookie";
+$locale['410'] = "Przeglądarka internetowa i system operacyjny";
 //PHP settings
-$locale['420'] = "PHP settings";
-$locale['421'] = "Yes";
-$locale['422'] = "No";
-$locale['423'] = "Safemode";
+$locale['420'] = "Ustawienia PHP";
+$locale['421'] = "Tak";
+$locale['422'] = "Nie";
+$locale['423'] = "Tryb bezpieczeństwa";
 $locale['424'] = "RegisterGlobals";
-$locale['425'] = "Support for";
-$locale['426'] = "Files upload (max file size)";
-$locale['428'] = "Display errors";
-$locale['429'] = "Disabled functions";
+$locale['425'] = "Wsparcie dla";
+$locale['426'] = "Przesyłanie plików (maksymalny rozmiar pliku)";
+$locale['428'] = "Błędy wyświetlania";
+$locale['429'] = "Wyłączone funkcje";
 $locale['430'] = "n/a";
-$locale['431'] = "version";
+$locale['431'] = "wersja";
 //Write permission
-$locale['440'] = "Folder Permissions";
-$locale['441'] = "Writeable";
-$locale['442'] = "Not writeable";
+$locale['440'] = "Uprawnienia do folderów";
+$locale['441'] = "Zapisywalne";
+$locale['442'] = "Nie zapisywalne";
 //PHPinfo
-$locale['450'] = "Details";
-$locale['451'] = "Unable to get data. Check if phpinfo() function is switched off?";
+$locale['450'] = "Szczegóły";
+$locale['451'] = "Nie można pobrać danych. Sprawdź, czy funkcji phpinfo() jest wyłączona?";

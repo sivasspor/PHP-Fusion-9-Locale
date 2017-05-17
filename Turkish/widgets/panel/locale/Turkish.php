@@ -4,8 +4,9 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: Panel/locale/English.php
+| Filename: panel/locale/Turkish.php
 | Author: Frederick MC Chan (Chan)
+| Translator: Turkish translation by ALTUN69 https://alapelit.com
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -16,9 +17,9 @@
 | written permission from the original author(s).
 +--------------------------------------------------------*/
 $locale['PW_0100'] = "Panel";
-$locale['PW_0101'] = "PHP-Fusion Panels";
-$locale['PW_0200'] = "Select Installed Panel";
-$locale['PW_0201'] = "Please verify the installed Panel Access Settings in [LINK]Panel Administration[/LINK]";
-$locale['PW_0220'] = "Save Panel";
-$locale['PW_0221'] = "Save and Close Panel";
-$locale['PW_0222'] = "Panel Filename";
+$locale['PW_0101'] = "PHP-Fusion Panelleri";
+$locale['PW_0200'] = "Yüklü Paneli Seç";
+$locale['PW_0201'] = "Lütfen [LINK]Panel Yönetimi[/LINK] sayfasındaki kurulu Panel Erişim Ayarlarını doğrulayın.";
+$locale['PW_0220'] = "Paneli Kaydet";
+$locale['PW_0221'] = "Paneli Kaydet ve Kapat";
+$locale['PW_0222'] = "Panel Dosya Adı";

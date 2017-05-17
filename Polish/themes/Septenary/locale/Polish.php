@@ -1,12 +1,12 @@
 <?php
-$locale['sept_001'] = "Login";
-$locale['sept_002'] = "Register";
+$locale['sept_001'] = "Logowanie";
+$locale['sept_002'] = "Rejestracja";
 $locale['sept_003'] = "Admin";
-$locale['sept_004'] = "My Profile";
-$locale['sept_005'] = "Logout";
-$locale['sept_006'] = "Search...";
-$locale['sept_007'] = "News";
-$locale['sept_008'] = "Gallery";
+$locale['sept_004'] = "Mój profil";
+$locale['sept_005'] = "Wyloguj się";
+$locale['sept_006'] = "Szukaj...";
+$locale['sept_007'] = "Aktualności";
+$locale['sept_008'] = "Galeria";
 $locale['sept_009'] = "Forum";
-$locale['sept_010'] = "Downloads";
-$locale['sept_011'] = "Made on HTML5 and CSS3";
+$locale['sept_010'] = "Download";
+$locale['sept_011'] = "Wykonane na HTML5 i CSS3";

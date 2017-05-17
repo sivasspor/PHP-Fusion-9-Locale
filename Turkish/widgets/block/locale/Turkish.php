@@ -6,7 +6,7 @@
 +--------------------------------------------------------+
 | Filename: block/locale/Turkish.php
 | Author: Frederick MC Chan (Chan)
-| Translator: Turkish translation by ALTUN69 http://www.phpfusionturkey.alapelit.com
+| Translator: Turkish translation by ALTUN69 https://alapelit.com
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
