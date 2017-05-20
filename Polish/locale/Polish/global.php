@@ -50,8 +50,13 @@ $locale['add_language'] = "Dodaj tłumaczenia";
 $locale['add_lang'] = "Dodaj %";
 $locale['other_states'] = "Inne państwa";
 // Name
+<<<<<<< HEAD
+$locale['name'] = 'Pełna Nazwa';
+$locale['username_pretext'] = 'Twoja nazwa użytkownika jest taka sama, jak profil użytkownika, który znajduje się na stronie:<div class="alert alert-info m-t-10 p-10">%s<strong>%s</strong></div>';
+=======
 $locale['name'] = 'Pełna nazwa';
 $locale['username_pretext'] = 'Your public username is also the same as your user profile address located at:<div class="alert alert-info m-t-10 p-10">%s<strong>%s</strong></div>';
+>>>>>>> origin/master
 $locale['first_name'] = 'Imię';
 $locale['middle_name'] = 'Drugie imię';
 $locale['last_name'] = 'Nazwisko';
@@ -86,7 +91,11 @@ $locale['userf1'] = "Moderator";
 // Navigation
 $locale['global_001'] = "Nawigacja";
 $locale['global_002'] = "Brak linków\n";
+<<<<<<< HEAD
+$locale['global_003'] = "Brak podglądu";
+=======
 $locale['global_003'] = "Nic do podglądu";
+>>>>>>> origin/master
 // Users Online
 $locale['global_010'] = "Aktualnie online";
 $locale['global_011'] = "Gości online";
@@ -101,9 +110,15 @@ $locale['global_020'] = "Ostatnio na forum";
 $locale['global_021'] = "Najnowsze tematy";
 $locale['global_022'] = "Najciekawsze tematy";
 $locale['global_023'] = "Brak tematów na forum";
+<<<<<<< HEAD
+$locale['global_024'] = "Udział w dyskusji";                     
+$locale['global_027'] = "Tematy bez odpowiedzi";                    
+$locale['global_028'] = "Nierozwiązane pytania";                     
+=======
 $locale['global_024'] = "Participated Discussions";                     // NIEPRZETŁUMACZONE //
 $locale['global_027'] = "Wątki bez odpowiedzi";
 $locale['global_028'] = "Nierozwiązane pytania";
+>>>>>>> origin/master
 // Comments Side panel
 $locale['global_025'] = "Ostatnie komentarze";
 $locale['global_026'] = "Brak komentarzy";
@@ -138,6 +153,36 @@ $locale['global_058'] = "Przestań <br /> obserwować";
 $locale['global_059'] = "Brak obserwowanych przez Ciebie tematów.";
 $locale['global_060'] = "Przestać obserwować temat?";
 // Blog, News & Articles
+<<<<<<< HEAD
+$locale['global_070'] = "Napisał ";
+$locale['global_071b'] = "Pokaż wszystkie posty %s";
+$locale['global_071'] = "w ";
+$locale['global_071b'] = "Autor";
+$locale['global_072'] = "Czytaj dalej";
+$locale['global_073'] = " Komentarze";
+$locale['global_073b'] = " Komentarz";
+$locale['global_074'] = " Czytań";
+$locale['global_074b'] = " Czytań";
+$locale['global_075'] = "Drukuj";
+$locale['print'] = 'Drukuj';
+$locale['global_076'] = "Edytuj";
+$locale['global_077'] = "News";
+$locale['global_078'] = "Brak opublikowanych newsów";
+$locale['global_079'] = "w ";
+$locale['global_080'] = "Brak kategorii";
+$locale['global_081'] = "Strona główna nowości";
+$locale['global_082'] = "News";
+$locale['global_083'] = "Ostatnia aktualizacja";
+$locale['global_084'] = "Kategoria news'a";
+$locale['global_085'] = "Zobacz wszystkie kategorie";
+$locale['global_086'] = "Najczęściej czytane newsy";
+$locale['global_087'] = "Najwięcej komentowane newsy";
+$locale['global_088'] = "Najwyżej oceniany news";
+$locale['global_089'] = "Bądź pierwszym komentującym %s";
+$locale['global_089a'] = "Bądź pierwszym głosującym %s";
+$locale['global_089b'] = "Zobacz podgląd";
+$locale['global_089c'] = "Widok listy";
+=======
 $locale['global_070'] = "Posted by ";
 $locale['global_071b'] = "View all Post by %s";
 $locale['global_071'] = "on ";
@@ -166,6 +211,7 @@ $locale['global_089'] = "Be the first to comment on %s";
 $locale['global_089a'] = "Be the first to rate on this %s";
 $locale['global_089b'] = "Thumb view";
 $locale['global_089c'] = "List view";
+>>>>>>> origin/master
 // Page Navigation
 $locale['global_090'] = "Poprzednia";
 $locale['global_091'] = "Następna";
@@ -173,6 +219,82 @@ $locale['global_092'] = "Strona ";
 $locale['global_093'] = " z&nbsp;";
 $locale['global_094'] = " z ";
 // Guest User Menu
+<<<<<<< HEAD
+$locale['global_100'] = "Zaloguj";
+$locale['global_101'] = "Login ID";
+$locale['global_101a'] = "Nazwa użytkownika";
+$locale['global_101b'] = "Email";
+$locale['global_101c'] = "Wpisz nazwę użytkownika oraz email";
+$locale['global_102'] = "Hasło";
+$locale['global_103'] = "Zapamiętaj mnie";
+$locale['global_104'] = "Zaloguj";
+$locale['global_105'] = "Nie masz jeszcze konta? [LINK]Zarejestruj się[/LINK].";
+$locale['global_106'] = "[LINK]Zgubione hasło?[/LINK]";
+$locale['global_107'] = "Rejestracja";
+$locale['global_108'] = "Zapomniane hasło";
+$locale['global_109'] = "Rejestracja";
+// Member User Menu
+$locale['global_120'] = "Dostosuj stronę profilu";
+$locale['global_121'] = "Prywatne wiadomości";
+$locale['global_122'] = "Lista użytkowników";
+$locale['global_123'] = "Panel administratora";
+$locale['global_124'] = "Wyloguj";
+$locale['global_125'] = "Masz %u  ";
+$locale['global_126'] = "wiadomość";
+$locale['global_127'] = "wiadomości";
+$locale['global_128'] = "zgłoszenie";
+$locale['global_129'] = "zgłoszenia";
+// User Menu
+$locale['UM060'] = "Login";
+$locale['UM061'] = "Nazwa użytkownika";
+$locale['UM061a'] = "Email";
+$locale['UM061b'] = "Nazwa użytkownika lub email";
+$locale['UM062'] = "Hasło";
+$locale['UM063'] = "Zapamiętaj mnie na tym komputerze";
+$locale['UM064'] = "Zaloguj";
+$locale['UM065'] = "Nie masz jeszcze konta? [LINK]Zarejestruj się[/LINK].";
+$locale['UM066'] = "Nie możesz się zalogować?\n Poproś o nowe hasło[LINK]Poproś o nowe hasłnowe hasło[/LINK].";
+$locale['UM067'] = "(nie zalecane na komputerach publicznych)";
+$locale['UM080'] = "Edytuj profil";
+$locale['UM081'] = "Prywatne wiadomości";
+$locale['UM082'] = "Lista użytkowników";
+$locale['UM083'] = "Panel administratora";
+$locale['UM084'] = "Wyloguj";
+$locale['UM085'] = "Masz %u ";
+$locale['UM086'] = "wiadomość";
+$locale['UM087'] = "Wiadomości";
+$locale['UM088'] = "Obserwowane tematy";
+// Submit (news, link, article)
+$locale['UM089'] = "Wyślij...";
+$locale['UM090'] = "Wyślij Newsa";
+$locale['UM091'] = "Wyślij Link";
+$locale['UM092'] = "Wyślij Artykuł";
+$locale['UM093'] = "Wyślij Zdjęcie";
+$locale['UM094'] = "Wyślij Plik";
+$locale['UM095'] = "Wyślij Blog";
+$locale['UM102'] = "Wyślij FAQ";
+// User Panel
+$locale['UM096'] = "Witaj: ";
+$locale['UM097'] = "Menu osobiste";
+$locale['UM101'] = "Zmień język";
+// Gauges
+$locale['UM098'] = "PW Odebrane :";
+$locale['UM099'] = "PW Wysłane :";
+$locale['UM100'] = "PW Archiwum :";
+// Keywords and Meta
+$locale['tags'] = "Tagi";
+// Captcha
+$locale['global_150'] = "Kod Bezpieczeństwa:";
+$locale['global_151'] = "Wpisz kod bezpieczeństwa:";
+// Footer Counter
+$locale['global_170'] = "unikalna wizyta";
+$locale['global_171'] = "unikalnych wizyt";
+$locale['global_172'] = "Czas generowania: %s sekund";
+$locale['global_173'] = "Zapytań";
+$locale['global_174'] = "Użyta pamięc";
+$locale['global_175'] = "Średnio: %s sekund";
+$locale['global_176'] = "Polityka Prywatności";
+=======
 $locale['global_100'] = "Zaloguj się";
 $locale['global_101'] = "Login ID";
 $locale['global_101a'] = "Wpisz nazwę użytkownika";
@@ -247,6 +369,7 @@ $locale['global_173'] = "Queries";
 $locale['global_174'] = "Memory used";
 $locale['global_175'] = "Average: %s seconds";
 $locale['global_176'] = "Polityka prywatności";
+>>>>>>> origin/master
 // Admin Navigation
 $locale['global_180'] = "Admin Home";
 $locale['global_181'] = "Return to Site";

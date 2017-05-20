@@ -18,4 +18,8 @@ $locale['err_100'] = "Nd.";
 $locale['err_101'] = "<strong>Ostrzeżenie:</strong> W trakcie generowania strony wystąpił błąd. Sprawdź [ERROR_LOG_URL]dziennik błędów[/ERROR_LOG_URL], aby uzyskać więcej informacji.";
 
 $locale['err_102'] = "Pokaż mi błąd!";
+<<<<<<< HEAD
+$locale['err_103'] = "{%function%} {%folder%} nie został znaleziony."; 
+=======
 $locale['err_103'] = "{%function%} {%folder%} nie istnieje.";
+>>>>>>> origin/master
