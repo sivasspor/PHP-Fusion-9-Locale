@@ -9,19 +9,19 @@ $locale['BLS_014'] = "Are you sure you want to delete this entry?";
 $locale['BLS_015'] = "The blacklist is currently empty."; //465
 $locale['BLS_016'] = "Blacklist email address is not valid email."; //405
 
-$locale['BLS_020'] = "Blacklist User"; //420
-$locale['BLS_021'] = "Edit blacklisted user"; //421
-$locale['BLS_022'] = "Add blacklisted user";
+$locale['BLS_020'] = "Blacklist Użytkownik"; //420
+$locale['BLS_021'] = "Edit blacklisted Użytkownik"; //421
+$locale['BLS_022'] = "Add blacklisted Użytkownik";
 $locale['BLS_023'] = "Currently displaying %d of %d total Blacklist entries.";
 
 $locale['BLS_030'] = "Blacklisted info"; //461
 $locale['BLS_031'] = "Admin"; //467
-$locale['BLS_032'] = "Date";  //468
-$locale['BLS_033'] = "Options"; //462
+$locale['BLS_032'] = "Data";  //468
+$locale['BLS_033'] = "Opcje"; //462
 $locale['BLS_034'] = "Blacklist IP address: [STRONG]or[/STRONG]"; //441
 $locale['BLS_035'] = "Blacklist email address"; //442
 $locale['BLS_036'] = "Blacklist reason"; //443
-$locale['BLS_037'] = "Blacklist user";  //444
+$locale['BLS_037'] = "Blacklist Użytkownik";  //444
 $locale['BLS_038'] = "Update";
 
 $locale['BLS_MS'] = "Entering an IP address will prevent a user whose IP address matches the entry from visiting this site.

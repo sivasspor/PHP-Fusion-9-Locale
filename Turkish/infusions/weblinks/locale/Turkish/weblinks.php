@@ -1,22 +1,22 @@
 <?php
 // Overview
-$locale['web_0000'] = "Web Links";
-$locale['web_0001'] = "All Web Links";
-$locale['web_0002'] = "Show Categories";
-$locale['web_0003'] = "Categories";
-$locale['web_0004'] = "Last Update";
-$locale['web_0005'] = "Category:";
+$locale['web_0000'] = "Web Bağlantıları";
+$locale['web_0001'] = "Tüm Web Bağlantıları";
+//$locale['web_0002'] = "Kategorileri Göster";
+//$locale['web_0003'] = "Kategoriler";
+//$locale['web_0004'] = "Son Güncelleme";
+//$locale['web_0005'] = "Kategori:";
 
-$locale['fmt_open'] = "open|open";
+$locale['fmt_open'] = "açık|açık";
 // Sortings
-$locale['web_0030'] = "Most Recent";
-$locale['web_0031'] = "Top Opened";
+$locale['web_0030'] = "En Yeni";
+$locale['web_0031'] = "En Çok Açılan";
 
 // Views
-$locale['web_0040'] = "Galleryview";
-$locale['web_0041'] = "Listview";
+//$locale['web_0040'] = "Galeri Görünümü";
+//$locale['web_0041'] = "Liste Görünümü";
 
 // Messages
-$locale['web_0060'] = "No Web Link Categories defined.";
-$locale['web_0061'] = "No Web Link defined.";
-$locale['web_0062'] = "There are no Web Link in this Category.";
+$locale['web_0060'] = "Tanımlanmış Web Bağlantı Kategorisi yok.";
+//$locale['web_0061'] = "Web Bağlantısı tanımlanmadı.";
+$locale['web_0062'] = "Bu Kategoride Web Bağlantısı Yok.";

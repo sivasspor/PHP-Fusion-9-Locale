@@ -1,6 +1,6 @@
 <?php
 $locale['email_create_subject'] = "Vartotojas sukurtas puslapyje ";
-$locale['email_create_message'] = "Sveiki [USER_NAME],\n
+$locale['email_create_message'] = "Sveiki [USER_NAME],\n							 
 Jūsų vartotojas puslapyje [SITENAME] buvo sukurtas.\nNorėdami prisijungti naudokite šiuo duomenis:\nprisijungimo vardas: [USER_NAME]\n
 slaptažodis: [PASSWORD]\n\nPagarbiai,\n[SITEUSERNAME]";
 $locale['email_activate_subject'] = "Vartotojas aktyvuoas puslapyje [SITENAME]";

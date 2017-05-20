@@ -4,8 +4,9 @@
 | Copyright (C) PHP-Fusion Inc
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: Ratings/locale/English.php
+| Filename: ratings/locale/Turkish.php
 | Author: Frederick MC Chan (Chan)
+| Translator: Turkish translation by ALTUN69 https://alapelit.com
 +--------------------------------------------------------+
 | This program is released as free software under the
 | Affero GPL license. You can redistribute it and/or
@@ -15,7 +16,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['RTW_0100'] = "Ratings Widget";
-$locale['RTW_0101'] = "Core Ratings Plugin";
-$locale['RTW_0102'] = "Ratings Created";
-$locale['RTW_0104'] = "Unable to create Ratings";
+$locale['RTW_0100'] = "Derecelendirme Widgeti";
+$locale['RTW_0101'] = "Çekirdek Derecelendirmeler Eklentisi";
+$locale['RTW_0102'] = "Derecelendirme Oluşturuldu";
+$locale['RTW_0104'] = "Derecelendirme oluşturulamadı";

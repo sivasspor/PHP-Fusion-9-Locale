@@ -10,7 +10,7 @@ $locale['410'] = "Atsarginio failo informacija";
 $locale['411'] = "Atkurti failo informaciją";
 $locale['412'] = "Atsarginio failo pavadinimas:";
 $locale['413'] = "Sukūrimo data:";
-$locale['414'] = "DuombazėKategorijos nuotraukas pavadinimas:";
+$locale['414'] = "Duomenų bazės pavadinimas:";
 $locale['415'] = "Išsaugoti";
 $locale['416'] = "Lentelės:";
 $locale['417'] = "Peržiūrėti";
@@ -30,7 +30,7 @@ $locale['439'] = "Atšaukti";
 $locale['440'] = "Palaikomi failų tipai:";
 // Database Backup
 $locale['450'] = "Duomenų bazės atsarginės kopijos";
-$locale['451'] = "Nurodyta MySQL duomenų bazė neegzistuoja.";
+$locale['451'] = "Duomenų bazės informacija.";
 $locale['452'] = "Pilnas lentelių dydis:";
 $locale['453'] = "Pagrindinių lentelių dydis:";
 $locale['454'] = "Atkūrimo nustatymai:";

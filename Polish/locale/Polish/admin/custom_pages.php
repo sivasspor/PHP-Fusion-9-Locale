@@ -1,23 +1,23 @@
 <?php
 $locale['page_0100'] = "Page";
 $locale['page_0101'] = "Page Title";
-$locale['page_0102'] = "Visibility";
-$locale['page_0103'] = "Language";
-$locale['page_0104'] = "Category";
-$locale['page_0105'] = "Subcategories";
+$locale['page_0102'] = "Widoczność";
+$locale['page_0103'] = "Język";
+$locale['page_0104'] = "Kategoria";
+$locale['page_0105'] = "Podkategorie";
 $locale['page_0106'] = "Page ID";
 $locale['page_0107'] = "Search Options";
-$locale['page_0108'] = "Clear";
+$locale['page_0108'] = "Wyczyść";
 $locale['page_0109'] = "Select Status";
 $locale['page_0110'] = "All Status";
 $locale['page_0111'] = "Select Visibility";
-$locale['page_0112'] = "Select Category";
+$locale['page_0112'] = "Wybierz kategorię";
 $locale['page_0113'] = "All Language";
 $locale['page_0114'] = "Select Language";
 $locale['page_0115'] = "All Author";
 $locale['page_0116'] = "Select Author";
 $locale['page_0117'] = "Please specify a page title"; // 451
-$locale['page_0118'] = "Actions";
+$locale['page_0118'] = "Działania";
 // Custom Pages titles
 $locale['page_0200'] = "Add New Page"; //ex 400
 $locale['page_0201'] = "Edit Page"; // ex 401
@@ -90,4 +90,4 @@ $locale['page_0411'] = "Column Duplicated";
 $locale['page_0412'] = "Invalid Column";
 $locale['page_0413'] = "Delete this custom page?"; // 450
 $locale['page_0440'] = "There are no custom page defined";
-$locale['page_0441'] = "Content";
+$locale['page_0441'] = "Zawartość";

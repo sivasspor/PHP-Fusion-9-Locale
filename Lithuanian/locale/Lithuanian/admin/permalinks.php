@@ -2,6 +2,7 @@
 // Section Titles
 $locale['400'] = "Įjungti nekintamas nuorodas";
 $locale['401'] = "Išjungti nekintamas nuorodas";
+$locale['401a'] = "Nekintamų nuorodų nustatymai";
 
 // Common
 $locale['402'] = "Perrašyti pavadinimą";
@@ -24,8 +25,9 @@ $locale['412'] = "Patikrinkite nuorodos %s failus!";
 $locale['413'] = "Išsaugoti";
 $locale['414'] = "DĖMESIO: Nekintamų nuorodų ir kita informacija bus negrįžtamai ištrinta!\\nAr tikrai norite išjungti šią nuorodą?";
 
-$locale['415']              = "Nekintamų nuorodų taisyklės nuorodą, kuri turi klaustukų ar lygybės ženklų pakeičia ir leidžia jums valdyti nuorodų struktūras tinklapyje.\n
-Galite įjungti nekintamas nuorodoas nustatymuose. Po to, kai įjungsite, galėsite redaguoti taisykles pagal jūsų poreikius.";
+$locale['415'] = "Nekintamų nuorodų taisyklės pakeis įvairias tinklapyje esančias nuorodas į SEO draugiškas nuorodas, su galimybe redaguoti nuorodų struktūras.\n
+Galite įjungti nekintamas nuorodoas nustatymuose, jeigu Jūsų serveris palaiko mod_rewrite. Po to, kai įjungsite, galėsite redaguoti taisykles pagal jūsų poreikius.\n\n
+Prašome atkreipti dėmesį, kad mod_rewrite arba ekvivalento palaikymas yra būtinas.";
 
 // Admin Messages
 $locale['420'] = "Pasitaikė klaida.";
@@ -40,4 +42,4 @@ $locale['426'] = "Nuorodų išjungimas %s sėkmingas.";
 $locale['427'] = "Nėra įjungtų jokių nekintamų nuorodų.";
 $locale['428'] = "Nekintamos nuorodos";
 $locale['seo_htc_warning']  = "Atkreipkitė dėmesį, kad pakeitus bet kurį iš šių nustatymų bus perrašytas `.htaccess` failo turinys ir bet kokie ankstesni pakeitimai bus prarasti.";
-$locale['rewrite_disabled'] = "Panašu, kad `mod_rewrite` nėra įjungtas jūsų hostinge. SEO nuorodų įjungimas gali padaryti žalos tinklapio veikimui. Prašome susisiekti su hostingo tiekėju ir paprašyti įjungti `mod_rewrite` funkciją.";
+//$locale['rewrite_disabled'] = "Panašu, kad `mod_rewrite` nėra įjungtas jūsų hostinge. SEO nuorodų įjungimas gali padaryti žalos tinklapio veikimui. Prašome susisiekti su hostingo tiekėju ir paprašyti įjungti `mod_rewrite` funkciją.";

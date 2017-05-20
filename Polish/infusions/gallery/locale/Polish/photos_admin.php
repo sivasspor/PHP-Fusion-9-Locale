@@ -20,32 +20,32 @@ $locale['421'] = "Image can not be empty.";
 $locale['422'] = "Selected folder is not writable. Change it to CHMOD 777.";
 // Photos form
 $locale['430'] = "Move photo into album";
-$locale['431'] = "Move";
+$locale['431'] = "Przenieś";
 $locale['432'] = "Title: ";
 $locale['433'] = "Description: ";
 $locale['434'] = "Order: ";
 $locale['435'] = "Thumb: ";
 $locale['436'] = "Image: ";
-$locale['437'] = "Enable Comments";
-$locale['438'] = "Enable Ratings";
+$locale['437'] = "Włącz komentarze";
+$locale['438'] = "Włącz oceny";
 $locale['439'] = "Save Photo";
-$locale['440'] = "Cancel";
-$locale['441'] = "Keywords (separate each keyword with a ,):";
+$locale['440'] = "Anuluj";
+$locale['441'] = "Słowa kluczowe (separate each keyword with a ,):";
 // Current Photos
 $locale['450'] = "No image";
 $locale['451'] = "Click to view";
-$locale['452'] = "Move up";
-$locale['453'] = "Move down";
-$locale['454'] = "Edit";
-$locale['455'] = "Delete";
-$locale['456'] = "Date: ";
+$locale['452'] = "Przenieś w górę";
+$locale['453'] = "Przenieś w dół";
+$locale['454'] = "Edytuj";
+$locale['455'] = "Usuń";
+$locale['456'] = "Data: ";
 $locale['457'] = "Added by: ";
 $locale['458'] = "Views: ";
 $locale['459'] = "Comments: ";
 $locale['460'] = "No Thumbnail";
 // Current Photos options
-$locale['470'] = "Select all";
-$locale['471'] = "Unselect all";
+$locale['470'] = "Zaznacz wszystko";
+$locale['471'] = "UnZaznacz wszystko";
 $locale['472'] = "Move into album";
 $locale['473'] = "Select album";
 $locale['474'] = "Move selected";
@@ -80,7 +80,7 @@ $locale['510'] = "No photos found";
 $locale['511'] = "Photo Options";
 // Messages
 $locale['520'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['521'] = "Comments";
-$locale['522'] = "Ratings";
+$locale['521'] = "Komentarze";
+$locale['522'] = "Oceny";
 $locale['523'] = $locale['521']." and ".$locale['522'];
 

@@ -1,7 +1,7 @@
 <?php
-$locale['UL_001'] = "User Log";
-$locale['UL_002'] = "Date";
-$locale['UL_003'] = "User Name";
+$locale['UL_001'] = "Dziennik użytkownika";
+$locale['UL_002'] = "Data";
+$locale['UL_003'] = "Nazwa użytkownika";
 $locale['UL_004'] = "User Field";
 $locale['UL_005'] = "All entries older than %d days are deleted.";
 $locale['UL_006'] = "User log entry deleted";
@@ -12,9 +12,9 @@ $locale['UL_010'] = "User Field:";
 $locale['UL_011'] = "Submit";
 $locale['UL_012'] = "Old Value";
 $locale['UL_013'] = "New Value";
-$locale['UL_014'] = "Options";
+$locale['UL_014'] = "Opcje";
 $locale['UL_015'] = "There aren't logs available at the moment.";
 $locale['UL_016'] = "Delete entries older than:";
-$locale['UL_017'] = "Days";
-$locale['UL_018'] = "Ascending";
-$locale['UL_019'] = "Descending";
+$locale['UL_017'] = "Dni";
+$locale['UL_018'] = "Rosnąco";
+$locale['UL_019'] = "Malejąco";
