@@ -318,7 +318,7 @@ $locale['setup_3704'] = "%B %d %Y %H:%M:%S";
 // Please do NOT translate the words between brackets [] !
 $locale['setup_3800'] = "E-posta Şablonları";
 $locale['setup_3801'] = "Yeni ÖM Bildirimi";
-$locale['setup_3802'] = "Size [SITENAME] sitesinde [USER] adlı kullanıcıdan yeni bir özel mesajınız var";
+$locale['setup_3802'] = "Size [SITENAME] sitesinde [USER] adlı kullanıcıdan yeni bir özel mesaj var";
 $locale['setup_3803'] = "Merhaba [RECEIVER],\r\nSiz [SITENAME] sitesinde [USER] adlı kullanıcıdan [SUBJECT] başlıklı yeni bir Özel Mesaj aldınız. Özel mesajınızı [SITEURL]messages.php adresinden okuyabilirsiniz.\r\n\r\nMesaj: [MESSAGE]\r\n\r\nArtık yeni mesajlarla ilgili bildirim almak istemiyorsanız, Özel Mesaj sayfasının seçenekler panelinden e-posta bildirimini devre dışı bırakabilirsiniz.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
 $locale['setup_3804'] = "Yeni forum mesajlarında bildirim";
 $locale['setup_3805'] = "Konuya Cevap Bildirimi - [SUBJECT]";
