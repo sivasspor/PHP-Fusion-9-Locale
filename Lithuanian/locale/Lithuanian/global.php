@@ -2,10 +2,10 @@
 /*
 Lithuanian Language Fileset
 Ready for: PHP-Fusion V9.00
-Language version: v1.0
+Language version: v1.8
 Vertė:
-	Edmundas Jankauskas (Creatium)[V7.01, V7.02, V7.02.01, v7.02.02, v9]
-	Gintautas Brainys (ozzWANTED) [V7.00, V7.01, V7.02]
+	Edmundas Jankauskas (Creatium)[V9.0, V7.01, V7.02, V7.02.01, v7.02.02, v9]
+	Ozas Vantedas (ozzWANTED) [V7.00, V7.01, V7.02]
 	Algimantas Virbašius (MaFetas)[V7.02]
 	Gediminas Bruzgis (chipass)	  [V7.00, V7.01]
 	Gediminas Survila (Fanio)	  [V7.00]
