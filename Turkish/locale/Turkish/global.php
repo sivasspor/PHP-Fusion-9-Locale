@@ -9,7 +9,7 @@
  * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-tr.php
  * @locale password_strength refer to path includes/dynamics/assets/password/lang/tr.js
  * @package locale/Turkish
- * @Translated by ALTUN Web Site(https://www.alapelit.com)
+ * @Translated by ALTUN Web Site(https://alapelit.com)
  */
 setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
@@ -41,6 +41,7 @@ $locale['minute_a'] = "dakika";
 $locale['second'] = "saniye";
 $locale['second_a'] = "saniye";
 $locale['just_now'] = "demin";
+$locale['now'] = 'şimdi';
 $locale['ago'] = "önce";
 // Geo
 $locale['street1'] = "Adres 1";
