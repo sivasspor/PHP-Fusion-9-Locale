@@ -307,34 +307,34 @@ $locale['global_442'] = "Merhaba [USER_NAME],\n
 Hesabınızın eski durumuna getirilebilmesi için bu sitenin yöneticisi olan [SITE_EMAIL] ile irtibata geçin veya bu güvenlik yasağına neden olmuyorsanız, bunu raporlayın.\n\n
 Saygılarımızla,\n[SITEUSERNAME]";
 // Authenticate Class
-$locale['global_450'] = "Suspension automatically lifted by system";
-$locale['global_451'] = "Suspension lifted at [SITENAME]";
-$locale['global_452'] = "Hello USER_NAME,\n
-The suspension of your account at [SITEURL] has been lifted. Here are your login details:\n
-Username: USER_NAME\nPassword: Hidden for security reasons\n
-If you have forgot your password you can reset it via the following link: LOST_PASSWORD\n\n
-Regards,\n[SITEUSERNAME]";
-$locale['global_453'] = "Hello USER_NAME,\nThe suspension of your account at [SITEURL] has been lifted.\n\n
-Regards,\n[SITEUSERNAME]";
-$locale['global_454'] = "Account reactivated at [SITENAME]";
-$locale['global_455'] = "Hello USER_NAME,\n
+$locale['global_450'] = "Askıya alma sistem tarafından otomatik olarak kaldırıldı";
+$locale['global_451'] = "[SITENAME] sitesinde askıya alma kaldırıldı";
+$locale['global_452'] = "Merhaba USER_NAME,\n
+[SITEURL] adresinde hesabınızın askıya alınması kaldırıldı. İşte giriş bilgileriniz:\n
+Kullanıcı Adı: USER_NAME\nPassword: Güvenlik nedeniyle gizli\n
+Şifrenizi unuttuysanız bağlantıyı kullanarak şifrenizi sıfırlayabilirsiniz: LOST_PASSWORD\n\n
+Saygılarımızla,\n[SITEUSERNAME]";
+$locale['global_453'] = "Merhaba USER_NAME,\n[SITEURL] adresindeki hesabınızın askıya alınması kaldırılmıştır.\n\n
+Saygılarımızla,\n[SITEUSERNAME]";
+$locale['global_454'] = "[SITENAME] sitesinde yeniden etkinleştirilen hesap";
+$locale['global_455'] = "Merhaba USER_NAME,\n
 Last time you logged in your account was reactivated at [SITEURL] and your account is no longer marked as inactive.\n\n
-Regards,\n[SITEUSERNAME]";
-$locale['global_456'] = "New password notification for [SITENAME]";
-$locale['global_457'] = "Hi USER_NAME,
-\n\nA new password has been set for your account at [SITENAME]. Please find the enclosed new login details:\n\n
-Username: USER_NAME\nPassword: [PASSWORD]\n\nRegards,\n[SITEUSERNAME]";
-$locale['global_458'] = "New password has been set for USER_NAME";
-$locale['global_459'] = "New password has been set for USER_NAME, and email was not sent. Please ensure to tell the user of the new details.";
+Saygılarımızla,\n[SITEUSERNAME]";
+$locale['global_456'] = "[SITENAME] için yeni şifre bildirimi";
+$locale['global_457'] = "Merhaba USER_NAME,
+\n\nHesabiniz için [SITENAME] sitesinde yeni şifre ayarlandı. Lütfen ilişikdeki yeni oturum açma ayrıntılarına bakın:\n\n
+Kullanıcı Adı: USER_NAME\nŞifre: [PASSWORD]\n\nSaygılarımızla,\n[SITEUSERNAME]";
+$locale['global_458'] = "USER_NAME için yeni şifre ayarlandı";
+$locale['global_459'] = "USER_NAME için yeni şifre belirlendi ve E-posta gönderilmedi. Lütfen yeni ayrıntıları kullanıcıya bildirin.";
 // Function parsebytesize()
-$locale['global_460'] = "Empty";
-$locale['global_461'] = "Bytes";
+$locale['global_460'] = "Boş";
+$locale['global_461'] = "Bayt";
 $locale['global_462'] = "kB";
 $locale['global_463'] = "MB";
 $locale['global_464'] = "GB";
 $locale['global_465'] = "TB";
 //Safe Redirect
-$locale['global_500'] = "You are being redirected to %s, please wait. If you're not redirected, click here.";
+$locale['global_500'] = "%s sayfasına yönlendiriliyorsunuz, lütfen bekleyin. Yönlendirilmediyseniz, buraya tıklayın.";
 // Captcha Locales
 $locale['global_600'] = "Doğrulama Kodu";
 $locale['global_601'] = "Doğru bir doğrulama kodu girmelisiniz";
@@ -350,14 +350,14 @@ $locale['global_ML101'] = "- Dil Seçiniz -";
 $locale['global_ML102'] = "Site dili";
 $locale['global_ML103'] = "Dili Değiştir";
 // Flood Control
-$locale['flood'] = "You are barred to post until the flood period cooldown is over. Please wait for %s.";
+$locale['flood'] = "Akın saldırı süresi bitene kadar mesaj gönderemezsiniz. Lütfen %s bekleyin.";
 $locale['no_image'] = "Resim Yok";
 $locale['send_message'] = "Mesaj Gönder";
 $locale['go_profile'] = "%s Profil Sayfasına Git";
 // Global one word locales
 $locale['hello'] = "Merhaba!";
 $locale['goodbye'] = "Hoşça kal!";
-$locale['welcome'] = "Geri hoşgeldiniz";
+$locale['welcome'] = "Tekrar Hoşgeldiniz";
 $locale['home'] = "Ana Sayfa";
 // Status
 $locale['error'] = "Hata!";
@@ -403,7 +403,7 @@ $locale['delete'] = "Sil";
 $locale['search'] = "Ara";
 $locale['help'] = "Yardım";
 $locale['register'] = "Kayıt";
-$locale['ban'] = "Ban";
+$locale['ban'] = "Yasak";
 $locale['reactivate'] = "Yeniden Etkinleştir";
 $locale['user'] = "Kullanıcı";
 $locale['promote'] = "Promote";
