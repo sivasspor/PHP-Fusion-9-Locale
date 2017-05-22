@@ -20,6 +20,10 @@ $locale['424'] = "PHP";
 $locale['425'] = "Middenonder";
 $locale['426'] = "Onder header";
 $locale['427'] = "Boven footer";
+$locale['428a'] = "Eigen 1";
+$locale['428b'] = "Eigen 2";
+$locale['428c'] = "Eigen 3";
+$locale['428d'] = "Eigen 4";
 // Panel Options
 $locale['430'] = "Naar links verplaatsen";
 $locale['431'] = "Naar rechts verplaatsen";
@@ -58,6 +62,8 @@ $locale['465'] = "Insluiten op deze pagina&rsquo;s";
 $locale['466'] = "Paneel Taal:";
 $locale['467'] = "Toon alleen op startpagina tonen";
 $locale['468'] = "Paneel Type";
+$locale['469'] = "Geen";
+$locale['469a'] = "Inhoud";
 // Update/Add new Panel Errors
 $locale['470'] = "Geen naam voor paneel opgegeven";
 $locale['471'] = "Naam voor paneel al in gebruik";
@@ -83,3 +89,4 @@ $locale['603'] = "Gebruikte panelen";
 $locale['604'] = "Panelen";
 $locale['605'] = "Paneel";
 $locale['606'] = "Site inhoud";
+$locale['607'] = "Bestand";

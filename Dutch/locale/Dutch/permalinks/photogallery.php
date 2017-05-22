@@ -1,3 +1,3 @@
 <?php
-$locale['pl_gallery_title'] = "Foto Albums";
-$locale['pl_gallery_desc'] = "Inscahakelen Permalinks voor de Fhoto Albums links op de site.";
+$locale['pl_gallery_title'] = "Photo Albums";
+$locale['pl_gallery_desc'] = "Enable Permalinks for the Photo Albums links in the site.";

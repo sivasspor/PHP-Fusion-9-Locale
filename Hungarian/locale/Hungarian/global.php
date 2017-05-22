@@ -40,6 +40,7 @@ $locale['minute_a'] = "perc";
 $locale['second'] = "másodperc";
 $locale['second_a'] = "másodperc";
 $locale['just_now'] = "épp most";
+$locale['now'] = "most";
 $locale['ago'] = "";
 // Geo
 $locale['street1'] = "Lakcím 1";
@@ -461,9 +462,9 @@ $locale['preview'] = "Előnézet";
 $locale['custom'] = "Mód";
 $locale['submit'] = "Beküldés";
 // Alignment
-$locale['left'] = "Balra";
-$locale['center'] = "Középre";
-$locale['right'] = "Jobbra";
+$locale['left'] = "Ball";
+$locale['center'] = "Közép";
+$locale['right'] = "Jobb";
 // Comments and ratings
 $locale['comments'] = "Hozzászólás";
 $locale['ratings'] = "Értékelés";

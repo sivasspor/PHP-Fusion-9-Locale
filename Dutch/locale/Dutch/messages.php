@@ -134,4 +134,8 @@ $locale['630'] = " Berichtenlimiet";
 $locale['631'] = "Ja";
 $locale['632'] = "Nee";
 
+$locale['700'] = "Gebruiker inbox is vol. Probeer te wissen of opwaarderen tot 102 of 103 status";
+$locale['701'] = "Afzender gebruikers ID bestaat niet inde  database DB. Bewerkign afgebroken.";
+$locale['702'] = "Geadresseerde gebruikers ID is ongeldig";
+$locale['703'] = "U verstuurd te veel, send_pm geblokkeerd";
 

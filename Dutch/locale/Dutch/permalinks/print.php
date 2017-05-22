@@ -1,4 +1,4 @@
 <?php
-$locale['pl_print_title'] = "Print Pagina's";
-$locale['pl_print_desc'] = "Inschakelen Permalinks voor het printen van de pagina.";
+$locale['pl_print_title'] = "Print Pages";
+$locale['pl_print_desc'] = "Enable Permalinks for the page of Print.";
 
