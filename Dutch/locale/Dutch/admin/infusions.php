@@ -23,3 +23,5 @@ $locale['419'] = "Optie";
 $locale['420'] = "Versie";
 $locale['421'] = "Auteur";
 $locale['422'] = "Download meer Toevoegingen";
+$locale['423'] = "%s Infusie is geïnstalleerd";
+$locale['424'] = "%s Infusion is gedeïinstalleerd";

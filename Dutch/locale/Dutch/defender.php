@@ -3,6 +3,7 @@ $locale['validate'] = "Controleer en bevestig a.u.b. opnieuw het veld.";
 $locale['error_request'] = 'Er is een fout opgetreden tijdens de verwerking van uw verzoek'; // to be moved
 $locale['regex_error'] = 'Controleer en bevestig a.u.b. opnieuw het %s veld'; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Vul a.u.b. een geldige gebruikersnaam op";
 $locale['error_input_default'] = 'Vul a.u.b. het veld in';
 $locale['error_input_password'] = 'Geef a.u.b. een geldig wachtwoord op';
 $locale['error_input_email'] = 'Geef a.u.b. een geldig e-mail adres op';
@@ -15,6 +16,7 @@ $locale['df_error_text'] = "%s heeft een fout en verreist uw aandacht.";
 $locale['error_invalid_theme'] = 'Selecteer a.u.b. een gelldig thema'; // to be moved
 $locale['error_input_checkbox'] = 'Vink a.u.b. deze checkbox aan'; // to be moved
 $locale['error_input_file'] = "Selecteer a.u.b. een geldig bestand";
+$locale['error_secure_file'] = "Het uploaded bestand is afgewezen door een mogelijk aanwezigheid van kwaadaardige inhoud.";
 // Admin Login
 $locale['cookie_title'] = "Sessie Verlopen";
 $locale['cookie_description'] = "Er is geen geldige aanmelding / of uw sessie is verlopen. Log a.u.b. opnieuw in.";
@@ -52,6 +54,15 @@ $locale['token_error_5'] = "Ongeldig token datumstempel.";
 $locale['token_error_6'] = "Post is te snel gemaakt.";
 $locale['token_error_7'] = "Ongeldig token versleuteling.";
 $locale['token_error_8'] = "Ongeldig token formaat.";
+$locale['token_error_9'] = "Kan geen token vinden voor dit formulier.";
+$locale['token_error_10'] = "kan geen enkel token vinden voor opslag: ";
+
+$locale['df_300'] = "Klik om bestanden toe te voegen";
+$locale['df_301'] = "Klik om foto toe te voegen";
+$locale['df_302'] = "Klik om video toe te voegen";
+$locale['df_303'] = "Klik om audio toe te voegen";
+$locale['df_304'] = "Geselcteerd bestand verwijderen";
+
 $locale['df_400'] = "%s contains ongeldig karakter.";
 $locale['df_401'] = "%s is geen geldig e-mail adres.";
 $locale['df_402'] = "%s is geen geldig wachtwoord.";
@@ -68,6 +79,7 @@ $locale['df_421'] = "Afbeelding mag niet groter zijn dan %uw x %uh pixels.";
 $locale['df_422'] = "Onbekende fout (Query)";
 $locale['df_423'] = "Afbeelding is niet correct geuploaded. Probeer a.u.b. nogmaals";
 $locale['df_424'] = "Huidige bestandsgrootte upload is groter dan de maximale limiet. Voeg a.u.b. minder bestanden toe en probeer nogmaals.";
+
 // ReCaptcha2
 $locale['grecaptcha'] = "Google Recaptcha";
 $locale['grecaptcha_desc'] = "Google Recaptcha Veld Module";

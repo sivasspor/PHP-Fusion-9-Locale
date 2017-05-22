@@ -22,4 +22,4 @@ Uw nieuwe wachtwoord voor toegang tot uw [SITENAME] account is:\n
 Met vriendelijke groet,
 [SITEUSERNAME]";
 $locale['412'] = "Er is een fout opgetreden, probeert u het nog eens.";
-
+$locale['413'] = "Vul A.u.b uw Email adres in:";
