@@ -1,6 +1,6 @@
 <?php
-$locale['bb_flash_description'] = "Wyświetla animację Flash z&nbsp;podanego adresu";
-$locale['bb_flash_usage'] = "adres do animacji Flash";
-$locale['bb_flash_width'] = "długość w pikselach";
-$locale['bb_flash_height'] = "wysokość w pikselach";
+$locale['bb_flash_description'] = "Wyświetla animację Flash z podanego adresu";
+$locale['bb_flash_usage'] = "Adres do animacji Flash";
+$locale['bb_flash_width'] = "Długość w pikselach";
+$locale['bb_flash_height'] = "Wysokość w pikselach";
 

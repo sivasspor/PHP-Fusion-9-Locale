@@ -1,17 +1,17 @@
 <?php
 $locale['setup_0000'] = "PHP-Fusion Kurulumu";
 $locale['setup_0002'] = "PHP-Fusion Kurulumuna Hoşgeldiniz";
-$locale['setup_0003'] = "Kurulum kılavuzu, PHP-Fusion CMS'yi sunucunuza kurmak için gerekli adımlar konusunda size rehberlik eder. Daha fazla yardıma ihtiyaç duyarsanız, lütfen <a class='strong' href='https://php-fusion.co.uk/infusions/wiki/documentation.php?page=216' target='_blank'>Çevrimiçi Kurulum Belgelerimizi</a> kontrol ediniz.";
+$locale['setup_0003'] = "Kurulum kılavuzu, PHP-Fusion CMS sistemini sunucunuza kurmak için gerekli adımlar konusunda size rehberlik eder. Daha fazla yardıma ihtiyaç duyarsanız, lütfen <a class='strong' href='https://php-fusion.co.uk/infusions/wiki/documentation.php?page=216' target='_blank'>Çevrimiçi Kurulum Belgelerimizi</a> kontrol ediniz.";
 $locale['setup_0005'] = " PHP-Fusion <a href='https://php-fusion.co.uk/license/' target='_blank'>Şartlarını ve Kullanım Koşullarını</a> okudum ve kabul ediyorum.";
 $locale['setup_0006'] = "PHP-Fusion 9, en azından PHP 5.5.9 gerektirir. Daha fazla bilgi için <a href=\"https://www.php-fusion.co.uk/requirements\"> sistem gereksinimleri</a> sayfasına bakın.";
 $locale['setup_0007'] = "OPcache kurulu olan sistemlerde <a href=\"http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments\">opcache.save_comments</a> etkin olmalıdır.";
-$locale['setup_5000'] = "PHP-Fusion'u kullanmak için, PHP-Fusion'ın şartlarını kontrol etmeniz ve kabul etmeniz gerekiyor.</a>.";
+$locale['setup_5000'] = "PHP-Fusion kullanmak için, PHP-Fusion şartlarını kontrol etmeniz ve kabul etmeniz gerekiyor.</a>.";
 $locale['setup_0010'] = "Geçerli Sürüm Yapısı - ";
 $locale['setup_0011'] = "tr";
 $locale['setup_0012'] = "utf-8";
 $locale['setup_0020'] = "PHP-Fusion Yükseltme";
 $locale['setup_0022'] = "PHP-Fusion Yükseltme Hizmetine Hoşgeldiniz";
-$locale['setup_0023'] = "Yükseltme hizmeti, sunucunuzdaki PHP-Fusion CMS'yi yükseltmek için gerekli adımlar konusunda size rehberlik eder. Lütfen bu adımları izleyin ve gerekli olan her bilgiyi doğrulayın.";
+$locale['setup_0023'] = "Yükseltme hizmeti, sunucunuzdaki PHP-Fusion CMS sistemini yükseltmek için gerekli adımlar konusunda size rehberlik eder. Lütfen bu adımları izleyin ve gerekli olan her bilgiyi doğrulayın.";
 $locale['setup_0050'] = "Web Sunucusu";
 $locale['setup_0051'] = "PHP Sürümü";
 $locale['setup_0052'] = "PHP Uzantısı";
@@ -26,7 +26,7 @@ $locale['setup_0104'] = "Yapılandırma / Veritabanı Kurulumu";
 $locale['setup_0105'] = "Çekirdek Sistemi Yapılandırma";
 $locale['setup_0106'] = "Birincil Yönetici Ayrıntıları";
 $locale['setup_0107'] = "Nihai Ayarlar";
-$locale['setup_0109'] = "Etkin olmayan Apache'nin mod_rewrite özelliği PHP-Fusion'u çalıştırmak için ihtiyaç duyduğu minimum sürüm 2.2.16'dır.";
+$locale['setup_0109'] = "Etkin olmayan Apache'nin mod_rewrite özelliği PHP-Fusion sistemini çalıştırmak için ihtiyaç duyduğu minimum sürüm 2.2.16'dır.";
 $locale['setup_0110'] = "httpd.conf dosyasındaki Servertokens ayarları nedeniyle, mod_rewrite olmadan Apache sürümünü belirlemek imkansızdır, en az 2.2.16 sürümü gerekmektedir.";
 $locale['setup_0112'] = "Güvenlik nedeniyle phpinfo() işlevi devre dışı bırakılmıştır. Sunucunuzun phpinfo() bilgilerini görmek için PHP ayarlarınızı değiştirin veya sunucu yöneticinize başvurun.";
 $locale['setup_0113'] = "PHP kurulumunuz çok eski. PHP-Fusion askari en az 5.5.21 gerektirir. 5.6.5 veya 5.5.21'in üstündeki PHP sürümleri, mysql veritabanları için yerleşik SQL enjeksiyon koruması sağlar. Güncelleştirilmesi önerilir.";
@@ -36,7 +36,7 @@ $locale['setup_0115a'] = "Etkin Değil";
 $locale['setup_0116'] = "PHP OPcode önbellekleme, sitenizin performansını önemli ölçüde artırabilir. Sunucunuza <a href='http://php.net/manual/opcache.installation.php' target='_blank'>OPcache</a> kurulu olması<strong> önerilir</strong>.";
 $locale['setup_0118'] = "Web sunucunuz PDO'yu (PHP Veri Nesneleri) desteklemiyor gibi görünüyor. Hosting sağlayıcınıza yerel PDO uzantısını destekleyip desteklemediklerini sorun.";
 $locale['setup_0119a'] = "Kurulum işlemindeki hataları önlemek için PHP bellek sınırınızı %memory_minimum_limit olarak yükseltmeyi gözönünde bulundurun.";
-$locale['setup_0119b'] = "".get_cfg_var('cfg_file_path')." dosyasındaki memory_limit parametresini düzenleyerek bellek sınırını arttırın ve web sunucunuzu yeniden başlatın (veya yardım için sistem yöneticinize veya hosting sağlayıcınıza başvurun).";
+$locale['setup_0119b'] = "Bellek sınırını arttırın ".get_cfg_var('cfg_file_path')." dosyasındaki memory_limit karakter özelliğini düzenleyin ve web sunucunuzu yeniden başlatın (veya yardım için sistem yöneticinize veya hosting sağlayıcınıza başvurun).";
 $locale['setup_0119c'] = "PHP bellek sınırınızı artırmakla ilgili yardım için sistem yöneticinize veya hosting sağlayıcınıza başvurun.";
 $locale['setup_stepx'] = "%2\$s";
 // Buttons
@@ -102,9 +102,9 @@ $locale['setup_1212'] = "Site ve Süper Yönetici Yapılandırmaları";
 $locale['setup_1213'] = "Site Bilgileri Detayları";
 $locale['setup_1214'] = "Site Adı";
 $locale['setup_1215'] = "PHP-Fusion Powered Website";
-$locale['setup_1216'] = "PHP-Fusion, PHP ile yazılmış hafif açık kaynak kodlu bir içerik yönetim sistemi (CMS) 'dir.";
+$locale['setup_1216'] = "PHP-Fusion, PHP ile yazılmış hafif açık kaynak kodlu bir içerik yönetim sistemi (CMS) dir.";
 $locale['setup_1217'] = "Hesabınız güncellendi. Lütfen bundan sonra yeni kimlik bilgilerini kullanın.";
-$locale['setup_1220'] = "PHP-Fusion'u çalıştırmak istediğiniz veritabanının adı";
+$locale['setup_1220'] = "PHP-Fusion çalıştırmak istediğiniz veritabanının adı";
 $locale['setup_1221'] = "MYSQL kullanıcı adınız";
 $locale['setup_1222'] = "... ve MYSQL şifreniz";
 $locale['setup_1223'] = "Veritabanınızı güvence altına almak için bunu çok benzersiz yapın";
@@ -129,10 +129,10 @@ $locale['setup_1511'] = "Web Site Bölgesi Seç:";
 $locale['setup_1512'] = "Site Dil Kurulumları:";
 $locale['setup_1513'] = "Site Sahibi Adı";
 // Progress Reports
-$locale['setup_1600'] = "Installing ";
-$locale['setup_1601'] = "Updating table structure on ";
-$locale['setup_1602'] = "Adding new column on ";
-$locale['setup_1603'] = "Populating data ";
+$locale['setup_1600'] = "Kuruluyor ";
+$locale['setup_1601'] = "Tablo yapısı güncelleniyor ";
+$locale['setup_1602'] = "Yeni sütun ekleniyor ";
+$locale['setup_1603'] = "Veri yerleştiriliyor ";
 // Step 6 - User details validation
 $locale['setup_5010'] = "Kullanıcı adı geçersiz karakterler içeriyor.";
 $locale['setup_5011'] = "Kullanıcı adı alanı boş bırakılamaz.";
@@ -301,10 +301,10 @@ require_once(dirname(__FILE__)."/user_fields/user_timezone.php");
 require_once(dirname(__FILE__)."/user_fields/user_blacklist.php");
 
 // Welcome message
-$locale['setup_3650'] = "Sitenize Hoşgeldiniz";
+$locale['setup_3650'] = "Web sitemize hoş geldiniz!";
 // Final message
 $locale['setup_1700'] = "Kurulum Tamamlandı";
-$locale['setup_1701'] = "PHP-Fusion 9.0 artık kullanıma hazır. config_temp.php dosyanızı config.php dosyasına yeniden yazmakı için Son'u tıklayın.<br/>";
+$locale['setup_1701'] = "PHP-Fusion 9.0 artık kullanıma hazır. config_temp.php dosyanızı config.php dosyasına yeniden yazması için Son'u tıklayın.<br/>";
 $locale['setup_1702'] = "<strong>Not: Sitenize girdikten sonra tüm /install klasörünü silmelisiniz ve güvenlik nedenleriyle config.php dosyanızı 0644'e geri döndürmelisiniz.</strong>";
 $locale['setup_1703'] = "PHP-Fusion'u seçtiğiniz için teşekkür ederiz.";
 // Default time settings
@@ -318,11 +318,11 @@ $locale['setup_3704'] = "%B %d %Y %H:%M:%S";
 // Please do NOT translate the words between brackets [] !
 $locale['setup_3800'] = "E-posta Şablonları";
 $locale['setup_3801'] = "Yeni ÖM Bildirimi";
-$locale['setup_3802'] = "[USER] adlı kullanıcıdan [SITENAME] sitesinde yeni bir mesajınız var";
-$locale['setup_3803'] = "Merhaba [RECEIVER],\r\n[SITENAME] sitesinde [USER] adlı kullanıcıdan [SUBJECT] başlıklı yeni bir Özel Mesaj aldınız. Özel mesajınızı [SITEURL]messages.php adresinden okuyabilirsiniz.\r\n\r\nMesaj: [MESSAGE]\r\n\r\nArtık yeni mesajlarla ilgili bildirim almak istemiyorsanız, Özel Mesaj sayfasının seçenekler panelinden e-posta bildirimini devre dışı bırakabilirsiniz.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
+$locale['setup_3802'] = "Size [SITENAME] sitesinde [USER] adlı kullanıcıdan yeni bir özel mesaj var";
+$locale['setup_3803'] = "Merhaba [RECEIVER],\r\nSiz [SITENAME] sitesinde [USER] adlı kullanıcıdan [SUBJECT] başlıklı yeni bir Özel Mesaj aldınız. Özel mesajınızı [SITEURL]messages.php adresinden okuyabilirsiniz.\r\n\r\nMesaj: [MESSAGE]\r\n\r\nArtık yeni mesajlarla ilgili bildirim almak istemiyorsanız, Özel Mesaj sayfasının seçenekler panelinden e-posta bildirimini devre dışı bırakabilirsiniz.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
 $locale['setup_3804'] = "Yeni forum mesajlarında bildirim";
-$locale['setup_3805'] = "[SUBJECT] - Konuya Cevap Bildirimi";
-$locale['setup_3806'] = "Merhaba [RECEIVER],\r\n\r\n[SITENAME]A adresinde takip ettiğiniz \'[SUBJECT]\' forum konusuna bir cevap gönderildi. Cevabı görüntülemek için aşağıdaki bağlantıyı kullanabilirsiniz:\r\n\r\n[THREAD_URL]\r\n\r\nEğer bu konuyu takip etmek istemiyorsanız, konunun üst kısmında bulunan \'Bu konuyu takip etmeyi durdur\' bağlantısını tıklayabilirsiniz.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
+$locale['setup_3805'] = "Konuya Cevap Bildirimi - [SUBJECT]";
+$locale['setup_3806'] = "Merhaba [RECEIVER],\r\n\r\nTakip ettiğiniz \'[SUBJECT]\' forum konusuna [SITENAME] sitesinde bir cevap gönderildi. Cevabı görüntülemek için aşağıdaki bağlantıyı kullanabilirsiniz:\r\n\r\n[THREAD_URL]\r\n\r\nEğer bu konuyu takip etmek istemiyorsanız, konunun üst kısmında bulunan \'Bu konuyu takip etmeyi durdur\' bağlantısını tıklayabilirsiniz.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
 $locale['setup_3807'] = "İletişim Formu";
 $locale['setup_3808'] = "[SUBJECT]";
 $locale['setup_3809'] = "[MESSAGE]";

@@ -1,12 +1,16 @@
 <?php
 $locale['c100'] = "Komentarze";
-$locale['c101'] = "Brak komentarzy. Może czas dodać swój?";
-$locale['c102'] = "Dodaj komentarz";
-$locale['c103'] = "Aktualizuj komentarz";
-$locale['c104'] = "Nick:";
-$locale['c105'] = "Zaloguj się, aby móc dodać komentarz.";
+$locale['c101'] = "Brak komentarzy. Może chcesz dodać swój?";
+$locale['c102'] = "Wyślij komentarz";
+$locale['c103'] = "Zaktualizuj komentarz";
+$locale['c104'] = "Nazwa:";
+$locale['c105'] = "Zaloguj się, aby napisać komentarz.";
 $locale['c106'] = "Zarządzaj komentarzami";
-$locale['c107'] = " Wyłącz uśmieszki w&nbsp;komentarzu";
+$locale['c107'] = " Wyłącz emotikony w tym komentarzu";
 $locale['c108'] = "Edytuj";
 $locale['c109'] = "Usuń";
-$locale['c110'] = "Usunąć komentarz?";
+$locale['c110'] = "Usunąć ten komentarz?";
+$locale['c111'] = "Zostaw komentarz";
+$locale['c112'] = "Odpowiedz";
+$locale['c113'] = "Tytuł";
+$locale['c114'] = "Komentarze zostały zaktualizowane";

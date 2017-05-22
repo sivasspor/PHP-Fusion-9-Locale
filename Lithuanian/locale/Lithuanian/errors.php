@@ -16,3 +16,4 @@ $locale['E_STRICT'] = "";
 $locale['err_100'] = "Nėra";
 $locale['err_101'] = "<strong>ĮSPĖJIMAS:</strong> Įvyko klaida generuojant puslapį. Norėdami sužinoti platesnę informaciją, peržiūrėkite PHP-Fusion [ERROR_LOG_URL]klaidų žurnalą[/ERROR_LOG_URL].";
 $locale['err_102'] = "Parodyk man klaidą!";
+$locale['err_103'] = "{%function%} {%folder%} neegzistuoja.";

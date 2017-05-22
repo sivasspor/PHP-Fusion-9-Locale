@@ -1,32 +1,38 @@
 <?php
 // Smiley titles
-$locale['400'] = "Current Smileys";
-$locale['401'] = "Add Smiley";
-$locale['402'] = "Edit Smiley";
-$locale['403'] = "Smileys";
+$locale['SMLY_400'] = "Obecne emotikony";
+$locale['SMLY_401'] = "Dodaj  emotikonę";
+$locale['SMLY_402'] = "Edytuj emotikonę";
+$locale['SMLY_403'] = "Emotikony";
+$locale['SMLY_404'] = "Aktywne emotikony";
+$locale['SMLY_405'] = "Nieaktywne emotikony";
 // Smiley messages
-$locale['410'] = "Smiley added";
-$locale['411'] = "Smiley updated";
-$locale['412'] = "Smiley deleted";
-$locale['413'] = "Unable to update smiley";
-$locale['414'] = "Unable to add smiley";
-$locale['415'] = "The smiley code is in use.";
-$locale['416'] = "Do you realy want to delete this smiley?";
+$locale['SMLY_410'] = "Dodano emotikonę";
+$locale['SMLY_411'] = "Zaktualizowno emotikonę";
+$locale['SMLY_412'] = "Usunięto emotikonę";
+$locale['SMLY_413'] = "Wyłączono emotikonę";
+
+$locale['SMLY_414'] = "Tekst emotikony jest w użyciu.";
+$locale['SMLY_415'] = "Kod emotikony jest w użyciu.";
+$locale['SMLY_416'] = "Czy naprawdę chcesz usunąć tą emotikonę?";
+$locale['SMLY_417'] = "Czy naprawdę chcesz wyłączyć tą emotikonę?";
+$locale['SMLY_418'] = "Wystąpił błąd podczas przesyłania emotikony";
 // Smiley form
-$locale['420'] = "Smiley Code:";
-$locale['421'] = "Smiley Image:";
-$locale['422'] = "Smiley Text:";
-$locale['423'] = "Save Smiley";
-$locale['424'] = "Smiley Preview:";
+$locale['SMLY_420'] = "Kod emotikony:";
+$locale['SMLY_421'] = "Obrazek emotikony:";
+$locale['SMLY_422'] = "Tekst emotikony:";
+$locale['SMLY_423'] = "Zapisz emotikonę";
+$locale['SMLY_424'] = "Zaktualizuj emotikonę";
 // Current Smileys
-$locale['430'] = "Code";
-$locale['431'] = "Image";
-$locale['432'] = "Text";
-$locale['433'] = "Options";
-$locale['434'] = "Edit";
-$locale['435'] = "Delete";
-$locale['436'] = "There are no smileys defined.";
+$locale['SMLY_430'] = "Kod";
+$locale['SMLY_431'] = "Obrazek";
+$locale['SMLY_432'] = "Tekst";
+$locale['SMLY_433'] = "Opcje";
+$locale['SMLY_435'] = "Wyłącz";
+$locale['SMLY_436'] = "Nie zdefiniowano emotikon.";
 // Error Message
-$locale['437'] = "Please enter a Smiley Code";
-$locale['438'] = "Please select a Smiley";
-$locale['439'] = "Please enter a Smiley Text";
+$locale['SMLY_437'] = "Proszę wprowadzić kod emotikony";
+$locale['SMLY_438'] = "Proszę wybrać emotikonę";
+$locale['SMLY_439'] = "Proszę wprowadzić tekst emotikony";
+$locale['SMLY_440'] = "Brak aktywnych emotikon";
+$locale['SMLY_441'] = "Brak nieaktywnych emotikon";

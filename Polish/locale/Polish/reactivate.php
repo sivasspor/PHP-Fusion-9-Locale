@@ -1,18 +1,14 @@
 <?php
 // Error messages
-$locale['500'] = "An error occurred";
-$locale['501'] = "The re-activation link you clicked is no longer valid.<br /><br />
-Contact the site's administrator at <a href='mailto:".fusion_get_settings('siteemail')."'>".fusion_get_settings('siteemail')."</a> if you want to request a manual re-activation.";
-$locale['502'] = "The re-activation link you clicked is invalid!<br /><br />
-Contact the site's administrator at <a href='mailto:".fusion_get_settings('siteemail')."'>".fusion_get_settings('siteemail')."</a> if you want to request a manual re-activation.";
-$locale['503'] = "The re-activation link you followed could not re-activate your account.<br />
-Perhaps your account has already been re-activated and in that case you should be able to <a href='".fusion_get_settings('siteurl')."login.php'>log in here</a>.<br /><br />
-If you cannot log in now, please contact the site's administrator at <a href='mailto:".fusion_get_settings('siteemail')."'>".fusion_get_settings('siteemail')."</a> if you want to request a manual re-activation.";
+$locale['500'] = "Wystąpił błąd";
+$locale['501'] = "Link ponownej aktywacji w który kliknełeś nie jest już aktywny.<br /><br />Skontaktuj się z administratorem witryny na [SITEEMAIL] jeśli chcesz poprosić o ręczną aktywację.";
+$locale['502'] = "Kliknięte łącze ponownej aktywacji jest nieprawidłowe!<br /><br />Skontaktuj się z administratorem witryny na [SITEEMAIL] jeśli chcesz poprosić o ręczną aktywację.";
+$locale['503'] = "Podany link ponowienia aktywacji nie może ponownie aktywować Twojego konta.<br />
+Być może Twoje konto zostało już aktywowane, w takim przypadku powinieneś być w stanie [LINK]zalogować się[/LINK].<br /><br />
+Jeśli nie możesz się teraz zalogować, skontaktuj się z administratorem witryny w [SITEEMAIL] jeśli chcesz poprosić o ręczną aktywację.";
 // Send confirmation mail
-$locale['504'] = "Account re-activated at ".fusion_get_settings('sitename');
-$locale['505'] = "Hello [USER_NAME],\n
-Your account at ".fusion_get_settings('sitename')." has been re-activated. We hope to see you more often at the site.\n\n
-Regards,\n\n
-".fusion_get_settings('siteusername');
-$locale['506'] = "Reactivated by user.";
-
+$locale['504'] = "Konto na [SITENAME] zostało ponownie aktywowane";
+$locale['505'] = "Witaj [USER_NAME],
+<br>Twoje konto na [SITENAME] zostało ponownie aktywowane. Mamy nadzieję, że zobaczymy Cię częściej w witrynie.<br/><br/>
+Pozdrawiamy,<br/><br/>[SITEUSERNAME]";
+$locale['506'] = "Ponowna aktywacja przez użytkownika.";

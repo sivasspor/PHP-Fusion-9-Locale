@@ -1,102 +1,85 @@
 <?php
-// Web Link Category titles
-$locale['402'] = "Istniejace kategorie linków";
-// Web Link titles
-$locale['wl_0001'] = "Dodaj link";
-$locale['wl_0002'] = "Edytuj link";
-$locale['wl_0003'] = "Istniejące linki";
-$locale['wl_0004'] = "Kategorie linków";
-$locale['wl_0005'] = "Edytuj kategorię linków";
-$locale['wl_0006'] = "Ustawienia systemu linków";
-$locale['wl_0007'] = "Linków oczekujących na akceptację %s.";
-$locale['wl_0008'] = "Brak nadesłanych linków.";
-// Web Link form
-$locale['wl_0100'] = "Linki";
-$locale['wl_0101'] = "Nazwa:";
-$locale['wl_0102'] = "Proszę wpisać nazwę linku";
-$locale['wl_0103'] = "Opis:";
-$locale['wl_0104'] = "Adres:";
-$locale['wl_0105'] = "Kategoria:";
-$locale['wl_0106'] = "Widoczny dla:";
-$locale['wl_0107'] = "Zaktualizuj datę dodania";
-$locale['wl_0108'] = "Zapisz";
-// Current Web Links
-$locale['wl_0200'] = "Linki";
-$locale['wl_0201'] = "Kategoria";
-$locale['wl_0203'] = "Adres";
-$locale['wl_0204'] = "Nr";
-$locale['wl_0205'] = "Edytuj";
-$locale['wl_0206'] = "Usuń";
-$locale['wl_0207'] = "Nie dodano linków do kategorii.";
-$locale['wl_0208'] = "Opcje";
-// Web Link messages
-$locale['wl_0300'] = "Dodano link!";
-$locale['wl_0301'] = "Zaktualizowano link!";
-$locale['wl_0302'] = "Usunięto link!";
-$locale['wl_0303'] = "Usunąć link?";
-// Web Link Category messages
-$locale['wl_0304'] = "Dodano kategorię linków.";
-$locale['wl_0305'] = "Zaktualizowano kategorię linków.";
-$locale['wl_0306'] = "Usunięto kategorię linków.";
-$locale['wl_0307'] = "Kategoria linków nie mogła być usunięta. ";
-$locale['wl_0308'] = "Do kategorii są przypisane linki lub podkategorie.<br />Przenieś je do innej kategorii.";
-$locale['wl_0309'] = "Kategoria o tej nazwie juz istnieje";
-$locale['wl_0310'] = "Usunąć kategorię linków?";
-// Filters
-$locale['wl_0400'] = "Pokaż z:";
-$locale['wl_0401'] = "Wybierz kategorię";
-$locale['wl_0402'] = "Pokaż wszystkie";
-// Add/Edit Web Link Category Form
-$locale['wl_0700'] = "Nazwa:";
-$locale['wl_0701'] =  "Wpisz nazwę kategorii";
-$locale['wl_0702'] = "Opis:";
-$locale['wl_0703'] = "Nadrzędna kategoria:";
-$locale['wl_0704'] = "Sortowanie wg:";
-$locale['wl_0705'] = "Kolejności dodania";
-$locale['wl_0706'] = "Nazwy";
-$locale['wl_0707'] = "Daty dodania";
-$locale['wl_0708'] = "Rosnąco";
-$locale['wl_0709'] = "Malejąco";
-$locale['wl_0710'] = "Edytor kategorii linków";
-$locale['wl_0711'] = "Zapisz";
-$locale['536'] = "Nie zdefiniowano kategorii linków.";
-$locale['537'] = "Nie zdefiniowano kategorii linków";
-$locale['538'] = "Przed dodaniem linków musisz zdefiniować przynajmniej jedną kategorię linków.";
-$locale['539'] = "Dodaj kategorię linków";
-$locale['540'] = "";/*to go to Web Link Categories"; - cleared by jantom*/
-// Submissions
-$locale['wl_0500'] = "Nadesłane linki";
-$locale['wl_0501'] = "Pokazano linków %d z&nbsp;%d";
-$locale['wl_0503'] = "Nazwa";
-$locale['wl_0504'] = "Autor";
-$locale['wl_0505'] = "Kiedy wysłano?";
-$locale['wl_0506'] = "Nr";
-$locale['wl_0507'] = "Usunięto nadesłany link";
-$locale['wl_0508'] = "Opublikuj";
-$locale['wl_0509'] = "Opublikowano nadesłany link";
-$locale['wl_0510'] = "Dodano: ";
-$locale['wl_0511'] = "Zaproponowany przez:";
-$locale['wl_0512'] = "Usuń";
-// Public
-$locale['wl_0800'] = "Dodaj link";
-// Submit Link Success
-$locale['wl_0801'] = "Dziękujemy za dodanie linka.";
-$locale['wl_0802'] = "Dodaj kolejny link";
-$locale['wl_0803'] = "Powróć do [SITENAME]";
-// Submit Link Form
-$locale['wl_0804'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać linka. Zostanie on sprawdzony przez administratora. [SITENAME] Link
-powinien być prawidłowy, zgodny z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie on odrzucony.";
-$locale['wl_0805'] = "Kategoria:";
-$locale['wl_0806'] = "Nazwa:";
-$locale['wl_0807'] = "Adres:";
-$locale['wl_0808'] = "Opis:";
-$locale['wl_0809'] = "Przepraszamy, ale obecnie nie przyjmujemy nowych linków.";
-// Settings
-$locale['wl_0600'] = "Ustawienia";
-$locale['wl_0601'] = "Zezwolić na nadsyłanie linków?";
-$locale['wl_0602'] = "Wymagać opisu linku?";
-$locale['601'] = "Zaktualizowano ustawienia";
-$locale['602'] = "Linki";
-$locale['603'] = "Linków na stronę";
-$locale['604'] = "Zapisz";
-$locale['error_value'] = "Proszę wpisać wartość.";
+$locale['WLS_0001'] = "Linki";
+$locale['WLS_0002'] = "Dodaj link do katalogu stron";
+$locale['WLS_0003'] = "Edytuj link";
+$locale['WLS_0004'] = "Kategorie";
+$locale['WLS_0005'] = "Dodaj kategorię";
+$locale['WLS_0006'] = "Edytuj kategorię";
+$locale['WLS_0007'] = "Zgłoszenia";
+$locale['WLS_0008'] = "Ustawienia";
+$locale['WLS_0030'] = "Web Link successfully created";
+$locale['WLS_0031'] = "Web Link successfully updated";
+$locale['WLS_0032'] = "Web Link successfully deleted";
+$locale['WLS_0034'] = "You must choose at least one Web Link";
+$locale['WLS_0035'] = "Web Link successfully published";
+$locale['WLS_0036'] = "Web Link successfully unpublished";
+$locale['WLS_0040'] = "Category successfully created";
+$locale['WLS_0041'] = "Category successfully updated";
+$locale['WLS_0042'] = "Category successfully deleted";
+$locale['WLS_0043'] = "Category cannot be deleted";
+$locale['WLS_0044'] = "There are  Web Link or Subcategories in the Category";
+$locale['WLS_0045'] = "Kategorie zostały pomyślnie zaktualizowane";
+$locale['WLS_0046'] = "Kategorie nie mogą zostać usunięte";
+$locale['WLS_0048'] = "You must choose at least on Category";
+$locale['WLS_0049'] = "Category successfully published";
+$locale['WLS_0050'] = "Category publishing deleted";
+$locale['WLS_0060'] = "Submission successfully published";
+$locale['WLS_0061'] = "Submission successfully deleted";
+$locale['WLS_0062'] = "There are no new Submissions.";
+$locale['WLS_0100'] = "Nazwa";
+$locale['WLS_0101'] = "Kategoria";
+$locale['WLS_0102'] = "Status";
+$locale['WLS_0103'] = "Widoczność";
+$locale['WLS_0104'] = "Działania";
+$locale['WLS_0111'] = "Delete this Web Link?";
+$locale['WLS_0112'] = "There are no Weblink created.";
+$locale['WLS_0113'] = "There are no Web Links which match the Search options.";
+$locale['WLS_0114'] = "Before you can create a Web Link, you must create a Category.";
+$locale['WLS_0115'] = "Web Link is checked, broken links found %s.";
+$locale['WLS_0116'] = "Status Unpublished update.";
+$locale['WLS_0120'] = "Temat";
+$locale['WLS_0121'] = "Szukaj";
+$locale['WLS_0122'] = "Wyczyść";
+$locale['WLS_0123'] = "Zmień status";
+$locale['WLS_0124'] = "All Status";
+$locale['WLS_0125'] = "Choose Visibility";
+$locale['WLS_0126'] = "Zmień kategorię";
+$locale['WLS_0127'] = "Wszystkie kategorie";
+$locale['WLS_0128'] = "Wybierz język";
+$locale['WLS_0129'] = "Wszystkie języki";
+$locale['WLS_0132'] = "Elementów na stronie";
+$locale['WLS_0151'] = "Web Link";
+$locale['WLS_0161'] = "Delete this Category?";
+$locale['WLS_0162'] = "There are no Categories defined.";
+$locale['WLS_0200'] = "ID";
+$locale['WLS_0201'] = "Nazwa linku";
+$locale['WLS_0202'] = "Podesłał";
+$locale['WLS_0203'] = "Data";
+$locale['WLS_0204'] = "Opcje";
+$locale['WLS_0205'] = "Review Submission";
+$locale['WLS_0252'] = "A Name of the Web Link.";
+$locale['WLS_0253'] = "Web Link URL";
+$locale['WLS_0254'] = "Opis";
+$locale['WLS_0255'] = "Please enter the description";
+$locale['WLS_0259'] = "Update Publication Date";
+$locale['WLS_0260'] = "Więcej informacji";
+$locale['WLS_0261'] = "Web Links Verify";
+$locale['WLS_0270'] = "You must specify a Subject.";
+$locale['WLS_0303'] = "Rodzic";
+$locale['WLS_0320'] = "You must specify a Name.";
+$locale['WLS_0321'] = "There exists a Category named this one.";
+$locale['WLS_0322'] = "You must specify a Description.";
+$locale['WLS_0350'] = "Zgłosznie przysłane od {%SUBMISSION_AUTHOR%}.";
+$locale['WLS_0351'] = "Data podesłania: {%SUBMISSION_TIME%} - {%SUBMISSION_DATE%}.";
+$locale['WLS_0400'] = "Settings for the Web Link System in the Frontend and Backend.";
+$locale['WLS_0403'] = "Extended Web Link required";
+$locale['WLS_0900'] = "Dodaj własny link do katalogu stron";
+$locale['WLS_0910'] = "Web Link is successfully submitted.";
+$locale['WLS_0911'] = "Dziękujemy za przesłanie.";
+$locale['WLS_0912'] = "Dodaj inny link";
+$locale['WLS_0913'] = "Powróć do [SITENAME]";
+$locale['WLS_0920'] = "Use the following form to submit Web Link. Your submission will be reviewed by an
+Administrator. [SITENAME] reserves the right to amend or edit any submission. Web Link should be applicable to the content of this site.
+Unsuitable submissions will be deleted.";
+$locale['WLS_0922'] = "Sorry, we currently do not accept any Web Link submissions on this site.";
+$locale['WLS_0923'] = "You cannot submit a Web Link, because there are no Categories defined.";

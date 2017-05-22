@@ -17,6 +17,7 @@ $locale['blog_0145'] = "Tinklaraščio pateikimas buvo ištrintas";
 $locale['blog_0146'] = "Tinklaraščio pateikimas buvo publikuotas";
 $locale['blog_0147'] = "Tinklaraščio pateikimas išsaugotas kaip juodraštis";
 $locale['blog_0148'] = "Įkėlė ";
+$locale['blog_0149'] = "%s buvo išjungtas, todėl neveikia.";
 // Blog titles
 $locale['blog_0400'] = "Esami tinklaraščiai";
 $locale['blog_0401'] = "Pridėti tinklaraštį";
@@ -54,7 +55,6 @@ $locale['blog_0432'] = "Prisegti šį įrašą";
 $locale['blog_0433'] = "Automatinis eilučių laužymas";
 $locale['blog_0434'] = "Įjungti komentarus";
 $locale['blog_0435'] = "Įjungti reitingus";
-$locale['blog_0436'] = "Peržiūrėti įrašą";
 $locale['blog_0437'] = "Išsaugot tinklaraštį";
 $locale['blog_0438'] = "Juodarštis";
 $locale['blog_0439'] = "Įrašo nuotrauka:";
@@ -66,7 +66,6 @@ $locale['blog_0444'] = "Po kiekvieno raktažodžio spauskite Enter";
 // Blog Category
 // Blog Categories titles
 $locale['blog_0500'] = "Redaguoti tinklaraščių kategoriją";
-$locale['blog_0501'] = "Pridėti tinklaraščių kategoriją";
 $locale['blog_0502'] = "Esamos tinklaraščių kategorijos";
 // Blog Categories messages
 $locale['blog_0520'] = "Kategorija pridėta";
@@ -81,7 +80,10 @@ $locale['blog_0532'] = "Išsaugoti";
 $locale['blog_0533'] = "Kategorija priklauso:";
 $locale['blog_0535'] = "Nėra pridėtų tinklaraščių kategorijų";
 $locale['blog_0536'] = "Spauskite čia norėdami įkelti kategorijos nuotraukas";
-$locale['blog_0537'] = "Tėvo elementas";
+$locale['blog_0537'] = "Priklausomumas";
+$locale['blog_0538'] = "Baitai (bytes)";
+$locale['blog_0539'] = "KB (Kilobaitai)";
+$locale['blog_0540'] = "MB (Megabaitai)";
 // Popup Error/Warning Messages
 $locale['blog_0550'] = "Trinti šią kategoriją?";
 // Error Messages
@@ -90,7 +92,6 @@ $locale['blog_0561'] = "Tokia kategorija jau egzistuoja.";
 // Popup Error/Warning Messages
 $locale['blog_0450'] = "Prašome nurodyti pavadinimą";
 $locale['blog_0451'] = "Ištrinti šį tinklaraštį?";
-$locale['blog_0451b'] = "Trinti šią kategoriją?";
 $locale['blog_0452'] = "%s yra išjungta viskam.\n\rŠis nustatymas veiks tik tuomet, kai bus vėl įjungta.";
 $locale['blog_0456'] = 'Šioje kategorijoje nėra tinklaraščių.';
 $locale['blog_0457'] = "Prašome nurodyti raktažodžius";
@@ -119,14 +120,14 @@ $locale['602'] = "Foto atvaizdo dydis:";
 $locale['603'] = "Maksimalus foto dydis:";
 $locale['604'] = "Plotis x Aukštis";
 $locale['605'] = "Maksimalus failo dydis (baitais):";
-// Blog Settings
+// Blog & News Settings
 $locale['950'] = "Paveikslėlių įkėlimas";
 $locale['951'] = "Paveikslėlio nuoroda:";
 $locale['952'] = "Kategorija";
 $locale['953'] = "Naujiena";
-$locale['953b'] = "Tinklaraštis";
 $locale['954'] = "Paveikslio santykis:";
 $locale['955'] = "Originalus";
 $locale['956'] = "Kvadratas";
 $locale['959'] = "Įkelta nuotrauka";
 $locale['960'] = "Forumo kategorijos paveiksliukas";
+$locale['961'] = "Leidžiami failų tipai:";

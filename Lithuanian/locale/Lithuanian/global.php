@@ -2,10 +2,10 @@
 /*
 Lithuanian Language Fileset
 Ready for: PHP-Fusion V9.00
-Language version: v1.0
+Language version: v1.8
 Vertė:
-	Edmundas Jankauskas (Creatium)[V7.01, V7.02, V7.02.01, v7.02.02, v9]
-	Gintautas Brainys (ozzWANTED) [V7.00, V7.01, V7.02]
+	Edmundas Jankauskas (Creatium)[V9.0, V7.01, V7.02, V7.02.01, v7.02.02, v9]
+	Ozas Vantedas (ozzWANTED) [V7.00, V7.01, V7.02]
 	Algimantas Virbašius (MaFetas)[V7.02]
 	Gediminas Bruzgis (chipass)	  [V7.00, V7.01]
 	Gediminas Survila (Fanio)	  [V7.00]
@@ -21,9 +21,14 @@ setlocale(LC_TIME, "lt","LT"); // Linux Server (Windows may differ)
 $locale['charset'] = "UTF-8";
 $locale['region'] = "LT"; // Lithuania
 $locale['xml_lang'] = "lt";
+$locale['short_lang_name'] = "lt";
 $locale['tinymce'] = "lt";
-$locale['phpmailer'] = "lt";
+$locale['select2'] = "lt";
+$locale['phpmailer'] = "lt";				   
 $locale['datepicker'] = "lt";
+$locale['datepicker_js'] = "YYYY-M-DD H:mm:ss";
+$locale['datepicker_php'] = "Y-m-d H:i:s";
+$locale['password_strength'] = "lt";
 // Full & Short Months
 $locale['months'] = "&nbsp|Sausis|Vasaris|Kovas|Balandis|Gegužė|Birželis|Liepa|Rugpjūtis|Rugsėjis|Spalis|Lapkritis|Gruodis";
 $locale['shortmonths'] = "&nbsp|Sau|Vas|Kov|Bal|Geg|Bir|Lie|Rug|Rgs|Spa|Lap|Gru";
@@ -53,6 +58,7 @@ $locale['sel_state'] = "Pasirinkti valstiją";
 $locale['sel_user'] = "Prašome įvesti vartotojo vardą";
 $locale['add_language'] = "Pridėti kalbos vertimus";
 $locale['add_lang'] = "Pridėti %s";
+$locale['other_states'] = "Kitos apskritys"; 
 // Name
 $locale['name'] = 'Pilnas vardas';
 $locale['username_pretext'] = 'Jūsų vartotojo vardas bus toks pat, koks ir vartotojo profilio adresas: %s %s';
@@ -89,7 +95,8 @@ $locale['status8'] = "Neaktyvūs";
 $locale['userf1'] = "Moderatorius";
 // Navigation
 $locale['global_001'] = "Navigacija";
-$locale['global_002'] = "Nuorodų nėra";
+$locale['global_002'] = "Nuorodų nėra\n";
+$locale['global_003'] = "Nėra ką rodyti";
 // Users Online
 $locale['global_010'] = "Prisijungę vartotojai";
 $locale['global_011'] = "Prisijungę svečiai";
@@ -98,6 +105,7 @@ $locale['global_013'] = "Prisijungusių narių nėra";
 $locale['global_014'] = "Iš viso narių";
 $locale['global_015'] = "Nektyvuotų narių";
 $locale['global_016'] = "Naujausias narys";
+$locale['global_017'] = "Įjungti/išjungti navigaciją";
 // Forum Side panel
 $locale['global_020'] = "Forumo temos";
 $locale['global_021'] = "Naujausios temos";
@@ -139,11 +147,16 @@ $locale['global_057'] = "Pasirinkimai";
 $locale['global_058'] = "Sustoti";
 $locale['global_059'] = "Jūs nesekate jokių temų.";
 $locale['global_060'] = "Nustoti sekti šią temą?";
-// News & Articles
+// Blog, News & Articles
 $locale['global_070'] = "Parašė ";
+									
+$locale['global_070b'] = "Rodyti visus %s pranešimus";
+									  
 $locale['global_071'] = "&middot; ";
-$locale['global_072'] = "Toliau...";
+$locale['global_071b'] = "Autorius";
+$locale['global_072'] = "Skaityti toliau";
 $locale['global_073'] = " komentarai";
+
 $locale['global_073b'] = " komentaras";
 $locale['global_074'] = " perskaitymai";
 $locale['global_074b'] = " perskaitymas";
@@ -152,27 +165,22 @@ $locale['print'] = 'Spausdinti';
 $locale['global_076'] = "Redaguoti";
 $locale['global_077'] = "Naujienos";
 $locale['global_078'] = "Naujienų kol kas nėra";
-$locale['global_077b'] = "Tinklaraštis";
-$locale['global_078b'] = "Tinklaraščių kol kas nėra";
+
 $locale['global_079'] = " ";
 $locale['global_080'] = "Nekategorizuota";
 $locale['global_081'] = "Naujienų pradinis";
-$locale['global_082'] = "Naujienų centras";
-$locale['global_081b'] = "Tinklaraščių pradinis";
-$locale['global_082b'] = "Tinklaraščių centras";
-$locale['global_082c'] = "Tinklaraščių archyvo panelė";
+$locale['global_082'] = "Naujienos";
 $locale['global_083'] = "Paskutinis atnujinimas";
 $locale['global_084'] = "Naujienų kategorija";
-$locale['global_084b'] = "Tinklaraščių kategorija";
 $locale['global_085'] = "Visos kitos kategorijos";
 $locale['global_086'] = "Paskutinės naujienos";
 $locale['global_087'] = "Daugiausiai komentuojamos naujienos";
 $locale['global_088'] = "Didžiausių reitingų naujienos";
-$locale['global_086b'] = "Paskutiniai tinklaraščiai";
-$locale['global_087b'] = "Daugiausiai komentuojami tinklaraščiai";
-$locale['global_088b'] = "Didžiausių reitingų tinklaraščiai";
 $locale['global_089'] = "Būkite pirmi, pakomentavę %s";
+
+
 $locale['global_089a'] = "Būkite pirmi, įvertinę %s";
+
 $locale['global_089b'] = "Miniatiūrų rodymas";
 $locale['global_089c'] = "Sąrašo rodymas";
 // Page Navigation
@@ -184,7 +192,9 @@ $locale['global_094'] = " iš ";
 // Guest User Menu
 $locale['global_100'] = "Prisijungti";
 $locale['global_101'] = "Prisijungimo ID";
-$locale['global_101a'] = "Prašom įvesti savo prisijungimo ID";
+$locale['global_101a'] = "Įveskite prisijungimo ID";
+$locale['global_101b'] = "Įveskite el. pašto adresą";
+$locale['global_101c'] = "Įveskite el. pašto adresą arba prisijungimo ID";
 $locale['global_102'] = "Slaptažodis";
 $locale['global_103'] = "Atsiminti";
 $locale['global_104'] = "Jungtis!";
@@ -192,6 +202,7 @@ $locale['global_105'] = "Dar ne narys? [LINK]Registruotis[/LINK].";
 $locale['global_106'] = "[LINK]Pamiršai slaptažodį? Prašyk naujo![/LINK]";
 $locale['global_107'] = "Registruotis";
 $locale['global_108'] = "Pamiršau slaptažodį";
+$locale['global_109'] = "Užsiregistruoti";
 // Member User Menu
 $locale['global_120'] = "Redaguoti profilį";
 $locale['global_121'] = "Asmeninės žinutės";
@@ -213,6 +224,7 @@ $locale['UM063'] = "Įsiminti mane";
 $locale['UM064'] = "Prisijungti";
 $locale['UM065'] = "Dar ne narys? [LINK]Prisiregistruok[/LINK}.";
 $locale['UM066'] = "[LINK]Pamiršai slaptažodį? Prašyk naujo![/LINK]";
+$locale['UM067'] = "(nerekomenduojame viešai naudojamuose kompiuteriuose)";
 $locale['UM080'] = "Keisti profilį";
 $locale['UM081'] = "Asmeninės žinutės";
 $locale['UM082'] = "Narių sąrašas";
@@ -230,6 +242,7 @@ $locale['UM092'] = "Pateikti straipsnį";
 $locale['UM093'] = "Pateikti nuotrauką";
 $locale['UM094'] = "Pateikti siuntinį";
 $locale['UM095'] = "Pateikti tinklaraštį";
+$locale['UM102'] = "Pateikti DUK";
 // User Panel
 $locale['UM096'] = "Sveiki: ";
 $locale['UM097'] = "Asmeninis meniu";
@@ -250,6 +263,7 @@ $locale['global_172'] = "Užkrovimo laikas: %s sekundės";
 $locale['global_173'] = "Užklausos";
 $locale['global_174'] = "Naudojama atminties";
 $locale['global_175'] = "Vidutiniškai: %s sekundės";
+$locale['global_176'] = "Privatumo politika";
 // Admin Navigation
 $locale['global_180'] = "Admin panelė";
 $locale['global_181'] = "Grįžti į tinklapį";
@@ -264,8 +278,8 @@ $locale['global_195'] = "Šis vartotojas neaktyvuotas.";
 $locale['global_196'] = "Neteisingas vartotojo vardas arba slaptažodis.";
 
 $locale['global_197'] = "Prašome palaukti kol perkelsime jus...\n\n[ [LINK]Arba spauskite čia, jei nenorite laukti[/LINK] ]";
+$locale['global_198'] = "DĖMESIO: RASTAS INSTALL-PHP FAILAS, NEDELSIANT JĮ IŠTRINKITE!";
 
-$locale['global_198'] = "DĖMESIO: RASTAS /INSTALL/ APLANKAS, NEDELSIANT JĮ IŠTRINKITE!";
 $locale['global_199'] = "DĖMESIO: administratoriaus slaptažodis nenustatytas, eikite į [LINK]Profilio Redagavimą[/LINK], kad jį nustatyti.";
 //Titles
 $locale['global_200'] = " - ";
@@ -334,13 +348,18 @@ $locale['global_465'] = "TB";
 $locale['global_500'] = "Jūs buvote nukreipas į %s, prašome palaukti. Jeigu nebuvote perkeltas, spauskite čia.";
 // Captcha Locales
 $locale['global_600'] = "Patvirtinimo kodas";
+$locale['global_601'] = "Turite įvesti teisingą patvirtinimo kodą";		   
 $locale['recaptcha'] = "lt";
+// Site links
+$locale['global_700'] = "Rodyti daugiau";		
 //Miscellaneous
 $locale['global_900'] = "Neįmanoma paversti HEX į DEC";
+$locale['global_901'] = "Įkelti mediją";
 //Language Selection
 $locale['global_ML100'] = "Kalba:";
 $locale['global_ML101'] = "- Pasirinkti kalbą -";
 $locale['global_ML102'] = "Tinklapio kalba";
+$locale['global_ML103'] = "Pakeisti kalbą";
 // Flood Control
 $locale['flood'] = "Jums draudžiama rašyti kol nepraėjęs flood'o laikotarpis. Prašome palaukti %s.";
 $locale['no_image'] = "Nėra paveiksliuko";
@@ -376,6 +395,8 @@ $locale['back'] = 'Atgal';
 $locale['forward'] = 'Pirmyn';
 $locale['go'] = 'Eiti';
 $locale['cancel'] = 'Atšaukti';
+$locale['clear'] = "Išvalyti";
+$locale['move'] = "Perkelti";
 $locale['move_up'] = "Perkelti aukštyn";
 $locale['move_down'] = "Perkelti žemyn";
 $locale['load_more'] = "Rodyti daugiau";
@@ -384,6 +405,7 @@ $locale['load_end'] = "Rodyti nuo pradžios";
 $locale['add'] = 'Pridėti';
 $locale['save'] = 'Išsaugoti';
 $locale['save_changes'] = 'Išsaugoti pakeitimus';
+$locale['save_and_close'] = "Išsaugoti ir uždaryti";
 $locale['confirm'] = 'Patvirtinti';
 $locale['update'] = 'Atnaujinti';
 $locale['updated'] = 'Atnaujinta';
@@ -397,6 +419,17 @@ $locale['reactivate'] = 'Aktyvuoti iš naujo';
 $locale['user'] = 'Narys';
 $locale['promote'] = 'Reklamuoti';
 $locale['show'] = 'Rodyti';
+$locale['actions'] = "Veiksmai";
+$locale['language'] = "Kalba";
+// Persons & Identifiers
+$locale['you'] = "Tu";
+$locale['me'] = "Aš";
+$locale['they'] = "Jie";
+$locale['we'] = "Mes";
+$locale['us'] = "Mus";
+$locale['he'] = "Jis";
+$locale['she'] = "Ji";
+$locale['it'] = "Tai";
 //Tables
 $locale['status'] = 'Statusas';
 $locale['order'] = 'Tvarka';
@@ -418,6 +451,8 @@ $locale['status'] = 'Statusas';
 $locale['note'] = 'Pasižymėti šį daiktą';
 $locale['publish'] = 'Publikuota';
 $locale['unpublish'] = 'Nepublikuota';
+$locale['sticky'] = "Prikabinta";
+$locale['unsticky'] = "Neprikabinta";
 $locale['draft'] = 'Juodraštis';
 $locale['settings'] = 'Nustatymai';
 $locale['posted'] = 'parašyta';
@@ -435,6 +470,9 @@ $locale['browse'] = 'Ieškoti ...';
 $locale['close'] = 'Uždaryti';
 $locale['nopreview'] = 'Nėra ką rodyti';
 $locale['mark_as'] = "Žymėti kaip";
+$locale['preview'] = "Peržiūrėti";
+$locale['custom'] = "Nestandartinis";
+$locale['submit'] = "Pateikti";		 
 //Alignment
 $locale['left'] = "Kairė";
 $locale['center'] = "Centras";
@@ -479,5 +517,9 @@ $locale['fmt_views'] = "peržiūra|peržiūros";
 $locale['fmt_weblink'] = "nuoroda|nuorodos";
 $locale['fmt_week'] = "savaitė|savaitės";
 $locale['fmt_year'] = "metai|metai";
+$locale['fmt_points'] = "taškas|taškai";
+$locale['fmt_admin'] = "administratorius|administratoriai";
+$locale['fmt_group'] = "grupė|grupės";
+$locale['fmt_category'] = "kategorija|kategorijos";				
 // include Defender locales
 include __DIR__."/defender.php";
