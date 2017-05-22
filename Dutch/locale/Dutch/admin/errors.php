@@ -1,26 +1,33 @@
 <?php
 // Titles
-$locale['400'] = "Fouten Log";
-$locale['401'] = "Neem een kijkje in het bestand";
+$locale['ERROR_400'] = "Fouten Log";
+$locale['ERROR_401'] = "Neem een kijkje in het bestand";
 // Errors table
-$locale['410'] = "Fout";
-$locale['411'] = "Op Pagina";
-$locale['412'] = "Gebruiker";
-$locale['413'] = "Datum";
-$locale['414'] = "Status";
-$locale['415'] = "Regel:";
-$locale['416'] = "Niveau:";
-$locale['417'] = "IP:";
-$locale['418'] = "Geen fouten in het log.";
-$locale['419'] = "Bestand";
-$locale['420'] = "Details";
-$locale['421'] = "Bron code";
-$locale['422'] = "Terug naar boven";
+$locale['ERROR_410'] = "Fout";
+$locale['ERROR_411'] = "Op Pagina";
+$locale['ERROR_412'] = "Gebruiker";
+$locale['ERROR_413'] = "Datum";
+$locale['ERROR_414'] = "Status";
+$locale['ERROR_415'] = "Regel:";
+$locale['ERROR_416'] = "Niveau:";
+$locale['ERROR_417'] = "IP:";
+$locale['ERROR_418'] = "Geen fouten in het log.";
+$locale['ERROR_419'] = "Bestand";
+$locale['ERROR_420'] = "Details";
+$locale['ERROR_421'] = "Bron code";
+$locale['ERROR_422'] = "Terug naar boven";
 // Delete form
-$locale['440'] = "Verwijder alle items met de status";
+$locale['ERROR_440'] = "Verwijder alle items met de status";
 // Status form
-$locale['450'] = "Nieuw";
-$locale['451'] = "Opgelost";
-$locale['452'] = "Genegeerd";
-$locale['453'] = "Uitvoeren";
-$locale['454'] = "Ernstigheid";
+$locale['ERROR_450'] = "Nieuw";
+$locale['ERROR_451'] = "Opgelost";
+$locale['ERROR_452'] = "Genegeerd";
+$locale['ERROR_453'] = "Uitvoeren";
+$locale['ERROR_454'] = "Ernstigheid";
+
+$locale['ERROR_460'] = "Fouten";
+$locale['ERROR_461'] = "Fouten Bestand";
+$locale['ERROR_462'] = "Opties";
+$locale['ERROR_463'] = "Gegenereerd door";
+$locale['ERROR_464'] = "Fouten Console";
+$locale['ERROR_465'] = "Bron Bestand";

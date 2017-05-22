@@ -16,4 +16,4 @@ $locale['E_STRICT'] = "";
 $locale['err_100'] = "N/A";
 $locale['err_101'] = "<strong>WAARSCHUWING:</strong> Een fout is opgetreden tijdens het parsen van de pagina. Zie PHP-Fusion's [ERROR_LOG_URL]Error Log[/ERROR_LOG_URL] voor meer informatie.";
 $locale['err_102'] = "Laat me de fout zien!";
-
+$locale['err_103'] = "{%function%} {%folder%} bestaat niet.";
