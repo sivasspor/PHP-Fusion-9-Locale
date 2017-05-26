@@ -1,6 +1,5 @@
 <?php
 // Standard
-$locale['m000'] = "%b-%d";
 $locale['400'] = "Privát üzenetek";
 $locale['401'] = "Új üzenet írása";
 $locale['402'] = "Bejövő";
