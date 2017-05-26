@@ -197,11 +197,11 @@ $locale['global_121'] = "Özel Mesajlar";
 $locale['global_122'] = "Üye Listesi";
 $locale['global_123'] = "Yönetici Paneli";
 $locale['global_124'] = "Çıkış Yap";
-$locale['global_125'] = "Yeni %u var ";
-$locale['global_126'] = "mesaj";
-$locale['global_127'] = "mesajlar";
-$locale['global_128'] = "submission";
-$locale['global_129'] = "submissions";
+$locale['global_125'] = "Yeni %u ";
+$locale['global_126'] = "mesaj var";
+$locale['global_127'] = "mesajlar var";
+$locale['global_128'] = "gönderi var";
+$locale['global_129'] = "gönderimler var";
 // User Menu
 $locale['UM060'] = "Giriş";
 $locale['UM061'] = "Kullanıcı Adı";
@@ -218,9 +218,9 @@ $locale['UM081'] = "Özel Mesajlar";
 $locale['UM082'] = "Üyeler Listesi";
 $locale['UM083'] = "Yönetim Paneli";
 $locale['UM084'] = "Çıkış Yap";
-$locale['UM085'] = "Yeni %u var ";
-$locale['UM086'] = "mesaj";
-$locale['UM087'] = "mesajlar";
+$locale['UM085'] = "Yeni %u ";
+$locale['UM086'] = "mesaj var";
+$locale['UM087'] = "mesajlar var";
 $locale['UM088'] = "Takip edilen konular";
 // Submit (news, link, article)
 $locale['UM089'] = "Gönder...";
@@ -311,7 +311,7 @@ $locale['global_450'] = "Askıya alma sistem tarafından otomatik olarak kaldır
 $locale['global_451'] = "[SITENAME] sitesinde askıya alma kaldırıldı";
 $locale['global_452'] = "Merhaba USER_NAME,\n
 [SITEURL] adresinde hesabınızın askıya alınması kaldırıldı. İşte giriş bilgileriniz:\n
-Kullanıcı Adı: USER_NAME\nPassword: Güvenlik nedeniyle gizli\n
+Kullanıcı Adı: USER_NAME\nŞifre: Güvenlik nedeniyle gizli\n
 Şifrenizi unuttuysanız bağlantıyı kullanarak şifrenizi sıfırlayabilirsiniz: LOST_PASSWORD\n\n
 Saygılarımızla,\n[SITEUSERNAME]";
 $locale['global_453'] = "Merhaba USER_NAME,\n[SITEURL] adresindeki hesabınızın askıya alınması kaldırılmıştır.\n\n
@@ -370,7 +370,7 @@ $locale['no'] = "Hayır";
 $locale['yes'] = "Evet";
 $locale['off'] = "Kapalı";
 $locale['on'] = "Açık";
-$locale['or'] = "or";
+$locale['or'] = "veya";
 $locale['by'] = "by";
 $locale['in'] = "in";
 $locale['of'] = "of";
