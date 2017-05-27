@@ -24,10 +24,10 @@ $locale['home_0003'] = "Najnovšie súbory na prevzatie";
 $locale['home_0050'] = "Žiadne správy na zobrazenie";
 $locale['home_0051'] = "Žiadne články na zobrazenie";
 $locale['home_0052'] = "Žiadne blogy na zobrazenie";
-$locale['home_0053'] = "Žiadne stiahnutia na zobrazenie";
+$locale['home_0053'] = "Žiadne súbory na prevzatie";
 // common text
 $locale['home_0100'] = "Obsahové moduly nie sú nainštalované";
 $locale['home_0101'] = "Nainštalujte aspoň jeden modul pre textový obsah alebo zmeňte úvodnú stránku v Hlavných nastaveniach.";
 $locale['home_0102'] = "Nekategorizované";
-$locale['home_0105'] = "Publikované od ";
+$locale['home_0105'] = "Publikoval ";
 $locale['home_0106'] = " v ";

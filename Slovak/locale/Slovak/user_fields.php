@@ -43,7 +43,7 @@ $locale['u063'] = "Úroveň užívateľa";
 $locale['u064'] = "Email";
 $locale['u066'] = "Zaregistrovaný dňa";
 $locale['u067'] = "Posledná návšteva";
-$locale['u068'] = "Meno užívateľa";
+$locale['u068'] = "Užívateľské meno";
 $locale['u069'] = "Úprava";
 $locale['u070'] = "BAN";
 $locale['u071'] = "Pozastavenie";
@@ -72,21 +72,21 @@ $locale['uf_108'] = "Nie sú definované žiadne používateľské polia";
 $locale['u110'] = "Zobraziť užívateľské skupiny";
 $locale['u111'] = "%u užívateľ";
 $locale['u112'] = "%u užívatelia";
-$locale['u113'] = "Meno užívateľa";
+$locale['u113'] = "Užívateľské meno";
 $locale['u114'] = "Typ užívateľa";
 $locale['u115'] = "Jazyk";
 $locale['u116'] = "Neexistujú žiadný členovia skupiny.";
 // User name and email
-$locale['u119'] = "Používateľské meno obsahuje.";
-$locale['u120'] = "Meno užívateľa obsahuje nepovolené znaky.";
+$locale['u119'] = "Užívateľské meno obsahuje.";
+$locale['u120'] = "Užívateľské meno obsahuje nepovolené znaky.";
 $locale['u121'] = "Zvolené užívateľské meno už používa iný užívateľ.";
 $locale['u122'] = "Užívateľské meno nemôže byť prázdne.";
 $locale['u123'] = "Vaša emailová adresa je neplatná.";
 $locale['u124'] = "Vaša emailová adresa alebo emailová doména je na čiernej listine.";
 $locale['u125'] = "Túto emailovú adresu už používa iný užívateľ.";
 $locale['u126'] = "Emailová adresa nemôže byť prázdna.";
-$locale['u127'] = "Meno užívateľa";
-$locale['u128'] = "Email adresa";
+$locale['u127'] = "Užívateľské meno";
+$locale['u128'] = "E-mailová adresa";
 $locale['u129'] = "Informácie o účte";
 // Passwords
 $locale['u130'] = "Admin heslá";
@@ -178,4 +178,4 @@ S pozdravom,
 [SITEUSERNAME]\n\r
 [SITENAME]";
 
-$locale['u210'] = "Reputácia používateľa";
+$locale['u210'] = "Reputácia";

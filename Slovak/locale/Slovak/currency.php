@@ -15,7 +15,7 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
-$locale['currency'] = array(
+$locale['currency'] = [
     "AED" => "Emerati Dirham",
     "AFN" => "Afghanistan Afghani",
     "ALL" => "Albanian Lek",
@@ -23,7 +23,7 @@ $locale['currency'] = array(
     "ANG" => "Netherlands Antillian Guilder",
     "AOA" => "Angolan Kwanza",
     "ARS" => "Argentine Peso",
-    "AUD" => "Australian Dollar",
+    "AUD" => "Austrálsky dolár",
     "AWG" => "Aruban Guilder",
     "AZN" => "Azerbaijanian Manat",
     "BAM" => "Bosnia and Herzegovina Convertible Marks",
@@ -180,10 +180,10 @@ $locale['currency'] = array(
     "ZAR" => "South African Rand",
     "ZMK" => "Zambian Kwacha",
     "ZWD" => "Zimbabwe Dollar",
-    "NA" => "Not Available",
-);
+    "NA" => "Nie je k dispozícii",
+];
 
-$locale['currency_symbol'] = array(
+$locale['currency_symbol'] = [
     'AED' => '&#1583;.&#1573;', // ?
     'AFN' => '&#65;&#102;',
     'ALL' => '&#76;&#101;&#107;',
@@ -343,4 +343,4 @@ $locale['currency_symbol'] = array(
     'ZAR' => '&#82;',
     'ZMK' => '&#90;&#75;', // ?
     'ZWL' => '&#90;&#36;',
-);
+];
