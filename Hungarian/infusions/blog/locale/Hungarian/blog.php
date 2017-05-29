@@ -18,4 +18,4 @@ $locale['testimonial_join'] = "Ekkor csatlakoztam az oldalhoz: %s";
 $locale['testimonial_web'] = "Elérhető vagyok még ezen az oldalon is: %s";
 $locale['testimonial_contact'] = "Küldhetsz üzenetet nekem %s";
 $locale['testimonial_email'] = "Ide küldhetsz nekem e-mailt: %s";
-$locale['blog_archive'] = "%Y %d";
+$locale['blog_archive'] = "%Y %b";
