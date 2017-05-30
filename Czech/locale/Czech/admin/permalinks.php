@@ -1,42 +1,60 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) PHP-Fusion Inc
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: Block/locale/Czech/admin/permalinks.php
+| Author: Frederick MC Chan (Chan)
+| Translate Czech: Vícha (Kvido), phpfusion.cz, 26.05.2017
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
 // Section Titles
-$locale['400'] = "Enabled Permalinks";
-$locale['401'] = "Disabled Permalinks";
+$locale['400'] = "Povolené permalinky";
+$locale['401'] = "Zakázané permalinky";
+$locale['401a'] = "Permalink nastavení";
 
 // Common
-$locale['402'] = "Rewrite Name";
-$locale['403'] = "Description";
-$locale['404'] = "Options";
-$locale['404a'] = "Enable";
-$locale['404b'] = "Disable";
-$locale['404c'] = "Edit";
+$locale['402'] = "Přepsat jméno";
+$locale['403'] = "Popis";
+$locale['404'] = "Možnosti";
+$locale['404a'] = "Nainstalovat";
+$locale['404b'] = "Zakázat";
+$locale['404c'] = "Upravit";
+$locale['404d'] = "Znovu nainstalujte";
 
 // Editing Permalinks
-$locale['405'] = "Editing Permalinks for %s";
-$locale['406'] = "Tags";
-$locale['407'] = "Description";
-$locale['408'] = "Types";
-$locale['409'] = "Edit Pattern";
+$locale['405'] = "Upravit %s";
+$locale['406'] = "Tagy";
+$locale['407'] = "Popis";
+$locale['408'] = "Typy";
+$locale['409'] = "Upravit vzor";
 $locale['410'] = "Permalink type %u:";
-$locale['411'] = "Error";
-$locale['412'] = "Check the files of the Permalink %s!";
-$locale['413'] = "Save";
-$locale['414'] = "WARNING: Permalinks &amp; Custom Alias data will be permanently deleted!\\nAre you sure you want to Disable this Permalink?";
-
-$locale['415']              = "Permalink Rules, transforms url that has question marks and equals signs and lets your customize custom URL structure for your site.\n
-You can turn on the Permalink in the Settings Tab and Activate the Permalinks found in the relevant tabs. After you have activate, you can edit the rules to further customize to your preference by editing them.";
+$locale['411'] = "Chyba";
+$locale['412'] = "Podívejte se na soubory %s!";
+$locale['413'] = "Uložit";
+$locale['414'] = "UPOZORNĚNÍ: Údaje uživatelských aliasů budou trvale smazány!\n Opravdu chcete zakázat tento odkaz?";
+$locale['415'] = "Permalink Pravidla přeměňují adresy URL různých webů na adresy URL vhodné pro vyhledávače s možnostmi přizpůsobení struktury adres URL pro vaše stránky. Pokud váš server podporuje mod_rewrite, můžete zapnout službu Permalinks na kartě Nastavení. Aktivujete různá hesla, která se nacházejí na kartě Zakázáno. Pravidla můžete upravovat tak, aby dále přizpůsobovala URL vašim preferencím přímo v každém modulu Permalink. Vezměte prosím na vědomí, že mod_rewrite nebo jeho ekvivalent je vyžadován, aby fungovaly pravidla Permalinku.";
 
 // Admin Messages
-$locale['420'] = "An Error occurred.";
-$locale['421'] = "Permalinks Updated successfully.";
-$locale['422'] = "No Permalink patterns found for %s.";
-$locale['423'] = "Permalink not found.";
-$locale['424'] = "Enabled Permalinks for %s successfully.";
-$locale['425'] = "Permalinks for %s are already enabled.";
-$locale['426'] = "Disabled Permalinks for %s successfully.";
+$locale['420'] = "Vyskytla se chyba.";
+$locale['421'] = "Permalinky úspěšně aktualizovány.";
+$locale['422'] = "Nebyly nalezeny žádné vzorky permalink %s.";
+$locale['423'] = "Permalink nebyl nalezen.";
+$locale['424'] = "Povolit službu %s úspěšně.";
+$locale['425'] = "Permalinky pro %s jsou již povoleny.";
+$locale['426'] = "Zakázat %s úspěšně.";
 
 // Other
-$locale['427'] = "No Permalinks are enabled.";
-$locale['428'] = "Permalinks";
-$locale['seo_htc_warning']  = "Please note that if you change any of these settings the content of `.htaccess` will be overwritten and any changes previously done to this file will be lost.";
-$locale['rewrite_disabled'] = "It looks like `mod_rewrite` is not enabled on your host. Enabling SEF urls might break your website. Please contact your hosting provider about enabling `mod_rewrite` on your host.";
+$locale['427'] = "Nebyly povoleny žádné permalinky.";
+$locale['428'] = "Permalinky";
+$locale['seo_htc_warning'] = "Vezměte prosím na vědomí, že pokud změníte některá z těchto nastavení, obsah `.htaccess` bude přepsán a veškeré změny provedené v tomto souboru budou ztraceny.";
+//$locale['rewrite_disabled'] = "Vypadá to, že mod_rewrite není na vašem vzdáleném hostingu povolen!! Povolení adres URL SEF může poškodit vaše webové stránky. Obraťte se proto na poskytovatele hostingu  a žádejte  povolení "mod_rewrite" na vašem hostiteli..";
+//Vypadá to, že mod_rewrite není ve vašem hostiteli povolen. Povolení adres URL SEF může poškodit vaše webové stránky. Obraťte se na poskytovatele hostingu o povolení "mod_rewrite" na vašem hostiteli.

@@ -49,7 +49,7 @@ $locale['420'] = "Vypnúť ľavé panely:";
 $locale['421'] = "Vypnúť horné panely:";
 $locale['422'] = "Vypnúť spodné panely:";
 $locale['423'] = "Vypnúť pravé panely:";
-$locale['424'] = "Napríklad:\n\r/news.php\n\r/forum/index.php";
+$locale['424'] = "Napríklad:<br/>\r/news.php<br/>\r/forum/index.php";
 $locale['425'] = "Adresa stránky";
 $locale['426'] = "Protokol stránky:";
 $locale['427'] = "Hosting stránky (doména):";
@@ -251,7 +251,11 @@ $locale['1013'] = "Zmazanie užívateľov";
 $locale['1014'] = "Povoliť prihlásenie z rôznych zariadení súčasne?";
 $locale['1014a'] = "Zakázaním zlepšíte bezpečnosť";
 
-$locale['1020'] = array(1 => 'Byty (bajty)', 1000 => 'KB (Kilobajty)', 1000000 => 'MB (Megabajty)');
+$locale['1020'] = [
+    1       => 'Byty (bajty)',
+    1000    => 'KB (Kilobajty)',
+    1000000 => 'MB (Megabajty)'
+];
 
 // Social integration
 $locale['1030'] = "Vytvoriť OpenGraph meta značky pre sociálne siete";

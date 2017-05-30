@@ -22,6 +22,7 @@ $locale['datepicker'] = "hu";
 $locale['datepicker_js'] = "YYYY-M-DD H:mm:ss";
 $locale['datepicker_php'] = "Y-m-d H:i:s";
 $locale['password_strength'] = "hu";
+$locale['date_day'] = "%b %d";
 // Full & Short Months
 $locale['months'] = "&nbsp|január|február|március|április|május|június|július|augusztus|szeptember|október|november|december";
 $locale['shortmonths'] = "&nbsp|jan|febr|márc|ápr|máj|jún|júl|aug|szept|okt|nov|dec";
@@ -129,7 +130,7 @@ $locale['global_045'] = "Megnyitva";
 $locale['global_046'] = "Válaszok";
 $locale['global_047'] = "Utolsó üzenet";
 $locale['global_048'] = "Fórum";
-$locale['global_049'] = "Dátum";
+$locale['global_049'] = "Beküldve";
 $locale['global_050'] = "Szerző";
 $locale['global_051'] = "Szavazás";
 $locale['global_052'] = "Áthelyezve";

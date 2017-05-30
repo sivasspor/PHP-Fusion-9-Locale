@@ -1,0 +1,12 @@
+var locale = new Array();
+locale['wordLength'] = 'Vaše heslo je příliš krátké';
+locale['wordNotEmail'] = 'Nepoužívejte svůj e-mail jako heslo';
+locale['wordSimilarToUsername'] = 'Heslo nemůže obsahovat vaše uživatelské jméno';
+locale['wordTwoCharacterClasses'] = 'Použít různé třídy znaků';
+locale['wordRepetitions'] = 'Příliš mnoho opakování';
+locale['wordSequences'] = 'Vaše heslo obsahuje sekvence';
+locale['slabý'] = 'Slabý';
+locale['normální'] = 'Normální';
+locale['střední'] = 'Střední';
+locale['strong'] = 'Silný';
+locale['very-strong'] = 'Velmi silný';

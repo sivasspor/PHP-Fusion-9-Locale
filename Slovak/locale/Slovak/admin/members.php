@@ -57,9 +57,9 @@ $locale['ME_451'] = 'Profil: %s';
 $locale['ME_452'] = 'Upraviť profil: %s';
 $locale['ME_453'] = 'Odstrániť užívateľa: %s';
 $locale['ME_454'] = "Varovanie!";
-$locale['ME_455'] = "Chystáte sa odstrániť užívateľa %s!\n\r\n\rAk budete pokračovať, obsah uverejnený týmto užívateľom na tejto stránke bude odstránený.\n\r
-Pokiaľ to nie je spammer, odporúčame vám napr. zakázať, pozastaviť, zrušiť alebo anonymizovať tohto užívateľa.\n\r
-Naozaj chcete odstrániť tohto užívateľa?\n\r";
+$locale['ME_455'] = "Chystáte sa odstrániť užívateľa %s!<br/>\rAk budete pokračovať, obsah uverejnený týmto užívateľom na tejto stránke bude odstránený.<br/>\r
+Pokiaľ to nie je spammer, odporúčame vám napr. zakázať, pozastaviť, zrušiť alebo anonymizovať tohto užívateľa.<br/>\r
+Naozaj chcete odstrániť tohto užívateľa?<br/>\r";
 $locale['ME_456'] = 'Odstrániť užívateľa';
 
 $locale['ME_460'] = 'Nie sú deaktivovaní žiadni užívatelia';
