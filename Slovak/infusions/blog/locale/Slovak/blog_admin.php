@@ -16,13 +16,13 @@
 | written permission from the original author(s).
 +--------------------------------------------------------*/
 // Blog Submissions messages
-$locale['blog_0130'] = "Momentálne nie sú odosielané žiadne príspevky na schválenie.";
+$locale['blog_0130'] = "Momentálne nie sú odoslané žiadne príspevky na schválenie.";
 $locale['blog_0131'] = "Preskúmať príspevok";
 $locale['blog_0132'] = "Uvedený blog bol odoslaný od ";
 $locale['blog_0133'] = "Chcete tento blog publikovať alebo odstrániť?";
 $locale['blog_0134'] = "Publikovať blog";
 $locale['blog_0135'] = "Odstrániť blog";
-$locale['blog_0136'] = "Predmet príspevku na posúdenie";
+$locale['blog_0136'] = "Predmet príspevku na schválenie";
 $locale['blog_0137'] = "Momentálne %s čakajú na vašu kontrolu.";
 $locale['blog_0138'] = "Ospravedlňujeme sa, momentálne neprijímame žiadne príspevky na tejto stránke.";
 $locale['blog_0141'] = "Náhľad blogu";
@@ -58,7 +58,7 @@ $locale['blog_0421'] = "Odstrániť";
 $locale['blog_0422'] = "Predmet";
 $locale['blog_0423'] = "Kategória:";
 $locale['blog_0424'] = "Nekategorizované";
-$locale['blog_0425'] = "Úryvokt:";
+$locale['blog_0425'] = "Úryvok:";
 $locale['blog_0425a'] = "Stručný úvod blogu";
 $locale['blog_0426'] = "Rozšírené:";
 $locale['blog_0426b'] = "Obsah blogu";
@@ -108,7 +108,7 @@ $locale['blog_0561'] = "Táto kategória už existuje.";
 // Popup Error/Warning Messages
 $locale['blog_0450'] = "Zadajte predmet";
 $locale['blog_0451'] = "Odstrániť tento blog?";
-$locale['blog_0452'] = "%s sú zakázané pre všetky položky.<br/>\rToto nastavenie sa prejaví až po opätovnom zapnutí.";
+$locale['blog_0452'] = "%s sú zakázané pre všetky položky.<br/>\rToto nastavenie bude mať vplyv iba ak budú znova povolené.";
 $locale['blog_0456'] = 'V tejto kategórii nie je žiadny blog.';
 $locale['blog_0457'] = "Zadajte kľúčové slová";
 $locale['blog_0461'] = 'Neboli definované žiadne kategórie blogov.';
@@ -128,7 +128,7 @@ $locale['blog_0700'] = "Odoslať blog";
 $locale['blog_0701'] = "Ďakujeme za odoslanie vášho blogu";
 $locale['blog_0702'] = "Odošlite ďalší blog";
 $locale['blog_0703'] = "Použite nasledujúci formulár na odoslanie blogu. Váš príspevok bude posúdený
-administrátorom. [SITENAME]  si vyhradzuje právo zmeniť alebo upraviť akýkoľvek príspevok. Blogy
+administrátorom. [SITENAME] si vyhradzuje právo zmeniť alebo upraviť akýkoľvek príspevok. Blogy
 by sa mali vzťahovať na obsah tejto stránky. Nevhodné príspevky budú odstránené.";
 $locale['blog_0704'] = "Vrátiť sa na [SITENAME]";
 $locale['601'] = "Veľkosť náhľadu:";
