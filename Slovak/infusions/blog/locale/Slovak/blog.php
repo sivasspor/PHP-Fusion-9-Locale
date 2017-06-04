@@ -16,7 +16,7 @@
 | written permission from the original author(s).
 +--------------------------------------------------------*/
 $locale['blog_1000'] = "Blog";
-$locale['blog_1001'] = "Blog domov";
+$locale['blog_1001'] = "Domov - blog";
 $locale['blog_1003'] = "Kategórie";
 $locale['blog_1004'] = "Archív";
 $locale['blog_1005'] = "Autori";
@@ -33,4 +33,4 @@ $locale['testimonial_location'] = "a v súčasnosti žijem v/na %s";
 $locale['testimonial_join'] = "Pripojil som sa k tejto stránke dňa %s";
 $locale['testimonial_web'] = "Taktiež prevádzkujem inú webovú stránku na adrese %s";
 $locale['testimonial_contact'] = "Ak ma potrebujete kontaktovať, môžete ma kontaktovať %s";
-$locale['testimonial_email'] = "Môžete sa tiež dostať na moju e-mailovú adresu %s";
+$locale['testimonial_email'] = "Môžete mi tiež odoslať správu na e-mailovú adresu %s";
