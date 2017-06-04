@@ -23,6 +23,7 @@ $locale['datepicker'] = "tr";
 $locale['datepicker_js'] = "M-DD-YYYY H:mm:ss";
 $locale['datepicker_php'] = "m-d-Y H:i:s";
 $locale['password_strength'] = "tr";
+$locale['date_day'] = "%d %b";
 // Full & Short Months
 $locale['months'] = "&nbsp|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık";
 $locale['shortmonths'] = "&nbsp|Ock|Şbt|Mar|Nis|May|Haz|Tem|Ağus|Eyl|Eki|Kas|Arlk";
