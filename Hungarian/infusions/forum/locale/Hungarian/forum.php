@@ -22,9 +22,10 @@ $locale['forum_0014'] = "Hírnév";
 $locale['forum_0015'] = "Fórum Áttekintés";
 $locale['forum_0016'] = "Tevékenység";
 $locale['forum_0017'] = "Emberek";
+$locale['forum_0018'] = "Személy";
 
 $locale['forum_0020'] = "Utolsó tevékenység";
-$locale['forum_0021'] = "on %s by %s";
+$locale['forum_0021'] = "Módosítva %s írta %s";
 $locale['forum_0022'] = "Válaszolt";
 $locale['forum_0023'] = "Válasz:";
 $locale['forum_0024'] = "Tekintse meg a teljes Témát";
