@@ -19,6 +19,7 @@ $locale['error-DP001'] = "Ingen indlæg at flytte.";
 $locale['error-MP000'] = "Flyt indlæg - fejl";
 $locale['error-MP001'] = "Ny tråd findes ikke.";
 $locale['error-MP002'] = "Indlæg, som du har markeret til at flytte, findes ikke eller nogen har allerede flyttet dem.";
+
 $locale['forum_0000'] = "Debatforum";
 $locale['forum_0001'] = "Forum";
 $locale['forum_0002'] = "Diskussioner";
@@ -34,6 +35,10 @@ $locale['forum_0011'] = "Mine indlæg";
 $locale['forum_0012'] = "Seneste diskussioner";
 $locale['forum_0013'] = "Debatemner";
 $locale['forum_0014'] = "Status";
+$locale['forum_0015'] = "Forum overblik";
+$locale['forum_0016'] = "Aktivitet";
+$locale['forum_0017'] = "Folk";
+
 $locale['forum_0050'] = "Se diskussion";
 $locale['forum_0051'] = "Emne";
 $locale['forum_0052'] = "Forfatter";
