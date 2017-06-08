@@ -61,4 +61,4 @@ $locale['158'] = "Gebruikers groepen";
 $locale['159'] = "Gebruikers niveau konden niet worden verplaatst door een database fout";
 $locale['160'] = "Nieuw Gebruikers niveau -";
 $locale['161'] = "Gebruikers niveau is niet aangepast omdat deze gelijk of lager is dan het primaire account";
-$locale['162'] = "Er zijn geen ledne met ID";
+$locale['162'] = "Er zijn geen lednen met ID";

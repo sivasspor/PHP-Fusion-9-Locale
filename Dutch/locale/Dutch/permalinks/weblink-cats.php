@@ -1,6 +1,6 @@
 <?php
-$locale['pl_weblinks_cats_title'] = "Weblinks Categorie";
-$locale['pl_weblinks_cats_desc'] = "Inschakelen Permalinks voor de Weblinks Categorie op de site.";
-$locale['pl_tags_001'] = "ID van de weblinks Categorie item.";
-$locale['pl_tags_002'] = "Titel of onderwerp van de Weblinks Categorie item.";
+$locale['pl_weblinks_cats_title'] = "Weblinks Category";
+$locale['pl_weblinks_cats_desc'] = "Enable Permalinks for the Weblinks Category on the site.";
+$locale['pl_tags_001'] = "ID of the Weblinks Category Item.";
+$locale['pl_tags_002'] = "Title or Subject of the Weblinks Category Item.";
 

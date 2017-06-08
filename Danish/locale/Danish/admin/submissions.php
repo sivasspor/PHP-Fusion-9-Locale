@@ -55,12 +55,12 @@ $locale['448'] = "Offentliggør";
 $locale['449'] = "Slet";
 // Add/Delete News & Blog Submissions
 $locale['490'] = "Godkend nyhedsforslag";
-$locale['490b'] = "Offentliggør blogindlæg";
 $locale['491'] = "Nyheden er offentliggjort";
-$locale['491b'] = "Blogindlægget er offentliggjort";
 $locale['492'] = "Slet forslaget";
-$locale['492b'] = "Slet blogforslag";
 $locale['493'] = "Forslaget er slettet";
+$locale['490b'] = "Offentliggør blogindlæg";
+$locale['491b'] = "Blogindlægget er offentliggjort";
+$locale['492b'] = "Slet blogforslag";
 $locale['493b'] = "Blogindlægget er slettet";
 // News & Blog Submission Form
 $locale['500'] = "Se nyhedsforslaget";

@@ -29,6 +29,7 @@ $locale['datepicker'] = "da";
 $locale['datepicker_js'] = "DD-M-YYYY, H:mm:ss";
 $locale['datepicker_php'] = "d-m-Y, H:i:s";
 $locale['password_strength'] = "da";
+$locale['date_day'] = "%b %d";
 // Full & Short Months
 $locale['months'] = "&nbsp|Januar|Februar|Marts|April|Maj|Juni|Juli|August|September|Oktober|November|December";
 $locale['shortmonths'] = "&nbsp|Jan|Feb|Mar|Apr|Maj|Jun|Jul|Aug|Sep|Okt|Nov|Dec";
@@ -291,13 +292,9 @@ på det tema, du vælger under <strong>Hovedopsætning</strong>.<br /><br /> Hvi
 du kontakte sidens administrator via ".hide_email(fusion_get_settings('siteemail'))." mail og rapportere om problemet.";
 $locale['global_302'] = "Det tema, som du har valgt under hovedopsætning eksisterer ikke eller er inkompatibelt!";
 // JavaScript Not Enabled
-$locale['global_303'] = "Jamen dog! Hvor finder vi det stærke <strong>JavaScript</strong>?<br />Din browser understøtter ikke
+$locale['global_303'] = "Jamen dog! Hvor er <strong>JavaScript</strong> henne?<br />Din browser understøtter ikke
 JavaScript eller har ikke understøttelsen slået til. Slå <strong>JavaScript til</strong> i din browser for at se denne side
-ordentligt,<br /> eller <strong>opgrader</strong> til en browser, der understøtter JavaScript; <a target='_blank' href='http://firefox.com' rel='nofollow'
-title='Mozilla Firefox'>Firefox</a>, <a target='_blank' href='http://apple.com/safari/' rel='nofollow' title='Safari'>Safari</a>,
-<a href='http://opera.com' rel='nofollow' title='Opera Web Browser'>Opera</a>, <a target='_blank' href='http://www.google.com/chrome'
-rel='nofollow' title='Google Chrome'>Chrome</a> eller en version af <a target='_blank' href='http://www.microsoft.com/windows/internet-explorer/'
-rel='nofollow' title='Internet Explorer'>Internet Explorer</a> nyere end version 6.";
+ordentligt,<br /> eller <strong>opgrader</strong> til en browser, der understøtter JavaScript.";
 // User Management
 $locale['global_400'] = "suspenderet";
 $locale['global_401'] = "udelukket";
@@ -523,6 +520,5 @@ $locale['fmt_points'] = "point|points";
 $locale['fmt_admin'] = "admin|admins";
 $locale['fmt_group'] = "gruppe|grupper";
 $locale['fmt_category'] = "kategori|kategorier";
-// Load defender locale from here, is more reliable
-// and now if part of the core, we could merge it in
+// include Defender locales
 include __DIR__."/defender.php";

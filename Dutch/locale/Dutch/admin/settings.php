@@ -5,6 +5,13 @@ $locale['401'] = "Algemeen";
 $locale['402'] = "Site naam:";
 $locale['403'] = "Site URL:";
 $locale['404'] = "Site banner:";
+$locale['404left'] = "Links";
+$locale['404center'] = "Midden";
+$locale['404right'] = "Rechts";
+$locale['404XS'] = "Logo Positie XS";
+$locale['404SM'] = "Logo Positie SM";
+$locale['404MD'] = "Logo Positie MD";
+$locale['404LG'] = "Logo Positie LG";
 $locale['405'] = "E-mailadres site:";
 $locale['406'] = "Uw naam of gebruikersnaam:";
 $locale['407'] = "Site introductie:";
@@ -21,6 +28,7 @@ $locale['417'] = "Site taal:";
 $locale['418'] = "Site thema:";
 $locale['418a'] = "Site Admin Thema:";
 $locale['419'] = "Standaard zoeklocatie:";
+$locale['419a'] = "Gehele Site";
 $locale['420'] = "Uitsluiten linkerpanelen:";
 $locale['421'] = "Uitsluiten bovenpanelen:";
 $locale['422'] = "Uitsluiten onderpanelen:";
@@ -46,7 +54,10 @@ $locale['439'] = "Normaliseer Vriendelijke URLs:";
 $locale['440'] = "Inschakelen SEO Debug Mode:";
 $locale['441'] = "Inschakelen Entypo";
 $locale['442'] = "Inschakelen Font-Awesome";
-
+$locale['443a'] = "Uitschakelen Eigen 1 Panelen";
+$locale['443b'] = "Uitschakelen Eigen 2 Panelen";
+$locale['443c'] = "Uitschakelen Eigen 3 Panelen";
+$locale['443d'] = "Uitschakelen Eigen 4 Panelen";
 // Time & Date Settings
 $locale['450'] = "Tijd en Datum";
 $locale['451'] = "Kort datumformaat:";
@@ -63,6 +74,7 @@ $locale['461'] = "Gasten";
 $locale['462'] = "Server compensatie";
 $locale['463'] = "Stel de server tijd in op GMT 0";
 $locale['464'] = "Standaard tijdzone";
+$locale['466'] = "Default voor nieuwe leden";
 
 // Registration Settings
 $locale['550'] = "Aanmelding";
@@ -91,6 +103,8 @@ $locale['653'] = "Leeg laten indien niet gewenst.";
 $locale['654'] = "Vervanging schuttingwoorden:";
 $locale['655'] = "Gasten toestaan berichten te plaatsen?";
 $locale['656'] = "Avatar commentaren aanzetten?";
+$locale['656a'] = "Inschakelen Jquery commentaren?";
+$locale['656b'] = "Stel a.u.b. in op meer commentaren per pagina als Jquery ingeschakeld wordt voor de beste weergave";
 $locale['657'] = "Onderhoudsmodus:";
 $locale['658'] = "Bericht onderhoudsmodus:";
 $locale['659'] = "Schuttingwoordenfilter inschakelen?";
@@ -218,6 +232,7 @@ $locale['1012'] = "Geanonimiseerde gebruikers";
 $locale['1013'] = "Verwijder gebruikers";
 $locale['1014'] = "Gebruikers kunnen gelijktijdig inloggen op verschillende apparaten?";
 $locale['1014a'] = "Uitschakelen voor een betere veiligheid";
+$locale['1020'] = array(1 => 'Bytes (bytes)', 1000 => 'KB (Kilobytes)', 1000000 => 'MB (Megabytes)');
 
 // Social integration
 $locale['1030'] = "Creëer OpenGraph meta tags voor sociale netwerken";

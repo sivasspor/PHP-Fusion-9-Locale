@@ -1,5 +1,5 @@
 <?php
-$locale['gallery_0001'] = "Gallery";
+$locale['gallery_0001'] = "Galeria";
 $locale['gallery_0002'] = "Add Photo";
 $locale['gallery_0003'] = "Edit Photo";
 $locale['gallery_0004'] = "Add Album";
@@ -28,7 +28,7 @@ $locale['album_0001'] = "Album Title:";
 $locale['album_0002'] = "Name of Gallery Album";
 $locale['album_0003'] = "Album Description:";
 $locale['album_0004'] = "Describe the album";
-$locale['album_0005'] = "Keywords:";
+$locale['album_0005'] = "Słowa kluczowe:";
 $locale['album_0006'] = "Hit enter after each keyword";
 $locale['album_0007'] = "Visibility:";
 $locale['album_0008'] = "Language:";
@@ -43,8 +43,8 @@ $locale['album_0016'] = "Delete Album Thumbnail";
 
 // Gallery actions & front page (first tab)
 $locale['album_0020'] = "Album Actions";
-$locale['album_0021'] = "Move Up";
-$locale['album_0022'] = "Move Down";
+$locale['album_0021'] = "Przenieś w górę";
+$locale['album_0022'] = "Przenieś w dół";
 $locale['album_0023'] = "Delete Album";
 $locale['album_0024'] = "Edit Album";
 $locale['album_0025'] = "Album Moved Up";
@@ -85,11 +85,11 @@ $locale['photo_0024'] = "Photo deleted";
 $locale['photo_0025'] = "Purge All Photos";
 $locale['photo_0026'] = "<strong>WARNING:</strong> Purge actions will <strong>permanently remove all photos</strong> in this album. Are you sure?";
 $locale['photo_0027'] = "Confirm Purge";
-$locale['photo_0028'] = "Cancel";
+$locale['photo_0028'] = "Anuluj";
 
 
 // Submissions form
-$locale['gallery_0100'] = "Photo Submissions";
+$locale['gallery_0100'] = "Dodaj włąsną grafikę";
 $locale['gallery_0101'] = "Thank you for submitting your Photo";
 $locale['gallery_0102'] = "Submit another Photo";
 $locale['gallery_0103'] = $locale['photo_0003'];
@@ -103,11 +103,11 @@ $locale['gallery_0106'] = $locale['photo_0008'];
 $locale['gallery_0109'] = $locale['photo_0004'];
 $locale['gallery_0110'] = $locale['photo_0014'];
 $locale['gallery_0111'] = "Submit Photo";
-$locale['gallery_0112'] = "Sorry, we currently do not accept any photo submissions on this site.";
+$locale['gallery_0112'] = "Sorry, we currently do not accept any Photo Submissions on this site.";
 $locale['gallery_0113'] = "Return to ".fusion_get_settings("sitename");
 
 // Submissions admin
-$locale['gallery_0150'] = "There are currently no photo submissions";
+$locale['gallery_0150'] = "There are currently no Photo Submissions";
 $locale['gallery_0151'] = "There are currently %s pending for your review.";
 $locale['gallery_0152'] = "Photo submission title for Review";
 $locale['gallery_0153'] = "Submission Author";
@@ -121,11 +121,11 @@ $locale['gallery_0160'] = "Photo Submission has been published";
 $locale['gallery_0161'] = "Photo Submission deleted";
 
 // Settings
-$locale['gallery_0200'] = "Allow photo submissions?";
+$locale['gallery_0200'] = "Allow Photo Submissions?";
 $locale['gallery_0201'] = "Require photo description?";
 $locale['gallery_0202'] = "Thumbs per page:";
 $locale['gallery_0203'] = "Thumbnail size:";
-$locale['gallery_0204'] = "width x height";
+$locale['gallery_0204'] = "Szerokość x Wysokość";
 $locale['gallery_0205'] = "Photo size:";
 $locale['gallery_0206'] = "Photo max. size:";
 $locale['gallery_0207'] = "Photo max. file size:";
@@ -145,11 +145,11 @@ $locale['635'] = "Gallery Album :";
 $locale['636'] = "Uploaded by:";
 $locale['637'] = "Date Added:";
 $locale['638'] = "Rate";
-$locale['639'] = "Comment";
+$locale['639'] = "Komentarz";
 $locale['640'] = "Photo Description:";
 $locale['641'] = "Number of Views";
-$locale['642'] = "Ratings";
-$locale['643'] = "Comments";
+$locale['642'] = "Oceny";
+$locale['643'] = "Komentarze";
 $locale['644'] = "Dimensions";
 $locale['645'] = "Image Type";
 $locale['646'] = "Channels";
@@ -159,19 +159,19 @@ $locale['649'] = "Exposure";
 $locale['650'] = "Aperture";
 $locale['651'] = "Camera";
 $locale['652'] = "Camera Model";
-$locale['655'] = "Keywords:";
+$locale['655'] = "Słowa kluczowe:";
 $locale['660'] = "There are no photos in this album";
 $locale['702'] = "Photo uploaded";
 $locale['703'] = "Photo updated";
 
 
-// Photo Gallery Settings
-$locale['600'] = "Gallery";
+// Galeria Settings
+$locale['600'] = "Galeria";
 $locale['601'] = "Thumb size:";
 $locale['602'] = "Photo size:";
 $locale['603'] = "Maximum photo size:";
-$locale['604'] = "Width x Height";
-$locale['605'] = "Maximum file size (bytes):";
+$locale['604'] = "Szerokość x Wysokość";
+$locale['605'] = "Maximum file size (Bajty):";
 $locale['606'] = "Thumb compression method";
 $locale['607'] = "GD1";
 $locale['608'] = "GD2";

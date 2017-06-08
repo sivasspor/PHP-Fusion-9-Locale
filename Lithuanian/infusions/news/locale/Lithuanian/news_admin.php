@@ -1,25 +1,28 @@
 <?php
-// News titles
 $locale['news_0000'] = "Esamos naujienos";
 $locale['news_0001'] = "Naujienos";
 $locale['news_0002'] = "Pridėti naujieną";
-$locale['news_0003'] = "Redagiuoti naujieną";
+$locale['news_0003'] = "Redaguoti naujieną";
 $locale['news_0004'] = "Nustatymai";
-// News Categories titles
-$locale['news_0020'] = "Esamos naujienų kategorijos";
+$locale['news_0005'] = "Naujienos turinys";
+$locale['news_0006'] = "Naujienų paveiksliukų galerija";
+$locale['news_0007'] = "Valdyti galeriją";
+$locale['news_0008'] = "Įkelti nuotrauką";
+$locale['news_0009'] = "Naujienų nuotraukos";
+$locale['news_0010'] = "Ištrinti nuotrauką";
+$locale['news_0011'] = "Įvadinė nuotrauka";
+$locale['news_0012'] = "Pilna naujienos nuotrauka";
+$locale['news_0020'] = "Naujienų kategorijos";
 $locale['news_0021'] = "Redaguoti naujienų kategoriją";
 $locale['news_0022'] = "Pridėti naujienų kategoriją";
-$locale['news_0023'] = "Pateikimai";
-// News messages
+$locale['news_0023'] = "Pateikimai";						 
 $locale['news_0100'] = "Naujiena pridėta";
 $locale['news_0101'] = "Naujiena atnaujinta";
 $locale['news_0102'] = "Naujiena ištrinta";
 $locale['news_0103'] = "Blogas paveikslėlio failo vardas.";
 $locale['news_0104'] = "Paveikslėlis turi būti mažesnis nei %s.";
-$locale['news_0105'] = "Paveikslėlis turi būti vieno iš šių plėtinių: %s.";
-$locale['news_0106'] = "Paveikslėlis neturi būti didesnis negu %s pikselių.";
-$locale['news_0107'] = "Nežinoma klaida";
-// News Submissions messages
+$locale['news_0108'] = "Nėra pažymėtų naujienų";
+$locale['news_0109'] = "Nėra sukurtų naujienų";
 $locale['news_0130'] = "Šiuo metu nėra pateiktų naujienų";
 $locale['news_0131'] = "Peržiūrėti naujienų pateikimus";
 $locale['news_0132'] = "Šią naujieną pateikė narys ";
@@ -36,13 +39,11 @@ $locale['news_0144'] = "Pateikimo ID";
 $locale['news_0145'] = "Pateikta naujiena buvo ištrinta";
 $locale['news_0146'] = "Pateikta naujiena buvo publikuota";
 $locale['news_0147'] = "Pateikta naujiena buvo išsaugota kaip juodraštis";
-// News Categories messages
 $locale['news_0150'] = "Naujienų kategorija pridėta";
 $locale['news_0151'] = "Naujienų kategorija atnaujinta";
 $locale['news_0152'] = "Naujienų kategorija negali būti ištrinta";
 $locale['news_0153'] = "Kategorijoje yra naujienų arba subkategorijų";
 $locale['news_0154'] = "Naujienų kategorija ištrinta";
-// News form
 $locale['news_0200'] = "Pavadinimas";
 $locale['news_0201'] = "Kategorija";
 $locale['news_0202'] = "Be kategorijos";
@@ -62,35 +63,49 @@ $locale['news_0212'] = "Automatinis eilučių laužymas";
 $locale['news_0213'] = "Leisti komentarus";
 $locale['news_0214'] = "Leisti reitingus";
 $locale['news_0215'] = "Ruošinys";
-$locale['news_0216'] = "Naujienų paveiksliukas";
 $locale['news_0217'] = "Maks. failo dydis: %s / Leidžiami plėtiniai: GIF, JPEG or PNG.";
 $locale['news_0218'] = "Pasirinkti naujienų paveiksliuko lygiavimą";
 $locale['news_0219'] = "Puslapio perskyrimas";
 $locale['news_0240'] = "Peržiūrėti naujieną";
 $locale['news_0241'] = "Išsaugoti naujieną";
-// Popup Error/Warning Messages
+$locale['news_0243'] = "Išvalyti";
+$locale['news_0244'] = "Pasirinkti statusą";
+$locale['news_0245'] = "Visi statusai";
+$locale['news_0246'] = "Pasirinkti prieigą";
+$locale['news_0247'] = "Visos kategorijos";
+$locale['news_0248'] = "Pasirinkti kategoriją";
+$locale['news_0249'] = "Visos kalbos";
 $locale['news_0250'] = "Prašome įrašyti naujienos pavadinimą";
 $locale['news_0251'] = "Ištrinti šią naujieną?";
 $locale['news_0252'] = "Ištrinti šią naujienų kategoriją?";
-$locale['news_0253'] = "%s yra išjungti visiems dalykams.\n\rŠis nustatymas pradės veiks, jeigu tai bus įjungta.";
-$locale['news_0254'] = 'Šioje kategorijoje nėra naujienų.';
+$locale['news_0253'] = "Statusas";
+$locale['news_0254'] = "%d publikuota";
 $locale['news_0255'] = "Prašom nurodyti raktažodžius";
-// News Categories form
-$locale['news_0300'] = "Kategorijos pavadinimas:";
+$locale['news_0266'] = "Naujienos data";
+$locale['news_0267'] = "Nėra priskirta nuotrauka";
+$locale['news_0268'] = "%d nuotraukos buvo pridėtos";
+$locale['news_0269'] = "%d nuotraukos nebuvo įkeltas dėl klaidų";
+$locale['news_0270'] = "Prašome pasirinkti nuotrauką";
+$locale['news_0271'] = "Leidžiami failų tipai:";
+$locale['news_0280'] = "Prašome nurodyti naują pavadinimą"; // 250
+$locale['news_0281'] = "Ištrinti šią naujieną?"; // 251
+$locale['news_0282'] = "Ištrinti šią kategoriją?"; // 252
+$locale['news_0283'] = "%s yra išjungti visiems dalykams.\n\rŠis nustatymas pradės veiks, jeigu tai bus įjungta.";
+$locale['news_0284'] = 'Šioje kategorijoje nėra naujienų.';
+$locale['news_0285'] = "Prašome nurodyti raktažodžius"; // 255
+$locale['news_0300'] = "Kategorijos pavadinimas:";			   
 $locale['news_0301'] = "Kategorijos paveiksliukas:";
 $locale['news_0302'] = "Išsaugoti kategoriją";
 $locale['news_0303'] = "Nėra nustatytų naujienų kategorijų";
 $locale['news_0304'] = "Spauskite čia, kad atsisiųsti kategorijų paveiksliukus";
 $locale['news_0305'] = "Priklauso";
-// Popup Error/Warning Messages
+$locale['news_0306'] = "Išsaugoti kategoriją kaip juodraštį";			
 $locale['news_0350'] = "Ištrinti šią naujienų kategoriją?";
-// Error Messages
 $locale['news_0351'] = "Prašom įvesti kategorijos pavadinimą.";
 $locale['news_0352'] = "Tokia kategorija jau yra sukurta.";
 $locale['news_0400'] = "Naujienų pateikimai";
 $locale['news_0401'] = "Pateikimo nuotrauka";
 $locale['news_0402'] = "Reikalaujama ilgo teksto?";
-// Public Submissions Form
 $locale['news_0700'] = "Pateikti naujieną";
 $locale['news_0701'] = "Ačiū, kad pateikėte naujieną";
 $locale['news_0702'] = "Pateikti kitą naujieną";
@@ -102,16 +117,12 @@ $locale['602'] = "Foto atvaizdo dydis:";
 $locale['603'] = "Maksimalus foto dydis:";
 $locale['604'] = "Plotis x Aukštis";
 $locale['605'] = "Maksimalus failo dydis (baitais):";
-// Blog & News Settings
 $locale['950'] = "Paveikslėlių įkėlimas";
 $locale['951'] = "Paveikslėlio nuoroda:";
-$locale['952'] = "Kategorija";
 $locale['953'] = "Naujiena";
-$locale['953b'] = "Tinklaraštis";
 $locale['954'] = "Paveikslio santykis:";
 $locale['955'] = "Originalus";
 $locale['956'] = "Kvadratas";
 $locale['957'] = "&#39;Pradinio-puslapio&#39; paveikslėlis";
 $locale['958'] = "&#39;Skaityti-daugiau&#39; paveikslėlis";
 $locale['959'] = "Įkelta nuotrauka";
-$locale['960'] = "Forumo kategorijos paveiksliukas";

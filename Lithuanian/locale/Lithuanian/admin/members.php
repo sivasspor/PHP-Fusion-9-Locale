@@ -1,4 +1,92 @@
 <?php
+$locale['ME_400'] = 'Vartotojų valdymas';
+$locale['ME_401'] = 'Ieškoti vartotojo...';
+$locale['ME_402'] = 'Rodymo filtravimas';
+$locale['ME_403'] = 'Pridėti naują vartotoją';
+$locale['ME_404'] = 'Įjungti filtrą';
+$locale['ME_405'] = 'Pagal šiuos paieškos kriterijus nerasta vartotojų';
+//
+$locale['ME_407'] = 'Rodoma %s - %d iš %d rastų įrašų';
+$locale['ME_408'] = 'Pradinė informacija';
+$locale['ME_409'] = 'Detali informacija';
+$locale['ME_410'] = 'Vartotojas';
+$locale['ME_411'] = 'Vartotojo lygis';
+$locale['ME_412'] = 'El. paštas';
+$locale['ME_413'] = ' Nario vartotojas';
+$locale['ME_414'] = 'Pažymėti viską';
+$locale['ME_415'] = 'Paslėptas';
+$locale['ME_416'] = 'Rodomas';
+
+// Core Fields Filter
+$locale['ME_420'] = 'El. paštas nerodomas?';
+$locale['ME_421'] = 'Prisijungimo data';
+$locale['ME_422'] = 'Paskutinis prisijungimas';
+$locale['ME_423'] = 'IP adresas';
+$locale['ME_424'] = 'IP tipas';
+$locale['ME_425'] = 'Vartotojo grupės';
+$locale['ME_426'] = 'Laiko zona';
+
+// Action Form
+$locale['ME_430'] = 'Klaida: veiksmas prieš šį vartotoją negali būti padarytas';
+$locale['ME_431'] = 'Šie nariai bus %s:';
+$locale['ME_432'] = '%s buvo %s';
+$locale['ME_433'] = 'Prašome nurodyti priežastį';
+$locale['ME_434'] = 'Priežastis';
+$locale['ME_435'] = 'Trukmė';
+$locale['ME_436'] = 'Dienos';
+$locale['ME_437'] = 'Atnaujinti vartotoją';
+
+$locale['ME_450'] = 'Pridėti naują vartotoją';
+$locale['ME_451'] = '%s profilis';
+$locale['ME_452'] = 'Redaguoti %s profilį';
+$locale['ME_453'] = 'Ištrinti vartotoją %s';
+$locale['ME_454'] = "Dėmesio!";
+$locale['ME_455'] = "Jūs ketinate ištrinti vartotoją %s!\n\r\n\rVisas šio nario įkeltas turinys taip pat bus ištrintas.\n\r
+Išskyrus, kai tai yra spameris, rekomenduojame narį blokuoti, laikinai suspenduoti, atšaukti arba anonimizuoti.\n\r
+Ar tikrai norite ištrinti šį vartotoją?\n\r";
+$locale['ME_456'] = 'Ištrinti vartotoją';
+$locale['ME_460'] = 'Nėra vartotojų, kuriuos galima deaktyvuoti';
+$locale['ME_461'] = '%s buvo deaktyvuotas';
+$locale['ME_462'] = 'Deaktyvuoti neaktyvius vartotojus';
+$locale['ME_463'] = 'Jūs turite daugiau nei 50 neaktyvių vartotojų, todėl deaktyvavimo procesą reikės kartoti %d kartus.';
+$locale['ME_464'] = '%d vartotojas(-ai) nebuvo prisijungę %d dienų(-as), todėl buvo pažymėti kaip neaktyvūs. Po deaktyvavimo šie vartotojai turės %d dienų(-as), po to jie bus %s.';
+$locale['ME_465'] = 'Atkreipkite dėmesį, kad kai kurie vartotojai yra publikavę turinį šiame tinklapyje, tokį kaip forumo pranešimai, komentarai, nuotraukos ir t.t. Visas turinys bus ištrintas kartu su ištrintais deaktyvuotais vartotojais.';
+$locale['ME_466'] = 'Stipriai rekomenduojame pakeisti veiksmą po deaktyvavimo į anonimizavimą vietoje trinimo, kad išvengti turinio praradimo!';
+$locale['ME_467'] = "Nustatyti deaktyvavimo sistemą į anonimizavimą.";
+$locale['ME_468'] = 'Automatinis neaktyvių vartotojų deaktyvavimas.';
+// Actions
+$locale['ME_500'] = 'Blokuoti';
+$locale['ME_501'] = 'Atkurti';
+$locale['ME_502'] = 'Deaktyvuoti';
+$locale['ME_503'] = 'Suspenduoti';
+$locale['ME_504'] = 'Blokavimas dėl saugumo';
+$locale['ME_505'] = 'Atšaukti';
+$locale['ME_506'] = 'Anonimizuoti';
+
+// a_message keys
+$locale['ME_550'] = 'užblokuotas';
+$locale['ME_551'] = 'atkurtas';
+$locale['ME_552'] = 'deaktyvuotas';
+$locale['ME_553'] = 'suspenduotas';
+$locale['ME_554'] = 'užblokuotas dėl saugumo';
+$locale['ME_555'] = 'atšauktas';
+$locale['ME_556'] = 'anonimizuotas';
+$locale['ME_557'] = 'galutinai ištrintas';
+$locale['ME_560'] = "Rodyti rezultatus";
+$locale['ME_561'] = "Rodyti vartotoją su statusu";
+
+/*--------------------------------------------------------------------------
+These are old locale. They are MOST LIKELY not being used by the new member center.
+Please remove them or reindex the keys if you find any.
+*--------------------------------------------------------------------------*/
+
+
+// Edit Member Details
+$locale['430'] = "Redaguoti vartotoją";
+// Add Member Errors
+$locale['480'] = "Pridėti vartotoją";
+$locale['481'] = "Vartotojo anketa buvo sukurta.";
+$locale['482'] = "Vartotojo anketos sukurti nepavyko.";
 // Member Management Options
 $locale['400'] = "Vartotojai";
 $locale['401'] = "Vartotojas";
@@ -26,28 +114,8 @@ $locale['421'] = "Draudimas pašalintas";
 $locale['422'] = "Vartotojas ištrintas";
 $locale['423'] = "Ar jūs tikrai norite ištrinti šį vartotoją?";
 $locale['424'] = "Vartotojas aktyvuotas";
-$locale['425'] = "Perspėjimas!";
-$locale['425a'] = "Jūs ketinate ištrinti narį %s!\n
-Ši <u>nario parašyta informacija</u> šiame tinklalapyje bus ištrinta, jeigu tęsite:\n
-- straipsniai\n
-- naujienos\n
-- forumo temos. Atminkite, kad kitų narių pranešimai, apklausų rezultatai, prisegti dokumentai taip pat bus ištrinti.\n
-- forumo pranešimai\n
-- forumo prisegimai\n
-- komentarai\n
-- šio nario siųstos arba gautos asmeninės žinutės\n
-- apklausų balsavimai\n
-- duoti reitingai\n\n
-Išskyrus atvejus, kai tai yra spameris, siūlome narį blokuoti, suspenduoti, atšaukti arba anonimizuoti.\n
-Ar tikrai norite trinti šį narį?\n";
 $locale['426'] = "Taip";
 $locale['427'] = "Ne";
-// Edit Member Details
-$locale['430'] = "Redaguoti vartotojo aprašymą";
-// Add Member Errors
-$locale['480'] = "Pridėti vartotoją";
-$locale['481'] = "Vartotojas sukurtas.";
-$locale['482'] = "Vartotojas nesukurtas.";
 // Suspension Log
 $locale['510s'] = "Spendavimo logas ";
 $locale['511s'] = "Šis narys neturi spendavimo įrašų istorijoje.";
@@ -111,16 +179,6 @@ $locale['602'] = "Atblokuoti";
 $locale['603'] = "atblokuoji";
 $locale['604'] = "Priežastis:";
 // Deactivation System
-$locale['610'] = "%d narys(-iai) nebuvo prisijungę ilgiau kaip %d dieną(-as) ir buvo pažymėti kaip neaktyvūs.
-Deaktyvuodami šiuos narius suteiksite galimybę jiems turėti %d dieną(-as) iki jie bus %s.";
-$locale['611'] = "Verta pabrėžti, kad kai kurie vartotojai gali būti pateikę nuotraukų, parašę pranešimų ar komentarų ir visa tai pašalinama kai deaktyvuotas narys yra ištrinamas.";
 $locale['612'] = "narys";
 $locale['613'] = "nariai";
 $locale['614'] = "Deaktyvuoti";
-$locale['615'] = "iškart pašalintas";
-$locale['616'] = "anonimizuoti";
-$locale['617'] = "Perspėjimas:";
-$locale['618'] = "Rekomenduotina pakeisti deaktyvacijos veiksmą iš ištrynimo į anominizavimą, siekant išvengti galimo svarbių duomenų praradimo!";
-$locale['619'] = "Tai gali padaryti čia.";
-$locale['620'] = "anonimizuoti";
-$locale['621'] = "Automatinis neaktyvių vartotojų deaktyvavimas.";

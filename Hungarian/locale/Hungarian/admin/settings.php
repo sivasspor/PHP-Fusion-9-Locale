@@ -97,6 +97,7 @@ $locale['606'] = "Miniatűr készítési eljárás";
 $locale['607'] = "GD1";
 $locale['608'] = "GD2";
 
+$locale['649'] = "Tiltott Felhasználó Nevek:";
 $locale['650'] = "További beállítások";
 $locale['651'] = "Tiltott szavak (cenzúra):";
 $locale['652'] = "Egy sorba csak egy kifejezést írj.";

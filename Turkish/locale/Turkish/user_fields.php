@@ -1,164 +1,165 @@
 <?php
 // Items shown in profile
-$locale['u040'] = "Date Joined";
-$locale['u041'] = "Last Visit";
-$locale['u042'] = "Not visited";
-$locale['u043'] = "Send Private Message";
-$locale['u044'] = "Contact Information";
-$locale['u045'] = "Miscellaneous Information";
-$locale['u046'] = "Options";
-$locale['u047'] = "Statistics";
-$locale['u048'] = "Admin Information";
-$locale['u049'] = "IP Address";
-$locale['u050'] = "Undefined";
-$locale['u051'] = "Hide Email?";
-$locale['u052'] = " Yes ";
-$locale['u053'] = " No";
-$locale['u054'] = "View Suspension Log";
-$locale['u055'] = "User Status:";
-$locale['u056'] = "Reason";
-$locale['u057'] = "User Groups";
-$locale['u058'] = "Admin Options";
-$locale['u059'] = "Add";
-$locale['u060'] = "Add this user to selected group?";
-$locale['u061'] = "Add to group";
-$locale['u062'] = "User Avatar";
-$locale['u063'] = "User Level";
-$locale['u064'] = "Email";
-$locale['u066'] = "Date Joined";
-$locale['u067'] = "Last Visit";
-$locale['u068'] = "User Name";
-$locale['u069'] = "Edit";
-$locale['u070'] = "Ban";
-$locale['u071'] = "Suspend";
-$locale['u072'] = "Delete";
-$locale['u073'] = "Delete this user?";
+$locale['u040'] = "Katılım Tarihi";
+$locale['u041'] = "Son Ziyaret";
+$locale['u042'] = "Ziyaret Etmemiş";
+$locale['u043'] = "Özel Mesaj Gönder";
+$locale['u044'] = "İletişim Bilgisi";
+$locale['u045'] = "Çeşitli Bilgiler";
+$locale['u046'] = "Seçenekler";
+$locale['u047'] = "İstatistikler";
+$locale['u048'] = "Yönetici Bilgisi";
+$locale['u049'] = "IP Addresi";
+$locale['u050'] = "Tanımlanmamış";
+$locale['u051'] = "E-posta Gizlensinmi?";
+$locale['u052'] = " Evet ";
+$locale['u053'] = " Hayır";
+$locale['u054'] = "Askıya Alma Günlüğünü Görüntüle";
+$locale['u055'] = "Kullanıcı Durumu:";
+$locale['u056'] = "Sebep";
+$locale['u057'] = "Kullanıcı Grupları";
+$locale['u058'] = "Yönetici Seçenekleri";
+$locale['u059'] = "Ekle";
+$locale['u060'] = "Bu kullanıcı seçilen gruba eklensin mi?";
+$locale['u061'] = "Gruba ekle";
+$locale['u062'] = "Kullanıcı Avatarı";
+$locale['u063'] = "Kullanıcı Seviyesi";
+$locale['u064'] = "E-posta";
+$locale['u066'] = "Katılım Tarihi";
+$locale['u067'] = "Son Ziyaret";
+$locale['u068'] = "Kullanıcı Adı";
+$locale['u069'] = "Düzenle";
+$locale['u070'] = "Yasakla";
+$locale['u071'] = "Askıya al";
+$locale['u072'] = "Sil";
+$locale['u073'] = "Bu kullanıcı silinsin mi?";
 // Profile and register
-$locale['u100'] = "In order to change your password or email address, you must enter your current password.";
-$locale['u101'] = "Register";
-$locale['u102'] = "Edit Profile";
-$locale['u103'] = "Profile";
-$locale['u104'] = "Member Profile";
-$locale['u105'] = "Update Profile";
+$locale['u100'] = "Şifrenizi veya e-posta adresinizi değiştirmek için geçerli şifrenizi girmeniz gerekir.";
+$locale['u101'] = "Kayıt Ol";
+$locale['u102'] = "Profili Düzenle";
+$locale['u103'] = "Profil";
+$locale['u104'] = "Üye Profili";
+$locale['u105'] = "Profili Güncelle";
 
 // New UF 1.20
-$locale['uf_100'] = "General Account Settings";
-$locale['uf_101'] = "User Information Settings";
-$locale['uf_102'] = "User Avatar Settings";
-$locale['uf_103'] = "General";
-$locale['uf_104'] = "User Info";
-$locale['uf_105'] = "Profile Picture";
-$locale['uf_106'] = "Basic Information";
-$locale['uf_107'] = "%s has no user information available.";
-$locale['uf_108'] = "There are no user fields defined";
+$locale['uf_100'] = "Genel Hesap Ayarları";
+$locale['uf_101'] = "Kullanıcı Bilgisi Ayarları";
+$locale['uf_102'] = "Kullanıcı Avatarı Ayarları";
+$locale['uf_103'] = "Genel";
+$locale['uf_104'] = "Kullanıcı Bilgisi";
+$locale['uf_105'] = "Profil Resmi";
+$locale['uf_106'] = "Temel Bilgiler";
+$locale['uf_107'] = "%s kullanıcısının bilgileri mevcut değil.";
+$locale['uf_108'] = "Tanımlanmış kullanıcı alanları yok";
 
 // View User Groups
-$locale['u110'] = "View User Group";
-$locale['u111'] = "%u user";
-$locale['u112'] = "%u users";
-$locale['u113'] = "User Name";
-$locale['u114'] = "User Type";
-$locale['u115'] = "Language";
-$locale['u116'] = "There are no group members.";
+$locale['u110'] = "Kullanıcı Grubunu Görüntüle";
+$locale['u111'] = "%u kullanıcı";
+$locale['u112'] = "%u kullanıcılar";
+$locale['u113'] = "Kullanıcı Adı";
+$locale['u114'] = "Kullanıcı Türü";
+$locale['u115'] = "Dil";
+$locale['u116'] = "Hiçbir grup üyeleri yok.";
 // User name and email
-$locale['u120'] = "User name contains invalid characters.";
-$locale['u121'] = "The chosen user name is already taken by another user.";
-$locale['u122'] = "User Name can not be left empty.";
-$locale['u123'] = "Your email address does not appear to be valid.";
-$locale['u124'] = "Your email address or email domain appears to be blacklisted.";
-$locale['u125'] = "The email address is already registered by another user.";
-$locale['u126'] = "Email address can not be left empty.";
-$locale['u127'] = "User Name";
+$locale['u119'] = "Kullanıcı adı içeriyor.";
+$locale['u120'] = "Kullanıcı adı geçersiz karakterler içeriyor.";
+$locale['u121'] = "Seçilen kullanıcı adı zaten başka bir kullanıcı tarafından alınmış.";
+$locale['u122'] = "Kullanıcı Adı boş bırakılamaz.";
+$locale['u123'] = "E-posta adresiniz geçerli gibi görünmüyor.";
+$locale['u124'] = "E-posta adresiniz veya e-posta alanınız kara listeye alındı.";
+$locale['u125'] = "E-posta adresi zaten başka bir kullanıcı tarafından kaydedildi.";
+$locale['u126'] = "E-posta adresi boş bırakılamaz.";
+$locale['u127'] = "Kullanıcı Adı";
 $locale['u128'] = "Email Address";
-$locale['u129'] = "Basic User Information";
+$locale['u129'] = "Temel Kullanıcı Bilgisi";
 // Passwords
-$locale['u130'] = "Admin passwords";
-$locale['u131'] = "Admin password";
-$locale['u132'] = "Login passwords";
-$locale['u133'] = "Login password";
-$locale['u134'] = "New Password";
-$locale['u134a'] = "Set Password";
-$locale['u134b'] = "Repeat Password";
-$locale['u135a'] = "Current Password";
-$locale['u135b'] = "Set New Password";
-$locale['u135c'] = "Repeat New Password";
-$locale['u136'] = "Password can not be left empty.";
-$locale['u137'] = "Your current admin password can not be left empty.";
-$locale['u138'] = "Your current login password can not be left empty.";
-$locale['u139'] = "Login password did not match your current login password.";
-$locale['u140'] = "Admin password did not match your current admin password.";
-$locale['u141'] = " can not be the same as ";
-$locale['u142'] = " is too short or contains invalid characters!";
-$locale['u143'] = " does not match!";
-$locale['u143a'] = " can not be left empty.";
-$locale['u144'] = "New admin password";
-$locale['u144a'] = "Current Admin Password";
-$locale['u145'] = "Confirm admin password";
-$locale['u146'] = " can not be the same as your current ";
-$locale['u147'] = "Password must be between 8 and 64 chars long.\n\rAllowed symbols are a-z, 0-9 and @!#$%&/()=-_?+*.,:;";
-$locale['u148'] = "New Login Passwords are not identical.";
-$locale['u148a'] = "New Admin Passwords are not identical.";
-$locale['u149'] = "Your Current Login Password was not specified or is invalid.";
-$locale['u149a'] = "Your Current Admin Password was not specified or is invalid.";
-$locale['u149b'] = "Your Current Login Password was not specified or is invalid.\n\rYou can't set your admin password without your correct login password.";
+$locale['u130'] = "Yönetici Şifreleri";
+$locale['u131'] = "Yönetici Şifresi";
+$locale['u132'] = "Giriş Şifreleri";
+$locale['u133'] = "Giriş Şifresi";
+$locale['u134'] = "Yeni Şifre";
+$locale['u134a'] = "Şifreyi Belirle";
+$locale['u134b'] = "Şifreyi Tekrarla";
+$locale['u135a'] = "Geçerli Şifre";
+$locale['u135b'] = "Yeni Şifre Belirle";
+$locale['u135c'] = "Yeni Şifreyi Tekrarla";
+$locale['u136'] = "Şifre boş bırakılamaz.";
+$locale['u137'] = "Geçerli yönetici şifreniz boş bırakılamaz.";
+$locale['u138'] = "Geçerli giriş şifreniz boş bırakılamaz.";
+$locale['u139'] = "Giriş şifresi geçerli giriş şifrenizle eşleşmiyor.";
+$locale['u140'] = "Yönetici şifresi geçerli yönetici şifrenizle eşleşmiyor.";
+$locale['u141'] = " aynı olamaz ";
+$locale['u142'] = " çok kısa veya geçersiz karakterler içeriyor!";
+$locale['u143'] = " eşleşmiyor!";
+$locale['u143a'] = " boş bırakılamaz.";
+$locale['u144'] = "Yeni Yönetici şifresi";
+$locale['u144a'] = "Geçerli Yönetici Şifresi";
+$locale['u145'] = "Yönetici şifresini onayla";
+$locale['u146'] = " geçerli olanla aynı olamaz ";
+$locale['u147'] = "Şifre 8 ila 64 karakter uzunluğunda olmalıdır.\n\rİzin verilen semboller şunlardır a-z, 0-9 ve @!#$%&/()=-_?+*.,:;";
+$locale['u148'] = "Yeni Giriş Şifreleri aynı değil.";
+$locale['u148a'] = "Yeni Yönetici Şifreleri aynı değil.";
+$locale['u149'] = "Geçerli Giriş Şifreniz belirtilmedi veya geçersiz.";
+$locale['u149a'] = "Geçerli Yönetici Şifreniz belirtilmedi veya geçersiz.";
+$locale['u149b'] = "Geçerli Giriş Şifreniz belirtilmedi veya geçersiz.\n\rDoğru giriş şifreniz olmadan yönetici şifrenizi ayarlayamazsınız.";
 // Email activation
-$locale['u150'] = "Your registration is almost complete, you will receive an email containing your login details along with a link to verify your account.";
-$locale['u151'] = "Welcome to [SITENAME]";
-$locale['u152'] = "Hello USER_NAME,\n\r
-Welcome to SITENAME. Here are your login details:\n\r
-Username: USER_NAME\n\r
-Password: USER_PASSWORD\n\r
-Please activate your account via the following link: ACTIVATION_LINK\n\n\r\r
-Regards,\n\r
+$locale['u150'] = "Kaydınız neredeyse tamamlandı, hesabınızı doğrulamak için bir başlantıyla birlikte giriş ayrıntılarını içeren bir e-posta alacaksınız.";
+$locale['u151'] = "[SITENAME] sitesine hoşgeldiniz";
+$locale['u152'] = "Merhaba USER_NAME,\n\r
+SITENAME sitesine hoşgeldiniz. İşte giriş ayrıntılarınız:\n\r
+Kullanıcı Adı: USER_NAME\n\r
+Şifre: USER_PASSWORD\n\r
+Lütfen bu bağlantıyı kullanarak hesabınızı etkinleştirin: ACTIVATION_LINK\n\n\r\r
+Saygılarımızla,\n\r
 SITEUSERNAME";
 
-$locale['u153'] = "Activation email could not be sent.";
-$locale['u154'] = "Please [LINK]contact[/LINK] the Site Administrator.";
-$locale['u155'] = "Activate Account";
-$locale['u156'] = "Please type in current password to change email.";
+$locale['u153'] = "Etkinleştirme e-postası gönderilemedi.";
+$locale['u154'] = "Lütfen Site Yönetimiyle [LINK]iletişim kurun[/LINK].";
+$locale['u155'] = "Hesabı Etkinleştir";
+$locale['u156'] = "E-postayı değiştirmek için lütfen geçerli parolayı yazın.";
 // Success / Fail
-$locale['u160'] = "Registration complete";
-$locale['u161'] = "You can now log in.";
-$locale['u162'] = "An administrator will activate your account shortly.";
-$locale['u163'] = "Profile was successfully updated.";
-$locale['u164'] = "Update failed";
+$locale['u160'] = "Kayıt tamamlandı";
+$locale['u161'] = "Artık oturum açabilirsiniz.";
+$locale['u162'] = "Bir yönetici hesabınızı kısa bir süre içinde etkinleştirecektir.";
+$locale['u163'] = "Profil başarıyla güncellendi.";
+$locale['u164'] = "Güncelleme başarısız oldu";
 
 //$locale['u165'] = "Registration failed";
-$locale['u167'] = "for the following reason(s):";
-$locale['u168'] = "Please Try Again.";
-$locale['u169'] = "Profile updated";
-$locale['u170'] = "Registration successful";
-$locale['u171'] = "Your account has been verified.";
-$locale['u172'] = "Member successfully added.";
-$locale['u173'] = "Back to User Management.";
-$locale['u174'] = "Add another member.";
+$locale['u167'] = "aşağıdaki sebeplerden dolayı:";
+$locale['u168'] = "Lütfen tekrar deneyin.";
+$locale['u169'] = "Profil güncellendi";
+$locale['u170'] = "Kayıt başarılı";
+$locale['u171'] = "Hesabınız doğrulandı.";
+$locale['u172'] = "Üye başarıyla eklendi.";
+$locale['u173'] = "Kullanıcı Yönetimine dön.";
+$locale['u174'] = "Başka üye ekle.";
 // Avatar upload
-$locale['u180'] = "There is an error uploading avatar image";
+$locale['u180'] = "Avatar resmi yüklenirken hata oluştu";
 
-$locale['u184'] = "Max. file size: %s / Max. size: %ux%u pixels";
+$locale['u184'] = "En yüksek dosya boyutu: %s / En yüksek boyut: %ux%u piksel";
 $locale['u185'] = "Avatar";
-$locale['u186'] = "Click Browse to upload an image";
-$locale['u187'] = "Delete";
+$locale['u186'] = "Bir resim yüklemek için Gözat'ı tıklayın";
+$locale['u187'] = "Sil";
 // Captcha and terms
-$locale['u190'] = "Validation Code";
-$locale['u191'] = "Enter Validation Code";
-$locale['u192'] = "Terms of Agreement";
-$locale['u193'] = "I have read the [LINK]Terms of Agreement[/LINK] and I agree with them.";
-$locale['u193a'] = "Updated";
-$locale['u193b'] = "I agree";
-$locale['u194'] = "Incorrect validation code.";
-$locale['u195'] = "Captcha code can not be left empty.";
+$locale['u190'] = "Doğrulama Kodu";
+$locale['u191'] = "Doğrulama Kodunu Giriniz";
+$locale['u192'] = "Sözleşme Şartları";
+$locale['u193'] = "[LINK]Sözleşme Şartları[/LINK]nı okudum ve kabul ediyorum.";
+$locale['u193a'] = "Güncellendi";
+$locale['u193b'] = "Kabul ediyorum";
+$locale['u194'] = "Yanlış doğrulama kodu.";
+$locale['u195'] = "Captcha kodu boş bırakılamaz.";
 // E-mail Change Confirmation
-$locale['u200'] = "A verify email has been sent to your new email address (%s). Please check your email.";
-$locale['u201'] = "Your email address will be changed when you click the link in the mail.";
-$locale['u202'] = "E-mail address verify - [SITENAME]";
-$locale['u203'] = "Hello [USER_NAME],\n
-Someone set this email address in his account on our site.\n
-If you realy want to change your email address to this one please click the following link:\n
+$locale['u200'] = "Yeni e-posta adresinize (%s) bir doğrulama e-postası gönderildi. Lütfen e-postanızı kontrol edin.";
+$locale['u201'] = "E-posta adresiniz, postadaki bağlantıyı tıkladığınızda değişecektir.";
+$locale['u202'] = "E-posta adresi doğrulama - [SITENAME]";
+$locale['u203'] = "Merhaba [USER_NAME],\n
+Birisi bu e-posta adresini sitemizdeki hesabında belirledi.\n
+E-posta adresinizi bu adrese değiştirmek istiyorsanız lütfen aşağıdaki bağlantıyı tıklayın:\n
 [EMAIL_VERIFY_LINK]\n
-Note: you have to be logged in to proceed.\n
-Regards,
+Not: devam etmek için giriş yapmanız gerekiyor.\n
+Saygılarımızla,
 [SITEUSERNAME]\n\r
 [SITENAME]";
 
-$locale['u210'] = "User Reputation";
+$locale['u210'] = "Kullanıcı İtibarı";

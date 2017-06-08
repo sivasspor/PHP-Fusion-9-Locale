@@ -35,6 +35,9 @@ $locale['theme_1031'] = "Dit thema ondersteund geen thema widget";
 $locale['theme_1032'] = "Er zijn widgets in dit thema maar niet geïnstalleerd. Wilt u ze installeren?";
 $locale['theme_1033'] = "WAARSCHUWING: Alle data gaat verloren bij de-installatie. Wilt u doorgaan?";
 $locale['theme_1034'] = "Nieuwe voorinstelling toevoegen?";
+$locale['theme_1035'] = "Geen beschrijving beschikbaar voor dit thema.";
+$locale['theme_1036'] = "Lees mij";
+$locale['theme_1037'] = "Selecteer Thema Pack";
 
 $locale['theme_2001'] = "Basis lettertypen";
 $locale['theme_2002'] = "Thema Componenten";

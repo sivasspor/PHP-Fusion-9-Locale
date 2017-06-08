@@ -61,9 +61,10 @@ $locale['fields_0430'] = "Categorie Naam";
 $locale['fields_0431'] = "Categorie Ouder";
 $locale['fields_0432'] = "Als nieuwe pagina";
 $locale['fields_0433'] = "Categorie volgorder";
-$locale['fields_0434'] = "Primaire table (%s)";
+$locale['fields_0434'] = "Primaire tabel (%s)";
 $locale['fields_0435'] = "Primaire Tabel Gebruiker kolom";
 $locale['fields_0436'] = "Icon klasse";
+$locale['fields_0437'] = "icon voor tabs";
 
 $locale['fields_0450'] = "Selecteer Categorie";
 $locale['fields_0451'] = "Veld Titel";
@@ -101,6 +102,8 @@ $locale['fields_0483'] = "Veld Log";
 $locale['fields_0484'] = "Veld Volgorde";
 $locale['fields_0485'] = "Veld Registratie";
 $locale['fields_0488'] = "Veld Opslaan";
+$locale['fields_0489'] = "Alleen afbeeldingen";
+$locale['fields_0489'] = "Alleen afbeeldingen";
 
 $locale['fields_0490'] = "Bytes (bytes)";
 $locale['fields_0491'] = "KB (Kilobytes)";

@@ -3,6 +3,7 @@ $locale['validate'] = "Kérlek ellenőrizd és érvényesítsd újra a mezőt.";
 $locale['error_request'] = "Hiba a művelet végrehajtása során"; // to be moved
 $locale['regex_error'] = "Kérjük, ellenőrizze ezt a %s mezőt"; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Kérlek Adj meg érvényes Felhasználó Nevet";
 $locale['error_input_default'] = "Kérem töltse ki ezt a mezőt";
 $locale['error_input_password'] = "Kérem Adja meg a jelszót";
 $locale['error_input_email'] = "Kérem adja meg az e-mail címet";
@@ -15,6 +16,7 @@ $locale['df_error_text'] = "%s hibás és beavatkozást igényel.";
 $locale['error_invalid_theme'] = "Kérem válaszon felületet"; // to be moved
 $locale['error_input_checkbox'] = "Kérjük, jelölje be a jelölőnégyzetet"; // to be moved
 $locale['error_input_file'] = "Kérem válaszon filét";
+$locale['error_secure_file'] = "A feltöltött fájl elutasításra került a rosszindulatú tartalom miatt.";
 // Admin Login
 $locale['cookie_title'] = "A Session lejárt";
 $locale['cookie_description'] = "Nincs érvényesítve vagy a session-öd lejárt. Kérlek jelentkezz be újra a folytatáshoz.";

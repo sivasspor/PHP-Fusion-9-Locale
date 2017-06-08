@@ -23,3 +23,5 @@ $locale['419'] = "Nustatymai";
 $locale['420'] = "Versija";
 $locale['421'] = "Autorius";
 $locale['422'] = "Atsisiųsti daugiau priedų";
+$locale['423'] = "%s įskiepiai instaliuoti";
+$locale['424'] = "%s įskiepiai išinstaliuoti";						

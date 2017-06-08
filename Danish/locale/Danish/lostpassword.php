@@ -22,12 +22,10 @@ $locale['403'] = "Tilbage til hjemmesiden";
 $locale['404'] = "Den mailadresse, du opgav, kunne ikke findes.";
 $locale['405'] = "Den mailadresse, du opgav, er ikke gyldig.";
 $locale['406'] = "Venligst prøv igen.";
-$locale['407'] = "Indtast venligst den mailadresse din konto er registreret med i feltet ovenfor.<br />
-Et nyt kodeord vil blive oprettet og sendt til den adresse.";
+$locale['407'] = "Indtast venligst den mailadresse din konto er registreret med i feltet ovenfor.\nEt nyt kodeord vil blive oprettet og sendt til den adresse.";
 $locale['408'] = "Send kodeord";
 $locale['409'] = "Nyt kodeord til ";
-$locale['410'] = "Hej [USER_NAME],\n
-Du eller en anden har bedt om at få et nyt kodeord til din konto hos ".$settings['sitename']." tilsendt.\n
+$locale['410'] = "Hej [USER_NAME],\nDu eller en anden har bedt om at få et nyt kodeord til din konto hos ".$settings['sitename']." tilsendt.\n
 For at skifte dit kodeord bedes du klikke på følgende link:\n
 [NEW_PASS_LINK]\n
 Venlig hilsen

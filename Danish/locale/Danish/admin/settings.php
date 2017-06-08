@@ -113,6 +113,7 @@ $locale['606'] = "Kompressionsmetode";
 $locale['607'] = "GD1";
 $locale['608'] = "GD2";
 
+$locale['649'] = "Forbudte brugernavne";
 $locale['650'] = "Diverse";
 $locale['651'] = "Liste over forbudte ord";
 $locale['652'] = "Kun et ord pr. linje.";

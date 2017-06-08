@@ -59,7 +59,8 @@ $locale['u111'] = "%u gebruiker";
 $locale['u112'] = "%u gebruikers";
 $locale['u113'] = "Gebruiker Naam";
 $locale['u114'] = "Gebruiker Type";
-
+$locale['u115'] = "Taal";
+$locale['u116'] = "Er zijn leden in deze groep.";
 // User name and email
 $locale['u120'] = "Gebruikersnaam bevat ongeldige tekens.";
 $locale['u121'] = "De gebruikersnaam is reeds door een ander lid in gebruik. Kies een andere gebruikersnaam.";

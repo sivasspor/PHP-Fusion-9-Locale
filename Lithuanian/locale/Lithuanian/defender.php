@@ -1,8 +1,9 @@
 <?php
 $locale['validate'] = "Prašome peržiūrėti ir patikrinti laukelį.";
-$locale['error_request'] = 'Vykdtant užklausą įvyko klaida'; // to be moved
+$locale['error_request'] = 'Vykdant užklausą įvyko klaida'; // to be moved
 $locale['regex_error'] = 'Prašome patikrinti %s laukelį'; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Prašome įvesti teisingą vartotojo vardą";
 $locale['error_input_default'] = 'Prašome užpildyti šį laukelį';
 $locale['error_input_password'] = 'Prašome įvesti tinkamą slaptažodį';
 $locale['error_input_email'] = 'Prašome įvesti tinkamą el. pašto adresą';
@@ -15,6 +16,7 @@ $locale['df_error_text'] = "%s blogai nustatymas, prašome atkreipti dėmesį.";
 $locale['error_invalid_theme'] = 'Prašome pasirinkti tinkamą dizainą'; // to be moved
 $locale['error_input_checkbox'] = 'Prašome pažymėti šį langelį'; // to be moved
 $locale['error_input_file'] = "Prašome pasirinkti tinkamą failą";
+$locale['error_secure_file'] = "Įkeltas failas buvo atmestas dėl įtariamo galimo saugumo pažeidimo";
 // Admin Login
 $locale['cookie_title'] = "Sesija baigėsi";
 $locale['cookie_description'] = "Nėra galiojančios autentifikacijos arba Jūsų sesija baigėsi. Norėdami tęsti turite prisijungti iš naujo.";
@@ -52,11 +54,21 @@ $locale['token_error_5'] = "Klaidingas žymės laiko įrašas.";
 $locale['token_error_6'] = "Pranešimas buvo parašytas per greitai.";
 $locale['token_error_7'] = "Klaidingas žymės kodas.";
 $locale['token_error_8'] = "Klaidingas žymės formatas.";
+$locale['token_error_9'] = "Nepavyksta rasti žymės šiai formai.";
+$locale['token_error_10'] = "Nepavyksta rasti žymės saugojimui: ";
+
+$locale['df_300'] = "Spausti, kad pridėti failus";
+$locale['df_301'] = "Spausti, kad pridėti nuotrauką";
+$locale['df_302'] = "Spausti, kad pridėti video";
+$locale['df_303'] = "Spausti, kad pridėti garsą";
+$locale['df_304'] = "Pasirinktą failą ištrinti";
+
 $locale['df_400'] = "%s yra neleistinų simbolių.";
 $locale['df_401'] = "%s nėra tinkamas el. pašto adresas.";
 $locale['df_402'] = "%s nėra tinkamas slaptažodis.";
 $locale['df_403'] = "%s nėra tinkamas numeris.";
 $locale['df_404'] = "%s nėra tinkama data.";
+$locale['df_405'] = "%s nėra tinkamas tinklapio adresas.";
 $locale['df_415'] = "Klaidingas failo pavadinimas.";
 $locale['df_416'] = "Įkeliamas failas per didelis. Jis turi būti mažesnis negu %s.";
 $locale['df_417'] = "Įkeliamas failas yra netinkamo tipo. Galimi tipai: %s.";
