@@ -106,7 +106,7 @@ $locale['global_020'] = "Fórumtémák";
 $locale['global_021'] = "Legújabb témák";
 $locale['global_022'] = "Legnépszerűbb témák";
 $locale['global_023'] = "Nincs elérhető fórumtéma";
-$locale['global_024'] = "Társalgások, melyekben részt vettél";
+$locale['global_024'] = "Hozzászólásaid";
 $locale['global_027'] = "Megválaszolatlan témák";
 $locale['global_028'] = "Megoldatlan kérdések";
 // Comments Side panel
