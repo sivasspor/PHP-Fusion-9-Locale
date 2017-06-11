@@ -24,7 +24,7 @@ $locale['forum_0016'] = "Tevékenység";
 $locale['forum_0017'] = "Emberek";
 $locale['forum_0018'] = "Személy";
 
-$locale['forum_0020'] = "Utolsó tevékenység";
+$locale['forum_0020'] = "Utolsó Tevékenység";
 $locale['forum_0021'] = "Módosítva %s írta %s";
 $locale['forum_0022'] = "Válaszolt";
 $locale['forum_0023'] = "Válasz:";
@@ -32,9 +32,9 @@ $locale['forum_0024'] = "Tekintse meg a teljes Témát";
 
 
 $locale['forum_0050'] = "Fórum Megtekintése";
-$locale['forum_0051'] = "Cím";
+$locale['forum_0051'] = "Téma Neve";
 $locale['forum_0052'] = "Szerző";
-$locale['forum_0053'] = "Megtekintések";
+$locale['forum_0053'] = "Megnézve";
 $locale['forum_0054'] = "Válaszok";
 $locale['forum_0055'] = "Oldal: ";
 $locale['forum_0056'] = "Nincs Téma indítva";
@@ -110,7 +110,7 @@ $locale['forum_0223'] = "Csatolt fájlok";
 $locale['forum_0224'] = "Szavazás";
 $locale['forum_0225'] = "Rendezés";
 $locale['forum_0226'] = "Dátum - utolsó frissítés";
-$locale['forum_0228'] = "Cím";
+$locale['forum_0228'] = "Téma";
 $locale['forum_0229'] = "Rendezés";
 $locale['forum_0230'] = "Csökkenő";
 $locale['forum_0231'] = "Növekvő";
