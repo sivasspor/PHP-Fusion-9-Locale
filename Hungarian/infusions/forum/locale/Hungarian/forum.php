@@ -129,12 +129,13 @@ $locale['forum_0268'] = "IP Cím";
 $locale['forum_0269'] = "Nincs létrehozva fórumtéma.";
 $locale['forum_0270'] = "Hozzászólás nem található.";
 $locale['forum_0271'] = "Nincs több hozzászólás a témában. Visszatérés a &lt;a href=&#039;../../infusions/forum/index.php&#039;&gt;Fórum Főoldalra&lt;/a&gt";
-$locale['forum_0272'] = "Szűrés címkék szerint"; //Filter by Tags
-$locale['forum_0273'] = "Népszerű témák ezen a héten"; //Popular Threads This Week
+$locale['forum_0272'] = "Szűrés címkék szerint";
+$locale['forum_0273'] = "Népszerű témák ezen a héten";
 
+$locale['forum_0300'] = "Új Téma Mozgatása";
 $locale['forum_0301'] = "Új fórum kijelölése";
 $locale['forum_0302'] = "Következő";
-$locale['forum_0303'] = "Új téma kiválasztása";
+$locale['forum_0303'] = "Áthelyezés meglévő Témába";
 $locale['forum_0305'] = "Az első hozzászólást akarod mozdítani a témában!<br />Az első üzenet [STRONG]nem lesz áthelyezve[STRONG] mert van üzenet a témában.";
 $locale['forum_0306'] = "Az első hozzászólást akarod mozdítani a témában!<br />Az első üzenet [STRONG]át lesz helyezve[STRONG] és a téma törlésre kerül.";
 $locale['forum_0307'] = "Nincs áthelyezendő hozzászólás.";
