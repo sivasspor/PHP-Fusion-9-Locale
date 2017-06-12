@@ -131,6 +131,7 @@ $locale['forum_0270'] = "Hozzászólás nem található.";
 $locale['forum_0271'] = "Nincs több hozzászólás a témában. Visszatérés a &lt;a href=&#039;../../infusions/forum/index.php&#039;&gt;Fórum Főoldalra&lt;/a&gt";
 $locale['forum_0272'] = "Szűrés címkék szerint";
 $locale['forum_0273'] = "Népszerű témák ezen a héten";
+$locale['forum_0274'] = "Nincs Téma Létrehozva.";
 
 $locale['forum_0300'] = "Új Téma Mozgatása";
 $locale['forum_0301'] = "Új fórum kijelölése";
