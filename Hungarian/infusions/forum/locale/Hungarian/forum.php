@@ -283,6 +283,12 @@ $locale['forum_0661'] = "Szia {USERNAME},<br />
 A következő linken érhető el a hozzászólás: {THREAD_URL}<br />
 Ha legközelebb nem szeretnél ilyen levelet kapni, a fórumtéma felett található \"Téma nyomon követésének kikapcsolása\" linkre kattintva kapcsolhatod ki.
 <br />Üdvözlettel,<br />{SITEUSERNAME}";
+
+$locale['forum_0662'] = "Felhasználói Beállítások";
+$locale['forum_0663'] = "Felhasználó Szerkesztése";
+$locale['forum_0664'] = "Felhasználó Bannolása";
+$locale['forum_0665'] = "Felhasználó Törlése";
+
 $locale['forum_0701'] = "A téma törölve lett.";
 $locale['forum_0704'] = "Biztos törlöd a Fórum témát?";
 $locale['forum_0705'] = "Nem lehet törölni ezt a témát, mert nem létezik";
