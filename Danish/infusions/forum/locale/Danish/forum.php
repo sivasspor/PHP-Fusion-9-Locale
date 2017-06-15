@@ -285,6 +285,12 @@ $locale['forum_0661'] = 'Hej {USERNAME}. Der er kommet et svar i debatten "{THRE
 Hvis du ikke længere ønsker at følge denne debat, kan du klikke på linket \"Hold op med at følge\" i toppen af debatten.
 Venlig hilsen.
 {SITEUSERNAME}';
+
+$locale['forum_0662'] = "Bruger muligheder";
+$locale['forum_0663'] = "Rediger bruger";
+$locale['forum_0664'] = "Udeluk bruger";
+$locale['forum_0665'] = "Slet bruger";
+
 $locale['forum_0701'] = "Debatten er slettet.";
 $locale['forum_0704'] = "Er du sikker på, at du vil slette denne debat?";
 $locale['forum_0705'] = "Ude af stand til at fjerne debatten, da den ikke kan findes";
