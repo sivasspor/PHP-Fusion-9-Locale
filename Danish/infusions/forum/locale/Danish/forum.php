@@ -140,6 +140,8 @@ $locale['forum_0271'] = "Der er ikke indlæg i denne debat mere. Vend tilbage ti
 $locale['forum_0272'] = "Filtrer efter tags";
 $locale['forum_0273'] = "Populære tråde denne uge";
 $locale['forum_0274'] = "Der er ingen trådetags";
+$locale['forum_0275'] = "Ingen tråde fundet";
+
 $locale['forum_0300'] = "Flyt til en ny tråd";
 $locale['forum_0301'] = "Vælg en ny debat";
 $locale['forum_0302'] = "Næste";
